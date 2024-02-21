@@ -6,7 +6,7 @@ ForgeEvents.onEvent('net.minecraftforge.event.entity.EntityTravelToDimensionEven
 
 		if (dimension === 'minecraft:the_nether' && !player.stages.has('seen_blaze')) {
 			player.sendSystemMessage(
-				{ text: 'You need to summon a blaze first!', color: 'red' },
+				{ text: '你需要先召唤烈焰人！', color: 'red' },
 				true
 			)
 			event.setCanceled(true)

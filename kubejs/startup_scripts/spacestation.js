@@ -98,5 +98,5 @@ function spawnSpaceStation(player, dimension) {
 	)
 	kuLevel.spawnStructure(structure, blockPos)
 	sPData.spacestation[teamId][dimension] = true
-	console.log(`For Team: ${teamId} Dimension: ${dimension} Spacestation Created!`)
+	console.log(`团队: ${teamId} 在维度: ${dimension} 建造空间站`)
 }
