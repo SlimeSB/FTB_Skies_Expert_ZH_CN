@@ -1,47 +1,35 @@
 ﻿// priority: 99
 const itemsAndPages = [
-	['mekanism:jetpack_armored', 'Can be traded from Armorer villagers'],
+	['mekanism:jetpack_armored', '可从盔甲匠村民处交易获得'],
 	[
 		['productivebees:sturdy_bee_cage', 'productivebees:spawn_egg_quarry_bee'],
-		'Can be traded from Bee Keeper villagers.',
+		'可从养蜂人村民处交易获得',
 	],
-	['ars_nouveau:source_berry', 'Can be traded from level two cleric villagers.'],
+	['ars_nouveau:source_berry', '可从二级牧师村民处交易获得'],
 	[
 		['botania:ender_air_bottle', 'minecraft:dragon_breath', 'minecraft:ender_pearl'],
-		'Can be traded from level four Cleric Villagers.',
+		'可从四级牧师村民处交易获得',
 	],
-	['cyclic:chorus_flight', 'Can be traded from level five Cleric Villagers.'],
-	[['minecraft:echo_shard'], 'Can be traded from a Shady Wizard Villager.'],
-	[
-		['minecraft:totem_of_undying'],
-		'Can be traded from a level 2 Cleric Lunarian Trader on the Moon.',
-	],
+	['cyclic:chorus_flight', '可从五级牧师村民处交易获得'],
+	[['minecraft:echo_shard'], '可从暗影导师村民处交易获得'],
+	[['minecraft:totem_of_undying'], '可从月球上的二级月球牧师处交易获得'],
 	[
 		['industrialforegoing:mob_imprisonment_tool', 'mekanism:atomic_disassembler'],
-		'Can be traded from a Toolsmith Villager.',
+		'可从工具匠村民处交易获得',
 	],
-	[
-		'ftbskies:eye_of_legend_end',
-		'Automatically transforms when the Eye of Legend is in the End.',
-	],
-	[
-		'ftbskies:eye_of_legend_nether',
-		'Automatically transforms when the Eye of Legend is in the Nether.',
-	],
-	[['ftbskies:rock', 'ftbskies:soil'], 'Sneak right-click a Grass or Dirt blocks.'],
-	['tetra:hammer_base', 'Purchased from tier 5 Armorer villagers.'],
-	['tetra:thermal_cell', 'Bartered from Piglins.'],
-	['minecraft:pointed_dripstone', 'Purchased from tier 3 Mason Villagers.'],
-	['ars_nouveau:warp_scroll', 'Traded from level 2 Lunarian Librarians.'],
-	['minecraft:redstone', 'First obtained by killing witches from an endless witch gateway.'],
-	[
-		'pneumaticcraft:spawner_core',
-		"When held in the offhand, and a mob is killed, it will become that mob's spawn core.",
-	],
-	['pneumaticcraft:pcb_blueprint', 'Can be traded from an engineer (Charging Station Job).'],
+	['ftbskies:eye_of_legend_end', '当传奇之眼处于末地时自动转换'],
+	['ftbskies:eye_of_legend_nether', '当传奇之眼在下界时自动转换'],
+	[['ftbskies:rock', 'ftbskies:soil'], 'Shift 右键草地或泥土方块'],
+	['tetra:hammer_base', '从五级盔甲匠村民处交易获得'],
+	['tetra:thermal_cell', '与猪灵交易获得'],
+	['minecraft:pointed_dripstone', '从三级石匠村民处交易获得'],
+	['ars_nouveau:warp_scroll', '可从二级暗影导师处获得'],
+	['minecraft:redstone', '首先得从女巫传送门击杀女巫获得'],
+	['pneumaticcraft:spawner_core', '当副手上时，并有怪物被击杀时，它将成为该怪物的生成核心'],
+	['pneumaticcraft:pcb_blueprint', '可与工程师交易获得 (工作方块为：充气站)'],
 	[
 		'elementalcraft:water_shard',
-		"If you're struggling for water shards, the cyclic fisher can catch fish which you can eject from a dispenser to turn back into fish mobs. Once you kill them, they have a chance to drop water shards.",
+		'如果你正在为水元素碎片而苦恼, 循环的自动鱼栅可以捕到鱼，您可以将它们从发射器中射出，重新变成鱼类。 击杀它们，它们就有几率掉落水元素碎片',
 	],
 	[
 		[
@@ -53,12 +41,9 @@ const itemsAndPages = [
 			'immersiveengineering:refinery',
 			'immersiveengineering:squeezer',
 		],
-		'Disabled in this pack, will not form.',
+		'在此整合包中禁用，结构不会成型',
 	],
-	[
-		'mekanismgenerators:advanced_solar_generator',
-		'Does not produce FE, for thermal energy only.',
-	],
+	['mekanismgenerators:advanced_solar_generator', '不产生 FE，只提供热力能量'],
 ]
 
 const traderItems = [
@@ -73,7 +58,7 @@ const traderItems = [
 
 JEIEvents.information(event => {
 	for (let item of traderItems) {
-		event.addItem(item, 'Can be traded from a Wandering Trader.')
+		event.addItem(item, '可从流浪商人处交易获得')
 	}
 	for (let [item, info] of itemsAndPages) {
 		event.addItem(item, info)
