@@ -1,12 +1,12 @@
 ﻿const toolTips = [
 	['forcecraft:force_shears', '能为大多数动物剪毛！'],
-	['ftbskies:mycelium_spores', '右键泥土，将其转化为菌丝'],
-	['ftbskies:warped_nylium_spores', '右键下界岩，将其转化为诡异菌岩'],
-	['ftbskies:crimson_nylium_spores', '右键下界岩，将其转化为绯红菌岩'],
+	['ftbskies:mycelium_spores', '右击泥土，将其转化为菌丝'],
+	['ftbskies:warped_nylium_spores', '右击下界岩，将其转化为诡异菌岩'],
+	['ftbskies:crimson_nylium_spores', '右击下界岩，将其转化为绯红菌岩'],
 	['ftbskies:eye_of_legend', '向最近的天空村庄方向移动'],
 	['ftbskies:eye_of_legend_end', '向最近的末地城方向移动'],
 	['ftbskies:eye_of_legend_nether', '向最近的下界村庄方向移动'],
-	['minecraft:end_portal_frame', '空手 Shift 右键拾取 \n不能放置在大厅或下界维度中'],
+	['minecraft:end_portal_frame', '空手 Shift 右击拾取 \n不能放置在大厅或下界维度中'],
 	['minecraft:wither_rose', '可与猪灵交易获得'],
 	['minecraft:strider_spawn_egg', '可与猪灵交易获得'],
 	['nethersdelight:hoglin_hide', '可与猪灵交易获得'],
@@ -59,10 +59,10 @@ ItemEvents.tooltip(e => {
 		})
 	}
 	e.add(/ftbskies:.*deployer/, [
-		Text.of('右键激活').gray(),
-		Text.of('Shift 右键锁定或解锁位置').gray(),
-		Text.of('锁定时右键可放置结构').gray(),
-		Text.of('左键停用').gray(),
+		Text.of('右击激活').gray(),
+		Text.of('Shift 右击锁定或解锁位置').gray(),
+		Text.of('锁定时右击可放置结构').gray(),
+		Text.of('左键点击停用').gray(),
 	])
 	toolTips.forEach(tip => e.add(tip[0], Text.gold(tip[1])))
 })
