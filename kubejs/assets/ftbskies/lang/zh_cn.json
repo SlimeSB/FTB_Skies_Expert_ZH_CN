@@ -832,7 +832,7 @@
 	"item.gag.labeling_tool.charges": "%s 剩余次数",
 	"item.gag.labeling_tool.no_charges": "次数不足！",
 	"item.gag.labeling_tool.text_box": "重命名物品",
-	"block.gag.no_solicitors": "'没有律师！' 标志",
+	"block.gag.no_solicitors": "'不要律师！' 标志",
 	"block.gag.no_solicitors.info.1": "阻止某些怪物在附近生成",
 	"block.gag.no_solicitors.info.2": "(用羊毛右键点击以切换静音模式)",
 	"block.gag.no_solicitors.silent": "静音模式: %s",
