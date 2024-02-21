@@ -2,7 +2,7 @@
 const endermiteEvent = {
   name: "ftbskies:endermite",
   displayName: "末影螨",
-  description: "开关末影螨附身事件。末影螨会附在方块上",
+  description: "开关末影螨占据事件。末影螨会占据方块",
   chance: 0.7,
   minDistance: 1,
   maxDistance: 24,
