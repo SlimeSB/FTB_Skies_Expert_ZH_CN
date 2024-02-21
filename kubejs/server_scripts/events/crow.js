@@ -1,8 +1,8 @@
 // priority: 800
 const crowEvent = {
   name: "ftbskies:crow",
-  displayName: "Crow",
-  description: "Toggles the Crow Event. Crows will spawn on grass blocks.",
+  displayName: "乌鸦",
+  description: "开关乌鸦事件。乌鸦会在草方块上生成",
   chance: 0.15,
   minDistance: 1,
   maxDistance: 15,

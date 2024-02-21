@@ -1,8 +1,8 @@
 // priority: 800
 const slimeEvent = {
     name: "ftbskies:slime",
-    displayName: "Slime",
-    description: "Toggles the Slime Event. Spawns a random sized Slime on your island",
+    displayName: "史莱姆",
+    description: "开关史莱姆事件。在岛上生成随机大小的史莱姆",
     chance: 0.5,
     minDistance: 1,
     maxDistance: 15,
