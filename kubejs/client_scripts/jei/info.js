@@ -43,10 +43,7 @@ const itemsAndPages = [
 		],
 		'在此整合包中禁用，结构不会成型',
 	],
-	[
-		'mekanismgenerators:advanced_solar_generator',
-		'不产生 FE，只提供热力能量',
-	],
+	['mekanismgenerators:advanced_solar_generator', '不产生 FE，只提供热力能量'],
 ]
 
 const traderItems = [
