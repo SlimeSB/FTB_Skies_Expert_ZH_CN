@@ -1,8 +1,8 @@
 // priority: 800
 const lootbeeEvent = {
   name: "ftbskies:bees",
-  displayName: "Loot Bee",
-  description: "Toggles the Lootbee event. Lootbees drop a variety of items!",
+  displayName: "战利品蜜蜂",
+  description: "开关蜜蜂战利品事件。战利品蜜蜂会掉落各种物品！",
   chance: 0.4,
   minDistance: 2,
   maxDistance: 15,
@@ -79,8 +79,8 @@ const lootbeeEvent = {
     console.log(pData.lootBeeCount)
 
     player.tell([
-      `Loot Bee has spawned at X: ${location.pos.x}, Y: ${location.pos.y}, Z: ${location.pos.z}`,
-      `\nHurry up and get the loot before it despawns!`,
+      `战利品蜜蜂生成在 X: ${location.pos.x}, Y: ${location.pos.y}, Z: ${location.pos.z}`,
+      `\n快点，在它消失之前拿到战利品！`,
     ]);
 
     let selectedLootTable;

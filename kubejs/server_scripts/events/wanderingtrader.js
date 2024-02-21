@@ -1,8 +1,8 @@
 // priority: 800
 const wanderingtraderEvent = {
   name: "ftbskies:wandering_trader",
-  displayName: "Wandering Trader",
-  description: "Toggles the Villager Event. Has a random chance of spawning a Wanderer Trader.",
+  displayName: "流浪商人",
+  description: "开关流浪商人事件。有几率生成流浪商人",
   chance: 0.15,
   minDistance: 2,
   maxDistance: 15,
@@ -23,7 +23,7 @@ const wanderingtraderEvent = {
     );
 
     if (checkForNoSolicitors.length === 0 && checkAmountOfTraders.length < 2) {
-      player.tell([`Wandering Trader has spawned at X: ${location.pos.x}, Y: ${location.pos.y}, Z: ${location.pos.z}`]);
+      player.tell([`流浪商人在以下地点生成 X: ${location.pos.x}, Y: ${location.pos.y}, Z: ${location.pos.z}`]);
 
       let entityWandering = level.createEntity("minecraft:wandering_trader");
       entityWandering.setPosition(location.pos.x + 0.5, location.pos.y + 0.5, location.pos.z + 0.5);
