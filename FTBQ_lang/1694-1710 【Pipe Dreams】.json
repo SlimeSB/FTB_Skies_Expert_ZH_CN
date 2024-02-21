@@ -4,7 +4,7 @@
 	"ftbquests.chapter.pipe_dreams.quests19.subtitle": "Pipes are for suckers[-管道就是用来吸~的--]",
 	"ftbquests.chapter.pipe_dreams.quests19.description0": "&bLaser Nodes&r can interact with adjacent inventories using &6Cards&r. Insert a Card into the side of the Node that's facing the block.[--&b激光节点&r可以使用&6卡片&r与相邻的容器进行交互.将卡片插入面向方块的那面.--]",
 	"ftbquests.chapter.pipe_dreams.quests19.description2": "In the Node's GUI, right-click a Card to configure it. This GUI is fairly complex, so reading &6LaserIO 101&r is highly recommended.[--在节点界面中,右键点击卡片进行配置。界面相当复杂,所以高度推荐阅读&6LaserIO 101&r.--]",
-	"ftbquests.chapter.pipe_dreams.quests19.description4": "When a Card is set to extract, items etc are sent to any Cards on its network and &6channel&r that are set to Insert.[--当卡片设置为提取时,物品等将被发送到网络上和&6通道&r上设置为插入的任何卡.--]",
+	"ftbquests.chapter.pipe_dreams.quests19.description4": "When a Card is set to extract, items etc are sent to any Cards on its network and &6channel&r that are set to Insert.[--当卡片设置为提取时,物品等将被发送到相同网络和&6通道&r上设置为插入的其他卡.--]",
 	"ftbquests.chapter.pipe_dreams.quests20.subtitle": "Item Lasers[--物品激光--]",
 	"ftbquests.chapter.pipe_dreams.quests20.description": "&bItem Cards&r allow Laser Nodes to &6move items&r.[--&b物品卡&r允许激光节点&6运输物品&r.--]",
 	"ftbquests.chapter.pipe_dreams.quests21.subtitle": "Liquid Lasers[--流体激光--]",
