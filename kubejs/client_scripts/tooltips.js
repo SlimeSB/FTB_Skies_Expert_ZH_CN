@@ -1,33 +1,51 @@
 ﻿const toolTips = [
-	['forcecraft:force_shears', '能为大多数动物剪毛！'],
-	['ftbskies:mycelium_spores', '右键泥土，将其转化为菌丝'],
-	['ftbskies:warped_nylium_spores', '右键下界岩，将其转化为诡异菌岩'],
-	['ftbskies:crimson_nylium_spores', '右键下界岩，将其转化为绯红菌岩'],
-	['ftbskies:eye_of_legend', '向最近的天空村庄方向移动'],
-	['ftbskies:eye_of_legend_end', '向最近的末地城方向移动'],
-	['ftbskies:eye_of_legend_nether', '向最近的下界村庄方向移动'],
-	['minecraft:end_portal_frame', '空手 Shift 右键拾取 \n不能放置在大厅或下界维度中'],
-	['minecraft:wither_rose', '可与猪灵交易获得'],
-	['minecraft:strider_spawn_egg', '可与猪灵交易获得'],
-	['nethersdelight:hoglin_hide', '可与猪灵交易获得'],
-	['create:blaze_cake', '可与猪灵交易获得'],
-	['productivebees:spawn_egg_nomad_bee', '可与猪灵交易获得'],
-	['nethersdelight:propelplant_cane', '可与猪灵交易获得'],
-	['wstweaks:fragment', '可与猪灵交易获得'],
-	['minecraft:blaze_rod', '可与猪灵交易获得或与村民交易获得'],
-	['minecraft:amethyst_shard', '可与猪灵交易获得'],
-	['minecraft:ender_pearl', '可与猪灵交易获得'],
-	['tetra:thermal_cell', '可与猪灵交易获得'],
-	['minecraft:crying_obsidian', '可与猪灵交易获得'],
-	['ftbskies:mobfarm_deployer', '使用方法请查看 JEI 信息'],
-	['supplementaries:ash', '仅限高炉！'],
-	['occultism:storage_controller', '警告：如果内含大量物品，则可能导致数据丢失或NBT溢出'],
-	['ars_nouveau:warp_scroll', '可从二级暗影导师处获得'],
-	['minecraft:redstone', '首先得从女巫传送门击杀女巫获得'],
-	[['minecraft:totem_of_undying'], '可从月球上的二级月球牧师处交易获得'],
-	['pneumaticcraft:pcb_blueprint', '可与工程师交易获得 (工作方块为：充气站)'],
-	[['ftbskies_companion:liquid_crystallizer'], '需要魔力和应力才能工作'],
-	[['quark:bottled_cloud'], '可在特定的 Y 轴获得 [192 to 195].'],
+	['forcecraft:force_shears', 'Capable of shearing most animals!'],
+	['ftbskies:mycelium_spores', 'Right click onto dirt to transform into mycelium'],
+	[
+		'ftbskies:warped_nylium_spores',
+		'Right click onto netherrack to transform into warped nylium',
+	],
+	[
+		'ftbskies:crimson_nylium_spores',
+		'Right click onto netherrack to transform into crimson nylium',
+	],
+	['ftbskies:eye_of_legend', 'Moves in the direction of the nearest Sky Village'],
+	['ftbskies:eye_of_legend_end', 'Moves in the direction of the nearest End City'],
+	[
+		'ftbskies:eye_of_legend_nether',
+		'Moves in the direction of the nearest Nether Sky Village',
+	],
+	[
+		'minecraft:end_portal_frame',
+		'Shift-Right click with an empty hand to pickup\nCannot be placed in the lobby or nether dimensions',
+	],
+	['minecraft:wither_rose', 'Can be bartered from piglins'],
+	['minecraft:strider_spawn_egg', 'Can be bartered from piglins'],
+	['nethersdelight:hoglin_hide', 'Can be bartered from piglins'],
+	['create:blaze_cake', 'Can be bartered from piglins'],
+	['productivebees:spawn_egg_nomad_bee', 'Can be bartered from piglins'],
+	['nethersdelight:propelplant_cane', 'Can be bartered from piglins'],
+	['wstweaks:fragment', 'Can be bartered from piglins'],
+	['minecraft:blaze_rod', 'Can be bartered from piglins or traded from cleric villagers'],
+	['minecraft:amethyst_shard', 'Can be bartered from piglins'],
+	['minecraft:ender_pearl', 'Can be bartered from piglins'],
+	['tetra:thermal_cell', 'Can be bartered from piglins'],
+	['minecraft:crying_obsidian', 'Can be bartered from piglins'],
+	['ftbskies:mobfarm_deployer', 'See JEI Information for useage'],
+	['supplementaries:ash', 'Blast furnace only.'],
+	[
+		'occultism:storage_controller',
+		'WARNING: Breaking with large amount of items inside may potentially cause data loss or NBT overflow.',
+	],
+	['ars_nouveau:warp_scroll', 'Tradeable from level 2 Lunarian Librarians'],
+	['minecraft:redstone', 'First obtained by killing witches from an endless witch gateway.'],
+	[
+		['minecraft:totem_of_undying'],
+		'Can be traded from a level 2 Cleric Lunarian Trader on the Moon.',
+	],
+	['pneumaticcraft:pcb_blueprint', 'Can be traded from an engineer (Charging Station Job).'],
+	[['ftbskies_companion:liquid_crystallizer'], 'Requires both Mana and Rotation to work.'],
+	[['quark:bottled_cloud'], 'Can be made at a specific Y Level [192 to 195].'],
 	[
 		[
 			'immersiveengineering:bucket_wheel',
@@ -38,10 +56,16 @@
 			'immersiveengineering:refinery',
 			'immersiveengineering:squeezer',
 		],
-		'在此整合包中禁用，结构不会成型',
+		'Disabled in this pack, will not form.',
 	],
-	['tropicraft:coconut_chunk', '使用剑破坏椰子获得。椰子可以通过种植棕榈树获得'],
-	['mekanismgenerators:advanced_solar_generator', '不产生 FE，只提供热力能量'],
+	[
+		'tropicraft:coconut_chunk',
+		"Untainted from using a sword on a coconut. Coconut can's be obtained by growing a palm trees",
+	],
+	[
+		'mekanismgenerators:advanced_solar_generator',
+		'Does not produce FE, for thermal energy only.',
+	],
 ]
 
 ItemEvents.tooltip(e => {
@@ -59,10 +83,10 @@ ItemEvents.tooltip(e => {
 		})
 	}
 	e.add(/ftbskies:.*deployer/, [
-		Text.of('右键激活').gray(),
-		Text.of('Shift 右键锁定或解锁位置').gray(),
-		Text.of('锁定时右键可放置结构').gray(),
-		Text.of('左键停用').gray(),
+		Text.of('Right click to activate.').gray(),
+		Text.of('Shift right click to lock or unlock Position').gray(),
+		Text.of('Right click when locked to place Structure').gray(),
+		Text.of('Left click to deactivate').gray(),
 	])
 	toolTips.forEach(tip => e.add(tip[0], Text.gold(tip[1])))
 })
