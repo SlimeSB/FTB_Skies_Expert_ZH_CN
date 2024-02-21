@@ -21,7 +21,7 @@
 	['minecraft:crying_obsidian', '可与猪灵交易获得'],
 	['ftbskies:mobfarm_deployer', '使用方法请查看 JEI 信息'],
 	['supplementaries:ash', '仅限高炉！'],
-	['occultism:storage_controller', '警告：如果内含大量物品，则可能导致数据丢失或 NBT 溢出'],
+	['occultism:storage_controller', '警告：如果内含大量物品，则可能导致数据丢失或NBT溢出'],
 	['ars_nouveau:warp_scroll', '可从二级暗影导师处获得'],
 	['minecraft:redstone', '首先得从女巫传送门击杀女巫获得'],
 	[['minecraft:totem_of_undying'], '可从月球上的二级月球牧师处交易获得'],
