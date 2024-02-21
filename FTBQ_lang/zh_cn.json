@@ -102,6 +102,7 @@
 	"ftbquests.chapter.armor__weapons.quests26.subtitle": "Splitting the &mAtoms&r Enchantments[--分解&m阿图姆&r附魔--]",
 	"ftbquests.chapter.armor__weapons.quests26.description0": "Using the &6Splitting&r enchant on an &bAnvil&r will allow you to split &6multiple Enchants&r on one book into seperate books[--在&b铁砧&r上使用&6扳手&r附魔可以让你将一本书上的&6多附魔&r分解成精准书--]",
 	"ftbquests.chapter.armor__weapons.quests26.description2": "Using the &bObliteration&r enchant will allow you to split &6singular&r enchanted Books into seperate levels of Enchants[--使用&b奥秘&r附魔可以将&6银色&r附魔书分解为静影附魔等级--]",
+	
 	"ftbquests.chapter.ars_nouveau.title": "Ars Nouveau[--新生魔艺--]",
 	"ftbquests.chapter.ars_nouveau.quests0.subtitle": "Magical Manual[--魔法手册--]",
 	"ftbquests.chapter.ars_nouveau.quests0.description0": "The &bWorn Notebook&r is &eArs Nouveau&r's guidebook, teaching you everything in the mod.[--&bWorn Notebook&r是&eArs Nouveau&r的指南书,在mod中教给你所有东西.--]",
@@ -217,6 +218,7 @@
 	"ftbquests.chapter.ars_nouveau.quests29.description12": "P.s.: You may dye them any color.[--P.s.:你可以染上任意颜色.--]",
 	"ftbquests.chapter.ars_nouveau.quests30.title": "Starbuncle Accessories[--Starbuncle Accteries--]",
 	"ftbquests.chapter.ars_nouveau.quests30.tasks0.title": "Any Starbuncle Accessory[--任意星影怪配件--]",
+	
 	"ftbquests.chapter.base_expansion.title": "Base Expansion[--基础扩展--]",
 	"ftbquests.chapter.base_expansion.quests0.subtitle": "Smaller on the outside![--外部更小!--]",
 	"ftbquests.chapter.base_expansion.quests0.description0": "&bCompact Machines&r contain within them a &6small pocket dimension&r, which can be accessed through a &bPersonal Shrinking Device&r![--&b合成机器&r内含&6小型口袋维度&r,可以通过&b个人收缩设备&r访问!--]",
@@ -255,6 +257,7 @@
 	"ftbquests.chapter.base_expansion.quests9.description0": "&bCharms&r from &eApotheosis&r, when activated, &6provide a long-lasting potion effect&r.[--&bCarms&r来自&eApothesisis&r,当激活时,&6提供长效药水效果&r.--]",
 	"ftbquests.chapter.base_expansion.quests9.description2": "They can even be &6enchanted&r to last longer![--它们甚至可以&6附魔&r持续更久!--]",
 	"ftbquests.chapter.base_expansion.quests9.tasks0.title": "Charms[--护符--]",
+	
 	"ftbquests.chapter.basic.title": "Basic[--基础--]",
 	"ftbquests.chapter.basic.subtitle": "From chests to vaults[--从箱子到金库--]",
 	"ftbquests.chapter.basic.quests0.subtitle": "Bigger on the inside[--内部更大--]",
@@ -286,6 +289,7 @@
 	"ftbquests.chapter.basic.quests7.tasks0.title": "Iron Chest Conversion Upgrades[--铁箱子转换升级--]",
 	"ftbquests.chapter.basic.quests8.subtitle": "Too much of a good thing[--太多的好东西了--]",
 	"ftbquests.chapter.basic.quests8.description": "&bTrash Cans&r delete anything that enters them.[--&b垃圾桶&r删除进入它们的任何物品.--]",
+	
 	"ftbquests.chapter.botania.title": "Mana Manifest[--魔力特典--]",
 	"ftbquests.chapter.botania.quests0.title": "Mana generating flower[--魔力生成花--]",
 	"ftbquests.chapter.botania.quests0.subtitle": "Enigmatic Energy[--神秘能量--]",
@@ -409,6 +413,7 @@
 	"ftbquests.chapter.digital.quests18.subtitle": "Applied Energistic... finally[--应用能源...最终--]",
 	"ftbquests.chapter.digital.quests19.description0": "Using the &bCrystalizer&r, various Dusts can be processed back into their original form. [--使用&b水晶机&r,各种尘土可以重新加工为原版.--]",
 	"ftbquests.chapter.digital.quests19.description2": "Be sure to check JEI for the possibilities.[--一定要检查JEI的几率.--]",
+	
 	"ftbquests.chapter.elemental_craft.title": "Elemental Craft[--元素合成--]",
 	"ftbquests.chapter.elemental_craft.quests0.title": "Inert Elemental Source[--惰性元素源--]",
 	"ftbquests.chapter.elemental_craft.quests0.subtitle": "The path of the elements[--元素之路--]",
@@ -489,6 +494,7 @@
 	"ftbquests.chapter.elemental_craft.quests23.description0": "&bRunes&r are basically &6upgrades&r for instruments.[--&b符文&r基本上是&6升级&r的乐器.--]",
 	"ftbquests.chapter.elemental_craft.quests23.description2": "Place the &bRune Inscriber&r on an Element Container, insert the ingredients, and then use and &ohold&r a &bRune Inscription Chisel&r to craft the Rune.[--将&b符文刻印器&r放在元素容器上,插入原料,然后使用&o按住&b符文刻印凿&r来制作符文.--]",
 	"ftbquests.chapter.elemental_craft.quests23.tasks2.title": "Runes[--符文--]",
+	
 	"ftbquests.chapter.everything_from_nothing.title": "Ex NiL[--无中生有--]",
 	"ftbquests.chapter.everything_from_nothing.subtitle": "The Important Ones, Anyway[--重要的一个,反正--]",
 	"ftbquests.chapter.everything_from_nothing.quests0.title": "Auto-Hammah![--自动哈马哈!--]",
@@ -538,6 +544,7 @@
 	"ftbquests.chapter.everything_from_nothing.quests15.title": "Soul Sand → Amethyst Mesh[--灵魂沙  紫水晶筛网--]",
 	"ftbquests.chapter.everything_from_nothing.quests15.description": "Using an &6Amethyst Mesh&r will allow &6Soulsand&r to drop &bGhast Tears&r.[--使用&6紫晶筛网&r可以让&6灵魂沙&r掉落&b恶魂之泪&r.--]",
 	"ftbquests.chapter.everything_from_nothing.quests15.tasks0.title": "Andesite level materials[--安山级别材料--]",
+	
 	"ftbquests.chapter.food.title": "Foodies + Farmers[--食物+农夫--]",
 	"ftbquests.chapter.food.quests0.title": "Chop Chop[--砍砍砍砍--]",
 	"ftbquests.chapter.food.quests0.subtitle": "Knives Out![--拔刀!--]",
@@ -630,6 +637,7 @@
 	"ftbquests.chapter.food.quests23.description0": "&bBeds&r will allow you to set your spawn, in addition to passing the night into day.[--&b床&r将允许你设置你的刷怪箱,除了把夜晚变成白天.--]",
 	"ftbquests.chapter.food.quests23.description2": "The &6Rain Shield&r provided by the quest reward will &6completely disable rain&r around it, for those who hate a nice rainy afternoon.[--任务奖励提供的&6射线护盾&r将&6完全禁用周围的雨&r,为那些讨厌雨天午后的人服务.--]",
 	"ftbquests.chapter.food.quests23.tasks0.title": "Beds[--床--]",
+	
 	"ftbquests.chapter.getting_on_up.title": "II - Getting on Up[--II - 开始--]",
 	"ftbquests.chapter.getting_on_up.quests0.title": "Welcome to Chapter 2[--欢迎来到第2章--]",
 	"ftbquests.chapter.getting_on_up.quests0.description": "Now that you've got power, some magic and basic automations this chapter will guide you towards primarily progressing towards launching a rocket into space as well as enhancing your automation options. [--现在你有了电力,一些魔法和基础自动化,这章节将指导你主要朝向向太空发射火箭以及增强自动化选项。--]",
@@ -744,6 +752,7 @@
 	"ftbquests.chapter.getting_on_up.quests63.description0": "With that Latex Bucket, craft up a &bLatex Processing Unit&r and pipe in Water and Latex to get some &6Tiny Dry Rubber&r[--使用乳胶桶,在水和乳胶中制作一个&b乳胶处理单元&r和管道来获得一些&6丁基干橡胶&r--]",
 	"ftbquests.chapter.getting_on_up.quests63.description2": "Combined in a 3x3 Craft will give you Dry Rubber, which can further be processed into &6Rubber Sheets&r[--合成3x3会给你干橡胶,它可以进一步加工成&6橡胶片&r--]",
 	"ftbquests.chapter.getting_on_up.quests71.description": "The &bInduction Smelter&r uses energy to fuse multiple types of materials together into more advanced alloys.[--&b输导炉&r使用能量将多种材料结合成更高级的合金.--]",
+	
 	"ftbquests.chapter.getting_started.title": "I - Getting Started[--I - 入门--]",
 	"ftbquests.chapter.getting_started.subtitle": "It's got Electrolytes![--它有电解剂!--]",
 	"ftbquests.chapter.getting_started.quests0.title": "Log(Tree)[--原木(树)--]",
@@ -994,6 +1003,7 @@
 	"ftbquests.chapter.getting_started.quests80.description": "You can make a compacted variant of dirt, cobblestone, and gravel, that will give full blocks instead of rocks and clumps of soil by throwing 9 cobblestone or 9 dirt into a basin, and using a mechanical press to press them together.[--你可以做一个压缩的变体,包括泥土、圆石和砂砾,通过将9个圆石或9个泥土扔进盆中并使用机械冲压将其压缩成1个方块,而不是石头和泥土堆。--]",
 	"ftbquests.chapter.getting_started.quests81.title": "Schematic Cannons[--蓝图加农炮--]",
 	"ftbquests.chapter.getting_started.quests81.description": "Most of the mutliblocks in this pack have been provided to you as schematics. You can use the Schematic Cannon to place them automatically.[--这个包中大多数涡轮机都是作为蓝图向您提供的。您可以使用蓝图加农炮来自动放置它们。--]",
+	
 	"ftbquests.chapter.hexerei.title": "Hexerei[--巫师--]",
 	"ftbquests.chapter.hexerei.quests0.title": "Altar of shadows[--黑暗祭坛--]",
 	"ftbquests.chapter.hexerei.quests0.subtitle": "Make an Altar[--做个祭坛--]",
@@ -1038,6 +1048,7 @@
 	"ftbquests.chapter.hexerei.quests10.description8": "&nHINT&r: Descend is bound to shift by default, which also dismounts. You should probably change this.[--&nHINT&r:默认情况下降级绑定,这也会卸载.你可能应该更改它.--]",
 	"ftbquests.chapter.hexerei.quests11.subtitle": "Make an Enchanted Broom Brush[--做个附魔扫帚--]",
 	"ftbquests.chapter.hexerei.quests11.description": "You can replace the Broom Brush with an &bEnhanced Broom Brush&r, which lasts longer and &6can be enchanted&r![--你可以用&b增强的扫帚&r来替换扫帚,时间更长,&6可以附魔&r!--]",
+	
 	"ftbquests.chapter.iii_2.title": "III - Mars Attacks![--III - 火星攻击!--]",
 	"ftbquests.chapter.iii_2.quests0.description": "The &bRunic Altar&r is one of the first blocks crafted with the Miniaturization Crafting. Consult JEI on how to place the blocks and toss a Mana Diamond to initiate the craft.[--&b符文祭坛&r是第一个用微型合成制作的方块之一。请就如何放置方块和扔下魔力钻石来启动合成。--]",
 	"ftbquests.chapter.iii_2.quests1.description": "Combining Elementalcraft Runes with an Ars Nouveau Element, some Manasteel and Manapowder will result into Botania Runes[--将元素工艺符文与新生魔艺元素结合,一些魔钢和魔力粉将生成植物魔法符文--]",
@@ -1051,6 +1062,7 @@
 	"ftbquests.chapter.iii_2.quests25.description2": "Amethyst can be looted or traded from piglins. They can then be infused with elemental water magic to create springaline. [--紫水晶可以被猪灵抢夺或交易。然后它们可以灌注元素水魔法来制造春素。--]",
 	"ftbquests.chapter.iii_2.quests25.description4": "&6Amethyst Golems&r are very useful for farming and creating additional amethyt, check out the quest for them in the Ars Nouveau chapter![--&6紫晶傀儡&r对耕种和创造额外的紫水晶很有用,查看新生秘典章节中他们的任务!--]",
 	"ftbquests.chapter.iii_2.quests25.description6": "You'll then need to make your way to the moon to gather some Desh ore. By alloying the Springaline with Desh you can create a magically stable metal that and refine even more resources from mundane items.[--然后,你需要前往月球收集一些戴斯泰斯矿石。通过将斯普林亚灵与戴斯铁合金,你可以制作一个神奇稳定的金属,从普通物品中提炼更多的资源。--]",
+	
 	"ftbquests.chapter.industrial_foregoing.title": "Industrial Foregoing[--工业先锋--]",
 	"ftbquests.chapter.industrial_foregoing.quests0.subtitle": "Sticky Resin[--粘性树脂--]",
 	"ftbquests.chapter.industrial_foregoing.quests0.description0": "&eIndustrial Foregoing&r is a mod that mainly focuses on &6farming&r, whether that be crops, mobs, or other resources.[--&e工业先锋&r是一个主要聚焦于&6农场&r的mod,无论是作物、生物还是其它资源.--]",
@@ -1133,6 +1145,7 @@
 	"ftbquests.chapter.industrial_foregoing.quests21.description2": "The same is true for &bBlack Hole Tanks&r, but for fluids instead of items.[--&b黑洞储罐&r也是一样,但流体而不是物品。--]",
 	"ftbquests.chapter.industrial_foregoing.quests21.tasks0.title": "Black Hole Units[--黑洞单元--]",
 	"ftbquests.chapter.industrial_foregoing.quests21.tasks1.title": "Black Hole Tanks[--黑洞储罐--]",
+	
 	"ftbquests.chapter.invisible_quests.title": "Invisible quests[--隐形任务--]",
 	"ftbquests.chapter.invisible_quests.quests0.description": "Completes the &6Reach Mercury or Venus&r task in the Ad Astra quest, when either of this quest's tasks are complete.[--在Ad Astra任务完成后完成&6Reach Alcury or Kingus&r的任务.--]",
 	"ftbquests.chapter.invisible_quests.quests1.description0": "Completes the \\\"Visit Nether Sky Village\\\" task in Progression chapter[--在进度章节中完成“下界天空村庄”的任务--]",
@@ -1170,6 +1183,7 @@
 	"ftbquests.chapter.magical.quests5.description2": "Comparators will also emit a signal based on the amount of that item available.[--比较器也会根据可获取的物品数量发出信号。--]",
 	"ftbquests.chapter.magical.quests6.subtitle": "Make an Enchantment Library[--制作一个附魔图书馆--]",
 	"ftbquests.chapter.magical.quests6.description": "The &bEnchantment Library&r can &6store Enchanted Books&r, and retrieve the enchantments individually.[--&b附魔图书馆&r可以&6储存附魔书&r,并逐个取出附魔.--]",
+	
 	"ftbquests.chapter.mekanism.title": "Mekanism[--通用机械--]",
 	"ftbquests.chapter.mekanism.quests0.title": "Big Reactor[--大型反应堆--]",
 	"ftbquests.chapter.mekanism.quests0.subtitle": "Construct a Fission Reactor[--建造裂变反应堆--]",
@@ -1284,6 +1298,7 @@
 	"ftbquests.chapter.mekanism.quests31.description4": "[\\\"\\\",{\\\"text\\\":\\\"We've added a Ponder to teach how to construct the Turbine. Either Ponder on the Turbine Valve, or \\\"},{\\\"text\\\":\\\"click here\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/create ponder mekanismgenerators:turbine_valve\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"/create ponder mekanismgenerators:turbine_valve\\\"]}},{\\\"text\\\":\\\" instead.\\\"}][--[\\\"\\\",{\\\"text\\\":\\\"We've added a Ponder to teach how to construct the Turbine. Either Ponder on the Turbine Valve, or \\\"},{\\\"text\\\":\\\"click here\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/create ponder mekanismgenerators:turbine_valve\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"/create ponder mekanismgenerators:turbine_valve\\\"]}},{\\\"text\\\":\\\" instead.\\\"}]--]",
 	"ftbquests.chapter.mekanism.quests32.description0": "&bGas-Burning Generators&r take much more infrastructure, but generate much more power than earlier generators.[--&b燃气发电机&r需要更多的基础设备,但发电量比早期的发电机高得多.--]",
 	"ftbquests.chapter.mekanism.quests32.description2": "You can start off by burning &6Oxygen&r, but &6automating Ethylene&r is basically an immediate jump to the midgame.[--你可以从燃烧&6氧气&r开始,但是&6自动化乙烯&r基本上就是立即跳到游戏中。--]",
+	
 	"ftbquests.chapter.mob_farming_and_you.title": "Mob Farming and You[--怪物农场与你--]",
 	"ftbquests.chapter.mob_farming_and_you.quests0.subtitle": "Such a Pushover[--这种推力过量--]",
 	"ftbquests.chapter.mob_farming_and_you.quests0.description0": "&eCyclic&r also offers a &bFan&r[--&e循环&r还提供了&b法师&r--]",
@@ -1331,6 +1346,7 @@
 	"ftbquests.chapter.mob_farming_and_you.quests11.description11": "&cFlame Plate&r - Damages the Entities with Fire Damage[--&c火焰板&r - 对实体造成火焰伤害--]",
 	"ftbquests.chapter.mob_farming_and_you.quests11.tasks0.title": "Damaging Plates[--伤害板--]",
 	"ftbquests.chapter.mob_farming_and_you.quests12.description": "Bamboo spikes are one of the earliest autokiller methods. They do not kill as a player would but they can be tipped with potions for added effects. Cheap and effective![--竹刺是最早期的自动杀死方法之一。它们不会像玩家一样杀死,但可以给它们灌注药水来增加效果。低级和有效!--]",
+	
 	"ftbquests.chapter.monster_hunter_academy.title": "Monster Hunter[--怪物猎人--]",
 	"ftbquests.chapter.monster_hunter_academy.quests0.subtitle": "I'ts A No Brainer...[--我不是一个没有大脑的人...--]",
 	"ftbquests.chapter.monster_hunter_academy.quests1.subtitle": "Abracadaver![--阿布拉卡达夫!--]",
@@ -1389,6 +1405,7 @@
 	"ftbquests.chapter.monster_hunter_academy.quests44.tasks0.title": "Enable Centipede Spawn[--启用刷怪蛋--]",
 	"ftbquests.chapter.monster_hunter_academy.quests44.rewards0.title": "Enable Centipede Spawn[--启用刷怪蛋--]",
 	"ftbquests.chapter.monster_hunter_academy.quests45.title": "Observe a Centipede[--观察一只--]",
+	
 	"ftbquests.chapter.nether_delights.title": "Sky High Delights[--天空之乐--]",
 	"ftbquests.chapter.nether_delights.quests0.title": "Sky High Villagers[--空高村民--]",
 	"ftbquests.chapter.nether_delights.quests0.subtitle": "Hmmmm[--嗯--]",
@@ -1411,6 +1428,7 @@
 	"ftbquests.chapter.nether_delights.quests4.description2": "Here, you can &6barter with the Pigmen&r by tossing them some gold![--在这里,你可以&6用猪人&r扔一些金子!--]",
 	"ftbquests.chapter.nether_delights.quests4.tasks0.title": "Find a Crimson Sky Village[--找到一个绯红木天空村庄--]",
 	"ftbquests.chapter.nether_delights.quests4.tasks1.title": "Find a Warped Sky Village[--找到一个诡异木天空村庄--]",
+	
 	"ftbquests.chapter.not_the_bees.title": "Not the Bees![--不是蜜蜂!--]",
 	"ftbquests.chapter.not_the_bees.quests0.subtitle": "Make a Beehive[--制作蜂箱--]",
 	"ftbquests.chapter.not_the_bees.quests0.description0": "A &bBeehive&r can be crafted with Sugar and Planks, in order to give your Bees a place to live.[--&b蜂箱&r可以用糖和木板制作,让蜜蜂有一个住的地方.--]",
@@ -1455,6 +1473,7 @@
 	"ftbquests.chapter.not_the_bees.quests11.description4": "In order to transfer attributes from one bee to another, You'll have to &6collect the Genes&r that control them.[--为了将属性从一只蜜蜂转移到另一个蜜蜂,你必须&6收集控制它们的基因&r.--]",
 	"ftbquests.chapter.not_the_bees.quests11.description6": "The first step to that is collecting... &bSmashed Bee Material&r. This is done by placing a piston facing down above the bottler with a block of air between them. [--第一个步骤是收集...&b粉碎蜜蜂材料&r.通过在装瓶机上方放置一个有空气块的活塞来完成.--]",
 	"ftbquests.chapter.not_the_bees.quests11.description8": "Once the bee is in the space between them and a bottle is in the bottler, activate the piston to smash it.[--一旦蜜蜂在它们之间的空间中,瓶子在装瓶机中,激活活塞粉碎它。--]",
+	
 	"ftbquests.chapter.occultism.title": "Mastering the Occult[--掌握神秘--]",
 	"ftbquests.chapter.occultism.quests0.subtitle": "Hades hallucinations[--哈迪斯幻觉--]",
 	"ftbquests.chapter.occultism.quests0.description0": "By using &6Bone Meal&r and breaking the Tall Grass, you might get &6Demon Dream Seeds&r.[--通过使用&6骨粉&r并破坏高草,你可能会得到&6恶魔之梦种子&r.--]",
@@ -1539,6 +1558,7 @@
 	"ftbquests.chapter.occultism.quests27.description0": "The Soul Pedestal can be used to summon a number of different entities. To setup the summoning area you need to place the Soul Pedestal in the center and surround it with 8 standard pedestals. To see the recipes for various entities press u to check the uses while hovering over the soul pedestal in JEI.[--灵魂基座可用于召唤多个不同的实体。要设置召唤区域,你需要将灵魂基座放置在中心,并用8个标准基座包围它。查看不同实体按下U键在JEI中悬停在灵魂基座上时检查用途的配方。--]",
 	"ftbquests.chapter.occultism.quests27.description2": "Next, try summoning a blaze![--接下来,尝试召唤烈焰人吧!--]",
 	"ftbquests.chapter.occultism.quests28.description": "The chickenpalooza pearl can summon a horde of chickens. This is useful for breeding, food or capturing their souls with soul crystals in order to summon other mobs.[--鸡皮珍珠可以召唤一整组鸡。这可用于繁殖、食物或用灵魂水晶捕捉他们的灵魂,以召唤其他生物。--]",
+	
 	"ftbquests.chapter.overpowered.title": "Overpowered![--充能!--]",
 	"ftbquests.chapter.overpowered.quests0.title": "I'm just getting started[--我刚刚开始--]",
 	"ftbquests.chapter.overpowered.quests1.title": "One MILLION Powers[--1 Gillion Power--]",
@@ -1576,6 +1596,7 @@
 	"ftbquests.chapter.overpowered.quests22.description3": "- FTB Team[--- FTB团队--]",
 	"ftbquests.chapter.overpowered.quests22.tasks0.title": "Kill the Ender Dragon, Trigon[--杀死末影龙,三头龙--]",
 	"ftbquests.chapter.overpowered.quests23.title": "Essence of Legends[--传说精华--]",
+	
 	"ftbquests.chapter.pedestals_expanded.title": "On a Pedestal[--基座上--]",
 	"ftbquests.chapter.pedestals_expanded.quests0.title": "Filtering Pedestals[--过滤基座--]",
 	"ftbquests.chapter.pedestals_expanded.quests0.subtitle": "How you filter can really make a difference.[--过滤器如何真正产生不同效果。--]",
@@ -1699,6 +1720,7 @@
 	"ftbquests.chapter.pedestals_expanded.quests26.description4": "For Upgrades that &btransfer multiple types&r (items and fluids, etc):[--用于&b传输多种类型的&r(物品和流体等):--]",
 	"ftbquests.chapter.pedestals_expanded.quests26.description5": "• In offhand, sneak right-click to cycle through the types[--• 在副手,潜行右键来循环类型--]",
 	"ftbquests.chapter.pedestals_expanded.quests26.description6": "• In offhand, right-click to enable/disable the current type[--• 在副手,右键单击以启用/禁用当前类型--]",
+	
 	"ftbquests.chapter.pipe_dreams.title": "Pipe Dreams [--管道之梦--]",
 	"ftbquests.chapter.pipe_dreams.quests19.subtitle": "Pipes are for suckers[--管道是老鼠用的--]",
 	"ftbquests.chapter.pipe_dreams.quests19.description0": "&bLaser Nodes&r can interact with adjacent inventories using &6Cards&r. Insert a Card into the side of the Node that's facing the block.[--&b激光节点&r可以使用&6卡片&r与相邻的库存进行交互.将卡片插入节点面向方块的侧面.--]",
@@ -1716,6 +1738,7 @@
 	"ftbquests.chapter.pipe_dreams.quests24.description": "&bNode Overclockers&r let more Cards work at the same time.[--&b节点超频器&r同时让更多卡工作.--]",
 	"ftbquests.chapter.pipe_dreams.quests25.description": "&bFilters&r can be inserted into Cards to filter what they move.[--&b过滤器&r可以插入卡片来过滤它们移动的东西.--]",
 	"ftbquests.chapter.pipe_dreams.quests25.tasks0.title": "Filters[--过滤器--]",
+	
 	"ftbquests.chapter.portable.title": "Portable[--便携式--]",
 	"ftbquests.chapter.portable.quests0.subtitle": "Donk Null[--驴子(Dank Null)--]",
 	"ftbquests.chapter.portable.quests0.description0": "&bDanks&r, from the mod &eDank Storage&r, can &6automatically pick up items&r, can &6store items at >64 items per stack&r, and allow for you to &6use stored items&r, including blocks and food!. Higher tiers have more slots, and can store more per slot.[--来自mod&eDank存储&r的&bDanks&r可以&6自动拾取物品&r,可以&6将物品存储在每组>64个物品&r上,并允许你&6使用存储物品&r,包括方块和食物!更高的等级具有更多的插槽,每个插槽可以存储更多的物品.--]",
@@ -1739,6 +1762,7 @@
 	"ftbquests.chapter.portable.quests4.subtitle": "It's Bigger on the Inside![--它的内部更大!--]",
 	"ftbquests.chapter.portable.quests4.description0": "The &bPocket Dimension Backpack&r is a technological marvel. It creates a portable hole into another dimension to store your things.[--&b口袋维度背包&r是一个科技奇点。它将一个便携洞创建到另一个维度中来存储你的东西.--]",
 	"ftbquests.chapter.portable.quests4.description2": "In essence, it's a &6double chest you can wear&r on your back. Access it with &6control+e&r.[--基本上,它是一个&6可以穿戴的双层箱子&r.用&6control+e&r来访问它.--]",
+	
 	"ftbquests.chapter.powering_up.title": "Powering Up![--充电!--]",
 	"ftbquests.chapter.powering_up.images5.hover": "Tier 1[--1级--]",
 	"ftbquests.chapter.powering_up.images6.hover": "Tier 2[--2级--]",
@@ -1763,6 +1787,7 @@
 	"ftbquests.chapter.powering_up.quests2.description2": "The strength of the magnetic force is tiered to different magnets and will improve the output of your generator coils when you are able to upgrade to better magnets. Once you've surrounded your generator coil with magnets you apply a carbon brush to it and a source of SU. This will cause the coil to spin and generate energy. [--磁力的强度分级为不同的磁铁,当您可以升级为更好的磁铁时,将提高您的发电机线圈的输出。当你用磁铁环绕了您的发电机线圈时,您会对它和SU的源头使用碳刷子。这将让线圈旋转并产生能量。--]",
 	"ftbquests.chapter.powering_up.quests2.description4": "{@pagebreak}[--&pagebreak}--]",
 	"ftbquests.chapter.powering_up.quests2.description5": "The faster you are able to spin the generator, the more FE it will generate. Higher tier magnets provide more resistance however and require greater amounts of SU to operate. You can stack up to 8 coils in a line in this way and extract power from them all at once.[--你越快旋转发电机,它产生的FE就越多。但更高等级的磁铁提供更大的抗性,并且需要更多的SU来操作。您可以这样堆叠最多8个线圈,一次从它们中提取电力。--]",
+	
 	"ftbquests.chapter.progression.title": "Progression[--进度--]",
 	"ftbquests.chapter.progression.subtitle": "Onward and Upward![--继续前进!--]",
 	"ftbquests.chapter.progression.quests0.subtitle": "Somewhere out there...[--某处...--]",
@@ -1976,6 +2001,7 @@
 	"ftbquests.chapter.to_the_stars.quests18.subtitle": "Technically an asteroid belt[--严格来说,是一个小行星腰带--]",
 	"ftbquests.chapter.to_the_stars.quests18.description": "With a &6Tier 1 Rocket&r, you can &bfly to the End&r![--有了&6一级火箭&r,你可以&b飞到末地&r!--]",
 	"ftbquests.chapter.to_the_stars.quests18.tasks0.title": "Visit the End[--造访末地--]",
+	
 	"ftbquests.chapter.travel.title": "Gadgets + Gizmos[--小帮手+基斯摩斯--]",
 	"ftbquests.chapter.travel.quests0.title": "Item Collector[--物品收集器--]",
 	"ftbquests.chapter.travel.quests0.subtitle": "Item Slurpage[--滑溜溜的物品--]",
