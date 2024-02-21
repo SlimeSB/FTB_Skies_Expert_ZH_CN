@@ -1,0 +1,205 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "invisible_quests"
+	group: ""
+	icon: "minecraft:command_block"
+	id: "5C35345F7E99F7F5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.invisible_quests.quests0.description}"]
+			icon: "ad_astra:venus_globe"
+			id: "45293E09C7E70D25"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 50A226645CC9AB2C"
+					id: "1B97D57D5A540CD1"
+					type: "command"
+				}
+			]
+			secret: true
+			tasks: [
+				{
+					dimension: "ad_astra:venus"
+					id: "3BFC02A3CE7E7F82"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:mercury"
+					id: "4E3BD1243C5286A1"
+					type: "dimension"
+				}
+			]
+			x: 1.25d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.invisible_quests.quests1.description0}"
+				""
+				"{ftbquests.chapter.invisible_quests.quests1.description2}"
+			]
+			id: "63A5B8B3491E4F44"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 755E6D1A1FD604B0"
+					id: "6E7224AC5E070F78"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:warped_stem"
+					id: "01B5CC403CA040C2"
+					structure: "skyvillages:warped_sky_village"
+					type: "structure"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "17435DCD72A49A80"
+			invisible: true
+			secret: true
+			tasks: [
+				{
+					id: "74EDA2CD6F9B7470"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "0220C9B03FA5B0C3"
+			tasks: [
+				{
+					id: "69CA5CEDBAF9EFED"
+					secret: true
+					title: "{ftbquests.chapter.invisible_quests.quests3.tasks0.title}"
+					type: "custom"
+				}
+			]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "69FB76DBA6810762"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					id: "645BE0E174F25B48"
+					ignore_reward_blocking: true
+					stage: "got_pearl"
+					type: "gamestage"
+				}
+				{
+					command: "/gamestage addTeam Saereth got_pearl true"
+					id: "517D8EB535B72B2D"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+			]
+			secret: true
+			tasks: [
+				{
+					id: "32ACD83F640E69AB"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "6B4C122FF4E8F63A"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "657D508C38059A5E"
+					ignore_reward_blocking: true
+					stage: "seen_blaze"
+					type: "gamestage"
+				}
+			]
+			tasks: [
+				{
+					id: "40D44A444DCA4479"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:blaze"
+					type: "observation"
+				}
+			]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "71CEC5BBBA2A5247"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "61ED44A840CF43DA"
+					ignore_reward_blocking: true
+					stage: "seen_endermite"
+					team_reward: true
+					type: "gamestage"
+				}
+			]
+			tasks: [
+				{
+					id: "16409AD2D3B1A26B"
+					observe_type: 5
+					timer: 0L
+					to_observe: "occultism:possessed_endermite"
+					type: "observation"
+				}
+			]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:ponder_goat_horn"
+				}
+			}
+			id: "5D11E7DB381D7FA1"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "05B5FADDEAF463B0"
+					ignore_reward_blocking: true
+					stage: "seen_goat"
+					team_reward: true
+					type: "gamestage"
+				}
+			]
+			tasks: [
+				{
+					id: "3EC4A63719F94BB6"
+					observe_type: 5
+					timer: 0L
+					title: "{ftbquests.chapter.invisible_quests.quests7.tasks0.title}"
+					to_observe: "minecraft:goat"
+					type: "observation"
+				}
+			]
+			x: -8.0d
+			y: 0.5d
+		}
+	]
+	title: "{ftbquests.chapter.invisible_quests.title}"
+}

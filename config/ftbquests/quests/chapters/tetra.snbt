@@ -1,0 +1,622 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tetra"
+	group: "265AFEC900FA3E96"
+	icon: "tetra:forged_workbench"
+	id: "395BF99AC10E516E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/tetra.png"
+			rotation: 0.0d
+			width: 3.4698795180722892d
+			x: 4.5d
+			y: -5.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.tetra.quests0.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests0.description2}"
+				""
+				"{ftbquests.chapter.tetra.quests0.description4}"
+				""
+				"{ftbquests.chapter.tetra.quests0.description6}"
+				""
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/granite"
+					"double/basic_hammer_right_material": "basic_hammer/granite"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "c2783bc8-6f22-4f62-b464-80cb96403556"
+				}
+			}
+			id: "7B5E1E34A52272B7"
+			min_width: 250
+			rewards: [
+				{
+					id: "0AFE231D56B36C23"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F80209B76808F44"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tetra.quests0.subtitle}"
+			tasks: [
+				{
+					id: "229A28C4A434C9F4"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.tetra.quests0.title}"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B5E1E34A52272B7"]
+			description: [
+				"{ftbquests.chapter.tetra.quests1.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests1.description2}"
+				""
+				"{ftbquests.chapter.tetra.quests1.description4}"
+			]
+			id: "0C168C37CABC6E6D"
+			min_width: 275
+			rewards: [
+				{
+					id: "0C565355BF227BBE"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2203830B8C64768F"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E2ADAAC6223FCB6"
+					item: "tetra:geode"
+					type: "item"
+				}
+				{
+					id: "31CFABC20CA836E4"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "6052d54f-37a4-4c7f-b1ff-d7957f9fb2e1"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tetra.quests1.subtitle}"
+			tasks: [
+				{
+					advancement: "tetra:upgrades/root"
+					criterion: ""
+					id: "18F9AEDBFF67586B"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.tetra.quests1.title}"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"{ftbquests.chapter.tetra.quests2.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests2.description2}"
+				""
+				"{ftbquests.chapter.tetra.quests2.description4}"
+				""
+				"{ftbquests.chapter.tetra.quests2.description6}"
+				""
+				"{ftbquests.chapter.tetra.quests2.description8}"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/iron"
+					"double/basic_hammer_right_material": "basic_hammer/iron"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "2e064b20-ae8c-4c9b-97f1-dd68189d29d8"
+				}
+			}
+			id: "7A2134E2313DA601"
+			min_required_tasks: 1
+			min_width: 250
+			rewards: [
+				{
+					id: "4964A3B5EBEC05BA"
+					item: "tetra:pristine_lapis"
+					type: "item"
+				}
+				{
+					id: "49214F6C52B15CAF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.tetra.quests2.subtitle}"
+			tasks: [
+				{
+					advancement: "tetra:upgrades/hammer_3"
+					criterion: ""
+					id: "317A37661C027ED4"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.tetra.quests2.title}"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A2134E2313DA601"]
+			description: [
+				"{ftbquests.chapter.tetra.quests3.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests3.description2}"
+			]
+			id: "37DEE4FAA1C55F2A"
+			rewards: [
+				{
+					id: "266726308FEC2C22"
+					item: "tetra:pristine_diamond"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tetra.quests3.subtitle}"
+			tasks: [
+				{
+					advancement: "tetra:upgrades/hammer_4"
+					criterion: ""
+					id: "2AD906700CAF7106"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.tetra.quests3.title}"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"{ftbquests.chapter.tetra.quests4.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests4.description2}"
+			]
+			id: "7660A510D6F907CF"
+			rewards: [
+				{
+					id: "6398B08017214F6A"
+					item: "sophisticatedbackpacks:everlasting_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tetra.quests4.subtitle}"
+			tasks: [
+				{
+					id: "1355D3C2933A6E8F"
+					item: "tetra:rack"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37DEE4FAA1C55F2A"]
+			description: [
+				"{ftbquests.chapter.tetra.quests5.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests5.description2}"
+			]
+			id: "0BD14780566B2D09"
+			subtitle: "{ftbquests.chapter.tetra.quests5.subtitle}"
+			tasks: [
+				{
+					id: "553A6A9B83C4EEA6"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tetra.quests5.title}"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37DEE4FAA1C55F2A"]
+			description: [
+				"{ftbquests.chapter.tetra.quests6.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests6.description2}"
+			]
+			id: "67F60A1D1D021B0F"
+			rewards: [
+				{
+					id: "4410BFB7FB3F8ECE"
+					item: {
+						Count: 1b
+						id: "farmersdelight:diamond_knife"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:looting"
+									lvl: 3s
+								}
+								{
+									id: "apotheosis:scavenger"
+									lvl: 1s
+								}
+								{
+									id: "farmersdelight:backstabbing"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:sharpness"
+									lvl: 5s
+								}
+							]
+							RepairCost: 15
+							display: {
+								Name: "{\"text\":\"Tazz's Chef Knife\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tetra.quests6.subtitle}"
+			tasks: [
+				{
+					advancement: "tetra:upgrades/sword_upgrade"
+					criterion: ""
+					id: "446818C6591C0DA1"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.tetra.quests6.title}"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"{ftbquests.chapter.tetra.quests7.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests7.description2}"
+			]
+			id: "65EEF0E9EC1C20B7"
+			rewards: [
+				{
+					id: "18A3E37CCB68BDDF"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 5s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F198DA50FE744F6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.tetra.quests7.subtitle}"
+			tasks: [
+				{
+					id: "3C6D43DB2151F417"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"{ftbquests.chapter.tetra.quests8.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests8.description2}"
+				""
+				"{ftbquests.chapter.tetra.quests8.description4}"
+				""
+				"{ftbquests.chapter.tetra.quests8.description6}"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "1CC51CEE8959C798"
+			min_width: 250
+			rewards: [
+				{
+					id: "079AE213B928F1D5"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 8s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "602F6992C6461D98"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.tetra.quests8.subtitle}"
+			tasks: [
+				{
+					id: "50FE36617524BB4C"
+					title: "{ftbquests.chapter.tetra.quests8.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.tetra.quests8.title}"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A2B186A4949E04D"]
+			description: ["{ftbquests.chapter.tetra.quests9.description}"]
+			id: "044639C4BCE3DDAC"
+			rewards: [
+				{
+					id: "4158502AA3BA6BB0"
+					item: {
+						Count: 1b
+						id: "tetra:thermal_cell"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tetra.quests9.subtitle}"
+			tasks: [
+				{
+					id: "4023D940550E6644"
+					item: {
+						Count: 1b
+						id: "tetra:thermal_cell"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37DEE4FAA1C55F2A"]
+			description: [
+				"{ftbquests.chapter.tetra.quests10.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests10.description2}"
+				""
+				"{ftbquests.chapter.tetra.quests10.description4}"
+				""
+				"{ftbquests.chapter.tetra.quests10.description6}"
+			]
+			id: "0A2B186A4949E04D"
+			min_width: 275
+			rewards: [
+				{
+					id: "7334248DF9B9009C"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							HideFlags: 1
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/butt_right_material": "butt/stone"
+							"double/claw_left_material": "claw/diamond"
+							"double/handle": "double/basic_handle"
+							"double/handle/settle_progress": 277
+							"double/head_left": "double/claw_left"
+							"double/head_left:arrested": 0
+							"double/head_right": "double/butt_right"
+							honing_progress: 288
+							id: "1be95ba9-1be5-49b6-b21b-f4503065bd3e"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4452ADC393F50072"
+					item: "tetra:pristine_emerald"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tetra.quests10.subtitle}"
+			tasks: [
+				{
+					id: "113819B092225F4B"
+					item: "tetra:hammer_base"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A2B186A4949E04D"]
+			description: [
+				"{ftbquests.chapter.tetra.quests11.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests11.description2}"
+			]
+			icon: "tetra:combustion_chamber"
+			id: "1C41C855ED97D901"
+			rewards: [
+				{
+					id: "164461A301927233"
+					item: "tetra:planar_stabilizer"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tetra.quests11.subtitle}"
+			tasks: [
+				{
+					id: "6EE7365B9A175238"
+					item: "tetra:combustion_chamber"
+					type: "item"
+				}
+				{
+					id: "63E655486F4C883C"
+					item: "tetra:lubricant_dispenser"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B5E1E34A52272B7"]
+			description: [
+				"{ftbquests.chapter.tetra.quests12.description0}"
+				""
+				"{ftbquests.chapter.tetra.quests12.description2}"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [
+							{
+								effects: ["tetra:gem_expertise"]
+								glyphs: [
+									14
+									13
+									14
+									15
+								]
+								intricate: 0b
+								key: "gem_expertise"
+								material: 0
+								ribbon: "2bffee"
+							}
+						]
+					}
+				}
+			}
+			id: "2194412E88EF922C"
+			subtitle: "{ftbquests.chapter.tetra.quests12.subtitle}"
+			tasks: [
+				{
+					id: "3DBA2AD2EF5E81D9"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tetra:scroll_rolled"
+									tag: {
+										BlockEntityTag: {
+											data: [
+												{
+													effects: ["tetra:gem_expertise"]
+													glyphs: [
+														14
+														13
+														14
+														15
+													]
+													intricate: 0b
+													key: "gem_expertise"
+													material: 0
+													ribbon: "2bffee"
+												}
+											]
+										}
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.tetra.quests12.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.tetra.title}"
+}

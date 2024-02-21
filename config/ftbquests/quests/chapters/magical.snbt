@@ -1,0 +1,231 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magical"
+	group: "5A42857CD4E60814"
+	icon: "botania:corporea_index"
+	id: "1E2BFC921C6BD0BB"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/magical.png"
+			rotation: 0.0d
+			width: 4.771084337349397d
+			x: -5.0d
+			y: -8.5d
+		}
+	]
+	order_index: 3
+	quest_links: [
+		{
+			id: "1EA4EBB0900CCCFA"
+			linked_quest: "623ECDC05E1FEEE1"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "6A365DFF56A6AE3C"
+			linked_quest: "38428BE09619A2C4"
+			x: -6.0d
+			y: -3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["33FF06F93A9B4510"]
+			description: [
+				"{ftbquests.chapter.magical.quests0.description0}"
+				""
+				"{ftbquests.chapter.magical.quests0.description2}"
+				""
+				"{ftbquests.chapter.magical.quests0.description4}"
+			]
+			icon: "botania:corporea_spark_master"
+			id: "69DE3088CD8EE75E"
+			min_width: 325
+			rewards: [
+				{
+					count: 3
+					id: "4D1EC21D8967977E"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.magical.quests0.subtitle}"
+			tasks: [
+				{
+					id: "7BDADA5B8D1D33BE"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					id: "10BF64E787A0D9BC"
+					item: "botania:corporea_spark_master"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.magical.quests0.title}"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69DE3088CD8EE75E"]
+			description: [
+				"{ftbquests.chapter.magical.quests1.description0}"
+				""
+				"{ftbquests.chapter.magical.quests1.description2}"
+				""
+				"{ftbquests.chapter.magical.quests1.description4}"
+			]
+			id: "473F60B947745A57"
+			subtitle: "{ftbquests.chapter.magical.quests1.subtitle}"
+			tasks: [
+				{
+					id: "481D8038C0EB0E18"
+					item: "botania:corporea_index"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69DE3088CD8EE75E"]
+			description: [
+				"{ftbquests.chapter.magical.quests2.description0}"
+				""
+				"{ftbquests.chapter.magical.quests2.description2}"
+			]
+			id: "48462142316EC808"
+			subtitle: "{ftbquests.chapter.magical.quests2.subtitle}"
+			tasks: [
+				{
+					id: "72C42A8EEF2E8ACB"
+					item: "botania:corporea_funnel"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48462142316EC808"]
+			description: [
+				"{ftbquests.chapter.magical.quests3.description0}"
+				""
+				"{ftbquests.chapter.magical.quests3.description2}"
+				""
+				"{ftbquests.chapter.magical.quests3.description4}"
+				""
+				"{ftbquests.chapter.magical.quests3.description6}"
+			]
+			id: "0979860E89A3AD7F"
+			min_width: 325
+			subtitle: "{ftbquests.chapter.magical.quests3.subtitle}"
+			tasks: [
+				{
+					id: "583234D4E85265A7"
+					item: "botania:corporea_interceptor"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0979860E89A3AD7F"]
+			description: [
+				"{ftbquests.chapter.magical.quests4.description0}"
+				""
+				"{ftbquests.chapter.magical.quests4.description2}"
+				""
+				"{ftbquests.chapter.magical.quests4.description4}"
+			]
+			id: "5F038BF46205DC9C"
+			min_width: 325
+			subtitle: "{ftbquests.chapter.magical.quests4.subtitle}"
+			tasks: [
+				{
+					id: "1302DC1342279E4C"
+					item: "botania:corporea_retainer"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69DE3088CD8EE75E"]
+			description: [
+				"{ftbquests.chapter.magical.quests5.description0}"
+				""
+				"{ftbquests.chapter.magical.quests5.description2}"
+			]
+			id: "5D32A57D9BA2851E"
+			subtitle: "{ftbquests.chapter.magical.quests5.subtitle}"
+			tasks: [
+				{
+					id: "6F0E9B02EDC669E2"
+					item: "botania:corporea_crystal_cube"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			description: ["{ftbquests.chapter.magical.quests6.description}"]
+			id: "794BC3659E12AFE3"
+			rewards: [
+				{
+					id: "69E9D7E0CC73201A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B2DAAB0A842EC14"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.magical.quests6.subtitle}"
+			tasks: [
+				{
+					id: "340185AD624FF4AF"
+					item: "apotheosis:library"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -3.0d
+		}
+	]
+	title: "{ftbquests.chapter.magical.title}"
+}

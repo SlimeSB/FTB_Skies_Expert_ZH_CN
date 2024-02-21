@@ -1,0 +1,1004 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food"
+	group: "7B39F21A0D5BB568"
+	icon: "nethersdelight:stuffed_hoglin"
+	id: "0E850CDFF8D30498"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/foodiesfarmers.png"
+			rotation: 0.0d
+			width: 10.53012048192771d
+			x: 1.5d
+			y: -4.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.food.quests0.description0}"
+				""
+				"{ftbquests.chapter.food.quests0.description2}"
+			]
+			icon: {
+				Count: 1b
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B2D10549BFDBAA8"
+			rewards: [
+				{
+					id: "4ADD02847D387A89"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "0C81C3335E39F505"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.food.quests0.subtitle}"
+			tasks: [
+				{
+					id: "5A063EEC779EFCA6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "{ftbquests.chapter.food.quests0.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests0.title}"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			description: ["{ftbquests.chapter.food.quests1.description}"]
+			icon: {
+				Count: 1b
+				id: "cyclic:shears_flint"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "12CA64E217BE66C5"
+			rewards: [
+				{
+					count: 4
+					id: "3E0D90A3ADF4A0F4"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "17DE902BF595E8E6"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests1.subtitle}"
+			tasks: [
+				{
+					id: "7AE03AE4335F69ED"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "cyclic:shears_flint"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:shears"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.food.quests1.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.food.quests2.description0}"
+				""
+				"{ftbquests.chapter.food.quests2.description2}"
+				""
+				"{ftbquests.chapter.food.quests2.description4}"
+				""
+				"{ftbquests.chapter.food.quests2.description6}"
+			]
+			id: "48C01F1AF6F0E6C3"
+			min_width: 275
+			rewards: [
+				{
+					count: 2
+					id: "2C2ABFC4B3694A11"
+					item: "energeticsheep:energetic_sheep_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "77AF021733FA085E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+						id: "forcecraft:force_shears"
+						tag: {
+							Damage: 0
+							forcecraft: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.food.quests2.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:pig_spawn_egg"
+					id: "544F43C465758EAE"
+					observe_type: 5
+					timer: 0L
+					title: "{ftbquests.chapter.food.quests2.tasks0.title}"
+					to_observe: "minecraft:pig"
+					type: "observation"
+				}
+				{
+					icon: "minecraft:cow_spawn_egg"
+					id: "58BA2CDE23C90AFC"
+					observe_type: 5
+					timer: 0L
+					title: "{ftbquests.chapter.food.quests2.tasks1.title}"
+					to_observe: "minecraft:cow"
+					type: "observation"
+				}
+				{
+					icon: "minecraft:sheep_spawn_egg"
+					id: "39EEF41EFDA8452C"
+					observe_type: 5
+					timer: 0L
+					title: "{ftbquests.chapter.food.quests2.tasks2.title}"
+					to_observe: "minecraft:sheep"
+					type: "observation"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests2.title}"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.food.quests3.description0}"
+				""
+				"{ftbquests.chapter.food.quests3.description2}"
+				""
+				"{ftbquests.chapter.food.quests3.description4}"
+			]
+			id: "3077F6F55816FCCB"
+			rewards: [
+				{
+					id: "6397B2C5F3DDADAD"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "284B7A38712B42E3"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CC61B1F8BE5A5F8"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "47FB662AF2C95714"
+					item: "productivebees:expansion_box_oak"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.food.quests3.subtitle}"
+			tasks: [
+				{
+					id: "5D7D5ADE212057A1"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests3.title}"
+			x: -2.0059523809523654d
+			y: 1.6309523809523654d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"{ftbquests.chapter.food.quests4.description0}"
+				""
+				"{ftbquests.chapter.food.quests4.description2}"
+			]
+			id: "294B5757C4FB3B96"
+			rewards: [
+				{
+					id: "3A274F30E9D6CAFC"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "585B9CEE616B6245"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests4.subtitle}"
+			tasks: [
+				{
+					id: "15D8168B12DC1C15"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests4.title}"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"{ftbquests.chapter.food.quests5.description0}"
+				""
+				"{ftbquests.chapter.food.quests5.description2}"
+			]
+			id: "5DB55A645B23E187"
+			rewards: [
+				{
+					id: "759569287AEFC446"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 7
+							}
+						}
+						id: "cyclic:lunchbox"
+						tag: {
+							count_empty: 7
+							count_max: 7
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5CBA0EA80DEE7815"
+					item: "farmersdelight:minced_beef"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12CA64E217BE66C5"]
+			description: ["{ftbquests.chapter.food.quests6.description}"]
+			icon: "minecraft:pink_wool"
+			id: "13635FDBEE715232"
+			rewards: [
+				{
+					count: 16
+					id: "385B8FEED466E3F6"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "5E1AD4EFD8AED458"
+					item: "farmersdelight:mutton_wrap"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests6.subtitle}"
+			tasks: [
+				{
+					id: "0F1DD696BC6E47C3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:wool"
+						}
+					}
+					title: "{ftbquests.chapter.food.quests6.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["13635FDBEE715232"]
+			description: ["{ftbquests.chapter.food.quests7.description}"]
+			id: "7E0D03CC88893072"
+			rewards: [
+				{
+					id: "472493B96E653358"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1D97E72A35C68116"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests7.subtitle}"
+			tasks: [
+				{
+					id: "44720097257BDE5F"
+					item: "farmingforblockheads:market"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.food.quests8.description0}"
+				""
+				"{ftbquests.chapter.food.quests8.description2}"
+				""
+				"{ftbquests.chapter.food.quests8.description4}"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3DF1A7356E7509D8"
+			rewards: [
+				{
+					count: 16
+					id: "009DB0D8EBFB94F0"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0EFCC380B752E793"
+					item: "thermal:phytogro"
+					type: "item"
+				}
+				{
+					id: "4CDE0185F4CD22C3"
+					item: "hexerei:flowering_lily_pad"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests8.subtitle}"
+			tasks: [
+				{
+					id: "0522B00F831B9099"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/hoes"
+						}
+					}
+					title: "{ftbquests.chapter.food.quests8.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DF1A7356E7509D8"]
+			description: [
+				"{ftbquests.chapter.food.quests9.description0}"
+				""
+				"{ftbquests.chapter.food.quests9.description2}"
+			]
+			id: "4FEA5AEC781ED77B"
+			rewards: [
+				{
+					id: "4C9B2D147EDDB47E"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3073414003A537B0"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests9.subtitle}"
+			tasks: [
+				{
+					id: "3781DE5AD2729E50"
+					item: "minecraft:wheat"
+					title: "{ftbquests.chapter.food.quests9.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests9.title}"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			description: ["{ftbquests.chapter.food.quests10.description}"]
+			id: "5F7BEBA1F135CBB0"
+			rewards: [
+				{
+					id: "5C8112DC5D3E915A"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					id: "55C3FE8EF69AC594"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests10.subtitle}"
+			tasks: [
+				{
+					id: "5A0E19B8EE53EC6E"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			description: ["{ftbquests.chapter.food.quests11.description}"]
+			id: "69DDC6F0AACEB07F"
+			rewards: [
+				{
+					id: "2BD166C023C2A31E"
+					item: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "445350D784A282F6"
+					item: "farmersdelight:raw_pasta"
+					type: "item"
+				}
+				{
+					id: "17EE31F0DF3F386D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests11.subtitle}"
+			tasks: [
+				{
+					id: "1362616DF5A0E4B6"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.food.quests12.description0}"
+				""
+				"{ftbquests.chapter.food.quests12.description2}"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:fire_resistance"
+				}
+			}
+			id: "4B4D41B1C4E9E331"
+			rewards: [
+				{
+					id: "275F7F104E6F527A"
+					item: "farmersdelight:dog_food"
+					type: "item"
+				}
+				{
+					id: "1253D2CA672AD609"
+					item: "solcarrot:food_book"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.food.quests12.subtitle}"
+			tasks: [
+				{
+					id: "042FE5357EA5F540"
+					title: "{ftbquests.chapter.food.quests12.tasks0.title}"
+					type: "checkmark"
+				}
+				{
+					id: "3455DC5854CECDAA"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests12.title}"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"{ftbquests.chapter.food.quests13.description0}"
+				""
+				"{ftbquests.chapter.food.quests13.description2}"
+			]
+			id: "120112D868F06CF4"
+			rewards: [
+				{
+					id: "0F7AED7252FEA2F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "556FCF5E7877938D"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests13.subtitle}"
+			tasks: [
+				{
+					id: "536A65A25A8B4208"
+					item: "farmersdelight:bacon"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests13.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: ["{ftbquests.chapter.food.quests14.description}"]
+			id: "5F344CD63CE4DBC6"
+			rewards: [
+				{
+					id: "2412B02642EDB0EA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "72AB6160DBA97098"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "46E686FD405EF175"
+					item: "farmingforblockheads:chicken_nest"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests14.subtitle}"
+			tasks: [
+				{
+					id: "4B7D97227BA07791"
+					item: "farmersdelight:chicken_cuts"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: ["{ftbquests.chapter.food.quests15.description}"]
+			icon: "farmersdelight:salmon_slice"
+			id: "75A4AEB8D85EB1FE"
+			rewards: [
+				{
+					id: "435BDEFB1C477C3D"
+					item: "farmersdelight:cabbage_rolls"
+					type: "item"
+				}
+				{
+					id: "019798C076B7EF9D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests15.subtitle}"
+			tasks: [
+				{
+					id: "70F7293855D49C4A"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "farmersdelight:salmon_slice"
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:cod_slice"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.food.quests15.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"{ftbquests.chapter.food.quests16.description0}"
+				""
+				"{ftbquests.chapter.food.quests16.description2}"
+			]
+			id: "6ABC2056CD5C7149"
+			rewards: [
+				{
+					id: "139EDB0D82C75B38"
+					item: "farmersdelight:cooked_mutton_chops"
+					type: "item"
+				}
+				{
+					id: "460AA4395485E336"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests16.subtitle}"
+			tasks: [
+				{
+					id: "234C3AD8C56144EA"
+					item: "farmersdelight:mutton_chops"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.food.quests17.description0}"
+				""
+				"{ftbquests.chapter.food.quests17.description2}"
+			]
+			id: "3053871C8AEE692C"
+			rewards: [
+				{
+					id: "583D5C07D409E0AC"
+					item: "quark:beetroot_crate"
+					type: "item"
+				}
+				{
+					id: "46BF09486C6B4A7A"
+					item: "quark:carrot_crate"
+					type: "item"
+				}
+				{
+					id: "285AB65A55F0B613"
+					item: "quark:potato_crate"
+					type: "item"
+				}
+				{
+					id: "4EA6E93B01EA7C7F"
+					item: "quark:apple_crate"
+					type: "item"
+				}
+				{
+					id: "5F27C64F78E0F288"
+					item: "incubation:hay_nest"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.food.quests17.subtitle}"
+			tasks: [
+				{
+					id: "37D0DC6BEB830C62"
+					item: "cookingforblockheads:cooking_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests17.title}"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.food.quests18.description0}"
+				""
+				"{ftbquests.chapter.food.quests18.description2}"
+				"{ftbquests.chapter.food.quests18.description3}"
+			]
+			id: "3A00F06E468E7732"
+			rewards: [
+				{
+					id: "3DB340A14117996D"
+					item: "laserio:card_fluid"
+					type: "item"
+				}
+				{
+					id: "1FA2C843C0F1C223"
+					item: "minecraft:axolotl_bucket"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.food.quests18.subtitle}"
+			tasks: [
+				{
+					id: "4C9F6EF783ADF13F"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests18.title}"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: ["{ftbquests.chapter.food.quests19.description}"]
+			id: "5E34FE9AA13204C7"
+			rewards: [
+				{
+					id: "699FF142776ECE16"
+					item: "cookingforblockheads:ice_unit"
+					type: "item"
+				}
+				{
+					id: "0DCD29E3F7BFAC04"
+					item: "cookingforblockheads:preservation_chamber"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.food.quests19.subtitle}"
+			tasks: [
+				{
+					id: "0477934320683DE9"
+					item: "cookingforblockheads:fridge"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: ["{ftbquests.chapter.food.quests20.description}"]
+			id: "2BE8A577F5F51E6A"
+			rewards: [
+				{
+					id: "7755A5E7548CDF68"
+					item: "cookingforblockheads:toaster"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55FA33A075FAA641"
+					item: "industrialforegoing:fluid_transporter_type"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.food.quests20.subtitle}"
+			tasks: [
+				{
+					id: "6275D0F72F622B16"
+					item: "cookingforblockheads:cow_jar"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests20.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["{ftbquests.chapter.food.quests21.description}"]
+			icon: "cookingforblockheads:counter"
+			id: "5818087FB67710CE"
+			rewards: [
+				{
+					id: "19DC5B52B7B37A62"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+				{
+					id: "06555C4F8ED57210"
+					item: "quark:berry_sack"
+					type: "item"
+				}
+				{
+					id: "2E91465985B8B6DD"
+					item: "farmersdelight:hot_cocoa"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.food.quests21.subtitle}"
+			tasks: [
+				{
+					id: "2DED26C0914AEB3D"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "6DEB3F3BD15C5AB4"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests21.title}"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.food.quests22.description0}"
+				""
+				"{ftbquests.chapter.food.quests22.description2}"
+				""
+				"{ftbquests.chapter.food.quests22.description4}"
+			]
+			id: "43EF07FC00CAE761"
+			rewards: [
+				{
+					id: "5BC3C51A1CE464D4"
+					item: "cookingforblockheads:heating_unit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "12ED1270DCE0891D"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.food.quests22.subtitle}"
+			tasks: [
+				{
+					id: "62A275B4E27270F9"
+					item: "cookingforblockheads:oven"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests22.title}"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13635FDBEE715232"]
+			description: [
+				"{ftbquests.chapter.food.quests23.description0}"
+				""
+				"{ftbquests.chapter.food.quests23.description2}"
+			]
+			icon: "minecraft:red_bed"
+			id: "171711B42DD99511"
+			rewards: [
+				{
+					id: "5E77A0CB3F1AC595"
+					item: "rainshield:rain_shield"
+					type: "item"
+				}
+				{
+					id: "0D1DA3A70D577088"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quests23.subtitle}"
+			tasks: [
+				{
+					id: "7CBCB6F326179DBC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+					title: "{ftbquests.chapter.food.quests23.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quests23.title}"
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	title: "{ftbquests.chapter.food.title}"
+}

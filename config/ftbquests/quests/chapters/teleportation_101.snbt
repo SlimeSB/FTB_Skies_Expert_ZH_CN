@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "teleportation_101"
+	group: "265AFEC900FA3E96"
+	icon: "mekanism:teleportation_core"
+	id: "2C039AE1CFBA67A2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "{ftbquests.chapter.teleportation_101.title}"
+}

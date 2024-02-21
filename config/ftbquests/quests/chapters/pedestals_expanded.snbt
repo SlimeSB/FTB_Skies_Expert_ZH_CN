@@ -1,0 +1,1119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pedestals_expanded"
+	group: "7B39F21A0D5BB568"
+	icon: {
+		Count: 1b
+		id: "pedestals:block_pedestal"
+		tag: { }
+	}
+	id: "23D7D83EBA8C36CE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/pedestals.png"
+			rotation: 0.0d
+			width: 6.228915662650603d
+			x: -11.5d
+			y: -6.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["01002FFD946747F1"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests0.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests0.description2}"
+				"{ftbquests.chapter.pedestals_expanded.quests0.description3}"
+				"{ftbquests.chapter.pedestals_expanded.quests0.description4}"
+				"{ftbquests.chapter.pedestals_expanded.quests0.description5}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests0.description7}"
+				"{ftbquests.chapter.pedestals_expanded.quests0.description8}"
+				"{ftbquests.chapter.pedestals_expanded.quests0.description9}"
+				"{ftbquests.chapter.pedestals_expanded.quests0.description10}"
+			]
+			id: "0CE749CCB2FC2268"
+			min_width: 275
+			optional: true
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests0.subtitle}"
+			tasks: [
+				{
+					id: "5B9609A489CD8DFC"
+					item: {
+						Count: 1b
+						id: "pedestals:filter_base"
+						tag: {
+							mowlib_enum_itemtransfermode: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests0.title}"
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6ADC646E420C6613"]
+			description: ["{ftbquests.chapter.pedestals_expanded.quests1.description}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "pedestals:upgrade_pedestal_bottler"
+				tag: { }
+			}
+			id: "4CE68F8EAF67BC49"
+			min_required_tasks: 1
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests1.subtitle}"
+			tasks: [
+				{
+					id: "6FF01376F85E20E5"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_pump"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_drain"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_bottler"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_unbottler"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_fluidconverter"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests1.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6ADC646E420C6613"]
+			description: ["{ftbquests.chapter.pedestals_expanded.quests2.description}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "pedestals:upgrade_pedestal_breaker"
+				tag: { }
+			}
+			id: "7F130283147EF356"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "24448B6A536AA237"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_placer"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_breaker"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_filler"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_quarry"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests2.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6ADC646E420C6613"]
+			description: ["{ftbquests.chapter.pedestals_expanded.quests3.description}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "pedestals:upgrade_pedestal_fertilizer"
+				tag: { }
+			}
+			id: "7F5A96830BE7A652"
+			min_required_tasks: 1
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests3.subtitle}"
+			tasks: [
+				{
+					id: "78B37AC204E1DCE5"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_fertilizer"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_planter"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_harvester"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_chopper"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests3.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests3.title}"
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ADC646E420C6613"]
+			description: ["{ftbquests.chapter.pedestals_expanded.quests4.description}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "pedestals:upgrade_pedestal_breeder"
+				tag: { }
+			}
+			id: "7A0A040AC7E1EB64"
+			min_required_tasks: 1
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests4.subtitle}"
+			tasks: [
+				{
+					id: "2290B7790E82B210"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_breeder"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_sheerer"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_milker"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_hiveharvester"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests4.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests4.title}"
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6ADC646E420C6613"]
+			description: ["{ftbquests.chapter.pedestals_expanded.quests5.description}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "pedestals:upgrade_pedestal_attacker"
+				tag: { }
+			}
+			id: "7B51359966DAAEC3"
+			min_required_tasks: 1
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests5.subtitle}"
+			tasks: [
+				{
+					id: "7381C6EB0725BEDD"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_attacker"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_fan"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_recycler"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests5.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests5.title}"
+			x: -15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0CE749CCB2FC2268"]
+			description: ["{ftbquests.chapter.pedestals_expanded.quests6.description}"]
+			icon: {
+				Count: 1b
+				id: "pedestals:filter_item"
+				tag: {
+					mowlib_enum_itemtransfermode: 0
+				}
+			}
+			id: "5D73AC7B7B5E3E7E"
+			min_required_tasks: 1
+			optional: true
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests6.subtitle}"
+			tasks: [
+				{
+					id: "4DD099D2FA33BDDD"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:filter_item"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "pedestals:filter_itemstack"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "pedestals:filter_blocksonclickfuzzy"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "pedestals:filter_blocksonclickexact"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "pedestals:filter_mod"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "pedestals:filter_food"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests6.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0CE749CCB2FC2268"]
+			description: ["{ftbquests.chapter.pedestals_expanded.quests7.description}"]
+			icon: {
+				Count: 1b
+				id: "pedestals:filter_enchanted"
+				tag: {
+					mowlib_enum_itemtransfermode: 0
+				}
+			}
+			id: "609218935E164A98"
+			min_required_tasks: 1
+			optional: true
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests7.subtitle}"
+			tasks: [
+				{
+					id: "612C20223BC0D5A4"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:filter_enchanted"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "pedestals:filter_enchantedcount"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "pedestals:filter_enchantedfuzzy"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "pedestals:filter_enchantedexact"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests7.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0CE749CCB2FC2268"]
+			description: ["{ftbquests.chapter.pedestals_expanded.quests8.description}"]
+			icon: {
+				Count: 1b
+				id: "pedestals:filter_tag"
+				tag: {
+					mowlib_enum_itemtransfermode: 0
+				}
+			}
+			id: "6ED68F69E3BA1E15"
+			min_required_tasks: 1
+			optional: true
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests8.subtitle}"
+			tasks: [
+				{
+					id: "2AF6E3E1D987219C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:filter_tag"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "pedestals:filter_tag_machine"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "pedestals:filter_durability"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "pedestals:filter_restricted"
+									tag: {
+										mowlib_enum_itemtransfermode: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests8.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DB5C5BD33A7DA45"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests9.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests9.description2}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests9.description4}"
+				"{ftbquests.chapter.pedestals_expanded.quests9.description5}"
+				"{ftbquests.chapter.pedestals_expanded.quests9.description6}"
+				"{ftbquests.chapter.pedestals_expanded.quests9.description7}"
+				"{ftbquests.chapter.pedestals_expanded.quests9.description8}"
+			]
+			id: "4271AAA312F5B67F"
+			min_width: 245
+			rewards: [
+				{
+					id: "78F342F87BBFDD27"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "09D5BFD7381E885D"
+					item: "pedestals:augment_pedestal_t1_range"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests9.subtitle}"
+			tasks: [
+				{
+					id: "3ED7A4AE33C8790D"
+					item: {
+						Count: 1b
+						id: "pedestals:block_pedestal"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests9.title}"
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4271AAA312F5B67F"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests10.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests10.description2}"
+			]
+			id: "69090AEE3CDAD06B"
+			rewards: [
+				{
+					id: "0079447A3A31FCBB"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 9s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E80E7FAB2D59E8D"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests10.subtitle}"
+			tasks: [
+				{
+					id: "7FFA4900F2A98792"
+					item: "pedestals:tool_upgradetool"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests11.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests11.description2}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests11.description4}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests11.description6}"
+			]
+			id: "0DB5C5BD33A7DA45"
+			min_width: 275
+			rewards: [
+				{
+					id: "611856E2D95CAA6C"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests11.subtitle}"
+			tasks: [
+				{
+					id: "336685E572BBF206"
+					item: "pedestals:tool_linkingtool"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests11.title}"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["69090AEE3CDAD06B"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests12.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests12.description2}"
+			]
+			id: "6ADC646E420C6613"
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests12.subtitle}"
+			tasks: [
+				{
+					id: "7B39CD9722644A6E"
+					item: "pedestals:upgrade_pedestal_base"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests12.title}"
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4271AAA312F5B67F"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests13.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests13.description2}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests13.description4}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests13.description6}"
+			]
+			id: "1809229EED1EE1FC"
+			min_width: 250
+			optional: true
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests13.subtitle}"
+			tasks: [
+				{
+					id: "3645DB5E2F0C01C8"
+					item: {
+						Count: 1b
+						id: "mowlib:applicator"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests13.title}"
+			x: -9.5d
+			y: -1.125d
+		}
+		{
+			dependencies: ["4271AAA312F5B67F"]
+			description: ["{ftbquests.chapter.pedestals_expanded.quests14.description}"]
+			id: "4BF29D68554F9E43"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "623216CFC5008708"
+					item: "cyclic:spark"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			tasks: [
+				{
+					id: "6559C2201C9CE980"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests14.title}"
+			x: -10.0d
+			y: -0.7d
+		}
+		{
+			dependencies: ["4271AAA312F5B67F"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests15.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests15.description2}"
+			]
+			disable_toast: true
+			icon: "pedestals:augment_pedestal_roundrobin"
+			id: "40E44545B799739B"
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests15.subtitle}"
+			tasks: [
+				{
+					disable_toast: true
+					id: "07DC095973AB7FB4"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:augment_pedestal_roundrobin"
+								}
+								{
+									Count: 1b
+									id: "pedestals:augment_pedestal_renderdiffuser"
+								}
+								{
+									Count: 1b
+									id: "pedestals:augment_pedestal_nocollide"
+								}
+								{
+									Count: 1b
+									id: "pedestals:augment_pedestal_t1_capacity"
+								}
+								{
+									Count: 1b
+									id: "pedestals:augment_pedestal_t1_storage"
+								}
+								{
+									Count: 1b
+									id: "pedestals:augment_pedestal_t1_speed"
+								}
+								{
+									Count: 1b
+									id: "pedestals:augment_pedestal_t1_range"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests15.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests15.title}"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40E44545B799739B"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests16.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests16.description2}"
+			]
+			id: "2EB6C49F5B399C12"
+			optional: true
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests16.subtitle}"
+			tasks: [
+				{
+					id: "0AF5F34D8C460DAE"
+					item: "pedestals:augment_pedestal_roundrobin"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40E44545B799739B"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests17.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests17.description2}"
+			]
+			id: "573DF405DF4F0B0E"
+			optional: true
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests17.subtitle}"
+			tasks: [
+				{
+					id: "42958BD49D870ECB"
+					item: "pedestals:augment_pedestal_renderdiffuser"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40E44545B799739B"]
+			description: ["{ftbquests.chapter.pedestals_expanded.quests18.description}"]
+			id: "176D92C1E6729A76"
+			optional: true
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests18.subtitle}"
+			tasks: [
+				{
+					id: "3F86FD102C5A5CCD"
+					item: "pedestals:augment_pedestal_nocollide"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40E44545B799739B"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests19.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests19.description2}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests19.description4}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests19.description6}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests19.description8}"
+			]
+			icon: "pedestals:augment_pedestal_t1_speed"
+			id: "0D7BCE7967B3B4ED"
+			min_required_tasks: 1
+			min_width: 250
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests19.subtitle}"
+			tasks: [
+				{
+					id: "221B7C2789EA9FBC"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:augment_pedestal_t1_capacity"
+								}
+								{
+									Count: 1b
+									id: "pedestals:augment_pedestal_t1_storage"
+								}
+								{
+									Count: 1b
+									id: "pedestals:augment_pedestal_t1_speed"
+								}
+								{
+									Count: 1b
+									id: "pedestals:augment_pedestal_t1_range"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests19.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6ADC646E420C6613"
+				"0D7BCE7967B3B4ED"
+			]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests20.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests20.description2}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests20.description4}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests20.description6}"
+			]
+			icon: {
+				Count: 1b
+				id: "pedestals:upgrade_pedestal_modifications"
+				tag: { }
+			}
+			id: "22BA04E02B5A4409"
+			min_width: 250
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests20.subtitle}"
+			tasks: [
+				{
+					id: "74FDD943E158C064"
+					item: {
+						Count: 1b
+						id: "pedestals:upgrade_pedestal_modifications"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4271AAA312F5B67F"]
+			description: ["{ftbquests.chapter.pedestals_expanded.quests21.description}"]
+			id: "24553A462A771A3C"
+			optional: true
+			size: 0.75d
+			tasks: [
+				{
+					id: "6BCCDBBA9AFA18EC"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests21.title}"
+			x: -10.5d
+			y: -1.125d
+		}
+		{
+			dependencies: ["5C16FFE523165B04"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests22.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests22.description2}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests22.description4}"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:wooden_shovel"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}
+					]
+				}
+			}
+			id: "68C2BCE93F5315A9"
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests22.subtitle}"
+			tasks: [
+				{
+					id: "7743EAF384E6C284"
+					title: "{ftbquests.chapter.pedestals_expanded.quests22.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests22.title}"
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6ADC646E420C6613"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests23.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests23.description2}"
+			]
+			hide_details_until_startable: true
+			icon: {
+				Count: 1b
+				id: "pedestals:upgrade_pedestal_import"
+				tag: { }
+			}
+			id: "0946F2BD2768C422"
+			min_required_tasks: 1
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests23.subtitle}"
+			tasks: [
+				{
+					id: "4D48CD15EE7EF30A"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_import"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_export"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_magnet"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_dropper"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "pedestals:upgrade_pedestal_void"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests23.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ADC646E420C6613"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests24.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests24.description2}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests24.description4}"
+			]
+			hide_dependency_lines: true
+			id: "5C16FFE523165B04"
+			min_width: 250
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests24.subtitle}"
+			tasks: [
+				{
+					id: "364D2EACBB46B89C"
+					item: {
+						Count: 1b
+						id: "pedestals:upgrade_pedestal_cobblegen"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests24.title}"
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69090AEE3CDAD06B"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests25.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests25.description2}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests25.description4}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests25.description6}"
+			]
+			icon: "pedestals:tool_filtertool"
+			id: "01002FFD946747F1"
+			optional: true
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests25.subtitle}"
+			tasks: [
+				{
+					id: "208196524FC27CF2"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pedestals:tool_tagtool"
+								}
+								{
+									Count: 1b
+									id: "pedestals:tool_toolswapper"
+								}
+								{
+									Count: 1b
+									id: "pedestals:tool_filtertool"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.pedestals_expanded.quests25.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6ADC646E420C6613"]
+			description: [
+				"{ftbquests.chapter.pedestals_expanded.quests26.description0}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests26.description2}"
+				""
+				"{ftbquests.chapter.pedestals_expanded.quests26.description4}"
+				"{ftbquests.chapter.pedestals_expanded.quests26.description5}"
+				"{ftbquests.chapter.pedestals_expanded.quests26.description6}"
+			]
+			icon: "minecraft:writable_book"
+			id: "1F39318F7DA23562"
+			min_width: 250
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.pedestals_expanded.quests26.subtitle}"
+			tasks: [
+				{
+					id: "4A627B28B3AF9922"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.pedestals_expanded.quests26.title}"
+			x: -11.7d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.pedestals_expanded.title}"
+}

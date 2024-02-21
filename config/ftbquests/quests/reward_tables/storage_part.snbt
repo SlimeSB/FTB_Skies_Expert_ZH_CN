@@ -1,0 +1,15 @@
+{
+	icon: "ae2:cell_component_1k"
+	id: "44B64E9C92FA43AF"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: "ae2:cell_component_1k"
+		}
+		{
+			item: "refinedstorage:1k_storage_part"
+		}
+	]
+	title: "{ftbquests.reward_tables.storage_part.title}"
+}

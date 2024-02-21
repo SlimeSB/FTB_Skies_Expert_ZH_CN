@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether_delights"
+	group: "5A45E622872EAC45"
+	icon: {
+		Count: 1b
+		id: "minecraft:elytra"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1AA9D32D3A6F9ECE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/skyhigh.png"
+			rotation: 0.0d
+			width: 10.626506024096386d
+			x: -1.5d
+			y: -5.5d
+		}
+	]
+	order_index: 0
+	quest_links: [
+		{
+			id: "00D42E0F81D5E554"
+			linked_quest: "297DE3ACF3E0B994"
+			x: -3.0d
+			y: -2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["64790EB9F3B55F27"]
+			description: [
+				"{ftbquests.chapter.nether_delights.quests0.description0}"
+				""
+				"{ftbquests.chapter.nether_delights.quests0.description2}"
+				""
+				"{ftbquests.chapter.nether_delights.quests0.description4}"
+				""
+				"{ftbquests.chapter.nether_delights.quests0.description6}"
+			]
+			icon: "easy_villagers:villager"
+			id: "0DF3159A5238A6F4"
+			min_width: 250
+			subtitle: "{ftbquests.chapter.nether_delights.quests0.subtitle}"
+			tasks: [
+				{
+					icon: "easy_villagers:villager"
+					id: "6F056A12C6EC97BF"
+					structure: "skyvillages:skyvillage"
+					title: "{ftbquests.chapter.nether_delights.quests0.tasks0.title}"
+					type: "structure"
+				}
+			]
+			title: "{ftbquests.chapter.nether_delights.quests0.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["297DE3ACF3E0B994"]
+			description: [
+				"{ftbquests.chapter.nether_delights.quests1.description0}"
+				""
+				"{ftbquests.chapter.nether_delights.quests1.description2}"
+			]
+			id: "64790EB9F3B55F27"
+			subtitle: "{ftbquests.chapter.nether_delights.quests1.subtitle}"
+			tasks: [
+				{
+					id: "191F0492EDAFE007"
+					item: "ftbskies:eye_of_legend"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64790EB9F3B55F27"]
+			description: [
+				"{ftbquests.chapter.nether_delights.quests2.description0}"
+				""
+				"{ftbquests.chapter.nether_delights.quests2.description2}"
+			]
+			id: "3815E3655E9B9330"
+			subtitle: "{ftbquests.chapter.nether_delights.quests2.subtitle}"
+			tasks: [
+				{
+					id: "6EADFB4A73F859CA"
+					item: "ftbskies:eye_of_legend_end"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64790EB9F3B55F27"]
+			description: ["{ftbquests.chapter.nether_delights.quests3.description}"]
+			id: "3E26C522258D890F"
+			subtitle: "{ftbquests.chapter.nether_delights.quests3.subtitle}"
+			tasks: [
+				{
+					id: "6D3C5169189B9C2E"
+					item: "ftbskies:eye_of_legend_nether"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E26C522258D890F"]
+			description: [
+				"{ftbquests.chapter.nether_delights.quests4.description0}"
+				""
+				"{ftbquests.chapter.nether_delights.quests4.description2}"
+			]
+			icon: "minecraft:warped_nylium"
+			id: "6B9DECAF16E9993C"
+			min_required_tasks: 1
+			subtitle: "{ftbquests.chapter.nether_delights.quests4.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:crimson_nylium"
+					id: "4D0BF3685D3ACB17"
+					structure: "skyvillages:crimson_sky_village"
+					title: "{ftbquests.chapter.nether_delights.quests4.tasks0.title}"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:warped_nylium"
+					id: "6675F42D96F3C54C"
+					structure: "skyvillages:warped_sky_village"
+					title: "{ftbquests.chapter.nether_delights.quests4.tasks1.title}"
+					type: "structure"
+				}
+			]
+			title: "{ftbquests.chapter.nether_delights.quests4.title}"
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	title: "{ftbquests.chapter.nether_delights.title}"
+}

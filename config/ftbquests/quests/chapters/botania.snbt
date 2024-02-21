@@ -1,0 +1,479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "0B729A29DA0A889D"
+	icon: {
+		Count: 1b
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "4FA6ADCA7857A92F"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/botania.png"
+			rotation: 0.0d
+			width: 4.626506024096385d
+			x: 3.0d
+			y: -4.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["250395A24A30B9A3"]
+			description: [
+				"{ftbquests.chapter.botania.quests0.description0}"
+				""
+				"{ftbquests.chapter.botania.quests0.description2}"
+			]
+			icon: "botania:kekimurus"
+			id: "327CFF7413DE3E43"
+			rewards: [
+				{
+					id: "4284286DB1AAC3FC"
+					item: "botania:white_floating_flower"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6A43322C77A123DE"
+					item: "botania:overgrowth_seed"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quests0.subtitle}"
+			tasks: [
+				{
+					id: "7B05DFDA77AE0C38"
+					item: "botania:kekimurus"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quests0.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.botania.quests1.description0}"
+				""
+				"{ftbquests.chapter.botania.quests1.description2}"
+			]
+			icon: "minecraft:poppy"
+			id: "7F0B4401049489A4"
+			rewards: [
+				{
+					id: "21E7CE853CD293F4"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					id: "42BF82927A4E6058"
+					item: "forcecraft:fortune_cookie"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quests1.subtitle}"
+			tasks: [
+				{
+					id: "3523FEE80796E52E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
+					title: "{ftbquests.chapter.botania.quests1.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quests1.title}"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F0B4401049489A4"]
+			description: ["{ftbquests.chapter.botania.quests2.description}"]
+			icon: "botania:magenta_shiny_flower"
+			id: "1BEC67E79CAC09FD"
+			rewards: [
+				{
+					count: 8
+					id: "150AFCF587C2A97E"
+					item: "botania:fertilizer"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "592CC1614E3F56FF"
+					item: "botania:obedience_stick"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quests2.subtitle}"
+			tasks: [
+				{
+					id: "739324C39B3A9065"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:mystical_flowers"
+						}
+					}
+					title: "{ftbquests.chapter.botania.quests2.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quests2.title}"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BEC67E79CAC09FD"]
+			description: ["{ftbquests.chapter.botania.quests3.description}"]
+			id: "250395A24A30B9A3"
+			rewards: [
+				{
+					id: "44EDADE277A12A24"
+					item: "botania:tiny_potato"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1F2EAABEB48CE283"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D9450112AE1F596"
+					item: "botania:white_mushroom"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quests3.subtitle}"
+			tasks: [
+				{
+					id: "73ED21781B241596"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["250395A24A30B9A3"]
+			description: [
+				"{ftbquests.chapter.botania.quests4.description0}"
+				""
+				"{ftbquests.chapter.botania.quests4.description2}"
+				""
+				"{ftbquests.chapter.botania.quests4.description4}"
+			]
+			id: "5861E8916B7071A6"
+			rewards: [
+				{
+					count: 16
+					id: "4CB711BFB6F0E3AB"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "10F7D1CE4B6F9B03"
+					item: "minecraft:oak_wood"
+					type: "item"
+				}
+				{
+					id: "38B65F29288DD6BB"
+					item: "botania:floating_pure_daisy"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quests4.subtitle}"
+			tasks: [
+				{
+					id: "63FDB1C54DBD6021"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5861E8916B7071A6"]
+			description: [
+				"{ftbquests.chapter.botania.quests5.description0}"
+				""
+				"{ftbquests.chapter.botania.quests5.description2}"
+				""
+				"{ftbquests.chapter.botania.quests5.description4}"
+			]
+			icon: "botania:mana_pool"
+			id: "40D4576678C9A2C3"
+			rewards: [
+				{
+					id: "1654E36E8F5599FC"
+					item: "botania:mana_distributor"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quests5.subtitle}"
+			tasks: [
+				{
+					id: "5F4600AA78CCFDB2"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "211524E177A7CFDE"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5861E8916B7071A6"
+				"4B2D10549BFDBAA8"
+			]
+			description: [
+				"{ftbquests.chapter.botania.quests6.description0}"
+				""
+				"{ftbquests.chapter.botania.quests6.description2}"
+			]
+			id: "1DF05CB37EFE72FE"
+			rewards: [
+				{
+					id: "2327E1D34DA2F8E8"
+					item: "botania:monocle"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quests6.subtitle}"
+			tasks: [
+				{
+					id: "7BB1D8684147562D"
+					item: {
+						Count: 1b
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quests6.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40D4576678C9A2C3"]
+			description: ["{ftbquests.chapter.botania.quests7.description}"]
+			id: "060C7D964923D061"
+			subtitle: "{ftbquests.chapter.botania.quests7.subtitle}"
+			tasks: [
+				{
+					id: "0BAB7BCCD8ECB05E"
+					item: "botania:alchemy_catalyst"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40D4576678C9A2C3"]
+			description: [
+				"{ftbquests.chapter.botania.quests8.description0}"
+				""
+				"{ftbquests.chapter.botania.quests8.description2}"
+				""
+				"{ftbquests.chapter.botania.quests8.description4}"
+			]
+			id: "064CD01B3905E95F"
+			subtitle: "{ftbquests.chapter.botania.quests8.subtitle}"
+			tasks: [
+				{
+					id: "2A8D010D114BEFAA"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["064CD01B3905E95F"]
+			description: [
+				"{ftbquests.chapter.botania.quests9.description0}"
+				""
+				"{ftbquests.chapter.botania.quests9.description2}"
+				""
+				"{ftbquests.chapter.botania.quests9.description4}"
+			]
+			id: "5870DC18E8715BA0"
+			rewards: [
+				{
+					id: "623BFFC437618375"
+					item: "botania:spark"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quests9.subtitle}"
+			tasks: [
+				{
+					id: "5575B5446793EDAD"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5870DC18E8715BA0"]
+			description: [
+				"{ftbquests.chapter.botania.quests10.description0}"
+				""
+				"{ftbquests.chapter.botania.quests10.description2}"
+			]
+			icon: "botania:alfheim_portal"
+			id: "33FF06F93A9B4510"
+			rewards: [
+				{
+					count: 2
+					id: "0ED08D8AD2ABC26D"
+					item: "botania:spark"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7583FBCA8C039A36"
+					item: "botania:spark_upgrade_dominant"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quests10.subtitle}"
+			tasks: [
+				{
+					count: 2L
+					id: "2C20D561B00EB30B"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					id: "67A8F65F24A706CC"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "123DAC1F502DD299"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1124BBAE1A2092FE"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "54784421BD165F66"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quests10.title}"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33FF06F93A9B4510"]
+			description: [
+				"{ftbquests.chapter.botania.quests11.description0}"
+				""
+				"{ftbquests.chapter.botania.quests11.description2}"
+			]
+			icon: "botania:gaia_pylon"
+			id: "7E0CB317B1D1B359"
+			rewards: [
+				{
+					count: 6
+					id: "1C5103DC3623FF06"
+					item: "botania:life_essence"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.botania.quests11.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "46086F5C96CA4191"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "1462911663A28BE8"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					id: "69DBF201B977760F"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quests11.title}"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40D4576678C9A2C3"]
+			id: "31845EC3555CA64E"
+			tasks: [
+				{
+					id: "013AD504468F846D"
+					item: "integrateddynamics:menril_sapling"
+					type: "item"
+				}
+				{
+					id: "54D58948B61D0012"
+					item: "integrateddynamics:crystalized_menril_chunk"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.botania.quests12.title}"
+			x: 3.0d
+			y: -0.5d
+		}
+	]
+	title: "{ftbquests.chapter.botania.title}"
+}

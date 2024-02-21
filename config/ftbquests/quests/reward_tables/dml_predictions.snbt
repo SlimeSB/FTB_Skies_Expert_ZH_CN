@@ -1,0 +1,195 @@
+{
+	id: "08076CED569AB495"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:magma_cube"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:blaze"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:witch"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:spider"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:zombified_piglin"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:ghast"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:skeleton"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:wither_skeleton"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:phantom"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:guardian"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:enderman"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:evoker"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:wither"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:zombie"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:ender_dragon"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:vindicator"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hostilenetworks:prediction"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:creeper"
+					}
+				}
+			}
+		}
+	]
+	title: "{ftbquests.reward_tables.dml_predictions.title}"
+}

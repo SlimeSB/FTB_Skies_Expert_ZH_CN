@@ -1,0 +1,813 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "everything_from_nothing"
+	group: "5126BB8E07FFE142"
+	icon: "ftbsba:diamond_auto_hammer"
+	id: "765CE56E943A0E79"
+	images: [
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 0.15d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 0.15d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 0.15d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/materials.png"
+			rotation: 0.0d
+			width: 5.858823529411764d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/tiers.png"
+			rotation: 0.0d
+			width: 3.0823529411764707d
+			x: -7.5d
+			y: 1.0d
+		}
+	]
+	order_index: 7
+	quest_links: [
+		{
+			id: "56595558C50A45DE"
+			linked_quest: "44A4C4070357D2BA"
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.everything_from_nothing.quests0.description0}"
+				""
+				"{ftbquests.chapter.everything_from_nothing.quests0.description2}"
+				""
+				"{ftbquests.chapter.everything_from_nothing.quests0.description4}"
+			]
+			icon: "ftbsba:iron_auto_hammer"
+			id: "0701515417336CCE"
+			min_width: 250
+			rewards: [
+				{
+					count: 5
+					id: "33ABC9AF92CA3BEF"
+					item: "pedestals:augment_pedestal_t1_speed"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "76D735C477F1DFF4"
+					item: "ftbsba:iron_auto_hammer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67BDC32B059CB394"
+					item: "industrialforegoing:item_transporter_type"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.everything_from_nothing.quests0.subtitle}"
+			tasks: [
+				{
+					id: "4099DF98A97BBA0C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ftbsba:netherite_auto_hammer"
+								}
+								{
+									Count: 1b
+									id: "ftbsba:iron_auto_hammer"
+								}
+								{
+									Count: 1b
+									id: "ftbsba:diamond_auto_hammer"
+								}
+								{
+									Count: 1b
+									id: "ftbsba:gold_auto_hammer"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests0.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests0.title}"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DF3A9F48D916AF0"]
+			description: ["{ftbquests.chapter.everything_from_nothing.quests1.description}"]
+			id: "2A635BEBC12FF06E"
+			rewards: [
+				{
+					id: "0C5B6E4AE7638D62"
+					item: "farmersdelight:roast_chicken"
+					type: "item"
+				}
+				{
+					id: "04FD0632B5582C6C"
+					item: "minecraft:budding_amethyst"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "06B840B3E5D15352"
+					item: {
+						Count: 1b
+						id: "ftbskies:desh_mesh"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40D4576678C9A2C3"]
+			description: [
+				"{ftbquests.chapter.everything_from_nothing.quests2.description0}"
+				""
+				"{ftbquests.chapter.everything_from_nothing.quests2.description2}"
+			]
+			id: "1C5F24FBAE411D2A"
+			rewards: [
+				{
+					id: "3C3F21F76D0902E7"
+					item: "ars_nouveau:source_berry_pie"
+					type: "item"
+				}
+				{
+					id: "5840714FC7454F70"
+					item: "botania:blacker_lotus"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "1AA40C92707454C1"
+					ignore_reward_blocking: true
+					stage: "mana_steel_mesh"
+					type: "gamestage"
+				}
+			]
+			subtitle: "{ftbquests.chapter.everything_from_nothing.quests2.subtitle}"
+			tasks: [
+				{
+					id: "3FA893E926DFA5E5"
+					item: {
+						Count: 1b
+						id: "ftbskies:mana_steel_mesh"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			description: ["{ftbquests.chapter.everything_from_nothing.quests3.description}"]
+			id: "6F86D0F68AF695C6"
+			rewards: [
+				{
+					count: 16
+					id: "6E52C61D72CC938F"
+					item: "ftbskies:crushed_end_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C3996700474C897"
+					item: "ftbskies:crushed_end_stone"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.everything_from_nothing.quests4.description0}"
+				""
+				"{ftbquests.chapter.everything_from_nothing.quests4.description2}"
+			]
+			id: "0E40F6876416E723"
+			rewards: [
+				{
+					count: 16
+					id: "3EF5A5BEA01ED7D9"
+					item: "ftbskies:crushed_netherrack"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0F3F14112F69EC94"
+					item: "ftbskies:crushed_netherrack"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0E40F6876416E723"]
+			description: ["{ftbquests.chapter.everything_from_nothing.quests5.description}"]
+			hide_dependency_lines: true
+			icon: "occultism:raw_iesnium"
+			id: "484B1DC063CAD480"
+			tasks: [
+				{
+					id: "74B9876CAAFE760A"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "occultism:raw_iesnium"
+								}
+								{
+									Count: 1b
+									id: "occultism:otherworld_sapling"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:warped_nylium_spores"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:crimson_nylium_spores"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests5.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests5.title}"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6F86D0F68AF695C6"
+				"1C5F24FBAE411D2A"
+			]
+			description: ["{ftbquests.chapter.everything_from_nothing.quests6.description}"]
+			hide_dependency_lines: true
+			id: "01237FE502C591FA"
+			tasks: [
+				{
+					id: "1DAC5DE6F6CC8AC4"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests6.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6F86D0F68AF695C6"
+				"2A635BEBC12FF06E"
+			]
+			description: ["{ftbquests.chapter.everything_from_nothing.quests7.description}"]
+			hide_dependency_lines: true
+			icon: "rftoolsbase:dimensionalshard"
+			id: "62DC20E267EC7C3C"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1AA13E7605E90C07"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "30C2DF89386A9232"
+					item: "rftoolsbase:dimensionalshard"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests7.title}"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: ["{ftbquests.chapter.everything_from_nothing.quests8.description}"]
+			id: "1B941662E3F1C481"
+			tasks: [
+				{
+					id: "214BD4D63F52EAA1"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests8.title}"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B941662E3F1C481"]
+			description: [
+				"{ftbquests.chapter.everything_from_nothing.quests9.description0}"
+				""
+				"{ftbquests.chapter.everything_from_nothing.quests9.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:prismarine_shard"
+			id: "1DBCB560F895FF50"
+			tasks: [
+				{
+					disable_toast: true
+					id: "3E0BE93F9D207283"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:slime_ball"
+								}
+								{
+									Count: 1b
+									id: "mekanism:salt"
+								}
+								{
+									Count: 1b
+									id: "minecraft:clay_ball"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sea_pickle"
+								}
+								{
+									Count: 1b
+									id: "minecraft:kelp"
+								}
+								{
+									Count: 1b
+									id: "minecraft:seagrass"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests9.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "3B0F7C554B999998"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:prismarine_shard"
+								}
+								{
+									Count: 1b
+									id: "minecraft:prismarine_crystals"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests9.tasks1.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests9.title}"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B941662E3F1C481"]
+			description: ["{ftbquests.chapter.everything_from_nothing.quests10.description}"]
+			hide_dependency_lines: true
+			icon: "minecraft:clay_ball"
+			id: "420A850AA13E6578"
+			tasks: [
+				{
+					id: "7320308875865FF7"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:slime_ball"
+								}
+								{
+									Count: 1b
+									id: "mekanism:salt"
+								}
+								{
+									Count: 1b
+									id: "minecraft:clay_ball"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sea_pickle"
+								}
+								{
+									Count: 1b
+									id: "minecraft:kelp"
+								}
+								{
+									Count: 1b
+									id: "minecraft:seagrass"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests10.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests10.title}"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0E40F6876416E723"
+				"2A635BEBC12FF06E"
+			]
+			description: ["{ftbquests.chapter.everything_from_nothing.quests11.description}"]
+			hide_dependency_lines: true
+			icon: "minecraft:netherite_scrap"
+			id: "2F0973FB648704AF"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1A5AA2E854C47B41"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "occultism:raw_iesnium"
+								}
+								{
+									Count: 1b
+									id: "occultism:otherworld_sapling"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:warped_nylium_spores"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:crimson_nylium_spores"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests11.tasks0.title}"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "50489AB87896AEE3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "elementalcraft:inert_crystal"
+								}
+								{
+									Count: 1b
+									id: "forcecraft:force_gem"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:red_archwood_sapling"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests11.tasks1.title}"
+					type: "item"
+				}
+				{
+					id: "452ACB28AFB1D73E"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests11.title}"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1B941662E3F1C481"
+				"2A635BEBC12FF06E"
+			]
+			description: ["{ftbquests.chapter.everything_from_nothing.quests12.description}"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:prismarine_shard"
+			id: "2FF2D7CDEB332E57"
+			tasks: [
+				{
+					disable_toast: true
+					id: "442240AE7EFC081D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:slime_ball"
+								}
+								{
+									Count: 1b
+									id: "mekanism:salt"
+								}
+								{
+									Count: 1b
+									id: "minecraft:clay_ball"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sea_pickle"
+								}
+								{
+									Count: 1b
+									id: "minecraft:kelp"
+								}
+								{
+									Count: 1b
+									id: "minecraft:seagrass"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests12.tasks0.title}"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3A6C1F667E7AF3D6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:prismarine_shard"
+								}
+								{
+									Count: 1b
+									id: "minecraft:prismarine_crystals"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests12.tasks1.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests12.title}"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			description: ["{ftbquests.chapter.everything_from_nothing.quests13.description}"]
+			hide_dependency_lines: true
+			icon: "minecraft:quartz"
+			id: "09BFE8C08415DAD8"
+			tasks: [
+				{
+					id: "5F56DC9A18987BD4"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:quartz"
+								}
+								{
+									Count: 1b
+									id: "minecraft:nether_wart"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests13.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests13.title}"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C5F24FBAE411D2A"]
+			description: ["{ftbquests.chapter.everything_from_nothing.quests14.description}"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:quartz"
+			id: "3080C511A3122ED1"
+			tasks: [
+				{
+					disable_toast: true
+					id: "4CD97519754D9282"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:quartz"
+								}
+								{
+									Count: 1b
+									id: "minecraft:nether_wart"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests14.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests14.title}"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A635BEBC12FF06E"]
+			description: ["{ftbquests.chapter.everything_from_nothing.quests15.description}"]
+			hide_dependency_lines: true
+			icon: "minecraft:ghast_tear"
+			id: "66BD17836AD23157"
+			tasks: [
+				{
+					disable_toast: true
+					id: "543927D092042307"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:quartz"
+								}
+								{
+									Count: 1b
+									id: "minecraft:nether_wart"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.everything_from_nothing.quests15.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "742D78334B5E06C9"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.everything_from_nothing.quests15.title}"
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.everything_from_nothing.subtitle}"]
+	title: "{ftbquests.chapter.everything_from_nothing.title}"
+}

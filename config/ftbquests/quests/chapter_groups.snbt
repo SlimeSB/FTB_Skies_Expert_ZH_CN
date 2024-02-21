@@ -1,0 +1,40 @@
+{
+	chapter_groups: [
+		{
+			id: "5126BB8E07FFE142"
+			title: "{ftbquests.chapter_groups.chapter_groups.title0}"
+		}
+		{
+			id: "5A42857CD4E60814"
+			title: "{ftbquests.chapter_groups.chapter_groups.title1}"
+		}
+		{
+			id: "7B39F21A0D5BB568"
+			title: "{ftbquests.chapter_groups.chapter_groups.title2}"
+		}
+		{
+			id: "0B729A29DA0A889D"
+			title: "{ftbquests.chapter_groups.chapter_groups.title3}"
+		}
+		{
+			id: "43731E7F4BACB580"
+			title: "{ftbquests.chapter_groups.chapter_groups.title4}"
+		}
+		{
+			id: "265AFEC900FA3E96"
+			title: "{ftbquests.chapter_groups.chapter_groups.title5}"
+		}
+		{
+			id: "0EEBC99BAFECE694"
+			title: "{ftbquests.chapter_groups.chapter_groups.title6}"
+		}
+		{
+			id: "5A45E622872EAC45"
+			title: "{ftbquests.chapter_groups.chapter_groups.title7}"
+		}
+		{
+			id: "0069DEC26FDAB775"
+			title: "{ftbquests.chapter_groups.chapter_groups.title8}"
+		}
+	]
+}

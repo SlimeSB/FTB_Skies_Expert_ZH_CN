@@ -1,0 +1,929 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "43731E7F4BACB580"
+	icon: "mekanism:alloy_atomic"
+	id: "4F6ED2800B9E5204"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/mekanism.png"
+			rotation: 0.0d
+			width: 5.614457831325301d
+			x: -1.5d
+			y: -4.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A0DB1DF9DA80161"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests0.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests0.description2}"
+			]
+			icon: "mekanismgenerators:fission_fuel_assembly"
+			id: "7A12F045C037533B"
+			min_width: 250
+			subtitle: "{ftbquests.chapter.mekanism.quests0.subtitle}"
+			tasks: [
+				{
+					id: "15AF09B5380DCC9B"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanismgenerators:fission_reactor_casing"
+								}
+								{
+									Count: 1b
+									id: "mekanismgenerators:reactor_glass"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.mekanism.quests0.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "7BBFB85C499E3FE4"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "585FAD40DD6B4185"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					id: "475A850153E02408"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mekanism.quests0.title}"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A12F045C037533B"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests1.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests1.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quests1.description4}"
+				""
+				"{ftbquests.chapter.mekanism.quests1.description6}"
+				""
+				"{ftbquests.chapter.mekanism.quests1.description8}"
+			]
+			icon: "mekanism:radioactive_waste_barrel"
+			id: "18E3F8DC5D6230F8"
+			min_width: 275
+			subtitle: "{ftbquests.chapter.mekanism.quests1.subtitle}"
+			tasks: [
+				{
+					id: "705E5264B6A3E450"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.mekanism.quests1.title}"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18E3F8DC5D6230F8"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests2.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests2.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quests2.description4}"
+			]
+			icon: "mekanism:hazmat_mask"
+			id: "03249B1AEC0B9856"
+			subtitle: "{ftbquests.chapter.mekanism.quests2.subtitle}"
+			tasks: [
+				{
+					id: "622051A251C42965"
+					item: "mekanism:hazmat_mask"
+					type: "item"
+				}
+				{
+					id: "1D171D6683AC8211"
+					item: "mekanism:hazmat_gown"
+					type: "item"
+				}
+				{
+					id: "5D4E515F21F1A385"
+					item: "mekanism:hazmat_pants"
+					type: "item"
+				}
+				{
+					id: "59F4D0241D91B456"
+					item: "mekanism:hazmat_boots"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18E3F8DC5D6230F8"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests3.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests3.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quests3.description4}"
+			]
+			icon: "mekanism:geiger_counter"
+			id: "69F0F06CF33DC0E9"
+			subtitle: "{ftbquests.chapter.mekanism.quests3.subtitle}"
+			tasks: [
+				{
+					id: "206DD7724FE63DFA"
+					item: "mekanism:geiger_counter"
+					type: "item"
+				}
+				{
+					id: "338965184C00654F"
+					item: "mekanism:dosimeter"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mekanism.quests3.title}"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18E3F8DC5D6230F8"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests4.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests4.description2}"
+				""
+				"{image:ftbskies:textures/quests/fission_gui_1.png width:210 height:100 align:1}"
+				""
+				"{ftbquests.chapter.mekanism.quests4.description6}"
+				""
+				"{image:ftbskies:textures/quests/fission_gui_2.png width:152 height:125 align:1}"
+				""
+				"{ftbquests.chapter.mekanism.quests4.description10}"
+				""
+				"{ftbquests.chapter.mekanism.quests4.description12}"
+			]
+			icon: "mekanism:alloy_atomic"
+			id: "3EFD67B7F3E35F92"
+			min_width: 375
+			subtitle: "{ftbquests.chapter.mekanism.quests4.subtitle}"
+			tasks: [
+				{
+					id: "721A38117E3114C9"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.mekanism.quests4.title}"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A0DB1DF9DA80161"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests5.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests5.description2}"
+			]
+			id: "33D7265E09AAD8BF"
+			subtitle: "{ftbquests.chapter.mekanism.quests5.subtitle}"
+			tasks: [
+				{
+					id: "091B9C611C6C127E"
+					item: "mekanism:laser"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33D7265E09AAD8BF"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests6.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests6.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quests6.description4}"
+				""
+				"{ftbquests.chapter.mekanism.quests6.description6}"
+			]
+			id: "2AA8BC86BA3E5BE0"
+			min_width: 275
+			subtitle: "{ftbquests.chapter.mekanism.quests6.subtitle}"
+			tasks: [
+				{
+					id: "64BA14811EE7239B"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2AA8BC86BA3E5BE0"
+				"2C33D1D9DFB63524"
+			]
+			description: [
+				"{ftbquests.chapter.mekanism.quests7.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests7.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quests7.description4}"
+			]
+			id: "72AE4E5705BEA62E"
+			min_width: 250
+			subtitle: "{ftbquests.chapter.mekanism.quests7.subtitle}"
+			tasks: [
+				{
+					id: "3EA20FFEDD4C0D94"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B7957DA13CD57F0"]
+			description: ["{ftbquests.chapter.mekanism.quests8.description}"]
+			id: "1F8C2AF0A3A3A486"
+			rewards: [
+				{
+					count: 4
+					id: "1BC08E78AC0FF083"
+					item: "mekanism:enriched_carbon"
+					type: "item"
+				}
+				{
+					id: "253723E4F86CA343"
+					item: "mekanism:configuration_card"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests8.subtitle}"
+			tasks: [
+				{
+					id: "4A0DB1DF9DA80161"
+					item: "mekanism:steel_casing"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34DF47C888DB083E"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests9.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests9.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quests9.description4}"
+				""
+				"{ftbquests.chapter.mekanism.quests9.description6}"
+			]
+			id: "4B7957DA13CD57F0"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "35C87C7C8259A9AC"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "26F265E778BB43C6"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D4C681AB3CB6AD4"
+					item: "mekanism:upgrade_muffling"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests9.subtitle}"
+			tasks: [
+				{
+					id: "7665F1BBCBF968EE"
+					item: "mekanism:metallurgic_infuser"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1F8C2AF0A3A3A486"
+				"61C86A3CB0ACBCD4"
+			]
+			description: ["{ftbquests.chapter.mekanism.quests10.description}"]
+			id: "3FBA24C65E4CB3BF"
+			rewards: [
+				{
+					id: "547D7E7F83CDED03"
+					item: "mekanism:enriched_diamond"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests10.subtitle}"
+			tasks: [
+				{
+					id: "2E07AAE28175F1D5"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B7957DA13CD57F0"]
+			description: ["{ftbquests.chapter.mekanism.quests11.description}"]
+			hide_dependency_lines: true
+			id: "02842172385BA9F8"
+			subtitle: "{ftbquests.chapter.mekanism.quests11.subtitle}"
+			tasks: [
+				{
+					id: "5F3568A076875E06"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02842172385BA9F8"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests12.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests12.description2}"
+			]
+			id: "4EFD69C9CB62431B"
+			subtitle: "{ftbquests.chapter.mekanism.quests12.subtitle}"
+			tasks: [
+				{
+					id: "53680FD1DE299AF5"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4EFD69C9CB62431B"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests13.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests13.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quests13.description4}"
+			]
+			id: "7DB566911A941A8E"
+			subtitle: "{ftbquests.chapter.mekanism.quests13.subtitle}"
+			tasks: [
+				{
+					id: "7BA883FE1871D5F9"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B7957DA13CD57F0"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests14.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests14.description2}"
+			]
+			id: "61C86A3CB0ACBCD4"
+			subtitle: "{ftbquests.chapter.mekanism.quests14.subtitle}"
+			tasks: [
+				{
+					id: "77151E3F9424AD93"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"02842172385BA9F8"
+				"61C86A3CB0ACBCD4"
+			]
+			description: ["{ftbquests.chapter.mekanism.quests15.description}"]
+			id: "4D31E10B02F63091"
+			subtitle: "{ftbquests.chapter.mekanism.quests15.subtitle}"
+			tasks: [
+				{
+					id: "7A2553ACC9F962F9"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4D31E10B02F63091"
+				"4EFD69C9CB62431B"
+			]
+			description: ["{ftbquests.chapter.mekanism.quests16.description}"]
+			id: "4D06BE879E20A6E9"
+			subtitle: "{ftbquests.chapter.mekanism.quests16.subtitle}"
+			tasks: [
+				{
+					id: "486EFEDB8222C5E7"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4D06BE879E20A6E9"
+				"7DB566911A941A8E"
+			]
+			description: ["{ftbquests.chapter.mekanism.quests17.description}"]
+			id: "15CE6667384505F6"
+			subtitle: "{ftbquests.chapter.mekanism.quests17.subtitle}"
+			tasks: [
+				{
+					id: "2387DBD5A9264D17"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61C86A3CB0ACBCD4"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests18.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests18.description2}"
+			]
+			id: "4487546F94A4687A"
+			rewards: [
+				{
+					count: 4
+					id: "2C066E3BF805CE32"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests18.subtitle}"
+			tasks: [
+				{
+					id: "1FBE3D46C131B48C"
+					item: "mekanism:basic_tier_installer"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D31E10B02F63091"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests19.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests19.description2}"
+			]
+			id: "67FFE0F155AC0D0E"
+			rewards: [
+				{
+					count: 4
+					id: "014125F223B6761E"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests19.subtitle}"
+			tasks: [
+				{
+					id: "674B2DD1C8E8B162"
+					item: "mekanism:advanced_tier_installer"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D06BE879E20A6E9"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests20.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests20.description2}"
+			]
+			id: "038B16C5B6C22F72"
+			rewards: [
+				{
+					count: 4
+					id: "4D8BB993425BE539"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests20.subtitle}"
+			tasks: [
+				{
+					id: "60E96E20CDEBBBD1"
+					item: "mekanism:elite_tier_installer"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15CE6667384505F6"]
+			description: ["{ftbquests.chapter.mekanism.quests21.description}"]
+			id: "4C924190E846452E"
+			rewards: [
+				{
+					count: 4
+					id: "7FE9A8A9D8D1CFD5"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "55576ACF3DC6C24E"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests21.subtitle}"
+			tasks: [
+				{
+					id: "2DD73B6D6A1B8648"
+					item: "mekanism:ultimate_tier_installer"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F8C2AF0A3A3A486"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests22.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests22.description2}"
+			]
+			id: "52B617A43EC1BC5F"
+			subtitle: "{ftbquests.chapter.mekanism.quests22.subtitle}"
+			tasks: [
+				{
+					id: "554DF58F5E6F8C26"
+					item: "mekanism:chemical_injection_chamber"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F8C2AF0A3A3A486"]
+			description: ["{ftbquests.chapter.mekanism.quests23.description}"]
+			id: "28473029CD0CCFEE"
+			rewards: [
+				{
+					id: "718F37186D0DD637"
+					table_id: 8339261241703954627L
+					title: "{ftbquests.chapter.mekanism.quests23.rewards0.title}"
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests23.subtitle}"
+			tasks: [
+				{
+					id: "323CD12C4AD6DDD6"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F8C2AF0A3A3A486"]
+			description: ["{ftbquests.chapter.mekanism.quests24.description}"]
+			id: "7465EE35F1A7C50C"
+			rewards: [
+				{
+					id: "196A25402711458D"
+					item: {
+						Count: 1b
+						id: "mekanism:basic_chemical_tank"
+						tag: {
+							mekData: {
+								GasTanks: [
+									{
+										Tank: 0b
+										stored: {
+											amount: 32000L
+											gasName: "mekanism:oxygen"
+										}
+									}
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests24.subtitle}"
+			tasks: [
+				{
+					id: "52A99A0202E2EDC4"
+					item: "mekanism:purification_chamber"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F8C2AF0A3A3A486"]
+			description: ["{ftbquests.chapter.mekanism.quests25.description}"]
+			id: "5CBB3901C4B91EFC"
+			rewards: [
+				{
+					count: 16
+					id: "5F928E50F004C8C8"
+					item: "mekanism:fluorite_gem"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests25.subtitle}"
+			tasks: [
+				{
+					id: "2BE4FE74FB0CD04E"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5CBB3901C4B91EFC"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests26.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests26.description2}"
+			]
+			id: "35AB0E82434B81DF"
+			subtitle: "{ftbquests.chapter.mekanism.quests26.subtitle}"
+			tasks: [
+				{
+					id: "023C51C58245BD3E"
+					item: "mekanism:solar_neutron_activator"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F8C2AF0A3A3A486"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests27.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests27.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quests27.description4}"
+				""
+				"{ftbquests.chapter.mekanism.quests27.description6}"
+				""
+				"{ftbquests.chapter.mekanism.quests27.description8}"
+			]
+			hide_dependency_lines: true
+			id: "4E249AEBE3EBC985"
+			rewards: [
+				{
+					id: "0B74D4D398B32EAF"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3ECEAB113F0E3220"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					id: "45991E2CD14CE0C9"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests27.subtitle}"
+			tasks: [
+				{
+					id: "767C7F9FD5704F26"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7A12F045C037533B"
+				"35AB0E82434B81DF"
+			]
+			description: ["{ftbquests.chapter.mekanism.quests28.description}"]
+			id: "2C33D1D9DFB63524"
+			rewards: [
+				{
+					id: "6EF7E1F047FEA0A0"
+					item: "mekanism:radioactive_waste_barrel"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests28.subtitle}"
+			tasks: [
+				{
+					id: "7DB238006762ABD9"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C33D1D9DFB63524"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests29.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests29.description2}"
+			]
+			icon: "mekanism:mekasuit_bodyarmor"
+			id: "65ABCBDF33FB459C"
+			rewards: [
+				{
+					id: "0021711C9D7C82C0"
+					item: "mekanism:modification_station"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests29.subtitle}"
+			tasks: [
+				{
+					id: "56EEF7C2850D3AB6"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "68ADB7D149A2494D"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "2F6F1738E5B8393E"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "185703CA4F631D5E"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mekanism.quests29.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C33D1D9DFB63524"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests30.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests30.description2}"
+			]
+			icon: "mekanism:sps_port"
+			id: "1ED836C619117362"
+			rewards: [
+				{
+					id: "6DC7A2CEDE665F46"
+					item: "mekanism:chemical_crystallizer"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.mekanism.quests30.subtitle}"
+			tasks: [
+				{
+					id: "4A52CD4E636F385E"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "2B9E2F228E4A615E"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "3EB668D3D71F942C"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mekanism.quests30.title}"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EFD67B7F3E35F92"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests31.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests31.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quests31.description4}"
+			]
+			icon: "mekanismgenerators:turbine_blade"
+			id: "11D6A515D73C196B"
+			subtitle: "{ftbquests.chapter.mekanism.quests31.subtitle}"
+			tasks: [
+				{
+					id: "3CD2925DF734A9CF"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "4C04BCDE6F93D9E7"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "58DD77AE99C04AE0"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F8C2AF0A3A3A486"]
+			description: [
+				"{ftbquests.chapter.mekanism.quests32.description0}"
+				""
+				"{ftbquests.chapter.mekanism.quests32.description2}"
+			]
+			id: "67B13D2653694934"
+			tasks: [
+				{
+					id: "02A6C76CDE8AE0A1"
+					item: "mekanismgenerators:gas_burning_generator"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 4.0d
+		}
+	]
+	title: "{ftbquests.chapter.mekanism.title}"
+}

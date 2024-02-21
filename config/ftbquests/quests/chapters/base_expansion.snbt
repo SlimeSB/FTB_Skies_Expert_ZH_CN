@@ -1,0 +1,566 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "base_expansion"
+	group: "7B39F21A0D5BB568"
+	icon: "compactmachines:machine_giant"
+	id: "03E3E528BEE7C9A3"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/compacting.png"
+			rotation: 0.0d
+			width: 12.710843373493976d
+			x: 3.5d
+			y: -6.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.base_expansion.quests0.description0}"
+				""
+				"{ftbquests.chapter.base_expansion.quests0.description2}"
+				""
+				"{ftbquests.chapter.base_expansion.quests0.description4}"
+			]
+			icon: "compactmachines:machine_normal"
+			id: "1073ABFA72E0478D"
+			rewards: [
+				{
+					id: "18181AE3B4701D20"
+					item: "compactmachines:machine_large"
+					type: "item"
+				}
+				{
+					id: "061B728A10138586"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.base_expansion.quests0.subtitle}"
+			tasks: [
+				{
+					id: "21942C4C90806F45"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "compactmachines:machine_tiny"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_small"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_normal"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_large"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_giant"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_maximum"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.base_expansion.quests0.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "548B23B3B6EF6C38"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.base_expansion.quests1.description0}"
+				""
+				"{ftbquests.chapter.base_expansion.quests1.description2}"
+				""
+				"{ftbquests.chapter.base_expansion.quests1.description4}"
+				""
+				"{ftbquests.chapter.base_expansion.quests1.description6}"
+			]
+			icon: {
+				Count: 1b
+				id: "buildinggadgets:gadget_building"
+				tag: {
+					energy: 500000.0d
+					state: {
+						data: { }
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+					}
+				}
+			}
+			id: "2B28AC80ADEA64AE"
+			rewards: [
+				{
+					count: 64
+					id: "3E965EA7CFC6EB9A"
+					item: "buildinggadgets:construction_paste"
+					type: "item"
+				}
+				{
+					id: "0D1204F00D8A22A1"
+					item: "buildinggadgets:construction_paste_container_t1"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.base_expansion.quests1.subtitle}"
+			tasks: [
+				{
+					id: "33BBE6C89ACC8EBC"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "buildinggadgets:gadget_building"
+									tag: {
+										energy: 500000.0d
+										state: {
+											data: { }
+											serializer: "buildinggadgets:dummy_serializer"
+											state: {
+												Name: "minecraft:air"
+											}
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "buildinggadgets:gadget_exchanging"
+									tag: {
+										energy: 500000.0d
+										state: {
+											data: { }
+											serializer: "buildinggadgets:dummy_serializer"
+											state: {
+												Name: "minecraft:air"
+											}
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "buildinggadgets:gadget_copy_paste"
+									tag: {
+										energy: 500000.0d
+										mode: 0b
+										template_id: [I;
+											-429682952
+											1143621777
+											-1584007205
+											346185346
+										]
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.base_expansion.quests1.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.base_expansion.quests2.description0}"
+				""
+				"{ftbquests.chapter.base_expansion.quests2.description2}"
+			]
+			icon: {
+				Count: 1b
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "6E4F082123CDC790"
+			rewards: [
+				{
+					id: "5890AABEB0521F8C"
+					item: "cyclic:structure"
+					type: "item"
+				}
+				{
+					id: "7C61130E0870018D"
+					item: "create:builders_tea"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.base_expansion.quests2.subtitle}"
+			tasks: [
+				{
+					id: "02BEEFBA5FBCA04C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "constructionwand:stone_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:iron_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:diamond_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:infinity_wand"
+									tag: {
+										wand_options: { }
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.base_expansion.quests2.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.base_expansion.quests3.description0}"
+				""
+				"{ftbquests.chapter.base_expansion.quests3.description2}"
+				""
+				"{ftbquests.chapter.base_expansion.quests3.description4}"
+				""
+				"{ftbquests.chapter.base_expansion.quests3.description6}"
+			]
+			icon: "chipped:carpenters_table"
+			id: "7E964BB99ED58C9F"
+			min_width: 275
+			rewards: [
+				{
+					count: 32
+					id: "38F347F65AAF5CDA"
+					item: "minecraft:white_concrete"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0FDA09D81119190E"
+					item: "minecraft:deepslate"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "57317622970B435A"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.base_expansion.quests3.subtitle}"
+			tasks: [
+				{
+					id: "61B07868A8530A85"
+					item: "rechiseled:chisel"
+					type: "item"
+				}
+				{
+					id: "6FA9AF0057B31E8C"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.base_expansion.quests3.title}"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E964BB99ED58C9F"]
+			description: ["{ftbquests.chapter.base_expansion.quests4.description}"]
+			id: "1BAB807A742A16A9"
+			rewards: [
+				{
+					count: 32
+					id: "765F2664ADCB9B9F"
+					item: "minecraft:polished_granite"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "16394528FE244C3C"
+					item: "minecraft:polished_diorite"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0E178B395FD1474F"
+					item: "minecraft:polished_andesite"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.base_expansion.quests4.subtitle}"
+			tasks: [
+				{
+					id: "6611BA9EE1545BAC"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.base_expansion.quests4.title}"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BAB807A742A16A9"]
+			description: ["{ftbquests.chapter.base_expansion.quests5.description}"]
+			id: "6A9646944219FCBF"
+			rewards: [
+				{
+					count: 16
+					id: "3DEDB2807A47EA55"
+					item: "minecraft:small_dripleaf"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5374218C08140217"
+					item: "minecraft:mud"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5B433DA4ED88FEA3"
+					item: "minecraft:snow_block"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.base_expansion.quests5.subtitle}"
+			tasks: [
+				{
+					id: "1FD994EFE3A97636"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.base_expansion.quests5.title}"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A9646944219FCBF"]
+			description: ["{ftbquests.chapter.base_expansion.quests6.description}"]
+			icon: "chipped:loom_table"
+			id: "7D710DAA6A960CE9"
+			rewards: [
+				{
+					count: 32
+					id: "415C0846D500F1BA"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "73F0435F4219B6C6"
+					item: "minecraft:tinted_glass"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.base_expansion.quests6.subtitle}"
+			tasks: [
+				{
+					id: "1EABF7DD2746EA68"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "6AA4E143DC073904"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D710DAA6A960CE9"]
+			description: ["{ftbquests.chapter.base_expansion.quests7.description}"]
+			icon: "chipped:alchemy_bench"
+			id: "0FD96BBA8AB4279F"
+			rewards: [
+				{
+					count: 16
+					id: "1118A8B1D531E31E"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "47B715AF2739E6B4"
+					item: "minecraft:lodestone"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0E097ED2D84C6D13"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.base_expansion.quests7.subtitle}"
+			tasks: [
+				{
+					id: "10F6D10339D146FF"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+				{
+					id: "6A68D845F3512134"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			description: ["{ftbquests.chapter.base_expansion.quests8.description}"]
+			id: "2F26BC90563F9830"
+			rewards: [
+				{
+					id: "70E37BF35B915563"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1B1635AF1785FCFC"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.base_expansion.quests8.subtitle}"
+			tasks: [
+				{
+					id: "4E7829E04B55A285"
+					item: {
+						Count: 1b
+						id: "simplemagnets:basicmagnet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.base_expansion.quests9.description0}"
+				""
+				"{ftbquests.chapter.base_expansion.quests9.description2}"
+			]
+			icon: {
+				Count: 1b
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Potion: "minecraft:invisibility"
+				}
+			}
+			id: "0B4877E853D5991A"
+			rewards: [
+				{
+					id: "6F12700E04F866B8"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 8s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "089044B97461D041"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.base_expansion.quests9.subtitle}"
+			tasks: [
+				{
+					id: "22B06B7EC78C1A46"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "apotheosis:potion_charm"
+									tag: {
+										Damage: 0
+										Potion: "minecraft:invisibility"
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.base_expansion.quests9.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	title: "{ftbquests.chapter.base_expansion.title}"
+}

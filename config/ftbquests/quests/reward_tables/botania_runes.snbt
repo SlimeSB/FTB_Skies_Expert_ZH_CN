@@ -1,0 +1,76 @@
+{
+	id: "67DAFF66BC0C3F39"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: "botania:rune_water"
+			weight: 5.0f
+		}
+		{
+			item: "botania:rune_fire"
+			weight: 5.0f
+		}
+		{
+			item: "botania:rune_earth"
+			weight: 5.0f
+		}
+		{
+			item: "botania:rune_air"
+			weight: 5.0f
+		}
+		{
+			item: "botania:rune_mana"
+			weight: 5.0f
+		}
+		{
+			item: "botania:rune_spring"
+		}
+		{
+			item: "botania:rune_summer"
+		}
+		{
+			item: "botania:rune_autumn"
+		}
+		{
+			item: "botania:rune_winter"
+		}
+		{
+			item: "botania:rune_lust"
+			weight: 0.5f
+		}
+		{
+			item: "botania:rune_gluttony"
+			weight: 0.5f
+		}
+		{
+			item: "botania:rune_greed"
+			weight: 0.5f
+		}
+		{
+			item: "botania:rune_sloth"
+			weight: 0.5f
+		}
+		{
+			item: "botania:rune_wrath"
+			weight: 0.5f
+		}
+		{
+			item: "botania:rune_envy"
+			weight: 0.5f
+		}
+		{
+			item: "botania:rune_pride"
+			weight: 0.5f
+		}
+		{
+			item: "botanicadds:rune_tp"
+			weight: 0.5f
+		}
+		{
+			item: "botanicadds:rune_energy"
+			weight: 0.5f
+		}
+	]
+	title: "{ftbquests.reward_tables.botania_runes.title}"
+}

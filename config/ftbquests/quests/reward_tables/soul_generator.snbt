@@ -1,0 +1,27 @@
+{
+	id: "3E6925D51B1AAD02"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 32
+			item: "reaper:soul_catalyst"
+		}
+		{
+			item: "reaper:rune_reficiat"
+		}
+		{
+			item: "reaper:rune_humano"
+		}
+		{
+			item: "reaper:rune_dilato"
+		}
+		{
+			item: "reaper:rune_velocitas"
+		}
+		{
+			item: "reaper:rune_spiritus"
+		}
+	]
+	title: "{ftbquests.reward_tables.soul_generator.title}"
+}

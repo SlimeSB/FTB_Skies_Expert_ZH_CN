@@ -1,0 +1,29 @@
+{
+	id: "1C4568AC2CA61712"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: "farmersdelight:honey_glazed_ham_block"
+		}
+		{
+			item: "farmersdelight:stuffed_pumpkin_block"
+		}
+		{
+			item: "farmersdelight:shepherds_pie_block"
+		}
+		{
+			item: "farmersdelight:roast_chicken_block"
+		}
+		{
+			item: "farmersdelight:sweet_berry_cheesecake"
+		}
+		{
+			item: "farmersdelight:chocolate_pie"
+		}
+		{
+			item: "farmersdelight:apple_pie"
+		}
+	]
+	title: "{ftbquests.reward_tables.food.title}"
+}

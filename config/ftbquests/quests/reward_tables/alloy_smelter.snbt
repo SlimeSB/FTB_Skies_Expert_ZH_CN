@@ -1,0 +1,33 @@
+{
+	hide_tooltip: true
+	id: "1384D93885B29D0E"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "alloy_smelter"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 8
+			item: "thermal:signalum_ingot"
+			weight: 0.7f
+		}
+		{
+			count: 8
+			item: "thermal:lumium_ingot"
+			weight: 0.25f
+		}
+		{
+			count: 8
+			item: "thermal:enderium_ingot"
+			weight: 0.05f
+		}
+	]
+	title: "{ftbquests.reward_tables.alloy_smelter.title}"
+}

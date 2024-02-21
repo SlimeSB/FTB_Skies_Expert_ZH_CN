@@ -1,0 +1,1005 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "0B729A29DA0A889D"
+	icon: "occultism:spirit_fire"
+	id: "476DF733E6E2DA51"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/occultism.png"
+			rotation: 0.0d
+			width: 6.228915662650603d
+			x: 3.5d
+			y: -2.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.occultism.quests0.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests0.description2}"
+			]
+			id: "53863C6AA180513F"
+			rewards: [
+				{
+					id: "1DBEDDCC0EB68B31"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "1CCA9FB2696D80DD"
+					item: {
+						Count: 1b
+						id: "occultism:dictionary_of_spirits"
+						tag: {
+							"modonomicon:book_id": "occultism:dictionary_of_spirits"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests0.subtitle}"
+			tasks: [
+				{
+					id: "0EDA4D82120D6706"
+					item: "occultism:datura"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53863C6AA180513F"]
+			description: [
+				"{ftbquests.chapter.occultism.quests1.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests1.description2}"
+			]
+			id: "1AD44B9DE65C4DB9"
+			rewards: [
+				{
+					count: 8
+					id: "14231087FB816E31"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "78CA8C17F698D284"
+					item: "occultism:otherworld_log"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests1.subtitle}"
+			tasks: [
+				{
+					icon: "occultism:spirit_fire"
+					id: "546D0F20A5F024DA"
+					observe_type: 0
+					timer: 0L
+					title: "{ftbquests.chapter.occultism.quests1.tasks0.title}"
+					to_observe: "occultism:spirit_fire"
+					type: "observation"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1AD44B9DE65C4DB9"]
+			description: ["{ftbquests.chapter.occultism.quests2.description}"]
+			id: "44A4C4070357D2BA"
+			rewards: [
+				{
+					count: 16
+					id: "1CE598449C6C0AF2"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests2.subtitle}"
+			tasks: [
+				{
+					id: "104688194E9D4FFB"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1AD44B9DE65C4DB9"]
+			description: [
+				"{ftbquests.chapter.occultism.quests3.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests3.description2}"
+				""
+				"{ftbquests.chapter.occultism.quests3.description4}"
+				""
+				"{ftbquests.chapter.occultism.quests3.description6}"
+			]
+			id: "7C855A617FBCF1DE"
+			rewards: [
+				{
+					id: "449A0C9491A39145"
+					item: "occultism:brush"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests3.subtitle}"
+			tasks: [
+				{
+					id: "3DA2493F34DF949D"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C855A617FBCF1DE"]
+			description: [
+				"{ftbquests.chapter.occultism.quests4.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests4.description2}"
+			]
+			id: "25BA70F5523994D6"
+			rewards: [
+				{
+					id: "35D94201308F8C51"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests4.subtitle}"
+			tasks: [
+				{
+					id: "242E8701E9599911"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25BA70F5523994D6"]
+			description: [
+				"{ftbquests.chapter.occultism.quests5.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests5.description2}"
+			]
+			icon: "occultism:golden_sacrificial_bowl"
+			id: "332432CB9EC79CF5"
+			subtitle: "{ftbquests.chapter.occultism.quests5.subtitle}"
+			tasks: [
+				{
+					id: "13E2C58FA58971FB"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "22B537BA9B064BEB"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "076687C3BECDC554"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["332432CB9EC79CF5"]
+			description: [
+				"{ftbquests.chapter.occultism.quests6.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests6.description2}"
+			]
+			hide: false
+			id: "00993B7037D1CC04"
+			rewards: [
+				{
+					count: 4
+					id: "1DF01DE9AD2A2D78"
+					item: "occultism:spirit_attuned_gem"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.occultism.quests6.subtitle}"
+			tasks: [
+				{
+					id: "4A1BAA18B74BD321"
+					item: {
+						Count: 1b
+						id: "occultism:dictionary_of_spirits"
+						tag: {
+							"modonomicon:book_id": "occultism:dictionary_of_spirits"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quests6.title}"
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38428BE09619A2C4"]
+			description: [
+				"{ftbquests.chapter.occultism.quests7.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests7.description2}"
+			]
+			icon: {
+				Count: 1b
+				id: "occultism:storage_remote"
+				tag: { }
+			}
+			id: "18F91887274390F1"
+			subtitle: "{ftbquests.chapter.occultism.quests7.subtitle}"
+			tasks: [
+				{
+					id: "5989E88D40ACE65E"
+					item: {
+						Count: 1b
+						id: "occultism:storage_remote"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F3CD36216139F03"]
+			description: [
+				"{ftbquests.chapter.occultism.quests8.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests8.description2}"
+				""
+				"{ftbquests.chapter.occultism.quests8.description4}"
+				""
+				"{ftbquests.chapter.occultism.quests8.description6}"
+				""
+				"{ftbquests.chapter.occultism.quests8.description8}"
+			]
+			id: "38428BE09619A2C4"
+			min_width: 275
+			rewards: [
+				{
+					id: "5311811DA022B203"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+				{
+					id: "1BF26D1908746F8D"
+					item: "ars_nouveau:glyph_ender_inventory"
+					type: "item"
+				}
+				{
+					id: "195206DC23D07B44"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests8.subtitle}"
+			tasks: [
+				{
+					id: "42E54462613C59A0"
+					item: "occultism:storage_controller"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38428BE09619A2C4"]
+			description: [
+				"{ftbquests.chapter.occultism.quests9.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests9.description2}"
+			]
+			id: "16D8482E3EA78235"
+			subtitle: "{ftbquests.chapter.occultism.quests9.subtitle}"
+			tasks: [
+				{
+					id: "5964597EB0FEC303"
+					item: {
+						Count: 1b
+						id: "occultism:stable_wormhole"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38428BE09619A2C4"]
+			description: [
+				"{ftbquests.chapter.occultism.quests10.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests10.description2}"
+				""
+				"{ftbquests.chapter.occultism.quests10.description4}"
+			]
+			id: "20C15F0705ED9770"
+			tasks: [
+				{
+					id: "14F6E5C8FEA95E6F"
+					item: "occultism:storage_stabilizer_tier1"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20C15F0705ED9770"]
+			description: ["{ftbquests.chapter.occultism.quests11.description}"]
+			id: "42E7541B87963785"
+			tasks: [
+				{
+					id: "0B9D4525C4210101"
+					item: "occultism:storage_stabilizer_tier2"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42E7541B87963785"]
+			description: ["{ftbquests.chapter.occultism.quests12.description}"]
+			id: "39287CC17A70C0CB"
+			tasks: [
+				{
+					id: "458B8BA522F9E4C0"
+					item: "occultism:storage_stabilizer_tier3"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39287CC17A70C0CB"]
+			description: ["{ftbquests.chapter.occultism.quests13.description}"]
+			id: "53448330FDCF11DA"
+			tasks: [
+				{
+					id: "6C662D12521DD086"
+					item: "occultism:storage_stabilizer_tier4"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			description: ["{ftbquests.chapter.occultism.quests14.description}"]
+			id: "3A5C65B6AB3273B1"
+			rewards: [
+				{
+					id: "275F24A40671BAC8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "08EF3CDC91A45E33"
+					item: "occultism:spirit_lantern"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2F895CC481AE1B1C"
+					item: "occultism:tallow"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests14.subtitle}"
+			tasks: [
+				{
+					id: "3157F5DFAF249CBE"
+					item: {
+						Count: 1b
+						id: "occultism:butcher_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C855A617FBCF1DE"]
+			description: [
+				"{ftbquests.chapter.occultism.quests15.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests15.description2}"
+			]
+			id: "2F3CD36216139F03"
+			rewards: [
+				{
+					count: 2
+					id: "7E7E689C04814229"
+					item: "forcecraft:gold_chu_chu_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "37B4FE14415CC141"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests15.subtitle}"
+			tasks: [
+				{
+					id: "495721147D8AFA33"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F3CD36216139F03"]
+			description: [
+				"{ftbquests.chapter.occultism.quests16.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests16.description2}"
+			]
+			id: "68A22C4F676669BF"
+			rewards: [
+				{
+					count: 4
+					id: "368B94B3A96CD432"
+					item: "occultism:crushed_end_stone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1005C86F27C4C09B"
+					item: "occultism:obsidian_dust"
+					type: "item"
+				}
+				{
+					id: "5CABE47CC227B40B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests16.subtitle}"
+			tasks: [
+				{
+					id: "31A7C92348502C5B"
+					item: "occultism:crushed_end_stone"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["68A22C4F676669BF"]
+			description: [
+				"{ftbquests.chapter.occultism.quests17.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests17.description2}"
+			]
+			id: "03F27F1547C475A3"
+			rewards: [
+				{
+					count: 4
+					id: "0EDC7D25F5B2C2A2"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					id: "56CBF5B03C568EFC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "53E65DBD570721E3"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests17.subtitle}"
+			tasks: [
+				{
+					id: "27D198C26B015252"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_purple"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7D3DBC1FF95C5CF8"
+				"44A4C4070357D2BA"
+			]
+			description: ["{ftbquests.chapter.occultism.quests18.description}"]
+			id: "28103B33F90C91F8"
+			rewards: [
+				{
+					count: 8
+					id: "150E0F54501478DE"
+					item: "minecraft:stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "07C070EAD5D8AEE2"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2D734CC201BEA1DC"]
+			description: ["{ftbquests.chapter.occultism.quests19.description}"]
+			id: "1C82F1391B2E6ADB"
+			rewards: [
+				{
+					id: "4A945A6452D4CC81"
+					item: "reaper:rune_humano"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1663AC31607B4143"
+					item: "spirit:soul_cage"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C82F1391B2E6ADB"]
+			description: ["{ftbquests.chapter.occultism.quests20.description}"]
+			id: "6476E9F7F71CCEB6"
+			tasks: [
+				{
+					id: "731AFC766701367A"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6476E9F7F71CCEB6"
+				"32CF081379B3D8CD"
+			]
+			description: [
+				"{ftbquests.chapter.occultism.quests21.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests21.description2}"
+				""
+				"{ftbquests.chapter.occultism.quests21.description4}"
+			]
+			icon: "create:blaze_burner"
+			id: "2F4978702388AFE5"
+			rewards: [
+				{
+					id: "46588F84755484DE"
+					item: "create:blaze_burner"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5162EBAAC0137B41"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests21.subtitle}"
+			tasks: [
+				{
+					id: "2C703C2874FB8A6F"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5655C9CF34FD6F0F"
+				"19FEA236D376557A"
+			]
+			description: [
+				"{ftbquests.chapter.occultism.quests22.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests22.description2}"
+			]
+			id: "32CF081379B3D8CD"
+			rewards: [
+				{
+					count: 16
+					id: "3CC43F8BEF732473"
+					item: "archers_paradox:blaze_arrow"
+					type: "item"
+				}
+				{
+					id: "21EC2A28D5DDE5CB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "3A280BD9735DF8AE"
+					item: "minecraft:blaze_powder"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "hostilenetworks:data_model"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:blaze"
+							}
+						}
+					}
+					id: "22EE9A6F863ADCA2"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:blaze"
+					type: "observation"
+				}
+			]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["777F8EF58BDBCE5B"]
+			description: ["{ftbquests.chapter.occultism.quests23.description}"]
+			id: "58AEDB8B994DA350"
+			optional: true
+			rewards: [
+				{
+					id: "26D0F342507ECAFF"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "51C2C4900B972A62"
+					item: {
+						Count: 1b
+						id: "spirit:soul_steel_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2D734CC201BEA1DC"]
+			description: ["{ftbquests.chapter.occultism.quests24.description}"]
+			id: "777F8EF58BDBCE5B"
+			rewards: [
+				{
+					id: "1097829EDCC83D8B"
+					item: {
+						Count: 1b
+						id: "spirit:soul_steel_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 2s
+								}
+							]
+							RepairCost: 3
+							display: {
+								Name: "{\"text\":\"Soul Splitter\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5AD98B3F506F2A96"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09F59D468E7BC7DB"
+					item: "spirit:soul_steel_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["28103B33F90C91F8"]
+			description: [
+				"{ftbquests.chapter.occultism.quests25.description0}"
+				"{ftbquests.chapter.occultism.quests25.description1}"
+				"{ftbquests.chapter.occultism.quests25.description2}"
+				""
+				"{ftbquests.chapter.occultism.quests25.description4}"
+				"{ftbquests.chapter.occultism.quests25.description5}"
+				"{ftbquests.chapter.occultism.quests25.description6}"
+				"{ftbquests.chapter.occultism.quests25.description7}"
+				"{ftbquests.chapter.occultism.quests25.description8}"
+				"{ftbquests.chapter.occultism.quests25.description9}"
+				"{ftbquests.chapter.occultism.quests25.description10}"
+				""
+				"{ftbquests.chapter.occultism.quests25.description12}"
+				"{ftbquests.chapter.occultism.quests25.description13}"
+				""
+				"{image:ftbskies:textures/quests/soulengulfing1.png width:175 height:175 align:1}"
+				""
+				"{ftbquests.chapter.occultism.quests25.description17}"
+				"{image:ftbskies:textures/quests/soulengulfing2.png width:175 height:175 align:1}"
+			]
+			id: "2D734CC201BEA1DC"
+			rewards: [
+				{
+					id: "065AA6453422913F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1401065F51BE5A7C"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "spirit:soul_reaper"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.occultism.quests25.subtitle}"
+			tasks: [
+				{
+					count: 8L
+					id: "0FAEEFC6CF3BA4C8"
+					item: "spirit:soul_glass"
+					type: "item"
+				}
+				{
+					id: "24A54C48FAEC0409"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1EAA3D3702D61769"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "610C7F7641E064EB"
+					item: "occultism:otherstone_slab"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "37E7A7F2E65B69CD"
+					item: "spirit:soul_powder_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1F99BFC76762D8E8"
+					item: "spirit:soul_slate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "119A096867482BEC"
+					item: "spirit:soul_steel_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.occultism.quests25.title}"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2D734CC201BEA1DC"]
+			description: ["{ftbquests.chapter.occultism.quests26.description}"]
+			id: "67846FC691C5FDC5"
+			rewards: [
+				{
+					count: 4
+					id: "40E22A109213EEED"
+					item: "thermal:apatite"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5769CB1103BA23B9"
+					item: "spirit:soul_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "12522ADF4849E182"
+					item: "spirit:crude_soul_crystal"
+					type: "item"
+				}
+				{
+					id: "2E2A0BEC12B4ACAD"
+					item: "spirit:soul_crystal"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"777F8EF58BDBCE5B"
+				"79EBE2B0EBD3F66E"
+				"67846FC691C5FDC5"
+			]
+			description: [
+				"{ftbquests.chapter.occultism.quests27.description0}"
+				""
+				"{ftbquests.chapter.occultism.quests27.description2}"
+			]
+			id: "5655C9CF34FD6F0F"
+			rewards: [
+				{
+					id: "52E85BE309EADC48"
+					item: {
+						Count: 1b
+						id: "spirit:soul_crystal_shard"
+						tag: {
+							EntityType: "minecraft:chicken"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1188FB14C20F7B8B"
+					item: "spirit:soul_pedestal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4DE1E0E3AA25BB0D"
+					item: "spirit:pedestal"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5655C9CF34FD6F0F"]
+			description: ["{ftbquests.chapter.occultism.quests28.description}"]
+			id: "3D0AC27CBE3F56E4"
+			rewards: [
+				{
+					id: "764C320B3E69A4DA"
+					item: "incubation:hay_nest"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "73B4396F65A9687E"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:chicken_gate"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			x: 3.25d
+			y: 8.625d
+		}
+	]
+	title: "{ftbquests.chapter.occultism.title}"
+}
