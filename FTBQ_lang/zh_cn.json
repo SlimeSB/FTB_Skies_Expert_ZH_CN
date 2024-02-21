@@ -1,5 +1,5 @@
 {
-    "_comment_chapter_groups": "译者：Addyabbia 校对：SlimeSB",
+	"_comment_chapter_groups": "译者：Addyabbia 校对：SlimeSB",
 	"ftbquests.chapter_groups.chapter_groups.title0": "主线任务",
 	"ftbquests.chapter_groups.chapter_groups.title1": "物流",
 	"ftbquests.chapter_groups.chapter_groups.title2": "杂物",
@@ -10,7 +10,7 @@
 	"ftbquests.chapter_groups.chapter_groups.title7": "探索",
 	"ftbquests.chapter_groups.chapter_groups.title8": "宇宙大师",
 	"ftbquests.chapter.data.title": "FTB Skies",
-    
+
 	"ftbquests.chapter.armor__weapons.title": "Armor + Weapons[--护甲+武器--]",
 	"ftbquests.chapter.armor__weapons.quests0.title": "Unstable Armor[--不稳定护甲--]",
 	"ftbquests.chapter.armor__weapons.quests0.subtitle": "Isn't it weird to think that everything is so unstable?[--觉得一切如此不稳定不奇怪吗?--]",
@@ -375,7 +375,7 @@
 	"ftbquests.chapter.create.quests14.description0": "&b动力轴承&r是大多数机械动力&6动态结构&r的基础，这些装置基本上都是自由移动的多方块结构",
 	"ftbquests.chapter.create.quests14.description2": "当为它提供应力时，&6连接的动态结构&r就会旋转。这样，某些方块就可以工作，比如&6动力收割机&r、&6动力锯&r或&6机械手&r！",
 	"ftbquests.chapter.create.quests14.description4": "你可以使用&6胶水&r连接更多的方块，用&6底盘&r让动态结构变得更大。记得看&6思索&r！",
-	
+
 	"ftbquests.chapter.digital.title": "Digital[--数字--]",
 	"ftbquests.chapter.digital.quests0.subtitle": "Certainly Quartz[--石英--]",
 	"ftbquests.chapter.digital.quests0.description0": "&eApplied Energistics 2&r will need &bCertus Quartz&r and lots of &bPrinted Silicon Circuits&r to start.[--&e应用能源2&r需要&b赛特斯石英&r和大量的&b硅电路&r才能开始.--]",
@@ -1804,7 +1804,7 @@
 	"ftbquests.chapter.progression.quests7.subtitle": "Powah![--波瓦!--]",
 	"ftbquests.chapter.progression.quests7.description0": "There are many ways to generate FE in &dFTB Skies&r. Feel free to explore the various tech mods at your preference.[--在&dFTB Skies&r中有多种方式产生FE。按您的喜好任意探索各种科技模组。--]",
 	"ftbquests.chapter.progression.quests7.description2": "For a simple method, &6Wind Generators&r or the various forms of &6coal-using Generators&r are best early game.[--对于简单的方法,&6风力发电机&r或各种&6煤炭发电机&r是最好的早期游戏.--]",
-	
+
 	"_comment_teleportation_101": "译者：Addyabbia  校对：Addyabbia",
 	"ftbquests.chapter.teleportation_101.title": "传送101",
 
@@ -2020,7 +2020,7 @@
 	"ftbquests.chapter.travel.quests11.description5": "&4Magmatic Anvil&r - Will repair your items with Lava[--&4岩浆铁砧&r - 使用熔岩修复你的物品--]",
 	"ftbquests.chapter.travel.quests11.description7": "&7Void Anvil&r - Strips your items of their Enchants and returns some liquid EXP[--&7虚空铁砧&r - 去皮你的附魔物品并返还一些液体EXP--]",
 	"ftbquests.chapter.travel.quests11.tasks0.title": "Anvils[--铁砧--]",
-	
+
 	"_comment_vi__into_the_unknown": "译者：Orisland 校对：Addyabbia",
 	"ftbquests.chapter.vi__into_the_unknown.title": "VI - 步入未知",
 
@@ -2036,7 +2036,7 @@
 	"ftbquests.chapter.welcome.quests0.description6": "Most resource aquisition can be found through JEI but the questbook will assist you in reaching the other dimensions and, launching your rocket to the stars above![--大部分资源需要可以通过JEI找到,但任务书将帮助你到达其他维度,并将你的火箭发射到上面的星星上!--]",
 	"ftbquests.chapter.welcome.quests0.description8": "From the FTB Team: [--FTB团队:--]",
 	"ftbquests.chapter.welcome.quests0.description9": "&bWe hope you enjoy the journey ahead... You are in for a challenge and we're here for that!&r[--&b希望你喜欢前面的旅程...你正在接受挑战,我们在这里支持这个!&r--]",
-	
+
 	"_comment_reward_tables": "译者：Orisland、莱达 校对：Addyabbia",
 	"ftbquests.reward_tables.alloy_smelter.title": "合金",
 	"ftbquests.reward_tables.bookshelf.title": "书架",
