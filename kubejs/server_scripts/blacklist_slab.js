@@ -5,5 +5,5 @@ NetworkEvents.dataReceived("blacklistSlab", (event) => {
     // console.log(block)
     inventory.setStackInSlot(index, 'minecraft:air')
     // event.player.giveInHand(blacklistedBlock)
-    error(event, `These Blocks are to unstable to be used in the feeder!`)
+    error(event, `这些方块在饲养板中使用时会很不稳定！`)
 })

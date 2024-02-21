@@ -49,7 +49,7 @@ LevelEvents.tick((event) => {
     mobs.forEach((mob) => {
       if (mob.y < 0) {
         mob.kill();
-        console.log("Killed bee at " + mob.x + " " + mob.y + " " + mob.z);
+        console.log("在" + mob.x + " " + mob.y + " " + mob.z + "击杀蜜蜂" );
       }
     });
   });
