@@ -2,13 +2,13 @@
 
 const stickEvent = {
   name: "ftbskies:stick",
-  displayName: "木棍",
-  description: "开关木棍事件。玩家将获得一根木棍",
+  displayName: "Stick",
+  description: "Toggles the Stick Event. Players will receive a stick.",
   chance: 0.2,
   names: [
-    "你有没有感觉自己像个塑料袋？",
+    "Do you ever feel like a plastic bag?",
     "SticKaren - it wants to speak to your manager",
-    "我是木棍，你也是木棍！",
+    "I'm a stick, you're a stick!",
     "Branch out - grab a stick",
     "What's brown and sticky? - a stick!",
     "Stick of Truth",
@@ -36,7 +36,7 @@ const stickEvent = {
   disableStage: null,
 
   execute(event, player, location) {
-    player.tell([`给你一根木棍！ <3`]);
+    player.tell([`Here's a stick! <3`]);
     Utils.server.scheduleInTicks(20, (_) => {
       player.persistentData.timer = Math.floor(player.getServer().persistentData.eventSettings.timeCooldown * 0.8); //lower their event timer instead of a full reset since this is a joke event
     });

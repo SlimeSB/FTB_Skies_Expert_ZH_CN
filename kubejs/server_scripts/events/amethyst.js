@@ -1,8 +1,8 @@
 // priority: 800
 const amethystEvent = {
   name: "ftbskies:amethyst",
-  displayName: "紫水晶母岩",
-  description: "开关紫水晶母岩事件。通过该事件，钻石块可以转换为紫水晶母岩",
+  displayName: "Budding Amethyst",
+  description: "Toggles the Amethyst Event. Diamond Blocks can convert into Budding Amethyst with this Event.",
   chance: 0.7,
   minDistance: 1,
   maxDistance: 24,
@@ -29,8 +29,8 @@ const amethystEvent = {
       } else {
         let blockLoc = diamond_block.pos;
 
-        player.tell([`你们的祭品已被接受`]);
-        player.tell([`天仙赐福于你`]);
+        player.tell([`Your offerings have been accepted.`]);
+        player.tell([`The sky fairy has blessed you.`]);
 
         let fairy = level.createEntity("ars_nouveau:familiar_whirlisprig");
         fairy.glowing = true;

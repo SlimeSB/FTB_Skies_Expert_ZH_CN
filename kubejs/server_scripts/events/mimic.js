@@ -1,8 +1,8 @@
 // priority: 800
 const chestEvent = {
   name: "ftbskies:chest",
-  displayName: "宝箱怪",
-  description: "开关宝箱怪事件。它们会从你的一个箱子中生成。宝箱怪死亡时会掉落奇异饰品",
+  displayName: "Mimic",
+  description: "Toggles the Mimic Event. They spawn from one of your chests. Mimics drop Artifacts on death",
   chance: 0.5,
   minDistance: 1,
   maxDistance: 15,
@@ -31,7 +31,7 @@ const chestEvent = {
       mimicEntity.setPosition(blockLoc.x, blockLoc.y + 1.25, blockLoc.z);
       mimicEntity.spawn();
       player.tell([
-        `你的箱子成倍增加，新的箱子在 X: ${blockLoc.x}, Y: ${blockLoc.y}, Z: ${blockLoc.z}。 里面会有什么呢？`,
+        `Your chests have multiplied, new chest at X: ${blockLoc.x}, Y: ${blockLoc.y}, Z: ${blockLoc.z}. What could be inside of it?`,
       ]);
     }
   },

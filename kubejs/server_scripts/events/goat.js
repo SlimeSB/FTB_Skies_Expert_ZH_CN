@@ -4,8 +4,8 @@ const GoatAI = Java.loadClass("net.minecraft.world.entity.animal.goat.GoatAi");
 
 const goatEvent = {
   name: "ftbskies:goat",
-  displayName: "山羊",
-  description: "开关山羊事件。在你附近随机生成一只量子山羊",
+  displayName: "Goat",
+  description: "Toggles the Goat Event. Spawns a random Quantum Goat near you",
   chance: 0.5,
   size: -1,
   checkBlocks: ["minecraft:air"],
@@ -23,8 +23,8 @@ const goatEvent = {
   execute(event, player, location) {
     const level = player.getLevel();
     let entity = level.createEntity("minecraft:goat");
-    console.log('警告玩家' + player.id + '山羊近在咫尺');
-    player.sendSystemMessage({ text: "⚠ " + '您听到附近有窸窸窣窣的声音，好像有什么生物正在靠近...', color: "red" }, true);
+    console.log('Warning Player' + player.id + ' that a goat is near');
+    player.sendSystemMessage({ text: "⚠ " + 'You hear some rustling nearby as if some creature is approaching...', color: "red" }, true);
 
     Utils.server.scheduleInTicks(140, () => {
       let goat = Goat(entity);
@@ -60,8 +60,8 @@ EntityEvents.hurt(event => {
     if (target.isPlayer() && entity.type == 'minecraft:goat') {
         if (!target.stages.has("seen_goat")) {
             target.stages.add("seen_goat")
-            message(target, "你被山羊撞了！")
-            Utils.server.scheduleInTicks(40, () => { message(target, "山羊事件现在可以在任务书中禁用！") })
+            message(target, "You got hit by a Goat!")
+            Utils.server.scheduleInTicks(40, () => { message(target, "Goat Event's can now be disabled in the Quest Book!") })
         }
     }
 })
