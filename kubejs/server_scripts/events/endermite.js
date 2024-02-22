@@ -1,8 +1,8 @@
 // priority: 800
 const endermiteEvent = {
   name: "ftbskies:endermite",
-  displayName: "Endermite",
-  description: "Toggles the Endermite Possession Event. Endermites will possess blocks.",
+  displayName: "末影螨",
+  description: "开关末影螨占据事件。末影螨会占据方块",
   chance: 0.7,
   minDistance: 1,
   maxDistance: 24,
@@ -28,7 +28,7 @@ const endermiteEvent = {
     } else {
       let blockLoc = amethyst_block.pos;
 
-      player.tell([`Something is wriggling out from the amethyst...`]);
+      player.tell([`紫水晶里有东西在蠕动...`]);
 
       let endermite = level.createEntity("occultism:possessed_endermite");
       endermite.glowing = true;

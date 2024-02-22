@@ -18,8 +18,8 @@
  */
 const template = {
     name: "ftbskies:template",
-    displayName: "Template",
-    description: "Toggles the Template Event. This is a template for creating new events.",
+    displayName: "模板",
+    description: "开关模板事件。这是用于创建新事件的模板",
     chance: 0.1,
     stage: null,
     disableStage: null,
@@ -45,7 +45,7 @@ const template = {
         let level = player.getLevel();
         let server = Utils.server;
 
-        player.tell(["[Server]: This is a template for creating new events."]);
+        player.tell(["[Server]: 这是用于创建新事件的模板"]);
         Utils.server.scheduleInTicks(20, (_) => {
             player.persistentData.timer = 10; //lower their event timer instead of a full reset
         });

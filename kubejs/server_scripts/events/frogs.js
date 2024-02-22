@@ -1,8 +1,8 @@
 // priority: 800
 const frogEvent = {
   name: "ftbskies:frogs",
-  displayName: "Frog and Squids",
-  description: "Toggles the Frog and Squids Event. Frogs and Squids will spawn in water.",
+  displayName: "青蛙和鱿鱼",
+  description: "开关青蛙和鱿鱼事件。青蛙和鱿鱼将在水中生成",
   chance: 0.3,
   minDistance: 1,
   maxDistance: 15,
@@ -20,9 +20,9 @@ const frogEvent = {
 
     if (getRandomInt(0, 100) < 50) {
       //default frog
-      player.tell([`Ribbit.`]);
+      player.tell([`Ribbit`]);
     } else {
-      player.tell([`*SPLASH*`]);
+      player.tell([`*水花四溅*`]);
       if (getRandomInt(0, 100) < 90) creature = "minecraft:squid";
       else creature = "minecraft:glow_squid";
     }
