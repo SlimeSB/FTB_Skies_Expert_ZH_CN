@@ -9,7 +9,7 @@
 	"ftbquests.chapter.magical.quests1.subtitle": "声音指令",
 	"ftbquests.chapter.magical.quests1.description0": "当靠近&b多媒体索引&r时，你可以在&6聊天栏&r输入物品的名称和数量，从与其相连的多媒体火花容器中请求该物品",
 	"ftbquests.chapter.magical.quests1.description2": "您可以请求\\\"&632 Stone&r\\\" 或者 \\\"&6half a stack of stone&r\\\" 这两种方法都可以使用",
-	"ftbquests.chapter.magical.quests1.description4": "由于索引在技术上没有库存，你可以在不丢失任何功能的情况下在上面放置主多媒体火花",
+	"ftbquests.chapter.magical.quests1.description4": "由于索引严格来说没有物品栏，你可以在不丢失任何功能的情况下在上面放置主媒体火花",
 	"ftbquests.chapter.magical.quests2.subtitle": "红石请求",
 	"ftbquests.chapter.magical.quests2.description0": "当给它一个&6红石信号&r时，&b多媒体漏斗&r会从多媒体网络中请求一个物品&r并将其输入下方1个或2个方块的库存中，或者将其丢在地上",
 	"ftbquests.chapter.magical.quests2.description2": "放置&6物品展示框&r来设置请求的物品。旋转一次输出2个物品，再旋转一次输出 4个物品，然后是 8、16、32 和 64个。如果有多个物品展示框，它将随机选择一个请求。",
