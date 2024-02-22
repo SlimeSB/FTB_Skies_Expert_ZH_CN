@@ -47,7 +47,7 @@
 	"ftbquests.chapter.mekanism.quests9.description0": "Ah yes... &eMekanism&r...[--啊是的...&e通用机械&r...--]",
 	"ftbquests.chapter.mekanism.quests9.description2": "One of the few mods where you actually need a machine to make Machine Casings.[--在几个模组中,你真的需要一个机器来制作机器外壳。--]",
 	"ftbquests.chapter.mekanism.quests9.description4": "The &bMetallurgic Infuser&r is used to &6create alloys&r, most importantly being Steel.[--&b冶金灌注机&r用于&6制造合金&r,其中最重要的就是钢.--]",
-	"ftbquests.chapter.mekanism.quests9.description6": "HINT: You dont actually need power to run this machine. You can power it with Redstone Dust in its power slot instead.[--提示:你真的不需要电力来运行这台机器。你可以在它的电槽中用红石粉为它供电。--]",
+	"ftbquests.chapter.mekanism.quests9.description6": "HINT: You dont actually need power to run this machine. You can power it with Redstone Dust in its power slot instead.[--提示:你不需要非用电力运行这台机器。你可以在它的能量槽中用红石粉为它供电。--]",
 	"ftbquests.chapter.mekanism.quests10.subtitle": "Rich, Richer, Enrichment[--富集,再富集,更富集--]",
 	"ftbquests.chapter.mekanism.quests10.description": "The &bEnrichment Chamber&r is used to &6compress&r certain items, as well as &6refine ores&r... if you can get any.[--&b富集仓&r用于&6压缩&r某些物品,以及&6精炼矿石&r......如果你有的话.--]",
 	"ftbquests.chapter.mekanism.quests11.subtitle": "First of many[--&2许多中的第一个--]",
