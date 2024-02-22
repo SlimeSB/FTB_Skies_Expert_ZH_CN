@@ -93,7 +93,7 @@
 	"ftbquests.chapter.mekanism.quests26.description0": "The &bSolar Neutron Activator&r is used to convert one liquid into another, and is &6powered by the sun&r.[--&b太阳能中子活化器&r用于转化液体,并且&6由太阳驱动&r.--]",
 	"ftbquests.chapter.mekanism.quests26.description2": "It can convert &6Lithium into Tritium&r, as well as &6Nuclear Waste into Pollonium&r.[--它可以将&6锂转化为氚&r,并将&6核废料转化为钋&r.--]",
 	"ftbquests.chapter.mekanism.quests27.subtitle": "Make a Thermal Evaporation Chamber[--制作热力蒸馏塔--]",
-	"ftbquests.chapter.mekanism.quests27.description0": "Using the &bThermal Evaporation Chamber&r to create Brine is one of the first steps into getting Fusion Power.[--使用&b热力蒸馏塔&r制作盐水是获得核聚变动力的初始步骤之一。--]",
+	"ftbquests.chapter.mekanism.quests27.description0": "Using the &bThermal Evaporation Chamber&r to create Brine is one of the first steps into getting Fusion Power.[--使用&b热力蒸馏塔&r制作盐水是获得聚变能的初始步骤之一。--]",
 	"ftbquests.chapter.mekanism.quests27.description2": "You probably want to have atleast 2 &bThermal Evaporation Chambers&r.[--你可能要至少2个&b热力蒸馏塔&r.--]",
 	"ftbquests.chapter.mekanism.quests27.description4": "One for &9Water&r -> &eBrine&r[--&9水&r -> &e盐水&r--]",
 	"ftbquests.chapter.mekanism.quests27.description6": "One for &eBrine&r -> &6Lithium&r[--&e盐水&r -> &6锂&r--]",
