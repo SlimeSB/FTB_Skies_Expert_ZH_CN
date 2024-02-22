@@ -21,7 +21,7 @@
 	"ftbquests.chapter.magical.quests4.subtitle": "固定它！",
 	"ftbquests.chapter.magical.quests4.description0": "&b多媒体固定器&r放在多媒体拦截器旁边，它就能记得拦截器... 是否拦截。如果在此之后收到信号，它就会遗忘状态，而拦截器拦截的请求就会重新请求",
 	"ftbquests.chapter.magical.quests4.description2": "举例说明,，&6将固定器放在上一个任务中的拦截器旁边&r。放置一个多媒体水晶魔方监测附近的按钮，并将一个比较器从它指向固定器",
-	"ftbquests.chapter.magical.quests4.description4": "现在，在没有可用按钮的情况下请求按钮时，拦截器会发出一个信号，并最终制作一个按钮，将其置于网络的某处，这将让水晶魔方知道，这将告诉固定器，&6它将把新制作的按钮发回给请求者&r",
+	"ftbquests.chapter.magical.quests4.description4": "现在，在没有可用按钮的情况下请求按钮时，拦截器会发出一个信号，并最终制作一个按钮，将其置于网络的某处，这将让水晶魔方知道并告诉固定器，&6它就能把新制作的按钮发回给请求者&r",
 	"ftbquests.chapter.magical.quests5.subtitle": "先知存储",
 	"ftbquests.chapter.magical.quests5.description0": "&b多媒体水晶魔方&r可以用物品右击，它会&6显示该物品在网络中的数量&r",
 	"ftbquests.chapter.magical.quests5.description2": "比较器还会根据该物品的可用数量发出红石信号",
