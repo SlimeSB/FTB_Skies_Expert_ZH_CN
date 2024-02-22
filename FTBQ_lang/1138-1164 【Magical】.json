@@ -11,7 +11,7 @@
 	"ftbquests.chapter.magical.quests1.description2": "您可以请求\\\"&632 Stone&r\\\" 或者 \\\"&6half a stack of stone&r\\\" 这两种方法都可以使用",
 	"ftbquests.chapter.magical.quests1.description4": "由于索引严格来说没有物品栏，你可以在不丢失任何功能的情况下在上面放置主媒体火花",
 	"ftbquests.chapter.magical.quests2.subtitle": "红石请求",
-	"ftbquests.chapter.magical.quests2.description0": "当给它一个&6红石信号&r时，&b多媒体漏斗&r会从多媒体网络中请求一个物品&r并将其输入下方1个或2个方块的库存中，或者将其丢在地上",
+	"ftbquests.chapter.magical.quests2.description0": "当给它一个&6红石信号&r时，&b多媒体漏斗&r会从多媒体网络中请求一个物品&r，并输入至其下方1或2格的容器中，或者将该物品丢在地上",
 	"ftbquests.chapter.magical.quests2.description2": "放置&6物品展示框&r来设置请求的物品。旋转一次输出2个物品，再旋转一次输出 4个物品，然后是 8、16、32 和 64个。如果有多个物品展示框，它将随机选择一个请求。",
 	"ftbquests.chapter.magical.quests3.subtitle": "自动合成，算是吧...",
 	"ftbquests.chapter.magical.quests3.description0": "&b多媒体拦截器&r在请求物品展示框中的物品时会发出红石脉冲",
