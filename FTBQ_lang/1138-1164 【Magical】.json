@@ -15,7 +15,7 @@
 	"ftbquests.chapter.magical.quests2.description2": "放置&6物品展示框&r来设置请求的物品。旋转一次输出2个物品，再旋转一次输出 4个物品，然后是 8、16、32 和 64个。如果有多个物品展示框，它将随机选择一个请求。",
 	"ftbquests.chapter.magical.quests3.subtitle": "自动合成，算是吧...",
 	"ftbquests.chapter.magical.quests3.description0": "&b多媒体拦截器&r在请求物品展示框中的物品时会发出红石脉冲",
-	"ftbquests.chapter.magical.quests3.description2": "该功能可与&6多媒体漏斗&r配合使用来制作您缺少的物品。例如，放置一个 1x1&6机巧箱&r，放置一个&6漏斗&r对准它，放置一个&6多媒体漏斗&r，放置一个火花和物品展示框 （展示石头），然后放置一个&6多媒体拦截器&r、火花和一个物品展示框（展示按钮）",
+	"ftbquests.chapter.magical.quests3.description2": "该功能可与&6多媒体漏斗&r配合使用来制作您缺少的物品。例如，放置一个 1x1&6机巧箱&r，放置一个&6漏斗&r对准它，放置一个有火花和物品展示框&6多媒体漏斗& （展示石头），然后放置一个有火花和物品展示框的&6多媒体拦截器&r，在拦截器顶部放置一个按钮",
 	"ftbquests.chapter.magical.quests3.description4": "请求按钮但没有按钮时，拦截器将发出红石脉冲,，这将激活漏斗， 这将把石头发送到机巧箱,，&6这将制作按钮并将其从底部丢出&r",
 	"ftbquests.chapter.magical.quests3.description6": "这是&6不幸的限制&r，因为每次只能请求一个。您可以旋转漏斗的物品展示框以增加数量，但它仍然总是会制作这个数量",
 	"ftbquests.chapter.magical.quests4.subtitle": "固定它！",
