@@ -17,7 +17,7 @@
 	"ftbquests.chapter.magical.quests3.description0": "&b多媒体拦截器&r在请求物品展示框中的物品时会发出红石脉冲",
 	"ftbquests.chapter.magical.quests3.description2": "该功能可与&6多媒体漏斗&r配合使用来制作您缺少的物品。例如，放置一个 1x1&6机巧箱&r，放置一个&6漏斗&r对准它，放置一个有火花和物品展示框&6多媒体漏斗& （展示石头），然后放置一个有火花和物品展示框的&6多媒体拦截器&r，在拦截器顶部放置一个按钮",
 	"ftbquests.chapter.magical.quests3.description4": "当请求按钮但却没有按钮时，拦截器将发出红石脉冲，激活漏斗把石头发送到机巧箱，&6就会制作按钮并将其从底部丢出&r",
-	"ftbquests.chapter.magical.quests3.description6": "这是&6不幸的限制&r，因为每次只能请求一个。您可以旋转漏斗的物品展示框以增加数量，但它仍然总是会制作这个数量",
+	"ftbquests.chapter.magical.quests3.description6": "它有个&6不幸的限制&r，每次只能请求一个。您可以旋转漏斗的物品展示框以增加数量，但它仍然总是会制作这个数量",
 	"ftbquests.chapter.magical.quests4.subtitle": "固定它！",
 	"ftbquests.chapter.magical.quests4.description0": "&b多媒体固定器&r放在多媒体拦截器旁边，如果拦截器... 拦截。如果在此之后收到信号，它就会遗忘，而请求拦截器物品的东西就会再次请求",
 	"ftbquests.chapter.magical.quests4.description2": "举例说明,，&6将固定器放在上一个任务中的拦截器旁边&r。放置一个多媒体水晶魔方监测附近的按钮，并将一个比较器从它指向固定器",
