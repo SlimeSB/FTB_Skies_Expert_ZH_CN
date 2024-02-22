@@ -21,7 +21,7 @@
 	"ftbquests.chapter.mekanism.quests3.subtitle": "Not great, not terrible[--不好,不坏--]",
 	"ftbquests.chapter.mekanism.quests3.description0": "When used, the &bGeiger Counter&r will &6tell you your current Radiation Exposure&r where you are. Normal, safe background levels are aroung 100 nSv/h, &mwhatever those are&r.[--使用时,&b盖革计数器&r会告诉你你所在位置的&6辐射暴露&r.正常情况下,安全辐射背景等级是100nSv/h,&m不管现实里是不是有这么多&r.--]",
 	"ftbquests.chapter.mekanism.quests3.description2": "The &bDosimeter&r will &6tell you your current Radiation Dose&r. Basically, how irradiated you yourself are.[--&b放射量测定器&r会&6告诉你你当前的辐射量&r.基本上,就是你受到的辐射程度.--]",
-	"ftbquests.chapter.mekanism.quests3.description4": "Obviously, higher numbers are worse. Green is safe, yellow is unsafe, orange is dangerous, and red is critical.[--很显然,数字越高越坏。绿色是安全,黄色是不安全,橙色是危险,红色是紧急。--]",
+	"ftbquests.chapter.mekanism.quests3.description4": "Obviously, higher numbers are worse. Green is safe, yellow is unsafe, orange is dangerous, and red is critical.[--很显然,数字越高越坏。绿色是安全,黄色是不安全,橙色是危险,红色是临界。--]",
 	"ftbquests.chapter.mekanism.quests4.title": "Splitting the Atom[--分解原子--]",
 	"ftbquests.chapter.mekanism.quests4.subtitle": "Learn how to use the Fission Reactor[--学习如何使用裂变反应堆--]",
 	"ftbquests.chapter.mekanism.quests4.description0": "The Fission Reactor &cdoesn't make FE&r, it makes &oheat&r. This heat is used to make Steam, which turns a &6Turbine&r, which makes FE.[--裂变反应堆&c不会产生FE&r,它会产生&o热量&r.热量用于生产蒸汽,转动&6涡轮机&r来产生FE.--]",
