@@ -9,7 +9,7 @@
 	"ftbquests.chapter.mekanism.quests1.title": "Radiation is Just Spicy Air[--辐射只是空气里撒点辣椒水--]",
 	"ftbquests.chapter.mekanism.quests1.subtitle": "Learn about radiation[--了解辐射--]",
 	"ftbquests.chapter.mekanism.quests1.description0": "&cRadiation&r can leak into the environment if certain things happen:[--如果发生某些事情,&c辐射&r会泄漏到环境中:--]",
-	"ftbquests.chapter.mekanism.quests1.description2": "• Reactor meltdown\\\\n• Reactor running while full of Waste\\\\n• Breaking any block containing radioactive materials[--• 反应堆熔毁\\\\n• 反应堆在核废料满的时候运行\\\\n• 破坏所有含有辐射材料的方块--]",
+	"ftbquests.chapter.mekanism.quests1.description2": "• Reactor meltdown\\\\n• Reactor running while full of Waste\\\\n• Breaking any block containing radioactive materials[--• 反应堆熔毁\\\\n• 反应堆在核废料满的时候运行\\\\n• 破坏任何含有放射性物质的方块--]",
 	"ftbquests.chapter.mekanism.quests1.description4": "These materials are radioactive:\\\\n• Nuclear Waste (obviously)\\\\n• Polonium Pellets\\\\n• Plutonium Pellets\\\\n• Spent Nuclear Waste[--这些材料是放射性的:\\\\n•核废料(废话)\\\\n•钋球\\\\\\n•钚球\\\\\\n•用尽的核废料--]",
 	"ftbquests.chapter.mekanism.quests1.description6": "Radioactive Waste is a gas that can be stored in &bRadioactive Waste Barrels&r. In fact, that's the &oonly&r place they can be stored. &6Shift-right click one&r to see how full it is.[--放射性废料是一种气体,可以存储在&b放射性废料桶&r中. 实际上,它们&o只能&r放在这里.&6Shift右键&r查看它满没满.--]",
 	"ftbquests.chapter.mekanism.quests1.description8": "Waste Barrels will &6delete Waste at 1mB per second&r. As such, it's best to make a lot them. Environmental radiation also dissipates over time, but &cover a much longer period&r (50 in-game days). You &ccannot safely move them&r by any means.[--废料桶会&6以每秒1mB&r的速度删除废料&r.因此,最好做多一点.随着时间的推移,环境辐射也会消失,但&覆盖时间要长得多&r(50游戏天数)。你&c不能用任何方式安全移动它们&r.--]",
