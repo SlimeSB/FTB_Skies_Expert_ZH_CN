@@ -1,9 +1,9 @@
 {
-	"_comment": "译者：  校对：",
-	"ftbquests.chapter.invisible_quests.title": "Invisible quests[--隐形任务--]",
-	"ftbquests.chapter.invisible_quests.quests0.description": "Completes the &6Reach Mercury or Venus&r task in the Ad Astra quest, when either of this quest's tasks are complete.[--在Ad Astra任务完成后完成&6Reach Alcury or Kingus&r的任务.--]",
-	"ftbquests.chapter.invisible_quests.quests1.description0": "Completes the \\\"Visit Nether Sky Village\\\" task in Progression chapter[--在进度章节中完成“下界天空村庄”的任务--]",
-	"ftbquests.chapter.invisible_quests.quests1.description2": "That task already gets completed if you visit the Crimson village[--如果你前往绯红村庄,这项任务已经完成--]",
-	"ftbquests.chapter.invisible_quests.quests3.tasks0.title": "Quest Blocker[--任务方块--]",
-	"ftbquests.chapter.invisible_quests.quests7.tasks0.title": "Seen Goat[--看见山羊了--]"
+	"_comment_invisible_quests": "译者：Addyabbia  校对：",
+	"ftbquests.chapter.invisible_quests.title": "隐藏任务",
+	"ftbquests.chapter.invisible_quests.quests0.description": "完成 Ad Astra 中的 &6抵达水星或金星&r 任务，任意任务完成后，您都会获得该任务的奖励",
+	"ftbquests.chapter.invisible_quests.quests1.description0": "完成进度章节中的 \\\"访问下界天空村庄\\\" 任务",
+	"ftbquests.chapter.invisible_quests.quests1.description2": "如果你访问了绯红村庄，这项任务就完成了！",
+	"ftbquests.chapter.invisible_quests.quests3.tasks0.title": "任务阻断",
+	"ftbquests.chapter.invisible_quests.quests7.tasks0.title": "看见山羊了!"
 }
