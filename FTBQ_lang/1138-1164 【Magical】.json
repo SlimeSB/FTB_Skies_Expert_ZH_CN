@@ -3,7 +3,7 @@
 	"ftbquests.chapter.magical.title": "魔法",
 	"ftbquests.chapter.magical.quests0.title": "多媒体网络",
 	"ftbquests.chapter.magical.quests0.subtitle": "魔法数字存储",
-	"ftbquests.chapter.magical.quests0.description0": "&b多媒体火花&r是&6多媒体网络&r的第一部分，它允许您 &6从连接的库存中调用物品&r。网络只能处理 &6主动请求&r，任何事情都不是被动完成的，它也不能将物品添加到网络中",
+	"ftbquests.chapter.magical.quests0.description0": "&b多媒体火花&r是&6多媒体网络&r的第一部分，它允许您&6从连接的容器中调用物品&r。网络只能处理&6主动请求&r，不能被动转移物品。物品也不能直接&o添加&r到网络中",
 	"ftbquests.chapter.magical.quests0.description2": "多媒体火花&6会自动连接附近相同颜色的其他多媒体火花&r，可使用染料改变颜色。每个网络还需要一个&b主媒体火花&r",
 	"ftbquests.chapter.magical.quests0.description4": "多媒体火花可以&6访问正下方容器中的物品&r。这&c并不适用&r于主媒体火花，出于某种原因必须放在容器上，但却无法访问......",
 	"ftbquests.chapter.magical.quests1.subtitle": "声音指令",
