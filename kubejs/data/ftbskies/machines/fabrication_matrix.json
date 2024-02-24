@@ -1,0 +1,164 @@
+{
+  "name": "制造矩阵",
+  "appearance": {"light": 7},
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000,
+      "maxInput": 1000,
+      "maxOutput": 666
+    },
+    
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank",
+      "capacity": 10000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "outputtank",
+      "capacity": 10000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "outputslot1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "outputslot2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "outputslot3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "outputslot4",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "outputslot5",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "outputslot6",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:size",
+      "width": 176,
+      "height": 174
+    },
+    {
+      "type": "custommachinery:texture",
+      "x": 0,
+      "y": 0,
+      "texture": "ftbskies:textures/gui/machine_gui.png"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 8,
+      "text": "制造矩阵"
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 7,
+      "y": 20,
+      "height": 54,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 27,
+      "y": 20,
+      "height": 54,
+      "width": 18,
+      "id": "inputtank"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 51,
+      "y": 37,
+      "id": "inputslot"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 109,
+      "y": 20,
+      "id": "outputslot1"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 127,
+      "y": 20,
+      "id": "outputslot2"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 109,
+      "y": 38,
+      "id": "outputslot3"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 127,
+      "y": 38,
+      "id": "outputslot4"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 109,
+      "y": 56,
+      "id": "outputslot5"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 127,
+      "y": 56,
+      "id": "outputslot6"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 151,
+      "y": 20,
+      "height": 54,
+      "width": 18,
+      "id": "outputtank"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 78,
+      "text": "Inventory"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 90
+    }
+  ]
+}

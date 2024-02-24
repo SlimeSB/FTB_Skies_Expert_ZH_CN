@@ -1,0 +1,273 @@
+{
+  "name": "量子装配机",
+  "appearance": {"light": 12},
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 10000000,
+      "maxInput": 10000000,
+      "maxOutput": 10000000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank1",
+      "capacity": 4000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank2",
+      "capacity": 4000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input",
+      "filter": ["ftbskies:molten_cheese","ftbskies:liquid_elemental_void", "createteleportoers:quantum_fluid","integrateddynamics:menril_resin","industrialforegoing:latex","thermal:redstone","industrialforegoing:pink_slime","ftbskies:polytetrafluoroethylene","starbunclemania:source_fluid","ftbskies:stabilized_fire", "ftbskies:resonant_liquid","industrialforegoing:ether_gas"]
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank3",
+      "capacity": 4000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input",
+      "filter": ["ftbskies:molten_cheese","ftbskies:liquid_elemental_void", "createteleportoers:quantum_fluid","integrateddynamics:menril_resin","industrialforegoing:latex","thermal:redstone","industrialforegoing:pink_slime","ftbskies:polytetrafluoroethylene","starbunclemania:source_fluid","ftbskies:stabilized_fire", "ftbskies:resonant_liquid","industrialforegoing:ether_gas"]
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank4",
+      "capacity": 4000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input",
+      "filter": ["ftbskies:molten_cheese","ftbskies:liquid_elemental_void", "createteleportoers:quantum_fluid","integrateddynamics:menril_resin","industrialforegoing:latex","thermal:redstone","industrialforegoing:pink_slime","ftbskies:polytetrafluoroethylene","starbunclemania:source_fluid","ftbskies:stabilized_fire", "ftbskies:resonant_liquid","industrialforegoing:ether_gas"]
+
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank5",
+      "capacity": 4000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input",
+      "filter": ["ftbskies:molten_cheese","ftbskies:liquid_elemental_void", "createteleportoers:quantum_fluid","integrateddynamics:menril_resin","industrialforegoing:latex","thermal:redstone","industrialforegoing:pink_slime","ftbskies:polytetrafluoroethylene","starbunclemania:source_fluid","ftbskies:stabilized_fire", "ftbskies:resonant_liquid","industrialforegoing:ether_gas"]
+
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank6",
+      "capacity": 4000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input",
+      "filter": ["ftbskies:molten_cheese","ftbskies:liquid_elemental_void", "createteleportoers:quantum_fluid","integrateddynamics:menril_resin","industrialforegoing:latex","thermal:redstone","industrialforegoing:pink_slime","ftbskies:polytetrafluoroethylene","starbunclemania:source_fluid","ftbskies:stabilized_fire", "ftbskies:resonant_liquid","industrialforegoing:ether_gas"]
+
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot5",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot6",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot7",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot8",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "outputtank",
+      "capacity": 10000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "outputslot",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:size",
+      "width": 176,
+      "height": 193
+    },
+    {
+      "type": "custommachinery:texture",
+      "x": 0,
+      "y": 0,
+      "texture": "ftbskies:textures/gui/quantum_assembler.png"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 8,
+      "text": "量子装配机"
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 7,
+      "y": 20,
+      "height": 72,
+      "width": 12
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 21,
+      "y": 20,
+      "height": 35,
+      "width": 12,
+      "id": "inputtank1"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 35,
+      "y": 20,
+      "height": 35,
+      "width": 12,
+      "id": "inputtank2"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 49,
+      "y": 20,
+      "height": 35,
+      "width": 12,
+      "id": "inputtank3"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 21,
+      "y": 57,
+      "height": 35,
+      "width": 12,
+      "id": "inputtank4"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 35,
+      "y": 57,
+      "height": 35,
+      "width": 12,
+      "id": "inputtank5"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 49,
+      "y": 57,
+      "height": 35,
+      "width": 12,
+      "id": "inputtank6"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 63,
+      "y": 20,
+      "id": "inputslot1"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 81,
+      "y": 20,
+      "id": "inputslot2"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 63,
+      "y": 38,
+      "id": "inputslot3"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 81,
+      "y": 38,
+      "id": "inputslot4"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 63,
+      "y": 56,
+      "id": "inputslot5"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 81,
+      "y": 56,
+      "id": "inputslot6"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 63,
+      "y": 74,
+      "id": "inputslot7"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 81,
+      "y": 74,
+      "id": "inputslot8"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 103,
+      "y": 49
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 129,
+      "y": 47,
+      "id": "outputslot"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 151,
+      "y": 20,
+      "height": 72,
+      "width": 18,
+      "id": "outputtank"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 98,
+      "text": "Inventory"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 110
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ftbteamdimensions:minimalisland",
+  "structure": "ftbteamdimensions:spawn/spawnblock",
+  "name": "极简空岛",
+  "structure_set": "ftbteamdimensions:default",
+  "height": 64,
+  "display_order": 3,
+  "dimension_type": "ftbteamdimensions:default",
+  "preview_image": "ftbteamdimensions:textures/spawn/minimalisland.png",
+  "spawn_override": [ 0, 65, 0 ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ftbteamdimensions:island1",
+  "structure": "ftbteamdimensions:spawn/spawnblock",
+  "name": "FTB空岛",
+  "structure_set": "ftbteamdimensions:default",
+  "height": 64,
+  "display_order": 1,
+  "dimension_type": "ftbteamdimensions:default",
+  "preview_image": "ftbteamdimensions:textures/spawn/island1.png",
+  "spawn_override": [ 0, 65, 0 ]
+}

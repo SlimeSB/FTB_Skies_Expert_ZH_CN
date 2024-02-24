@@ -1,0 +1,100 @@
+{
+  "name": "高级柴油发电机",
+  "appearance": {
+    "block": "ftbskies:machine/advanced_diesel_generator",
+    "running": {
+      "block": "ftbskies:machine/advanced_diesel_generator_active",
+      "ambient_sound": "mekanism:item.scuba_mask"
+    },
+    "resistance": 9,
+    "hardness": 3,
+    "requires_tool": false
+  },
+  "components": [
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 20
+    },           
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank1",
+      "capacity": 4000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input",
+      "filter": ["#forge:biodiesel", "#forge:diesel", "#forge:flux_diesel", "#forge:force_biodiesel", "#forge:force_diesel"],
+      "whitelist": true
+    },    
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 4000,
+      "maxInput": 1000,     
+      "id": "inputtank2",
+      "filter": ["mekanism:oxygen"],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:contraption",
+      "stress_impact": 0,
+      "config": {
+        "default": "output"
+    }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:size",
+      "width": 176,
+      "height": 174
+    },
+    {
+      "type": "custommachinery:texture",
+      "x": 0,
+      "y": 0,
+      "texture": "ftbskies:textures/gui/machine_gui.png"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 8,
+      "text": "高级柴油发电机"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 30,
+      "y": 20,
+      "height": 54,
+      "width": 18,
+      "id": "inputtank1"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 131,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 7,
+      "y": 20,
+      "id": "inputtank2",
+      "height": 54,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 78,
+      "text": "Inventory"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 90
+    }
+  ]
+}

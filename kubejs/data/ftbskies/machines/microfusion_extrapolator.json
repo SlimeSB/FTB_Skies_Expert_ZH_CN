@@ -1,0 +1,100 @@
+{
+  "name": "微聚变外推器",
+  "appearance": {"light": 15},
+  "components": [
+    {
+      "type": "custommachinery:heat"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank",
+      "capacity": 10000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "outputslot",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:size",
+      "width": 176,
+      "height": 174
+    },
+    {
+      "type": "custommachinery:texture",
+      "x": 0,
+      "y": 0,
+      "texture": "ftbskies:textures/gui/machine_gui.png"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 8,
+      "text": "微聚变外推器"
+    },
+    {
+      "type": "custommachinery:heat",
+      "x": 7,
+      "y": 20,
+      "height": 54,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 27,
+      "y": 20,
+      "height": 54,
+      "width": 18,
+      "id": "inputtank"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 51,
+      "y": 29,
+      "id": "inputslot1"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 51,
+      "y": 47,
+      "id": "inputslot2"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 128,
+      "y": 38,
+      "id": "outputslot"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 78,
+      "text": "Inventory"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 90
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "聚爆压缩机",
+  "appearance": {},
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "outputslot1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "outputslot2",
+      "mode": "output"
+    }    
+    ],
+  "gui": [
+    {
+      "type": "custommachinery:size",
+      "width": 176,
+      "height": 174
+    },
+    {
+      "type": "custommachinery:texture",
+      "x": 0,
+      "y": 0,
+      "texture": "ftbskies:textures/gui/machine_gui.png"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 8,
+      "text": "聚爆压缩机"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 51,
+      "y": 20,
+      "id": "inputslot1"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 71,
+      "y": 20,
+      "id": "inputslot2"
+    },
+
+    {
+      "type": "custommachinery:progress",
+      "x": 91,
+      "y": 20
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 129,
+      "y": 20,
+      "id": "outputslot1"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 147,
+      "y": 20,
+      "id": "outputslot2"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 78,
+      "text": "Inventory"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 90
+    }
+  ]
+}

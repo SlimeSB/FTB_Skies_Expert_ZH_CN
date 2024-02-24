@@ -1,0 +1,12 @@
+{
+  "id": "ftbteamdimensions:chosenisland",
+  "structure": "ftbteamdimensions:spawn/spawnblock",
+  "name": "精致空岛",
+  "structure_set": "ftbteamdimensions:default",
+  "height": 64,
+  "author": "ChosenArchitect",
+  "display_order": 4,
+  "dimension_type": "ftbteamdimensions:default",
+  "preview_image": "ftbteamdimensions:textures/spawn/chosen.png",
+  "spawn_override": [ 0, 65, 0 ]
+}

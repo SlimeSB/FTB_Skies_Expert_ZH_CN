@@ -1,0 +1,77 @@
+{
+  "name": "放射性热电发电机",
+  "appearance": {"light": 7},
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:heat"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000,
+      "maxOutput": 1000,
+      "config": {
+        "default": "output"
+    }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:size",
+      "width": 176,
+      "height": 174
+    },
+    {
+      "type": "custommachinery:texture",
+      "x": 0,
+      "y": 0,
+      "texture": "ftbskies:textures/gui/machine_gui.png"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 8,
+      "text": "放射性热电发电机"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 32,
+      "y": 37,
+      "id": "inputslot"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 131,
+      "y": 20,
+      "height": 54,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:heat",
+      "x": 151,
+      "y": 20,
+      "height": 54,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 78,
+      "text": "Inventory"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 90
+    }
+  ]
+}
