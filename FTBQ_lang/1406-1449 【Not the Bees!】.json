@@ -9,9 +9,9 @@
 	"ftbquests.chapter.not_the_bees.quests1.subtitle": "制作高级蜂箱",
 	"ftbquests.chapter.not_the_bees.quests1.description0": "&b高级蜂箱&r可容纳 3 只蜜蜂，并且它&6有一个 GUI，可以打开&r",
 	"ftbquests.chapter.not_the_bees.quests1.description2": "在这里，您可以在&6不惊扰蜜蜂&r的情况下提取蜂蜜和蜜脾",
-	"ftbquests.chapter.not_the_bees.quests1.description4": "放置 &6扩容盒&r 在蜂箱顶部或者底部为其扩容&62 只蜜蜂&r，并允许&6升级&r！",
+	"ftbquests.chapter.not_the_bees.quests1.description4": "在蜂箱任意一面放置&6扩容盒&r为其扩容&62 只蜜蜂&r，并允许&6升级&r！",
 	"ftbquests.chapter.not_the_bees.quests1.tasks0.title": "高级蜂箱",
-	"ftbquests.chapter.not_the_bees.quests2.description0": "&b蜂蜜&r可转化为糖，也可用于许多食物的合成配方中。您还可以 &6蜂蜜小食&r，在蜂巢上使用&6吸引蜜蜂&r",
+	"ftbquests.chapter.not_the_bees.quests2.description0": "&b蜂蜜&r可转化为糖，也可用于许多食物的合成配方中。您还可以制作 &6蜂蜜小食&r，在蜂巢上使用以&6吸引蜜蜂&r",
 	"ftbquests.chapter.not_the_bees.quests2.description2": "可从&6高级蜂箱&r中自动收获蜂蜜！",
 	"ftbquests.chapter.not_the_bees.quests3.title": "美味的蜂蜡",
 	"ftbquests.chapter.not_the_bees.quests3.subtitle": "它们一定会很美味！",
@@ -19,7 +19,7 @@
 	"ftbquests.chapter.not_the_bees.quests4.title": "蜜蜂之友",
 	"ftbquests.chapter.not_the_bees.quests4.subtitle": "帮助蜜蜂找到它们的小宝贝",
 	"ftbquests.chapter.not_the_bees.quests4.description": "一旦您发现/收集/引诱/捕获至少两只蜜蜂，你可以通过&b繁殖&r来生成更多蜜蜂，&6给他们俩喂虞美人&r！",
-	"ftbquests.chapter.not_the_bees.quests5.description0": "感谢&e资源蜜蜂&r，一些蜜蜂会&6生产资源&r，而其他其他会&6执行任务&r。请务必查阅&6蜜蜂百科全书&r了解更多信息",
+	"ftbquests.chapter.not_the_bees.quests5.description0": "感谢&e资源蜜蜂&r，一些蜜蜂会&6生产资源&r，而其他蜜蜂会&6外出工作&r。请务必查阅&6蜜蜂百科全书&r了解更多信息",
 	"ftbquests.chapter.not_the_bees.quests5.description2": "开始学习，这里有一只农夫和收集者蜜蜂。它们可以共同组成一个简单的自动化作物农场",
 	"ftbquests.chapter.not_the_bees.quests5.description4": "石料和木场蜜蜂的工作是石头和木头的&6资源的不断生产&r",
 	"ftbquests.chapter.not_the_bees.quests5.tasks0.title": "资源蜜蜂",
@@ -29,8 +29,8 @@
 	"ftbquests.chapter.not_the_bees.quests7.subtitle": "小蜜蜂不要伤害我",
 	"ftbquests.chapter.not_the_bees.quests7.description": "&b小蜜蜂孵化器&r可以&6快速孵化的小蜜蜂&r，需要 FE 和蜂蜜小食",
 	"ftbquests.chapter.not_the_bees.quests8.subtitle": "Khakis不可用",
-	"ftbquests.chapter.not_the_bees.quests8.description0": "要手机&b基因样本&r，你可以&6离心压榨蜜蜂原料&r，或使用&6基因采样器&r升级",
-	"ftbquests.chapter.not_the_bees.quests8.description2": "将收集到的基因转移到新的蜜蜂上，您必须将其与&b蜜蜂小食&r合成并把它喂给蜜蜂",
+	"ftbquests.chapter.not_the_bees.quests8.description0": "要收集&b基因样本&r，你可以&6离心压榨蜜蜂原料&r，或使用&6基因采样器&r升级",
+	"ftbquests.chapter.not_the_bees.quests8.description2": "要将收集到的基因转移到新的蜜蜂上，您必须将其与&b蜜蜂小食&r合成并把它喂给蜜蜂",
 	"ftbquests.chapter.not_the_bees.quests8.description4": "基因纯度越高，基因改造成功的几率就越大。将相同基因的样本在&b基因检索器&r中组合在一起，可以提高纯度",
 	"ftbquests.chapter.not_the_bees.quests8.description6": "您必须给索引器红石信号才能组合基因",
 	"ftbquests.chapter.not_the_bees.quests9.subtitle": "蜜蜂的呕吐物，这就是晚餐。",
@@ -43,5 +43,5 @@
 	"ftbquests.chapter.not_the_bees.quests11.description2": "如需完整列表，请参阅&6蜜蜂百科全书&r遗传学章节",
 	"ftbquests.chapter.not_the_bees.quests11.description4": "为了将属性从一只蜜蜂转移到另一只，您必须&6收集基因&r并控制它们",
 	"ftbquests.chapter.not_the_bees.quests11.description6": "第一步是收集... &b压榨蜜蜂原料&r。具体做法是在装瓶机上方放置一个朝下的活塞，活塞与装瓶机之间空一个方块",
-	"ftbquests.chapter.not_the_bees.quests11.description8": "一旦蜜蜂进入它们之间的空隙，瓶子进入装瓶机，就启动活塞将其挤压"
+	"ftbquests.chapter.not_the_bees.quests11.description8": "一旦蜜蜂进入它们之间的空隙，并且装瓶机中有瓶子，就启动活塞将其挤压进去"
 }
