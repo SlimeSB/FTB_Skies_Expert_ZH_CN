@@ -1,5 +1,5 @@
 {
-  "name": "涡轮柴油发电机",
+  "name": "涡轮柴油应力发生器",
   "appearance": {
     "block": "ftbskies:machine/turbo_diesel_generator",
     "running": {

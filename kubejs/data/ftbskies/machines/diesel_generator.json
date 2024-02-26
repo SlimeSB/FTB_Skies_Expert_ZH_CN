@@ -1,5 +1,5 @@
 {
-  "name": "柴油发电机",
+  "name": "柴油应力发生器",
   "appearance": {
     "block": "ftbskies:machine/diesel_generator",
     "running": {
