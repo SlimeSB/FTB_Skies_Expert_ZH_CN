@@ -1,5 +1,5 @@
 {
-  "name": "超级柴油引擎",
+  "name": "超级柴油应力发生器",
   "appearance": {
     "block": "ftbskies:machine/hyper_diesel_generator",
     "running": {
@@ -57,7 +57,7 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 8,
-      "text": "超级柴油引擎"
+      "text": "超级柴油应力发生器"
     },
     {
       "type": "custommachinery:fluid",
