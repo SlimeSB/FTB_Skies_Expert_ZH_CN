@@ -1,5 +1,5 @@
 {
-  "name": "放射性热电发电机",
+  "name": "放射性同位素热电机",
   "appearance": {"light": 7},
   "components": [
     {
@@ -35,7 +35,7 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 8,
-      "text": "放射性热电发电机"
+      "text": "放射性同位素热电机"
     },
     {
       "type": "custommachinery:slot",
