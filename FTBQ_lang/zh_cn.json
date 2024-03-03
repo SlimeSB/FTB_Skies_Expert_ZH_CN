@@ -1,4 +1,5 @@
 {
+
 	"ftbquests.chapter_groups.chapter_groups.title0": "主线任务",
 	"ftbquests.chapter_groups.chapter_groups.title1": "物流",
 	"ftbquests.chapter_groups.chapter_groups.title2": "杂物",
@@ -9,6 +10,7 @@
 	"ftbquests.chapter_groups.chapter_groups.title7": "探索",
 	"ftbquests.chapter_groups.chapter_groups.title8": "宇宙大师",
 	"ftbquests.chapter.data.title": "FTB Skies",
+
 	"ftbquests.chapter.armor__weapons.title": "盔甲+武器",
 	"ftbquests.chapter.armor__weapons.quests0.title": "不稳定盔甲",
 	"ftbquests.chapter.armor__weapons.quests0.subtitle": "一切都如此不稳定，这不是很奇怪吗？",
@@ -100,6 +102,7 @@
 	"ftbquests.chapter.armor__weapons.quests26.subtitle": "分解&m阿童木&r附魔",
 	"ftbquests.chapter.armor__weapons.quests26.description0": "在&b铁砧&r上附上&6拆分&r附魔，可以让你将一本书上的&6多个附魔&r分解成多本单附魔的附魔书",
 	"ftbquests.chapter.armor__weapons.quests26.description2": "&b分裂&r附魔可以将&6单本&r附魔书分解为次级的附魔书",
+	
 	"ftbquests.chapter.ars_nouveau.title": "新生魔艺",
 	"ftbquests.chapter.ars_nouveau.quests0.subtitle": "魔法手册",
 	"ftbquests.chapter.ars_nouveau.quests0.description0": "&b破旧的笔记本&r是&e新生魔艺&r的教程书，会告诉你本模组的一切。",
@@ -215,6 +218,7 @@
 	"ftbquests.chapter.ars_nouveau.quests29.description12": "P.s.：你可以任意染色。",
 	"ftbquests.chapter.ars_nouveau.quests30.title": "星宝石兽装扮",
 	"ftbquests.chapter.ars_nouveau.quests30.tasks0.title": "任意星宝石兽装扮",
+	
 	"ftbquests.chapter.base_expansion.title": "基地扩张",
 	"ftbquests.chapter.base_expansion.quests0.subtitle": "别有洞天！",
 	"ftbquests.chapter.base_expansion.quests0.description0": "&b压缩空间机械&r其中包含&6小型口袋维度&r,可以通过&b个人缩放设备&r访问！",
@@ -253,6 +257,7 @@
 	"ftbquests.chapter.base_expansion.quests9.description0": "&b护符&r来自&e神化&r模组，激活时&6提供长效药水效果&r.",
 	"ftbquests.chapter.base_expansion.quests9.description2": "它们甚至可以被&6附魔&r以持续更久!",
 	"ftbquests.chapter.base_expansion.quests9.tasks0.title": "护符",
+	
 	"ftbquests.chapter.basic.title": "基础",
 	"ftbquests.chapter.basic.subtitle": "从箱子到保险柜",
 	"ftbquests.chapter.basic.quests0.subtitle": "小身体大容量",
@@ -284,6 +289,7 @@
 	"ftbquests.chapter.basic.quests7.tasks0.title": "更多箱子：转换升级",
 	"ftbquests.chapter.basic.quests8.subtitle": "好东西多到装不下",
 	"ftbquests.chapter.basic.quests8.description": "所有输入&b垃圾桶&r的东西都会被删除.",
+	
 	"ftbquests.chapter.botania.title": "魔力显露",
 	"ftbquests.chapter.botania.quests0.title": "产能花",
 	"ftbquests.chapter.botania.quests0.subtitle": "神秘能量",
@@ -331,6 +337,8 @@
 	"ftbquests.chapter.botania.quests11.description0": "&b盖亚仪式&r让您可以&6召唤并与盖亚守护者战斗&r，一个强大的BOSS",
 	"ftbquests.chapter.botania.quests11.description2": "为此，请搭建平台（参见书中的内容），在中心信标上使用&b泰拉钢锭&r召唤盖亚守护者",
 	"ftbquests.chapter.botania.quests12.title": "集成魔法",
+	
+
 	"ftbquests.chapter.create.title": "机械动力",
 	"ftbquests.chapter.create.quests0.subtitle": "制作石磨",
 	"ftbquests.chapter.create.quests0.description0": "&b石磨&r是最早自动粉碎物品的方法之一",
@@ -371,6 +379,7 @@
 	"ftbquests.chapter.create.quests14.description0": "&b动力轴承&r是大多数机械动力&6动态结构&r的基础，这些装置基本上都是自由移动的多方块结构",
 	"ftbquests.chapter.create.quests14.description2": "当为它提供应力时，&6连接的动态结构&r就会旋转。这样，某些方块就可以工作，比如&6动力收割机&r、&6动力锯&r或&6机械手&r！",
 	"ftbquests.chapter.create.quests14.description4": "你可以使用&6胶水&r连接更多的方块，用&6底盘&r让动态结构变得更大。记得看&6思索&r！",
+	
 	"ftbquests.chapter.digital.title": "数字化",
 	"ftbquests.chapter.digital.quests0.subtitle": "当然是石英",
 	"ftbquests.chapter.digital.quests0.description0": "开始&e应用能源2&r需要&b赛特斯石英&r和大量&b硅板&r",
@@ -404,6 +413,7 @@
 	"ftbquests.chapter.digital.quests18.subtitle": "应用能源... 终于要来了！",
 	"ftbquests.chapter.digital.quests19.description0": "使用&b结晶器&r，各种水晶粉都可以加工回原来的形态",
 	"ftbquests.chapter.digital.quests19.description2": "请务必查看 JEI 的几率",
+	
 	"ftbquests.chapter.elemental_craft.title": "元素工艺",
 	"ftbquests.chapter.elemental_craft.quests0.title": "惰性元素来源",
 	"ftbquests.chapter.elemental_craft.quests0.subtitle": "元素之路",
@@ -484,6 +494,7 @@
 	"ftbquests.chapter.elemental_craft.quests23.description0": "&b符文&r用于&6升级&r仪器",
 	"ftbquests.chapter.elemental_craft.quests23.description2": "将&b符文刻印器&r放在元素容器上，除了放上必要的材料并通入相应元素以外，你还需要手持符文刻印凿并&o按住&r鼠标右键才能合成",
 	"ftbquests.chapter.elemental_craft.quests23.tasks2.title": "符文",
+	
 	"ftbquests.chapter.everything_from_nothing.title": "无中生有",
 	"ftbquests.chapter.everything_from_nothing.subtitle": "不管怎样，这是重要的一个",
 	"ftbquests.chapter.everything_from_nothing.quests0.title": "自动哐哐哐!",
@@ -533,6 +544,7 @@
 	"ftbquests.chapter.everything_from_nothing.quests15.title": "灵魂沙 → 紫水晶筛网",
 	"ftbquests.chapter.everything_from_nothing.quests15.description": "用&6紫水晶筛网&r筛&6灵魂沙&r可以掉落&b恶魂之泪&r.",
 	"ftbquests.chapter.everything_from_nothing.quests15.tasks0.title": "安山合金级别材料",
+	
 	"ftbquests.chapter.food.title": "食物与农夫",
 	"ftbquests.chapter.food.quests0.title": "切切切",
 	"ftbquests.chapter.food.quests0.subtitle": "利刃出鞘！",
@@ -625,6 +637,7 @@
 	"ftbquests.chapter.food.quests23.description0": "&b床&r可以让你设置你的出生点，还可以跳过夜晚。",
 	"ftbquests.chapter.food.quests23.description2": "任务奖励提供的&6雨盾&r将会&6完全禁用周围的雨&r，专为讨厌雨天午后的人服务。",
 	"ftbquests.chapter.food.quests23.tasks0.title": "床",
+
 	"ftbquests.chapter.getting_on_up.title": "II - Getting on Up[--II - 开始--]",
 	"ftbquests.chapter.getting_on_up.quests0.title": "欢迎来到第2章",
 	"ftbquests.chapter.getting_on_up.quests0.description": "现在你有了电力，一些魔法和基础的自动化。本章将主要引导你向太空发射火箭以及改进你的自动化产线。",
@@ -739,6 +752,7 @@
 	"ftbquests.chapter.getting_on_up.quests63.description0": "使用胶乳桶，合成&b胶乳加工机&r，输入水和胶乳以制作&6小块干橡胶&r",
 	"ftbquests.chapter.getting_on_up.quests63.description2": "以3x3的方式合成可以获得干橡胶，可以进一步加工成&6胶乳橡胶片&r。",
 	"ftbquests.chapter.getting_on_up.quests71.description": "&b感应炉&r使用能量将多种材料结合成更高级的合金。",
+	
 	"ftbquests.chapter.getting_started.title": "I - 入门",
 	"ftbquests.chapter.getting_started.subtitle": "里面有电解质！",
 	"ftbquests.chapter.getting_started.quests0.title": "原木（树）",
@@ -810,8 +824,8 @@
 	"ftbquests.chapter.getting_started.quests14.description2": "然而，它们可能远走高飞。虽然你可以用&6栓绳&r把它们拴在原地。但如果你拿着&6虞美人&r，它们也会跟随你。",
 	"ftbquests.chapter.getting_started.quests14.description4": "一旦蜜蜂放下警惕了，你就可以留下它们来繁殖蜜蜂和制作蜂蜜了！",
 	"ftbquests.chapter.getting_started.quests15.subtitle": "跟随下界砖路",
-	"ftbquests.chapter.getting_started.quests15.description2": "[\\\"\\\",{\\\"text\\\":\\\"点这里\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"476DF733E6E2DA51\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"Occultism chapter\\\"]}},\\\" 查看神秘学的任务，获得更多细节。\\\"]",
 	"ftbquests.chapter.getting_started.quests15.description0": "你可以通过&6将砖块扔进&e神秘学&r的灵火&r来得到&b下界砖&r。可以放置在材料生成器下以获得&6无限下界岩&r！",
+	"ftbquests.chapter.getting_started.quests15.description2": "[\\\"\\\",{\\\"text\\\":\\\"点这里\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"476DF733E6E2DA51\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"Occultism chapter\\\"]}},\\\" 查看神秘学的任务，获得更多细节。\\\"]",
 	"ftbquests.chapter.getting_started.quests16.title": "别当蹦床使",
 	"ftbquests.chapter.getting_started.quests16.subtitle": "我喜欢他们的蓝色",
 	"ftbquests.chapter.getting_started.quests16.description0": "&b挤压机&r从物品中挤出流体或粉碎以进行处理。将物品放入里面，然后&6在上面跳&r直到压到底。",
@@ -839,11 +853,11 @@
 	"ftbquests.chapter.getting_started.quests20.description4": "如果你供应得起，各种其他孢子可以从&6粉碎下界岩&r中获取。",
 	"ftbquests.chapter.getting_started.quests21.title": "事件",
 	"ftbquests.chapter.getting_started.quests21.subtitle": "美好的事情正在发生",
-	"ftbquests.chapter.getting_started.quests21.description8": "[\\\"\\\",\\\"一些指令，像\\\",{\\\"text\\\":\\\"ftbskies:amethyst\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"5DF3A9F48D916AF0\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"紫水晶母岩任务\\\"]}},\\\" 是进度的一部分,所以要小心\\\"]",
 	"ftbquests.chapter.getting_started.quests21.description0": "整合包使用一个叫做&e事件&r的系统，有随机概率发生。默认情况下所有事件都被启用。",
 	"ftbquests.chapter.getting_started.quests21.description2": "你可以用&b/events toggle&r指令来切换它们。输入时也会显示每个命令的列表。",
 	"ftbquests.chapter.getting_started.quests21.description4": "以&6ftbskies:frog&r、&6:animal&r、&6:wandering_trader&r等命名的生物事件只会偶尔生成该生物。",
 	"ftbquests.chapter.getting_started.quests21.description6": "有一些指令，比如&6:tea&r和&6:stick&r只是一些有趣的小屁事，这不重要。",
+	"ftbquests.chapter.getting_started.quests21.description8": "[\\\"\\\",\\\"一些指令，像\\\",{\\\"text\\\":\\\"ftbskies:amethyst\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"5DF3A9F48D916AF0\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"紫水晶母岩任务\\\"]}},\\\" 是进度的一部分,所以要小心\\\"]",
 	"ftbquests.chapter.getting_started.quests22.subtitle": "伟大安山",
 	"ftbquests.chapter.getting_started.quests22.description": "随着改进为&b安山合金筛网&r，你可以从筛子中收集&6更多不同的资源&r。",
 	"ftbquests.chapter.getting_started.quests23.title": "一想到要做电臀舞我的屁股就开始扭起来了",
@@ -882,9 +896,9 @@
 	"ftbquests.chapter.getting_started.quests34.description2": "在制作基浆时，确保&b放沙砾之前&r烈焰人燃烧室处于燃烧状态，不然会做出一堆燧石。",
 	"ftbquests.chapter.getting_started.quests35.title": "铁板",
 	"ftbquests.chapter.getting_started.quests35.subtitle": "铁板板，躺板板",
-	"ftbquests.chapter.getting_started.quests37.subtitle": "不是最快的…",
 	"ftbquests.chapter.getting_started.quests35.description": "&b铁板&r由铁基片或 - 之后 - 的铁锭制成，可以制作真正的机器。你需要大量的铁板！",
 	"ftbquests.chapter.getting_started.quests36.description": "你的第一个机器——&b动力辊压机&r，让你可以辊压材料以获得更好的组件。&6对其按住 W 键查看思索，了解其如何工作&r。",
+	"ftbquests.chapter.getting_started.quests37.subtitle": "不是最快的…",
 	"ftbquests.chapter.getting_started.quests37.description": "把干燥泥炭田放入水中以获得&b饱和泥炭田&r。吸饱了水之后，你就可以采集它，然后扔进炉子里烧炼。烧出的泥炭可以作为燃料燃烧，但你能进一步将其精炼成富集泥炭，获得更好的能量产出。建议你一次至少做一组，因为你需要相当多的泥炭才能完成这个章节。",
 	"ftbquests.chapter.getting_started.quests38.title": "甜梦由种子萌生",
 	"ftbquests.chapter.getting_started.quests38.description": "你可以通过筛取获得一些魔鬼之梦种子。把它们种下，会结出魔鬼之梦果，吃掉就可以获得第三只眼。在神秘学初期很有用。你也可以点燃它们产生不灭的灵火，用神秘学的力量转化将扔进它的物品。",
@@ -893,7 +907,6 @@
 	"ftbquests.chapter.getting_started.quests40.description0": "将嗜血符文放入魔法巫师模组的釜中。在里面上蹿下跳，大锅就会慢慢被血液填满。然后你就可以使用血来进一步制作配方。当不使用时，确保移除符文。",
 	"ftbquests.chapter.getting_started.quests40.description2": "你只需要1桶生物质制作嗜血符文。如果你放入1桶以上的生物质，其他的将转化为新的液体。例如，如果你放入3000mb的生物质来制作这个符文，你将在完成时候得到2000mb的知素和符文。",
 	"ftbquests.chapter.getting_started.quests41.title": "泥炭能量",
-	"ftbquests.chapter.getting_started.quests46.description4": "它可以最多存储&a最大整数值&r (&a2,147,483,647&r) EXP",
 	"ftbquests.chapter.getting_started.quests41.description": "物质发电机消耗泥炭或富集泥炭，并生产能量（FE）。这并不多，但它是你辛苦一天的劳动成果。",
 	"ftbquests.chapter.getting_started.quests42.subtitle": "它很\\\"超级！\\\"",
 	"ftbquests.chapter.getting_started.quests42.description": "&b“超级”冷却器&r有一个液体输入槽和3个物品槽，通过消耗FE生成一个新物品。这些东西自动化可能有点难，所以确保检查一下你输入和输出的过滤。",
@@ -902,6 +915,7 @@
 	"ftbquests.chapter.getting_started.quests45.description": "做一些&b琥珀结晶&r来合成魔法机器。",
 	"ftbquests.chapter.getting_started.quests46.description0": "想要把你的经验都存起来吗？",
 	"ftbquests.chapter.getting_started.quests46.description2": "不要担心，这个&b经验方尖碑&r只有你能用",
+	"ftbquests.chapter.getting_started.quests46.description4": "它可以最多存储&a最大整数值&r (&a2,147,483,647&r) EXP",
 	"ftbquests.chapter.getting_started.quests46.description6": "&b经验方尖碑&r可以&6储存经验&r，吸收附近的经验球，&6存入和取出玩家身上的经验&r。",
 	"ftbquests.chapter.getting_started.quests47.description0": "&b灌注室&r会解锁把原料变成催化金属的途径。你需要获得各种生物掉落物，并给它们灌注&d魔源&r来将其转化为更有用的东西。&d魔源&r会随着时间的推移在里面自动生成，但之后你可以用生死魔源通道加速它。",
 	"ftbquests.chapter.getting_started.quests47.description2": "{@pagebreak}",
@@ -989,6 +1003,7 @@
 	"ftbquests.chapter.getting_started.quests80.description": "你可以做一个压缩版本的泥土、圆石和砂砾，将 9 个圆石或 9 个泥土扔进工作盆中，再使用机械冲压将其压缩成 1 个方块。",
 	"ftbquests.chapter.getting_started.quests81.title": "蓝图加农炮",
 	"ftbquests.chapter.getting_started.quests81.description": "这个包中大多数多方块结构都提供了蓝图。您可以使用蓝图加农炮自动放置它们。",
+
 	"ftbquests.chapter.hexerei.title": "魔法巫师",
 	"ftbquests.chapter.hexerei.quests0.title": "暗影书坛",
 	"ftbquests.chapter.hexerei.quests0.subtitle": "做个书坛",
@@ -1033,6 +1048,7 @@
 	"ftbquests.chapter.hexerei.quests10.description8": "&n提示&r：降落默认绑定为 Shift，脱离也是该键，所以你可能得更改一下。",
 	"ftbquests.chapter.hexerei.quests11.subtitle": "做个增强扫帚尾",
 	"ftbquests.chapter.hexerei.quests11.description": "你可以用&b增强扫帚尾&r替换普通的，它可以飞行更久而且&6可以附魔&r！",
+
 	"ftbquests.chapter.iii_2.title": "火星",
 	"ftbquests.chapter.iii_2.quests0.description": "&b符文祭坛&r是最早需要使用微缩合成制作的方块之一。请查看 JEI 如何放置方块，并丢入魔力钻石启动制作",
 	"ftbquests.chapter.iii_2.quests1.description": "将元素工艺符文、新生魔艺元素、魔力钢和魔力尘放置于符文祭坛制作植物魔法符文",
@@ -1046,6 +1062,7 @@
 	"ftbquests.chapter.iii_2.quests25.description2": "紫水晶碎片可以从猪灵那里掠夺或交易。然后，为紫水晶碎片灌注水元素制造出春涌水晶",
 	"ftbquests.chapter.iii_2.quests25.description4": "&6紫晶傀儡&r对于种植和创造更多的紫水晶碎片非常有效，请查看新生魔艺章节中的任务！",
 	"ftbquests.chapter.iii_2.quests25.description6": "然后，您需要前往月球采集一些戴斯矿石。通过将春涌水晶与戴斯锭结合，制作出一种神奇稳定的金属，从普通物品中筛出更多的资源",
+
 	"ftbquests.chapter.industrial_foregoing.title": "工业先锋",
 	"ftbquests.chapter.industrial_foregoing.quests0.subtitle": "粘性树脂",
 	"ftbquests.chapter.industrial_foregoing.quests0.description0": "&e工业先锋&r是一个主要注重于&6农场&r方面的模组，比如作物、生物和其它资源",
@@ -1128,13 +1145,17 @@
 	"ftbquests.chapter.industrial_foregoing.quests21.description2": "&b黑洞储液罐&r也是一样，但存储的是流体而不是物品",
 	"ftbquests.chapter.industrial_foregoing.quests21.tasks0.title": "黑洞存储单元",
 	"ftbquests.chapter.industrial_foregoing.quests21.tasks1.title": "黑洞储液罐",
+
 	"ftbquests.chapter.invisible_quests.title": "隐藏任务",
 	"ftbquests.chapter.invisible_quests.quests0.description": "完成 Ad Astra 中的 &6抵达水星或金星&r 任务，任意任务完成后，您都会获得该任务的奖励",
 	"ftbquests.chapter.invisible_quests.quests1.description0": "完成进度章节中的 \\\"访问下界天空村庄\\\" 任务",
 	"ftbquests.chapter.invisible_quests.quests1.description2": "如果你访问了绯红村庄，这项任务就完成了！",
 	"ftbquests.chapter.invisible_quests.quests3.tasks0.title": "任务阻断",
 	"ftbquests.chapter.invisible_quests.quests7.tasks0.title": "看见山羊了!",
+
+
 	"ftbquests.chapter.iv_2.title": "IV - 金星",
+
 	"ftbquests.chapter.magical.title": "魔法",
 	"ftbquests.chapter.magical.quests0.title": "多媒体网络",
 	"ftbquests.chapter.magical.quests0.subtitle": "魔法数字存储",
@@ -1162,6 +1183,7 @@
 	"ftbquests.chapter.magical.quests5.description2": "比较器还会根据该物品的可用数量发出红石信号",
 	"ftbquests.chapter.magical.quests6.subtitle": "制作一个魔咒图书馆",
 	"ftbquests.chapter.magical.quests6.description": "&b魔咒图书馆&r可以&6存储附魔书&r，并可单独检索并取出附魔书",
+
 	"ftbquests.chapter.mekanism.title": "通用机械",
 	"ftbquests.chapter.mekanism.quests0.title": "大型反应堆",
 	"ftbquests.chapter.mekanism.quests0.subtitle": "建造裂变反应堆",
@@ -1276,6 +1298,7 @@
 	"ftbquests.chapter.mekanism.quests31.description4": "[\\\"\\\",{\\\"text\\\":\\\"我们为建造蒸汽涡轮添加了思索教程. 在涡轮阀门上查看思索,或者 \\\"},{\\\"text\\\":\\\"点这里\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/create ponder mekanismgenerators:turbine_valve\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"/create ponder mekanismgenerators:turbine_valve\\\"]}},{\\\"text\\\":\\\" 也行。\\\"}]",
 	"ftbquests.chapter.mekanism.quests32.description0": "&b燃气发电机&r需要更多的基础设施,但发电量比早期的发电机高得多.",
 	"ftbquests.chapter.mekanism.quests32.description2": "你可以从燃烧&6氧气&r开始,但是游戏中期基本上就直接跳到&6自动化乙烯&r发电了。",
+
 	"ftbquests.chapter.mob_farming_and_you.title": "刷怪场与你",
 	"ftbquests.chapter.mob_farming_and_you.quests0.subtitle": "相当容易操作",
 	"ftbquests.chapter.mob_farming_and_you.quests0.description0": "&e循环&r还提供了&b风扇&r",
@@ -1323,6 +1346,7 @@
 	"ftbquests.chapter.mob_farming_and_you.quests11.description11": "&c火焰板&r - 对实体造成火焰伤害",
 	"ftbquests.chapter.mob_farming_and_you.quests11.tasks0.title": "伤害板",
 	"ftbquests.chapter.mob_farming_and_you.quests12.description": "竹刺是最早期的自动屠宰解决方案之一。虽然它们不会像玩家那样去杀死怪物，但是你可以给这些竹刺添加药水效果来实现宰杀目的。便宜且高效！",
+
 	"ftbquests.chapter.monster_hunter_academy.title": "怪物猎人",
 	"ftbquests.chapter.monster_hunter_academy.quests0.subtitle": "不费吹灰之力...",
 	"ftbquests.chapter.monster_hunter_academy.quests1.subtitle": "阿尔路森！（来自飞天小女警）",
@@ -1381,6 +1405,7 @@
 	"ftbquests.chapter.monster_hunter_academy.quests44.tasks0.title": "启用蜈蚣生成",
 	"ftbquests.chapter.monster_hunter_academy.quests44.rewards0.title": "启用蜈蚣生成",
 	"ftbquests.chapter.monster_hunter_academy.quests45.title": "观察一只蜈蚣",
+
 	"ftbquests.chapter.nether_delights.title": "天高任鸟飞",
 	"ftbquests.chapter.nether_delights.quests0.title": "天空村民",
 	"ftbquests.chapter.nether_delights.quests0.subtitle": "嗯哼",
@@ -1403,6 +1428,7 @@
 	"ftbquests.chapter.nether_delights.quests4.description2": "在这里，您可以丢金子与&6猪灵进行交易&r",
 	"ftbquests.chapter.nether_delights.quests4.tasks0.title": "找到一个绯红木天空村庄",
 	"ftbquests.chapter.nether_delights.quests4.tasks1.title": "找到一个诡异木天空村庄",
+
 	"ftbquests.chapter.not_the_bees.title": "不是蜜蜂！",
 	"ftbquests.chapter.not_the_bees.quests0.subtitle": "制作蜂箱",
 	"ftbquests.chapter.not_the_bees.quests0.description0": "&b蜂箱&r可以用糖和木板制作，为您的蜜蜂提供一个居住的地方",
@@ -1447,6 +1473,7 @@
 	"ftbquests.chapter.not_the_bees.quests11.description4": "为了将属性从一只蜜蜂转移到另一只，您必须&6收集基因&r并控制它们",
 	"ftbquests.chapter.not_the_bees.quests11.description6": "第一步是收集... &b压榨蜜蜂原料&r。具体做法是在装瓶机上方放置一个朝下的活塞，活塞与装瓶机之间空一个方块",
 	"ftbquests.chapter.not_the_bees.quests11.description8": "一旦蜜蜂进入它们之间的空隙，并且装瓶机中有瓶子，就启动活塞将其挤压进去",
+
 	"ftbquests.chapter.occultism.title": "精通神秘学",
 	"ftbquests.chapter.occultism.quests0.subtitle": "哈迪斯幻觉",
 	"ftbquests.chapter.occultism.quests0.description0": "通过使用&6骨粉&r并破坏高草，你就有几率得到&6魔鬼之梦种子&r",
@@ -1531,6 +1558,7 @@
 	"ftbquests.chapter.occultism.quests27.description0": "灵魂基座可以用来召唤许多不同的实体。要设置召唤区，您需要将灵魂基座放在中央，并用 8 个基座围绕它。要查看各种实体的合成配方，请在 JEI 中悬停在灵魂基座上时按 u 键查看用途",
 	"ftbquests.chapter.occultism.quests27.description2": "接下来,尝试召唤烈焰人吧！",
 	"ftbquests.chapter.occultism.quests28.description": "坤坤传送门珍珠可以召唤成群的坤坤，可用于繁殖、食物或用灵魂水晶捕获它们的灵魂，以召唤其他怪物",
+
 	"ftbquests.chapter.overpowered.title": "过载挑战！",
 	"ftbquests.chapter.overpowered.quests0.title": "我才刚刚开始",
 	"ftbquests.chapter.overpowered.quests1.title": "一百万能量",
@@ -1568,6 +1596,7 @@
 	"ftbquests.chapter.overpowered.quests22.description3": " - FTB团队",
 	"ftbquests.chapter.overpowered.quests22.tasks0.title": "死末影龙，Trigon",
 	"ftbquests.chapter.overpowered.quests23.title": "传说精华",
+
 	"ftbquests.chapter.pedestals_expanded.title": "基座之上",
 	"ftbquests.chapter.pedestals_expanded.quests0.title": "过滤基座",
 	"ftbquests.chapter.pedestals_expanded.quests0.subtitle": "用哪种滤镜更美颜呢？",
@@ -1691,7 +1720,8 @@
 	"ftbquests.chapter.pedestals_expanded.quests26.description4": "用于&b传输多种类型&r的升级（物品和流体等）：",
 	"ftbquests.chapter.pedestals_expanded.quests26.description5": "• 在副手持有时，潜行右击可循环浏览类型",
 	"ftbquests.chapter.pedestals_expanded.quests26.description6": "• 在副手持有时，右击可启用/禁用当前类型",
-	"ftbquests.chapter.pipe_dreams.title": "管道梦",
+
+	"ftbquests.chapter.pipe_dreams.title": "管道之梦",
 	"ftbquests.chapter.pipe_dreams.quests19.subtitle": "管道就是用来吸~的",
 	"ftbquests.chapter.pipe_dreams.quests19.description0": "&b激光节点&r可以通过使用&6卡片&r与相邻的容器进行交互。只需将卡片插入面向方块的那面.",
 	"ftbquests.chapter.pipe_dreams.quests19.description2": "在节点界面中,右击卡片进行配置。界面相当复杂,所以强烈推荐阅读&6LaserIO 101&r.",
@@ -1708,6 +1738,7 @@
 	"ftbquests.chapter.pipe_dreams.quests24.description": "&b节点超频器&r可以让更多卡同时工作.",
 	"ftbquests.chapter.pipe_dreams.quests25.description": "&b过滤器&r可以插入卡片里过滤它们运输的东西.",
 	"ftbquests.chapter.pipe_dreams.quests25.tasks0.title": "过滤器",
+
 	"ftbquests.chapter.portable.title": "便携",
 	"ftbquests.chapter.portable.quests0.subtitle": "Donk Null",
 	"ftbquests.chapter.portable.quests0.description0": "&eDank Storage&r的&b黑盒&r可以&6自动拾取物品&r，&6单个格子物品堆叠数量可以大于64&r，并允许您&6使用存储的物品&r，包括方块和食物！黑盒等级越高，格子数量越多，每个格子可存储的数量也越多",
@@ -1731,6 +1762,7 @@
 	"ftbquests.chapter.portable.quests4.subtitle": "它的内部更大！",
 	"ftbquests.chapter.portable.quests4.description0": "&eTechnobauble&r模组的&b口袋维度背包&r可以在另一个维度上创建一个便携式洞口来存放物品",
 	"ftbquests.chapter.portable.quests4.description2": "本质上，这是一个&6可穿戴的大箱子&。使用&6CTRL + e&r来访问它",
+
 	"ftbquests.chapter.powering_up.title": "充能！",
 	"ftbquests.chapter.powering_up.images5.hover": "1 级",
 	"ftbquests.chapter.powering_up.images6.hover": "2 级",
@@ -1755,6 +1787,7 @@
 	"ftbquests.chapter.powering_up.quests2.description2": "不同磁体的磁力强度有不同等级。当您升级到更好的磁体时，发电机线圈的输出功率将会提高。用磁体将发电机线圈包围起来，在线圈上安装碳刷并提供应力，线圈就会旋转起来并产生能量",
 	"ftbquests.chapter.powering_up.quests2.description4": "{@pagebreak}",
 	"ftbquests.chapter.powering_up.quests2.description5": "发电机旋转得越快，产生的 FE 就越多。不过，越高级别的磁铁阻力就越大，需要更多的应力才能工作。通过这种方式，您最多可以堆叠 8 个线圈一起工作以提升效率",
+
 	"ftbquests.chapter.progression.title": "进度",
 	"ftbquests.chapter.progression.subtitle": "勇往直前！",
 	"ftbquests.chapter.progression.quests0.subtitle": "在某处...",
@@ -1796,7 +1829,10 @@
 	"ftbquests.chapter.progression.quests7.subtitle": "抛瓦！！",
 	"ftbquests.chapter.progression.quests7.description0": "在&dFTB Skies&r中，你有很多种生产 FE 能量的方法。请根据自己的喜好探索各种科技mod",
 	"ftbquests.chapter.progression.quests7.description2": "简单的方法,：&6风力发电机&r或各种形式的&6煤炭发电机&r都是游戏初期的最佳选择",
+
+
 	"ftbquests.chapter.teleportation_101.title": "传送101",
+
 	"ftbquests.chapter.tetra.title": "Tetra",
 	"ftbquests.chapter.tetra.quests0.title": "Tetra时间!",
 	"ftbquests.chapter.tetra.quests0.subtitle": "这不是鱼,是锤子",
@@ -1855,6 +1891,8 @@
 	"ftbquests.chapter.tetra.quests12.description0": "卷轴可以在村庄的箱子中找到，当放置在附近时，可以在加工台中解锁新的制作选项.",
 	"ftbquests.chapter.tetra.quests12.description2": "多个卷轴可以放置在同一个方块中.",
 	"ftbquests.chapter.tetra.quests12.tasks0.title": "卷轴",
+
+
 	"ftbquests.chapter.thermal_expansion.title": "热力膨胀",
 	"ftbquests.chapter.thermal_expansion.quests0.subtitle": "这只是个无聊的外壳",
 	"ftbquests.chapter.thermal_expansion.quests0.description0": "我们那简陋机器框架的下一步是升级为机器框架。",
@@ -1889,6 +1927,7 @@
 	"ftbquests.chapter.thermal_expansion.quests11.description0": "热力机器可以安装各种&b增强&r，改变它们的某种功能。",
 	"ftbquests.chapter.thermal_expansion.quests11.description2": "有的只是让它工作得更快或更高效，有的则完全增加了新的功能。",
 	"ftbquests.chapter.thermal_expansion.quests11.tasks0.title": "机器增强",
+
 	"ftbquests.chapter.to_the_stars.title": "飞向太空!",
 	"ftbquests.chapter.to_the_stars.quests0.title": "NASA工作台",
 	"ftbquests.chapter.to_the_stars.quests0.subtitle": "法律上有区别",
@@ -1962,6 +2001,7 @@
 	"ftbquests.chapter.to_the_stars.quests18.subtitle": "严格来说是小行星带",
 	"ftbquests.chapter.to_the_stars.quests18.description": "有了&6一级火箭&r，你可以直接&b飞到末地&r！",
 	"ftbquests.chapter.to_the_stars.quests18.tasks0.title": "造访末地",
+
 	"ftbquests.chapter.travel.title": "小工具和小玩意",
 	"ftbquests.chapter.travel.quests0.title": "物品收集器",
 	"ftbquests.chapter.travel.quests0.subtitle": "滑溜溜的物品",
@@ -2006,8 +2046,14 @@
 	"ftbquests.chapter.travel.quests11.description5": "&4岩浆铁砧&r - 使用岩浆修复你的物品",
 	"ftbquests.chapter.travel.quests11.description7": "&7虚空铁砧&r - 清除物品的附魔，并返还一些经验",
 	"ftbquests.chapter.travel.quests11.tasks0.title": "铁砧",
+
+
 	"ftbquests.chapter.vi__into_the_unknown.title": "VI - 步入未知",
+
+
 	"ftbquests.chapter.v_2.title": "V - 霜原",
+
+
 	"ftbquests.chapter.welcome.title": "欢迎",
 	"ftbquests.chapter.welcome.subtitle": "超越天际",
 	"ftbquests.chapter.welcome.quests0.title": "欢迎来到FTB Skies！",
@@ -2017,6 +2063,8 @@
 	"ftbquests.chapter.welcome.quests0.description6": "虽然大部分所需的资源都可以通过JEI找到，但是任务书还将指引你到达其他维度，把你的火箭发射到星辰之间！",
 	"ftbquests.chapter.welcome.quests0.description8": "FTB团队：",
 	"ftbquests.chapter.welcome.quests0.description9": "&b我们希望您享受接下来的旅途...你将面临我们精心为你准备的挑战！&r",
+
+
 	"ftbquests.reward_tables.alloy_smelter.title": "合金",
 	"ftbquests.reward_tables.bookshelf.title": "书架",
 	"ftbquests.reward_tables.botania_runes.title": "植物魔法符文",
