@@ -1596,6 +1596,7 @@
 	"ftbquests.chapter.overpowered.quests22.description3": " - FTB团队",
 	"ftbquests.chapter.overpowered.quests22.tasks0.title": "死末影龙，Trigon",
 	"ftbquests.chapter.overpowered.quests23.title": "传说精华",
+
 	"ftbquests.chapter.pedestals_expanded.title": "基座之上",
 	"ftbquests.chapter.pedestals_expanded.quests0.title": "过滤基座",
 	"ftbquests.chapter.pedestals_expanded.quests0.subtitle": "用哪种滤镜更美颜呢？",
@@ -1719,6 +1720,7 @@
 	"ftbquests.chapter.pedestals_expanded.quests26.description4": "用于&b传输多种类型&r的升级（物品和流体等）：",
 	"ftbquests.chapter.pedestals_expanded.quests26.description5": "• 在副手持有时，潜行右击可循环浏览类型",
 	"ftbquests.chapter.pedestals_expanded.quests26.description6": "• 在副手持有时，右击可启用/禁用当前类型",
+
 	"ftbquests.chapter.pipe_dreams.title": "管道之梦",
 	"ftbquests.chapter.pipe_dreams.quests19.subtitle": "管道就是用来吸~的",
 	"ftbquests.chapter.pipe_dreams.quests19.description0": "&b激光节点&r可以通过使用&6卡片&r与相邻的容器进行交互。只需将卡片插入面向方块的那面。",
@@ -1826,10 +1828,12 @@
 	"ftbquests.chapter.progression.quests7.title": "生产 FE 能量",
 	"ftbquests.chapter.progression.quests7.subtitle": "抛瓦！！",
 	"ftbquests.chapter.progression.quests7.description0": "在&dFTB Skies&r中，你有很多种生产 FE 能量的方法。请根据自己的喜好探索各种科技mod",
-
-
 	"ftbquests.chapter.progression.quests7.description2": "简单的方法，：&6风力发电机&r或各种形式的&6煤炭发电机&r都是游戏初期的最佳选择",
+
+
 	"ftbquests.chapter.teleportation_101.title": "传送101",
+
+
 	"ftbquests.chapter.tetra.title": "Tetra",
 	"ftbquests.chapter.tetra.quests0.title": "Tetra时间！",
 	"ftbquests.chapter.tetra.quests0.subtitle": "这不是鱼，是锤子",
