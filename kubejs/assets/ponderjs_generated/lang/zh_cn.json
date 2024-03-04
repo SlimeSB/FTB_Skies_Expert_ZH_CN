@@ -105,6 +105,18 @@
 	"kubejs.ponder.induction_construction.text_13": "...并从输出端口输出",
 	"kubejs.ponder.induction_construction.text_14": "该思索最初是为 FTB 大学 1.19 版制作的！",
 
+	"kubejs.ponder.soul_engulfing.header": "How to build the Soul Engulfing Multiblock Structure.",
+	"kubejs.ponder.soul_engulfing.text_1": "For the First Tier, you start off with a single Soulsand block!",
+	"kubejs.ponder.soul_engulfing.text_2": "Next, Surround your Soulsand with Otherstone and Soul Powder Blocks!",
+	"kubejs.ponder.soul_engulfing.text_3": "Placing the Soulglas capped with Otherstone Slabs will create the T3 Multiblock!",
+	"kubejs.ponder.soul_engulfing.text_4": "For the Final Tier, place the corner Pillars!",
+	"kubejs.ponder.soul_engulfing.text_5": "Using a Hopper and an Open Crate, tossing in items into the Soulfire is a breeze!",
+	"kubejs.ponder.soul_pedestal.header": "How to build the Summoning Area with Spirit.",
+	"kubejs.ponder.soul_pedestal.text_1": "Place your Summoning Altar like this!",
+	"kubejs.ponder.soul_pedestal.text_2": "Place the Items on all the pedestals",
+	"kubejs.ponder.soul_pedestal.text_3": "Place the Soul you want to summon on the main pedestal (Sadly Ponder cannot render Chickens for some reason)",
+	"kubejs.ponder.soul_pedestal.text_4": "Activate the Summoning Ritual by rightclicking the Pedestal with an empty hand",
+	"kubejs.ponder.soul_pedestal.text_5": "Scoop up your freshly summoned Blaze, or fight it, your choice!",
 
 	"kubejs.ponder.spirit_fire.header": "如何获得灵火",
 	"kubejs.ponder.spirit_fire.text_1": "丢出一个魔鬼之梦果",
@@ -127,7 +139,6 @@
 	"kubejs.ponder.sps_construction.text_14": "您也可以将它放置于侧面",
 	"kubejs.ponder.sps_construction.text_15": "线圈的功率越大，反物质的生成速度就越快！",
 	"kubejs.ponder.sps_construction.text_16": "该思索最初是为 FTB 大学 1.19 版制作的！",
-
 
 	"kubejs.ponder.turbine_construction.header": "建造工业蒸汽涡轮",
 	"kubejs.ponder.turbine_construction.text_1": "工业蒸汽涡轮是一个利用蒸汽生产大量 FE 的多方块结构",
@@ -152,7 +163,6 @@
 	"kubejs.ponder.turbine_construction.text_20": "放置一个阀门用于输入蒸汽...",
 	"kubejs.ponder.turbine_construction.text_21": "...另一个用于 FE 输出！",
 	"kubejs.ponder.turbine_construction.text_22": "该思索最初是为 FTB 大学 1.19 版制作的！",
-	
 
 	"ftbuniversity.ponder.tag.ponders": "整合包思索",
 	"ftbuniversity.ponder.tag.ponders.description": "我们添加的思索"
