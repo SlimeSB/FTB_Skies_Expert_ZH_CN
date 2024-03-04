@@ -262,6 +262,7 @@
 			dependencies: [
 				"1CB5B313E0D86567"
 				"35FC40D9D9111862"
+				"23101731BE8EBFAD"
 			]
 			description: [
 				"{ftbquests.chapter.getting_on_up.quests12.description0}"
@@ -1311,7 +1312,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["35F349BD58D194C5"]
 			id: "23101731BE8EBFAD"
 			tasks: [{
 				id: "1C0FA7BA9D402524"
