@@ -55,7 +55,9 @@
 	"block.ftbskies.crushed_netherrack": "粉碎下界岩",
 	"block.ftbskies.dust": "尘土",
 	"block.ftbskies.contained_charcoal": "含结晶木炭块",
-	"block.ftbskies.magic_steel_block": "润浸钢块",
+	"block.ftbskies.faux_amethyst_block": "紫水晶（假）",
+	"block.ftbskies.space_station": "紫水晶（假）",
+	"block.ftbskies.magic_steel_block": "禁用合成配方（只要进入轨道，就能获得免费空间站）",
 	"block.ftbskies.space_plating_block": "太空金属板块",
 	"block.ftbskies.fluxed_infused_desh_block": "红石充能戴斯块",
 	"block.ftbskies.deco_space_plating": "装饰太空金属板块",
@@ -71,6 +73,10 @@
 	"block.ftbskies.force_infused_moon_stone": "力量灌注月石",
 	"block.ftbskies.nitro_tnt": "硝基TNT",
 	"block.ftbskies.mega_tnt": "巨型TNT",
+
+	"block.ftbskies.lightly_magical_imbued_soil": "§a初级魔法土壤",
+	"block.ftbskies.magical_imbued_soil": "§a中级魔法土壤",
+	"block.ftbskies.densely_magical_imbued_soil": "§2高级魔法土壤",
 
 	"block.ftbskies.compressedage_dirt": "压缩泥土",
 	"block.ftbskies.compressedage_cobblestone": "压缩圆石",
@@ -229,7 +235,6 @@
 	"item.ftbskies.enigmatic_circuit": "神秘控制电路",
 	"item.ftbskies.weak_rad_shielding": "微弱辐射防护模块",
 	"item.ftbskies.rad_shielding": "辐射防护模块",
-
 
 	"item.ftbskies.mobfarm_deployer": "刷怪场部署器",
 	"item.ftbskies.spirit_deployer": "灵魂部署器",
