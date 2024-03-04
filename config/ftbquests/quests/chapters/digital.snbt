@@ -162,11 +162,24 @@
 			]
 			id: "02CCB1F7D95B73D0"
 			min_width: 275
-			rewards: [{
-				id: "6EE0BC436B65578D"
-				item: "rftoolsbase:machine_frame"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6EE0BC436B65578D"
+					item: "rftoolsbase:machine_frame"
+					type: "item"
+				}
+				{
+					id: "208B4290999E013A"
+					item: {
+						Count: 1b
+						id: "rftoolsbase:filter_module"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
 			subtitle: "{ftbquests.chapter.digital.quests6.subtitle}"
 			tasks: [{
 				id: "65FF7AFA69EAA2CF"
@@ -174,7 +187,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["02CCB1F7D95B73D0"]
@@ -201,8 +214,8 @@
 				item: "rftoolsstorage:storage_module1"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5DE305A0D1A09D00"]
@@ -213,8 +226,8 @@
 				item: "rftoolsstorage:storage_module2"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["49360D20436AA37F"]
@@ -226,7 +239,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3DEBC88BD5116314"]
