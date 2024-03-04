@@ -26,6 +26,7 @@
 			y: 3.5d
 		}
 		{
+			icon: "reaper:reaper_generator"
 			id: "08D98BDE7D97802C"
 			linked_quest: "2B4D33AB5B6C845D"
 			x: -2.0d
