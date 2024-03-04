@@ -1,0 +1,157 @@
+{
+  "name": "高级混合器",
+  "appearance": {"light": 7},
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000,
+      "maxInput": 50000
+    },   
+    {
+      "type": "custommachinery:heat",
+      "capacity": "3000",
+      "base_temp": 60
+    },  
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank1",
+      "capacity": 10000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank2",
+      "capacity": 10000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "outputtank",
+      "capacity": 10000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "outputslot",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:size",
+      "width": 176,
+      "height": 174
+    },
+    {
+      "type": "custommachinery:texture",
+      "x": 0,
+      "y": 0,
+      "texture": "ftbskies:textures/gui/machine_gui.png"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 8,
+      "text": "高级混合器"
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 7,
+      "y": 20,
+      "height": 54,
+      "width": 5
+    },
+    {
+      "type": "custommachinery:heat",
+      "x": 16,
+      "y": 20,
+      "height": 54,
+      "width": 5
+    },        
+    {
+      "type": "custommachinery:fluid",
+      "x": 25,
+      "y": 20,
+      "height": 54,
+      "width": 18,
+      "id": "inputtank1"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 47,
+      "y": 20,
+      "height": 54,
+      "width": 18,
+      "id": "inputtank2"
+    },    
+    {
+      "type": "custommachinery:slot",
+      "x": 69,
+      "y": 20,
+      "id": "inputslot1"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 69,
+      "y": 40,
+      "id": "inputslot2"
+    },    
+    {
+      "type": "custommachinery:slot",
+      "x": 69,
+      "y": 60,
+      "id": "inputslot3"
+    }, 
+    {
+      "type": "custommachinery:progress",
+      "x": 89,
+      "y": 42
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 121,
+      "y": 40,
+      "id": "outputslot"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x":143,
+      "y": 20,
+      "height": 54,
+      "width": 18,
+      "id": "outputtank"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 78,
+      "text": "Inventory"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 90
+    }
+  ]
+}
