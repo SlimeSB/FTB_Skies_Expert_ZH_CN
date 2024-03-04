@@ -7,7 +7,20 @@
 	icon: "minecraft:command_block"
 	id: "5C35345F7E99F7F5"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "20E35ECCEFEE3F53"
+			linked_quest: "046C02E6B0335F4E"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			id: "596CD95BBE72AC84"
+			linked_quest: "429B753269E31706"
+			x: -12.5d
+			y: -4.0d
+		}
+	]
 	quests: [
 		{
 			description: ["{ftbquests.chapter.invisible_quests.quests0.description}"]
