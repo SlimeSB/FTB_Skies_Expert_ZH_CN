@@ -13,12 +13,12 @@
   "components": [
     {
       "type": "custommachinery:energy",
-      "capacity": 100000,
+      "capacity": 1000000,
       "maxInput": 50000
     },   
     {
       "type": "custommachinery:heat",
-      "capacity": "3000",
+      "capacity": "6000",
       "base_temp": 60
     },  
     {
