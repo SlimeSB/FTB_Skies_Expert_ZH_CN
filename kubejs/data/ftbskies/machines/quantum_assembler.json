@@ -78,7 +78,7 @@
       "mode": "input",
       "whitelist": true,
       "filter": ["minecraft:water",
-      "minecraft:lava", "ftbskies:stabilized_fire"]
+      "minecraft:lava", "ftbskies:stabilized_fire","ftbskies:stabilized_pyrotheum"]
 
     },
     {
