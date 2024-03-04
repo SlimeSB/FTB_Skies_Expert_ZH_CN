@@ -1,5 +1,5 @@
 {
-  "name": "柴油应力发生器",
+  "name": "柴油引擎",
   "appearance": {
     "block": "ftbskies:machine/diesel_generator",
     "running": {
@@ -57,7 +57,7 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 8,
-      "text": "柴油应力发生器"
+      "text": "柴油引擎"
     },
     {
       "type": "custommachinery:fluid",
@@ -89,7 +89,7 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 78,
-      "text": "Inventory"
+      "text": "物品栏"
     },
     {
       "type": "custommachinery:player_inventory",

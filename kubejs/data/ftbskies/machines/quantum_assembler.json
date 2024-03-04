@@ -16,13 +16,25 @@
       "maxOutput": 1000,
       "mode": "input",
       "whitelist": true,
+      "filter": ["industrialforegoing:latex",
+      "ftbskies:polytetrafluoroethylene"
+    ]
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank2",
+      "capacity": 4000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input",
+      "whitelist": true,
       "filter": ["createteleporters:quantum_fluid",
       "ftbskies:resonant_liquid",
       "thermal:ender"]
     },
     {
       "type": "custommachinery:fluid",
-      "id": "inputtank2",
+      "id": "inputtank3",
       "capacity": 4000,
       "maxInput": 1000,
       "maxOutput": 1000,
@@ -34,7 +46,7 @@
     },
     {
       "type": "custommachinery:fluid",
-      "id": "inputtank3",
+      "id": "inputtank4",
       "capacity": 4000,
       "maxInput": 1000,
       "maxOutput": 1000,
@@ -44,16 +56,6 @@
       "ftbskies:liquid_elemental_void",
       "integrateddynamics:menril_resin"
       ]
-    },
-    {
-      "type": "custommachinery:fluid",
-      "id": "inputtank4",
-      "capacity": 4000,
-      "maxInput": 1000,
-      "maxOutput": 1000,
-      "mode": "input",
-      "whitelist": true,
-      "filter": ["thermal:redstone"]
 
     },
     {
@@ -63,7 +65,8 @@
       "maxInput": 1000,
       "maxOutput": 1000,
       "mode": "input",
-      "filter": ["ftbskies:molten_cheese","ftbskies:liquid_elemental_void", "createteleportoers:quantum_fluid","integrateddynamics:menril_resin","industrialforegoing:latex","thermal:redstone","industrialforegoing:pink_slime","ftbskies:polytetrafluoroethylene","starbunclemania:source_fluid","ftbskies:stabilized_fire", "ftbskies:resonant_liquid","industrialforegoing:ether_gas"]
+      "whitelist": true,
+      "filter": ["thermal:redstone","ftbskies:molten_cheese"]
 
     },
     {
@@ -73,7 +76,9 @@
       "maxInput": 1000,
       "maxOutput": 1000,
       "mode": "input",
-      "filter": ["ftbskies:molten_cheese","ftbskies:liquid_elemental_void", "createteleportoers:quantum_fluid","integrateddynamics:menril_resin","industrialforegoing:latex","thermal:redstone","industrialforegoing:pink_slime","ftbskies:polytetrafluoroethylene","starbunclemania:source_fluid","ftbskies:stabilized_fire", "ftbskies:resonant_liquid","industrialforegoing:ether_gas"]
+      "whitelist": true,
+      "filter": ["minecraft:water",
+      "minecraft:lava"]
 
     },
     {
@@ -274,7 +279,7 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 98,
-      "text": "Inventory"
+      "text": "物品栏"
     },
     {
       "type": "custommachinery:player_inventory",

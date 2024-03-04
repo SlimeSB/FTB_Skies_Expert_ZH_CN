@@ -68,7 +68,7 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 78,
-      "text": "Inventory"
+      "text": "物品栏"
     },
     {
       "type": "custommachinery:player_inventory",

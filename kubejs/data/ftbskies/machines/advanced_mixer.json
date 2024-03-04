@@ -1,5 +1,5 @@
 {
-  "name": "高级混合器",
+  "name": "高级搅拌器",
   "appearance": {"light": 7},
   "components": [
     {
@@ -73,7 +73,7 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 8,
-      "text": "高级混合器"
+      "text": "高级搅拌器"
     },
     {
       "type": "custommachinery:energy",
@@ -146,7 +146,7 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 78,
-      "text": "Inventory"
+      "text": "物品栏"
     },
     {
       "type": "custommachinery:player_inventory",
