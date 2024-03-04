@@ -22,7 +22,7 @@
       "maxInput": 1000,
       "maxOutput": 1000,
       "mode": "input",
-      "filter": ["#forge:biodiesel", "#forge:diesel", "#forge:flux_diesel", "#forge:force_biodiesel", "#forge:force_diesel"],
+      "filter": ["#forge:biodiesel", "#forge:diesel", "#forge:flux_diesel", "#forge:force_biodiesel", "#forge:force_diesel", "#forge:nitro_diesel"],
       "whitelist": true
     },    
     {
