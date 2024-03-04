@@ -27,7 +27,10 @@
 	}]
 	quests: [
 		{
-			dependencies: ["2AD24EEEE1735F2B"]
+			dependencies: [
+				"2AD24EEEE1735F2B"
+				"1E860A143A753593"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -69,6 +72,7 @@
 			dependencies: [
 				"2BB98FF362A444CA"
 				"17AAF6CC87272F7F"
+				"3CE6ABC8DECDC047"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -111,6 +115,7 @@
 			dependencies: [
 				"3D17DED808F475F4"
 				"51D750DD48D0E4E5"
+				"3357BF6B55CB7459"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -153,6 +158,7 @@
 			dependencies: [
 				"2E6990BD6234A262"
 				"2060D5F0A503C89B"
+				"0917AAA728ED75D5"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -254,6 +260,7 @@
 				}
 				{
 					consume_items: true
+					count: 16L
 					id: "4B15B9CD73149159"
 					item: "create:precision_mechanism"
 					type: "item"
@@ -272,12 +279,14 @@
 					count: 4
 					id: "1EC310E328DD7DAD"
 					item: "mekanism:ultimate_induction_cell"
+					team_reward: true
 					type: "item"
 				}
 				{
 					count: 4
 					id: "7E987CFFCA1DC0A7"
 					item: "mekanism:ultimate_induction_provider"
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -292,15 +301,16 @@
 							Special: 0b
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
 			tasks: [
 				{
 					consume_items: true
-					count: 256L
+					count: 64L
 					id: "48B50D8AD8077201"
-					item: "mekanism:alloy_atomic"
+					item: "mekanism:alloy_infused"
 					type: "item"
 				}
 				{
@@ -358,9 +368,9 @@
 				}
 				{
 					consume_items: true
-					count: 256L
+					count: 64L
 					id: "4F1E9D89EC6BC2B5"
-					item: "botania:elementium_ingot"
+					item: "botania:manasteel_ingot"
 					type: "item"
 				}
 				{
@@ -457,23 +467,21 @@
 					}
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					consume_items: true
-					count: 64L
-					id: "2CEB018339ED61EA"
-					item: "thermal:signalum_ingot"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 32L
-					id: "47F7A659B63C9C19"
+					count: 16
+					id: "3F416E28712E1655"
 					item: "apotheosis:rare_material"
+					team_reward: true
 					type: "item"
 				}
 			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2CEB018339ED61EA"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.overpowered.quests8.title}"
 			x: -0.5d
 			y: 0.0d
@@ -570,16 +578,15 @@
 				}
 				{
 					consume_items: true
-					count: 32L
+					count: 64L
 					id: "3C64CB8675CFDD15"
 					item: "botania:terrasteel_ingot"
 					type: "item"
 				}
 				{
-					consume_items: true
 					count: 128L
-					id: "06DA647926324A44"
-					item: "ad_astra:desh_ingot"
+					id: "64E85319016A1148"
+					item: "ad_astra:desh_plate"
 					type: "item"
 				}
 			]
@@ -635,11 +642,36 @@
 			dependencies: ["3EE49ADBA2E7E922"]
 			icon: "cyclic:gem_amber"
 			id: "518AB236A8459FAA"
-			rewards: [{
-				id: "072DC11AD6001A25"
-				item: "create:creative_motor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "04B9A5AC0EA8644C"
+					item: "create_new_age:netherite_magnet"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3E921477FD60C1F4"
+					item: "create_new_age:netherite_magnet"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "706A138B7A57FE68"
+					item: "mekanism:ultimate_induction_cell"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "74FD5EE48E032C47"
+					item: "mekanism:ultimate_induction_provider"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					consume_items: true
@@ -689,11 +721,20 @@
 			dependencies: ["57DFABCAF4BD9D8F"]
 			icon: "cyclic:gem_obsidian"
 			id: "35DDEF1224B13D1E"
-			rewards: [{
-				id: "0498D82C0751E736"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0498D82C0751E736"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "03EAF5460BA5D8CA"
+					item: "ftbskies:wolf_sushi"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					consume_items: true
@@ -737,6 +778,7 @@
 			rewards: [{
 				id: "385F452E846E6CF0"
 				item: "appbot:creative_mana_cell"
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [
@@ -763,9 +805,18 @@
 				}
 				{
 					consume_items: true
-					count: 32L
+					count: 16L
 					id: "1248260D8E83AF27"
 					item: "apotheosis:epic_material"
+					type: "item"
+				}
+				{
+					id: "0C92F982CB7D6660"
+					item: {
+						Count: 1b
+						id: "appbot:portable_mana_storage_cell_256k"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -777,11 +828,33 @@
 			dependencies: ["35DDEF1224B13D1E"]
 			icon: "thermal:enderium_ingot"
 			id: "31AD8A1087A9A5B2"
-			rewards: [{
-				id: "71E47919E924F82A"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "71E47919E924F82A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "756B58455A7E4B85"
+					item: "thermal:upgrade_augment_3"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "449D9AB0C585C671"
+					item: "apotheosis:rectifier_t3"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5321C054A7BAACB9"
+					item: "apotheosis:mythic_material"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					consume_items: true
@@ -949,6 +1022,7 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -992,6 +1066,7 @@
 				{
 					id: "4620E5700DC23F7E"
 					item: "thermal:machine_catalyst_creative_augment"
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1022,6 +1097,12 @@
 					item: "minecraft:ender_eye"
 					type: "item"
 				}
+				{
+					count: 32L
+					id: "638884F3B4AFE1AF"
+					item: "powah:ender_core"
+					type: "item"
+				}
 			]
 			title: "{ftbquests.chapter.overpowered.quests18.title}"
 			x: -3.5d
@@ -1046,13 +1127,6 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 64L
-					id: "71CDE4D3F971521D"
-					item: "minecraft:dragon_breath"
-					type: "item"
-				}
-				{
-					consume_items: true
 					count: 1000L
 					id: "63CE0C3C4DA0EF4B"
 					item: "hostilenetworks:end_prediction"
@@ -1063,6 +1137,12 @@
 					count: 128L
 					id: "672A530AFBECC01A"
 					item: "ars_nouveau:end_fiber"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1CEBBA3E04D1E055"
+					item: "apotheosis:infused_breath"
 					type: "item"
 				}
 			]
@@ -1103,6 +1183,13 @@
 				{
 					id: "5AEE5E2AEC758882"
 					item: "reaper:rune_spiritus"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "033684DAE05F9F22"
+					item: "toolbooster:legend_toolbooster"
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1247,6 +1334,11 @@
 					id: "5F465AEDC278CC02"
 					type: "xp_levels"
 					xp_levels: 1000
+				}
+				{
+					id: "79FDC77AC1994DEB"
+					item: "create:creative_motor"
+					type: "item"
 				}
 			]
 			subtitle: "{ftbquests.chapter.overpowered.quests22.subtitle}"

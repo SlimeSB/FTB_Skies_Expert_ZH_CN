@@ -389,23 +389,6 @@ BlockEvents.rightClicked('create:hand_crank', event => {
 	}
 })
 
-BlockEvents.broken(event => {
-	const { player, block, level } = event
-	let kuLevel = new Ku.Level(level)
-	let blockPos = new BlockPos(block.pos.x, block.pos.y, block.pos.z)
-	if (blockPos.getBlock().hardness >= 2) {
-		if (
-			kuLevel.isStructureAtLocation(
-				blockPos,
-				'castle_in_the_sky:castle_in_the_sky'
-			)
-		) {
-			event.cancel()
-			message(event, '天空城堡的力量太强大，无法突破')
-		}
-	}
-})
-
 BlockEvents.placed(
 	[
 		'ftbskies:force_infused_moon_stone',
@@ -462,6 +445,26 @@ EntityEvents.hurt('minecraft:player', event => {
 	if (entity.stages.has('in_prison') && source.getActual().type == 'minecraft:enderman') {
 		event.cancel()
 	}
+})
+
+const castleBreakable = ['minecraft:snow_block']
+BlockEvents.broken(event => {
+	const { player, block, level } = event
+	let kuLevel = new Ku.Level(level)
+	let blockPos = new BlockPos(block.pos.x, block.pos.y, block.pos.z)
+	if (!kuLevel.isStructureAtLocation(blockPos, 'castle_in_the_sky:castle_in_the_sky')) return
+	if (castleBreakable.includes(block.id)) return
+	message(event, '天空城的力量太强大，无法破坏')
+	event.cancel()
+})
+
+BlockEvents.rightClicked('create:blaze_burner', event => {
+	const { block, item, player, server } = event
+	if (item.id != 'create:creative_blaze_cake') return
+	if (player && player.isPlayer() && player.isCreative()) return
+	server.scheduleInTicks(1, callback => {
+		item.count--
+	})
 })
 
 // liquid source explosion WIP

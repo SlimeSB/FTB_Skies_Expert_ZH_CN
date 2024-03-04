@@ -123,6 +123,13 @@
 			]
 			id: "33D0CFE3B6344959"
 			subtitle: "{ftbquests.chapter.getting_on_up.quests5.subtitle}"
+			rewards: [{
+				count: 2
+				id: "0496C6A66712F288"
+				item: "industrialforegoing:fluid_transporter_type"
+				team_reward: true
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D072B99C1F9378B"
 				item: "immersiveengineering:phenolic_resin_bucket"
@@ -209,6 +216,21 @@
 				"4EBAB26A6012D1D8"
 			]
 			id: "21ECA818965840C8"
+			rewards: [
+				{
+					id: "0F21D3349AA45015"
+					item: "functionalstorage:fluid_2"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "71ABA65F8D45D72C"
+					item: "functionalstorage:copper_upgrade"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1F59D0D3E7A2C607"
 				item: "immersiveengineering:acetaldehyde_bucket"
@@ -231,6 +253,12 @@
 				"{ftbquests.chapter.getting_on_up.quests10.description5}"
 			]
 			id: "6D55396114BACE52"
+			rewards: [{
+				id: "1FE65EF2595969B8"
+				item: "pneumaticcraft:security_upgrade"
+				team_reward: true
+				type: "item"
+			}]
 			tasks: [{
 				id: "610DF6BB9AB22D8A"
 				item: "pneumaticcraft:ethanol_bucket"
@@ -250,6 +278,12 @@
 				"{ftbquests.chapter.getting_on_up.quests11.description2}"
 			]
 			id: "4EBAB26A6012D1D8"
+			rewards: [{
+				id: "03FCE07B44D4B2A0"
+				item: "thermal:upgrade_augment_1"
+				team_reward: true
+				type: "item"
+			}]
 			tasks: [{
 				id: "169939300A685FCF"
 				item: "ftbskies:molten_silver_bucket"
@@ -307,6 +341,12 @@
 				"{ftbquests.chapter.getting_on_up.quests14.description4}"
 			]
 			id: "512DBD469AC4E9B9"
+			rewards: [{
+				count: 4
+				id: "46041D8598E94042"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
 			tasks: [{
 				id: "71A0319A51AAFEF0"
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
@@ -366,6 +406,22 @@
 		{
 			dependencies: ["54C6834B4F80A8BC"]
 			id: "55A340C65E7ED6EA"
+			rewards: [
+				{
+					count: 16
+					id: "5631F7314B4596C4"
+					item: "occultism:silver_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0005277064B5B616"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "79074C685364D6D0"
 				item: "thermal:redstone_bucket"
@@ -518,54 +574,6 @@
 		}
 		{
 			dependencies: ["5EB5407E9D179ACB"]
-			description: [
-				"{ftbquests.chapter.getting_on_up.quests26.description0}"
-				""
-				"{ftbquests.chapter.getting_on_up.quests26.description2}"
-			]
-			id: "5F38C19AC41CC9B4"
-			tasks: [
-				{
-					count: 3L
-					id: "26ACB8C8481D2D53"
-					item: "immersiveengineering:fluid_pipe"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0B4058878B8E5418"
-					item: "immersiveengineering:light_engineering"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0B8217EF15A9CBE9"
-					item: "immersiveengineering:sheetmetal_iron"
-					type: "item"
-				}
-				{
-					id: "64BFA4B3F1184981"
-					item: "immersiveengineering:rs_engineering"
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "6994DA8DDE24DD66"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					type: "item"
-				}
-				{
-					id: "5457773FFC315855"
-					item: "immersiveengineering:steel_fence"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.getting_on_up.quests26.title}"
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5F38C19AC41CC9B4"]
 			description: ["{ftbquests.chapter.getting_on_up.quests27.description}"]
 			id: "7A7D286C39CFC927"
 			tasks: [{

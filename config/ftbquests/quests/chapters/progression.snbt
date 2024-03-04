@@ -365,6 +365,33 @@
 					team_reward: true
 					type: "item"
 				}
+				{
+					id: "370786BE28D0A808"
+					item: {
+						Count: 1b
+						id: "mekanism:robit"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"最后的埃利安人\"}"
+							}
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "100000"
+								}]
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "59D3F92A01F665C9"
+					item: "mekanism:chargepad"
+					team_reward: true
+					type: "item"
+				}
 			]
 			subtitle: "{ftbquests.chapter.progression.quests7.subtitle}"
 			tasks: [{

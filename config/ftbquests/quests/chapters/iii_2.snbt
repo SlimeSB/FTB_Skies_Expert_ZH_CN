@@ -85,6 +85,7 @@
 			dependencies: [
 				"30D0FAEFC28B24F5"
 				"35FC40D9D9111862"
+				"3CE6ABC8DECDC047"
 			]
 			icon: {
 				Count: 1b
@@ -490,7 +491,10 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["1C5F24FBAE411D2A"]
+			dependencies: [
+				"1C5F24FBAE411D2A"
+				"3CE6ABC8DECDC047"
+			]
 			description: [
 				"{ftbquests.chapter.iii_2.quests25.description0}"
 				""
