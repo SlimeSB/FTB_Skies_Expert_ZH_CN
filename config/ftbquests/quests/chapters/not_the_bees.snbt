@@ -231,15 +231,21 @@
 			id: "5A67BA82D407F5F8"
 			rewards: [
 				{
-					count: 8
-					id: "79DEC543BD0A35EE"
-					item: "mekanism:basic_universal_cable"
-					type: "item"
-				}
-				{
 					count: 16
 					id: "05DD2A0037F44F97"
 					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E8D01EEF32212EE"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "76F46F4C887B02D7"
+					item: "immersiveengineering:wirecoil_copper_ins"
 					type: "item"
 				}
 			]
