@@ -18,7 +18,26 @@
 		y: -4.0d
 	}]
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "134F0417DE4AB99D"
+			linked_quest: "368D81554F3CBD48"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "10B02A0E6C769EDA"
+			linked_quest: "163D5C05748FEB31"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "7D1288A8AA7443F9"
+			linked_quest: "63E9887F16D227AB"
+			x: -2.0d
+			y: 4.0d
+		}
+	]
 	quests: [
 		{
 			description: [
@@ -88,37 +107,6 @@
 			}]
 			x: 0.0d
 			y: -0.5d
-		}
-		{
-			dependencies: ["76A23AB6136EDAFD"]
-			description: [
-				"{ftbquests.chapter.ars_nouveau.quests2.description0}"
-				""
-				"{ftbquests.chapter.ars_nouveau.quests2.description2}"
-			]
-			id: "3ED0FD74FDB51074"
-			rewards: [
-				{
-					count: 16
-					id: "49A34F3EECD6AD12"
-					item: "minecraft:lapis_lazuli"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "64ED67FAAEE75068"
-					item: "ars_nouveau:blank_parchment"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests2.subtitle}"
-			tasks: [{
-				id: "662BDE8CEEBB03B2"
-				item: "ars_nouveau:imbuement_chamber"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.5d
 		}
 		{
 			dependencies: ["3CFD3D99673DEE53"]
@@ -236,90 +224,8 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["62236A7CCEB10D6E"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests6.description}"]
-			id: "76A23AB6136EDAFD"
-			rewards: [{
-				id: "4EE5732FB574E38C"
-				item: "ars_nouveau:glyph_fell"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests6.subtitle}"
-			tasks: [
-				{
-					id: "0176B09769EA4303"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ars_nouveau:blue_archwood_sapling"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:purple_archwood_sapling"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:green_archwood_sapling"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:red_archwood_sapling"
-								}
-							]
-						}
-					}
-					title: "{ftbquests.chapter.ars_nouveau.quests6.tasks0.title}"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "541AD695E90A6DF2"
-					item: {
-						Count: 1b
-						id: "spirit:soul_steel_axe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.ars_nouveau.quests6.title}"
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["3ED0FD74FDB51074"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests7.description}"]
-			id: "29BD6DA638779F8B"
-			rewards: [
-				{
-					count: 4
-					id: "00C7EA48D0D7A549"
-					item: "ars_nouveau:source_gem"
-					type: "item"
-				}
-				{
-					id: "620522E83806D2EF"
-					item: "ars_nouveau:glyph_cut"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests7.subtitle}"
-			tasks: [{
-				id: "2D9ED1B644E26B44"
-				item: "ars_nouveau:source_gem"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["29BD6DA638779F8B"]
+			dependencies: ["134F0417DE4AB99D"]
+			dependency_requirement: "one_completed"
 			description: [
 				"{ftbquests.chapter.ars_nouveau.quests8.description0}"
 				""
@@ -337,11 +243,11 @@
 				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["4F93CB2B27A6B18A"]
+			dependencies: ["63E9887F16D227AB"]
 			description: [
 				"{ftbquests.chapter.ars_nouveau.quests9.description0}"
 				""
@@ -395,11 +301,11 @@
 				title: "{ftbquests.chapter.ars_nouveau.quests9.tasks0.title}"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["29BD6DA638779F8B"]
+			dependencies: ["63E9887F16D227AB"]
 			description: ["{ftbquests.chapter.ars_nouveau.quests10.description}"]
 			id: "15382B624A9A64F8"
 			rewards: [
@@ -426,36 +332,6 @@
 		}
 		{
 			dependencies: ["15382B624A9A64F8"]
-			description: [
-				"{ftbquests.chapter.ars_nouveau.quests11.description0}"
-				""
-				"{ftbquests.chapter.ars_nouveau.quests11.description2}"
-			]
-			id: "13AA07F242BE2FBD"
-			rewards: [
-				{
-					id: "67C5182CA4F89664"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "00AE3364625D0D10"
-					item: "ars_nouveau:source_berry_roll"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests11.subtitle}"
-			tasks: [{
-				count: 8L
-				id: "0856B2C0E2A8833A"
-				item: "ars_nouveau:arcane_pedestal"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["13AA07F242BE2FBD"]
 			description: [
 				"{ftbquests.chapter.ars_nouveau.quests12.description0}"
 				""
@@ -539,42 +415,15 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
+			x: -4.0d
 			y: 5.5d
 		}
 		{
-			dependencies: ["13AA07F242BE2FBD"]
-			description: [
-				"{ftbquests.chapter.ars_nouveau.quests13.description0}"
-				""
-				"{ftbquests.chapter.ars_nouveau.quests13.description2}"
+			dependencies: [
+				"3192760A101C5FDD"
+				"15382B624A9A64F8"
 			]
-			id: "2ADA7D6FDBBCC8E0"
-			rewards: [
-				{
-					id: "70333A228694AE7B"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "4477AD5B4C0EE1C4"
-					item: "ars_nouveau:source_gem"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests13.subtitle}"
-			tasks: [{
-				id: "600285BCEBEC9D3E"
-				item: "ars_nouveau:arcane_core"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["2ADA7D6FDBBCC8E0"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests14.description}"]
+			description: ["现在您已经&b魔源&r宝石和金子，你可以将一颗魔源宝石与八个石头合成一颗魔源石。这块充满魔力的石头将成为多&e新生魔艺&r机器的基础。用它制作一个 &b附魔装置&r 来进一步强化材料催化剂"]
 			id: "033BAE1703CCEEF7"
 			rewards: [
 				{
@@ -587,8 +436,14 @@
 					type: "xp"
 					xp: 10
 				}
+				{
+					count: 8
+					id: "5DA2D5335923CA30"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests14.subtitle}"
+			subtitle: "制作附魔装置"
 			tasks: [{
 				id: "1C64F82D1494EA91"
 				item: "ars_nouveau:enchanting_apparatus"
@@ -616,8 +471,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.5d
+			x: -4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["033BAE1703CCEEF7"]
@@ -672,7 +527,7 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["76A23AB6136EDAFD"]
+			dependencies: ["368D81554F3CBD48"]
 			description: [
 				"{ftbquests.chapter.ars_nouveau.quests18.description0}"
 				""
@@ -807,7 +662,7 @@
 				type: "observation"
 			}]
 			title: "{ftbquests.chapter.ars_nouveau.quests22.title}"
-			x: -6.0d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -861,8 +716,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.ars_nouveau.quests23.title}"
-			x: -2.0d
-			y: 10.0d
+			x: -4.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3B988B8D06F51C84"]
@@ -1009,7 +864,7 @@
 				title: "{ftbquests.chapter.ars_nouveau.quests26.tasks0.title}"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 5.5d
 		}
 		{
@@ -1241,8 +1096,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 10.0d
+			x: -5.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["41A43C5FB735239F"]
@@ -1306,8 +1161,103 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.ars_nouveau.quests30.title}"
-			x: -3.5d
-			y: 11.0d
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["623ECDC05E1FEEE1"]
+			description: [
+				"在与储物讲台绑定的容器上使用卷轴，可以使物品的优先级和分类变得非常简单"
+				""
+				"将配置好的卷轴放在容器上的展示框里，书龙会将其考虑在内"
+				"（下一页将介绍每种卷轴的更多信息）"
+				""
+				""
+				""
+				"装有卷轴的容器优先，然后是未配置卷轴的容器"
+				"这里还考虑到了装订的顺序"
+				"{@pagebreak}"
+				"&l&6模仿卷轴&r"
+				"当该卷轴附加到一个容器时，实体只会输入箱子中已经存在的物品"
+				"在容器上放置一个物品展示框，再将卷轴放进展示框内"
+				"{@pagebreak}"
+				"&6&l物品卷轴： 允许&r"
+				"用于给自动化相关实体提供一个物品列表"
+				"将卷轴放在抄写台上，再对抄写台潜行使用方块或物品即可添加在卷轴内"
+				"将卷轴交予星宝石兽，它就会只拾取或拿出卷轴上记录的物品"
+				"附加到容器时，书龙只会输入卷轴上的物品"
+				"{@pagebreak}"
+				"&6&l物品卷轴： 禁止&r"
+				"用于给自动化相关实体提供一个物品列表"
+				"将卷轴放在抄写台上，再对抄写台潜行使用方块或物品即可添加在卷轴内"
+				"将卷轴交予星宝石兽，它就不会拾取或拿出卷轴上记录的物品"
+				"附加到容器时，书龙不会输入卷轴上的物品"
+			]
+			id: "0ADC76D476283160"
+			rewards: [
+				{
+					id: "054E931F3F7CFF73"
+					item: "ars_nouveau:deny_scroll"
+					type: "item"
+				}
+				{
+					id: "0DAE5B46D1C020F3"
+					item: "ars_nouveau:allow_scroll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "249A031A8E167349"
+				item: "ars_nouveau:mimic_scroll"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["623ECDC05E1FEEE1"]
+			description: [
+				"&6&l提示 #1：&r"
+				""
+				"存储讲台可连接在一起"
+				""
+				"为此，请制作第二个存储讲台，并将其放置在距离主存储讲台最多 30 个方块的地方"
+				"现在，将第二个存储讲台与主存储讲台绑定，您就可以从第二个存储讲台访问主存储"
+				"{@pagebreak}"
+				"&6&l提示 #2：&r"
+				""
+				"存储讲台可以有标签"
+				""
+				"使用铁砧重命名容器并将这些容器绑定到您的存储讲台上，会在 GUI 左侧显示不同的选项卡"
+				"默认情况下，您的存储将显示所有物品"
+				"现在，通过选择其中一个已命名的标签，您还可以指定书龙将物品放入特定的标签容器"
+				""
+				""
+				"&l注意：&r"
+				""
+				"多个容器可以使用相同的名称，以便将它们归入同一个标签页。排序方法与之前解释的相同"
+				""
+				"{@pagebreak}"
+				"&6&l提示 #3：&r"
+				""
+				"书龙实际上可以染成几种不同的颜色！"
+				""
+				"（Tazz - \"我个人最喜欢的颜色是红色\"）"
+			]
+			id: "20A7D8885BE9AAB9"
+			rewards: [{
+				id: "6B207BD48C6E61A8"
+				item: "minecraft:red_dye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C7641E9B6F632B0"
+				title: "Linking Storage Lecterns"
+				type: "checkmark"
+			}]
+			title: "Storage Lectern Tips"
+			x: -4.0d
+			y: 10.5d
 		}
 	]
 	title: "{ftbquests.chapter.ars_nouveau.title}"
