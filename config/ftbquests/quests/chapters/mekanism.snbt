@@ -852,6 +852,36 @@
 			x: -3.5d
 			y: -3.5d
 		}
+		{
+			dependencies: [
+				"4E249AEBE3EBC985"
+				"7DE50AED14AA463E"
+			]
+			description: [
+				"当然，您也可以使用&6末影储罐&f，但是&e这个任务&f在此提醒您一些非常重要的事情"
+				""
+				"要在你的&b空间站&f拥有一个&b水池&f "
+				"(需要&6蓄水器&f), "
+				"同时需要&6给房间加压供氧&f!"
+				""
+				"&8&如果你不这样做，就要准备好给自己弄个小冰场...&f"
+			]
+			icon: "minecraft:water_bucket"
+			id: "3294690FD3D82540"
+			min_width: 300
+			rewards: [{
+				id: "76A61ACF0440674A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "79705F122465A9C6"
+				type: "checkmark"
+			}]
+			title: "但如何在轨道上产生水？"
+			x: -3.9693877551020478d
+			y: -4.346938775510196d
+		}
 	]
 	title: "{ftbquests.chapter.mekanism.title}"
 }
