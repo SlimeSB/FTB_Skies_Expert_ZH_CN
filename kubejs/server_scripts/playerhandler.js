@@ -60,6 +60,7 @@ BlockEvents.placed('ad_astra:cryo_freezer', event => {
 	}
 })
 
+/*
 BlockEvents.placed('productivebees:feeder', event => {
 	const { level, player, block } = event
 	if (level.getDimension().getNamespace() === 'ad_astra') {
@@ -70,6 +71,7 @@ BlockEvents.placed('productivebees:feeder', event => {
 		}
 	}
 })
+*/
 
 BlockEvents.rightClicked('minecraft:end_portal_frame', event => {
 	const { item, hand, player } = event
@@ -389,6 +391,7 @@ BlockEvents.rightClicked('create:hand_crank', event => {
 	}
 })
 
+/*
 BlockEvents.placed(
 	[
 		'ftbskies:force_infused_moon_stone',
@@ -409,6 +412,7 @@ BlockEvents.placed(
 		event.cancel()
 	}
 )
+*/
 
 BlockEvents.placed(['minecraft:end_portal_frame'], event => {
 	const { block } = event
