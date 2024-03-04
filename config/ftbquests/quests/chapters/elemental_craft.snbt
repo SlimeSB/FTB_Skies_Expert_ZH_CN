@@ -98,6 +98,9 @@
 				"{ftbquests.chapter.elemental_craft.quests2.description2}"
 				""
 				"{ftbquests.chapter.elemental_craft.quests2.description4}"
+				""
+				""
+				"[\"\",\"请务必同时查看 \\n\",{\"text\":\"[ 元素工艺 ]\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 23EED105DF68860B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击前往章节\"]}},\" 章节\"]"
 			]
 			icon: "elementalcraft:evaporator"
 			id: "0C21F4686511B5A8"
@@ -303,49 +306,8 @@
 				item: "elementalcraft:springaline_shard"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.5d
-		}
-		{
-			dependencies: [
-				"0C9AC0881A6A95BE"
-				"506D851AFD0ABF56"
-			]
-			description: ["{ftbquests.chapter.elemental_craft.quests9.description}"]
-			id: "378C30FDC434951C"
-			rewards: [
-				{
-					id: "5C5476A9DC099D6A"
-					item: "elementalcraft:source"
-					type: "item"
-				}
-				{
-					id: "2F6E3E36920AD4ED"
-					item: "elementalcraft:source_stabilizer"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.elemental_craft.quests9.subtitle}"
-			tasks: [{
-				id: "539FDD157DE011A9"
-				item: "elementalcraft:source_stabilizer"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1F069A8F79A2BFB4"]
-			description: ["{ftbquests.chapter.elemental_craft.quests10.description}"]
-			id: "34C5844081BEEB4E"
-			subtitle: "{ftbquests.chapter.elemental_craft.quests10.subtitle}"
-			tasks: [{
-				id: "080BAE43093D5E3B"
-				item: "elementalcraft:extractor_improved"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 6.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["02EE17E62B428C6B"]
@@ -403,7 +365,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["30E0AA2412E909CC"]
+			dependencies: ["02EE17E62B428C6B"]
 			description: ["{ftbquests.chapter.elemental_craft.quests13.description}"]
 			id: "66175A6C5CB63C39"
 			rewards: [{
@@ -418,7 +380,7 @@
 				item: "elementalcraft:spell_desk"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 6.5d
 		}
 		{
@@ -477,245 +439,8 @@
 				title: "{ftbquests.chapter.elemental_craft.quests14.tasks0.title}"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["02EE17E62B428C6B"]
-			description: [
-				"{ftbquests.chapter.elemental_craft.quests15.description0}"
-				""
-				"{ftbquests.chapter.elemental_craft.quests15.description2}"
-				""
-				"{ftbquests.chapter.elemental_craft.quests15.description4}"
-			]
-			icon: {
-				Count: 1b
-				id: "elementalcraft:element_holder_earth"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "30E0AA2412E909CC"
-			rewards: [
-				{
-					id: "6B5C078FD3F5C0D4"
-					item: "elementalcraft:pristine_fire_gem"
-					type: "item"
-				}
-				{
-					id: "209A3C4BEAD7FB33"
-					item: "elementalcraft:pristine_water_gem"
-					type: "item"
-				}
-				{
-					id: "7C953C7398783816"
-					item: "elementalcraft:pristine_air_gem"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.elemental_craft.quests15.subtitle}"
-			tasks: [{
-				id: "1BEDEBC027E2F85E"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									Parent: {
-										element_amount: 0
-										element_capacity: 10000
-										element_type: "fire"
-									}
-								}
-								id: "elementalcraft:element_holder_fire"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									Parent: {
-										element_amount: 0
-										element_capacity: 10000
-										element_type: "water"
-									}
-								}
-								id: "elementalcraft:element_holder_water"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									Parent: {
-										element_amount: 0
-										element_capacity: 10000
-										element_type: "earth"
-									}
-								}
-								id: "elementalcraft:element_holder_earth"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									Parent: {
-										element_amount: 0
-										element_capacity: 10000
-										element_type: "air"
-									}
-								}
-								id: "elementalcraft:element_holder_air"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				title: "{ftbquests.chapter.elemental_craft.quests15.tasks0.title}"
-				type: "item"
-			}]
 			x: 3.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["19750F792AE3093F"]
-			description: [
-				"{ftbquests.chapter.elemental_craft.quests16.description0}"
-				""
-				"{ftbquests.chapter.elemental_craft.quests16.description2}"
-			]
-			icon: "elementalcraft:source_displacement_plate_water"
-			id: "43A8F862784D28F8"
-			rewards: [{
-				count: 4
-				id: "77CD29C5E0EC5982"
-				item: "elementalcraft:source"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.elemental_craft.quests16.subtitle}"
-			tasks: [
-				{
-					id: "78C0778B36353DC9"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "elementalcraft:source_displacement_plate_fire"
-								}
-								{
-									Count: 1b
-									id: "elementalcraft:source_displacement_plate_earth"
-								}
-								{
-									Count: 1b
-									id: "elementalcraft:source_displacement_plate_air"
-								}
-								{
-									Count: 1b
-									id: "elementalcraft:source_displacement_plate_water"
-								}
-							]
-						}
-					}
-					title: "{ftbquests.chapter.elemental_craft.quests16.tasks0.title}"
-					type: "item"
-				}
-				{
-					id: "02BE046047C570A3"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									ForgeCaps: {
-										Parent: { }
-									}
-									id: "elementalcraft:receptacle"
-									tag: {
-										element_type: "water"
-									}
-								}
-								{
-									Count: 1b
-									ForgeCaps: {
-										Parent: { }
-									}
-									id: "elementalcraft:receptacle"
-									tag: {
-										element_type: "fire"
-									}
-								}
-								{
-									Count: 1b
-									ForgeCaps: {
-										Parent: { }
-									}
-									id: "elementalcraft:receptacle"
-									tag: {
-										element_type: "earth"
-									}
-								}
-								{
-									Count: 1b
-									ForgeCaps: {
-										Parent: { }
-									}
-									id: "elementalcraft:receptacle"
-									tag: {
-										element_type: "air"
-									}
-								}
-							]
-						}
-					}
-					title: "{ftbquests.chapter.elemental_craft.quests16.tasks1.title}"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.elemental_craft.quests16.title}"
-			x: 8.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1F069A8F79A2BFB4"]
-			description: ["{ftbquests.chapter.elemental_craft.quests17.description}"]
-			id: "37AFE52AC86371A0"
-			rewards: [
-				{
-					count: 16
-					id: "5FC5434B43C835F2"
-					item: "elementalcraft:purerock"
-					type: "item"
-				}
-				{
-					id: "7639879C5D611F24"
-					item: "elementalcraft:purecrystal"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.elemental_craft.quests17.subtitle}"
-			tasks: [{
-				id: "21FE10CD79AC24BF"
-				item: "elementalcraft:purerock"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1F069A8F79A2BFB4"]
@@ -911,7 +636,7 @@
 				title: "{ftbquests.chapter.elemental_craft.quests21.tasks0.title}"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.0d
 			y: 8.0d
 		}
 		{
