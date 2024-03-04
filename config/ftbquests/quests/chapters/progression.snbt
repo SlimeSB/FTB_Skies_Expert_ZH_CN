@@ -201,11 +201,6 @@
 			]
 			icon: "ftbskies:eye_of_legend_nether"
 			id: "4E676DFBDBD49BDD"
-			rewards: [{
-				id: "50114B77230191AB"
-				item: "botania:floating_thermalily"
-				type: "item"
-			}]
 			subtitle: "{ftbquests.chapter.progression.quests3.subtitle}"
 			tasks: [
 				{
