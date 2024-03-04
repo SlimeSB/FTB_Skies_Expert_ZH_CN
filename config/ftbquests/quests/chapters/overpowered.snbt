@@ -1053,6 +1053,12 @@
 					item: "redstone_arsenal:flux_ingot"
 					type: "item"
 				}
+				{
+					count: 16L
+					id: "656B1450A66FA229"
+					item: "forcecraft:time_torch"
+					type: "item"
+				}
 			]
 			title: "{ftbquests.chapter.overpowered.quests17.title}"
 			x: -4.5d
@@ -1432,13 +1438,6 @@
 					consume_items: true
 					id: "51CD5B17BB78B515"
 					item: "ars_nouveau:wixie_charm"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 8L
-					id: "708CDBBC4A290016"
-					item: "forcecraft:time_torch"
 					type: "item"
 				}
 				{
