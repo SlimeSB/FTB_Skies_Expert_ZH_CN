@@ -290,6 +290,8 @@
 				"{ftbquests.chapter.mekanism.quests9.description4}"
 				""
 				"{ftbquests.chapter.mekanism.quests9.description6}"
+				""
+				"提示：实际上，运行这台机器并不需要电。您可以在它的电源插槽中使用红石为其供电"
 			]
 			id: "4B7957DA13CD57F0"
 			min_width: 250
@@ -826,8 +828,6 @@
 			dependencies: ["4B7957DA13CD57F0"]
 			description: [
 				"{ftbquests.chapter.mekanism.quests32.description0}"
-				""
-				"{ftbquests.chapter.mekanism.quests32.description2}"
 			]
 			id: "7DE50AED14AA463E"
 			rewards: [
