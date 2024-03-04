@@ -30,14 +30,20 @@
 		{
 			id: "15DB32CCEBECAA2A"
 			linked_quest: "0C21F4686511B5A8"
-			x: 13.0d
+			x: 13.5d
 			y: 0.0d
 		}
 		{
 			id: "001C3C7FBED62F07"
 			linked_quest: "0C9AC0881A6A95BE"
-			x: 16.0d
+			x: 16.5d
 			y: 0.0d
+		}
+		{
+			id: "2B5D1CCB87821D33"
+			linked_quest: "033BAE1703CCEEF7"
+			x: 9.0d
+			y: 6.0d
 		}
 	]
 	quests: [
@@ -435,6 +441,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["754FA931903BDF6D"]
 			description: [
 				"{ftbquests.chapter.getting_started.quests8.description0}"
 				""
@@ -508,8 +515,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.getting_started.quests8.title}"
-			x: 7.0d
-			y: 5.0d
+			x: 11.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["45D2E055A0ED04A5"]
@@ -625,7 +632,7 @@
 				type: "dimension"
 			}]
 			title: "{ftbquests.chapter.getting_started.quests11.title}"
-			x: 13.0d
+			x: 13.5d
 			y: -2.0d
 		}
 		{
@@ -774,8 +781,8 @@
 				item: "minecraft:nether_bricks"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7AF13186F9106ACA"]
@@ -1555,11 +1562,20 @@
 			dependencies: ["36D46D57A98053AC"]
 			description: ["{ftbquests.chapter.getting_started.quests31.description}"]
 			id: "520B7EDD4C85C997"
-			rewards: [{
-				id: "4E84F1C3DAE82BFB"
-				item: "cyclic:crafting_stick"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4E84F1C3DAE82BFB"
+					item: "cyclic:crafting_stick"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "5659E378C801F3B5"
+					ignore_reward_blocking: true
+					stage: "trigger_enderman"
+					type: "gamestage"
+				}
+			]
 			tasks: [{
 				id: "31928A739EE29E76"
 				item: "minecraft:crafting_table"
@@ -1569,7 +1585,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["25412784CD54C8B9"]
+			dependencies: ["046C02E6B0335F4E"]
 			description: [
 				"{ftbquests.chapter.getting_started.quests32.description0}"
 				""
@@ -1580,6 +1596,7 @@
 				""
 				"{image:ftbskies:textures/quests/hexerei_cauldron.png width:190 height:114 align:1}"
 			]
+			hide_dependency_lines: true
 			id: "699619C29CED9AA8"
 			rewards: [
 				{
@@ -1932,8 +1949,8 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 3.0d
+			x: 16.5d
+			y: 7.0d
 		}
 		{
 			description: ["{ftbquests.chapter.getting_started.quests44.description}"]
@@ -1980,7 +1997,11 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["44DA953FACFE16BC"]
+			dependencies: [
+				"44DA953FACFE16BC"
+				"7B19127BE1CF9D29"
+			]
+			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.getting_started.quests45.description}"]
 			id: "2605C528A0128E05"
 			rewards: [
@@ -2001,7 +2022,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2605C528A0128E05"]
@@ -2013,6 +2034,10 @@
 				"{ftbquests.chapter.getting_started.quests46.description4}"
 				""
 				"{ftbquests.chapter.getting_started.quests46.description6}"
+				""
+				"进行下一个任务时，您需要&a液态经验&r (这里叫&a知素&r)"
+				""
+				"[\"\",\"如果您还没有，现在正是时候查看 \",{\"text\":\"[ 新生魔艺 ]\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 4A41252630A0A14A\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击前往章节\"]}},\" 章节\"]"
 			]
 			id: "3236547E6DF9309C"
 			rewards: [{
@@ -2032,24 +2057,26 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"368D81554F3CBD48"
-				"7B19127BE1CF9D29"
-			]
+			dependencies: ["368D81554F3CBD48"]
 			description: [
 				"{ftbquests.chapter.getting_started.quests47.description0}"
 				""
-				"{ftbquests.chapter.getting_started.quests47.description2}"
+				"{@pagebreak}"
 				"{ftbquests.chapter.getting_started.quests47.description3}"
 				""
 				""
-				"{ftbquests.chapter.getting_started.quests47.description6}"
+				"{@pagebreak}"
 				"{ftbquests.chapter.getting_started.quests47.description7}"
 				""
 				"{ftbquests.chapter.getting_started.quests47.description9}"
+				""
+				"{@pagebreak}"
+				"&6&l编辑者提示：&r"
+				""
+				"刷怪场配备了&5诅咒之土&r。众所周知，这种材料会在阳光下燃烧，因此，建议在夜间或清晨建造"
 			]
 			id: "163D5C05748FEB31"
 			rewards: [{
@@ -2163,12 +2190,21 @@
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["3236547E6DF9309C"]
-			description: ["{ftbquests.chapter.getting_started.quests48.description}"]
+			dependencies: [
+				"3236547E6DF9309C"
+				"62236A7CCEB10D6E"
+			]
+			description: [
+				"{ftbquests.chapter.getting_started.quests48.description}"
+				""
+				"您可以在冷却器中对其进行处理，并用合成配方中的染料对其重新着色"
+				""
+				"颜色主要是个人喜好。虽然它们都能为您的生产出相同的木材、不同类型的原木对于&d新生魔艺&r配方有不同的需求"
+				]
 			id: "368D81554F3CBD48"
 			rewards: [
 				{
@@ -2218,14 +2254,15 @@
 						]
 					}
 				}
+				title: "至高木树苗"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.getting_started.quests48.title}"
 			x: 7.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["3586EB0FCD71F3A1"]
+			dependencies: ["033BAE1703CCEEF7"]
 			description: ["{ftbquests.chapter.getting_started.quests49.description}"]
 			id: "4797E60A218204AC"
 			tasks: [{
@@ -2257,7 +2294,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.getting_started.quests49.title}"
-			x: 8.5d
+			x: 9.0d
 			y: 7.0d
 		}
 		{
@@ -2304,8 +2341,8 @@
 				item: "elementalcraft:whiterock"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["163D5C05748FEB31"]
@@ -2359,8 +2396,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.getting_started.quests52.title}"
-			x: 10.0d
-			y: 3.0d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -2381,7 +2418,7 @@
 				item: "immersiveengineering:cokebrick"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 4.5d
 		}
 		{
@@ -2403,8 +2440,8 @@
 				item: "immersiveengineering:blastbrick"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 4.5d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -2434,76 +2471,83 @@
 				item: "mekanism:ingot_steel"
 				type: "item"
 			}]
-			x: 13.0d
+			title: "不再是野人"
+			x: 13.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["163D5C05748FEB31"]
-			description: ["{ftbquests.chapter.getting_started.quests56.description}"]
+			description: [
+				"将&6青金石&r或&6紫水晶碎片&r放进灌注室制作&b魔源宝石&r，一个强大的魔源"
+				""
+				"{ftbquests.chapter.getting_started.quests56.description}"
+				]
 			id: "63E9887F16D227AB"
-			rewards: [{
-				count: 4
-				id: "6DFA5EAC38B95D9B"
-				item: "forcecraft:golden_power_source"
-				team_reward: true
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6DFA5EAC38B95D9B"
+					item: "forcecraft:golden_power_source"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "10ABD48B6BACD0FF"
+					item: "ars_nouveau:glyph_cut"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "30B28FAEF9BC3FFD"
 				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.0d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["3192760A101C5FDD"]
-			description: ["{ftbquests.chapter.getting_started.quests57.description}"]
-			id: "3586EB0FCD71F3A1"
-			rewards: [{
-				count: 8
-				id: "783EB4EA647F3A97"
-				item: "ars_nouveau:arcane_pedestal"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
+				dependencies: [
+				"17B3EC7969C6064E"
+				"1BEC67E79CAC09FD"
+			]
+			description: ["&b花药台&r是许多植物魔法花朵的基本制作工具。&6别忘了，你可以通过种植花瓣来复制花瓣，然后再用骨粉长出高大的变体&r"]
+			id: "718A735C9DDC759C"
+			rewards: [
 				{
-					id: "18B81B2FC3D44C6C"
-					item: "ars_nouveau:enchanting_apparatus"
+					id: "1D758274696788D0"
+					item: "botania:white_petal"
 					type: "item"
 				}
 				{
-					id: "5D301FCE04166E9F"
-					item: "ars_nouveau:arcane_core"
+					id: "14DFE700F49E023D"
+					item: "botania:tiny_potato"
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["17B3EC7969C6064E"]
-			description: ["{ftbquests.chapter.getting_started.quests58.description}"]
-			id: "718A735C9DDC759C"
-			rewards: [{
-				id: "1D758274696788D0"
-				item: "botania:white_petal"
-				type: "item"
-			}]
 			tasks: [{
 				id: "215B7923BA0F7691"
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["718A735C9DDC759C"]
-			description: ["{ftbquests.chapter.getting_started.quests59.description}"]
+			description: [
+					"现在，您有了花药台，可以制作&b白雏菊&r. "
+					""
+					"有了白雏菊，您可以将材料转化为魔法材料，用于&e植物魔法&r和&e元素工艺&r"
+					""
+					"放置后，它会慢慢&6将附近的方块转换成其他方块&r"
+				]
 			icon: "botania:pure_daisy"
 			id: "0F21F5F2628FE34B"
+			rewards: [{
+				id: "0C82B573D037E23A"
+				item: "botania:floating_pure_daisy"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "68DE5A0BBC84FAAC"
@@ -2516,8 +2560,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: 1.5d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2D1163EC766EC306"]
@@ -2541,7 +2585,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.169642857142847d
+			x: 9.0d
 			y: -1.4761904761904745d
 		}
 		{
@@ -2684,8 +2728,8 @@
 				item: "ars_nouveau:vitalic_sourcelink"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 5.0d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["44DA953FACFE16BC"]
@@ -2778,7 +2822,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.getting_started.quests67.title}"
-			x: 14.5d
+			x: 15.0d
 			y: 1.5d
 		}
 		{
@@ -2799,7 +2843,7 @@
 				item: "elementalcraft:infuser"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -2845,7 +2889,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.getting_started.quests69.title}"
-			x: 10.455357142857132d
+			x: 10.955357142857132d
 			y: 6.970238095238095d
 		}
 		{
@@ -2864,7 +2908,7 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 16.5d
 			y: -2.0d
 		}
 		{
@@ -2896,25 +2940,14 @@
 			y: 9.0d
 		}
 		{
-			description: ["{ftbquests.chapter.getting_started.quests72.description}"]
-			id: "25412784CD54C8B9"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.getting_started.quests72.subtitle}"
-			tasks: [{
-				id: "0903B937A87D532A"
-				item: "thermal:iron_plate"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.getting_started.quests72.title}"
-			x: -0.5d
-			y: 6.0d
-		}
-		{
 			dependencies: ["2F4978702388AFE5"]
 			description: [
 				"{ftbquests.chapter.getting_started.quests73.description0}"
 				""
 				"{ftbquests.chapter.getting_started.quests73.description2}"
+				""
+				"如果您还没有获得烈焰人燃烧室，那就努力学习吧"
+				"[\"\",{\"text\":\"[ 掌握神秘学 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 476DF733E6E2DA51\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开章节\"]}},\" 章节召唤烈焰人，用空的烈焰人燃烧室右击它\"]"
 			]
 			id: "7B19127BE1CF9D29"
 			rewards: [
@@ -2940,8 +2973,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.getting_started.quests73.title}"
-			x: 8.5d
-			y: 0.5d
+			x: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0C9AC0881A6A95BE"]
@@ -2965,7 +2998,7 @@
 				item: "elementalcraft:container"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -3036,7 +3069,7 @@
 				item: "immersiveengineering:alloybrick"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 5.5d
 		}
 		{
@@ -3054,7 +3087,7 @@
 				item: "thermal:invar_ingot"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.0d
 			y: 5.5d
 		}
 		{
@@ -3116,8 +3149,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.getting_started.quests79.title}"
-			x: 2.5d
-			y: 5.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4A70C09DFF9712E6"]
@@ -3204,6 +3237,7 @@
 		}
 		{
 			dependencies: ["520B7EDD4C85C997"]
+			icon: "minecraft:furnace"
 			id: "5B0E01E6581F6839"
 			rewards: [
 				{
@@ -3233,6 +3267,37 @@
 			title: "Getting Baked"
 			x: -5.0d
 			y: 4.5d
+		}
+		{
+			description: [
+				"FTB 任务提供了一种简单的方法来查看任务的依赖关系和从属关系"
+				""
+				"在任务中，点击左上角的 &6◀&r 查看需要完成的任务"
+				""
+				"同样，点击右上方的 &6▶&r 查看完成后解锁的任务"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/alert.png"
+				}
+			}
+			id: "4697678CA1F15CD6"
+			rewards: [{
+				id: "70CD3CA9404F9B61"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "568A4933DAE6F75B"
+				title: "Viewing Dependencies"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0918367346938744d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.getting_started.subtitle}"]
