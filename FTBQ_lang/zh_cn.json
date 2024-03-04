@@ -1,5 +1,4 @@
 {
-
 	"ftbquests.chapter_groups.chapter_groups.title0": "主线任务",
 	"ftbquests.chapter_groups.chapter_groups.title1": "物流",
 	"ftbquests.chapter_groups.chapter_groups.title2": "杂物",
@@ -102,7 +101,7 @@
 	"ftbquests.chapter.armor__weapons.quests26.subtitle": "分解&m阿童木&r附魔",
 	"ftbquests.chapter.armor__weapons.quests26.description0": "在&b铁砧&r上附上&6拆分&r附魔，可以让你将一本书上的&6多个附魔&r分解成多本单附魔的附魔书",
 	"ftbquests.chapter.armor__weapons.quests26.description2": "&b分裂&r附魔可以将&6单本&r附魔书分解为次级的附魔书",
-	
+
 	"ftbquests.chapter.ars_nouveau.title": "新生魔艺",
 	"ftbquests.chapter.ars_nouveau.quests0.subtitle": "魔法手册",
 	"ftbquests.chapter.ars_nouveau.quests0.description0": "&b破旧的笔记本&r是&e新生魔艺&r的教程书，会告诉你本模组的一切。",
@@ -218,7 +217,7 @@
 	"ftbquests.chapter.ars_nouveau.quests29.description12": "P.s.：你可以任意染色。",
 	"ftbquests.chapter.ars_nouveau.quests30.title": "星宝石兽装扮",
 	"ftbquests.chapter.ars_nouveau.quests30.tasks0.title": "任意星宝石兽装扮",
-	
+
 	"ftbquests.chapter.base_expansion.title": "基地扩张",
 	"ftbquests.chapter.base_expansion.quests0.subtitle": "别有洞天！",
 	"ftbquests.chapter.base_expansion.quests0.description0": "&b压缩空间机械&r其中包含&6小型口袋维度&r，可以通过&b个人缩放设备&r访问！",
@@ -290,7 +289,7 @@
 	"ftbquests.chapter.basic.quests8.subtitle": "好东西多到装不下",
 	"ftbquests.chapter.basic.quests8.description": "所有输入&b垃圾桶&r的东西都会被删除。",
 
-	"ftbquests.chapter.botania.title": "魔力显露",
+	"ftbquests.chapter.botania.title": "植物魔法",
 	"ftbquests.chapter.botania.quests0.title": "产能花",
 	"ftbquests.chapter.botania.quests0.subtitle": "神秘能量",
 	"ftbquests.chapter.botania.quests0.description0": "使用特殊的&b产能花&r生产魔力。第一个也是最简单的是&6贪食花&r - 吃蛋糕的花",
@@ -337,7 +336,6 @@
 	"ftbquests.chapter.botania.quests11.description0": "&b盖亚仪式&r让您可以&6召唤并与盖亚守护者战斗&r，一个强大的BOSS",
 	"ftbquests.chapter.botania.quests11.description2": "为此，请搭建平台（参见书中的内容），在中心信标上使用&b泰拉钢锭&r召唤盖亚守护者",
 	"ftbquests.chapter.botania.quests12.title": "集成魔法",
-
 
 	"ftbquests.chapter.create.title": "机械动力",
 	"ftbquests.chapter.create.quests0.subtitle": "制作石磨",
@@ -413,7 +411,7 @@
 	"ftbquests.chapter.digital.quests18.subtitle": "应用能源… 终于要来了！",
 	"ftbquests.chapter.digital.quests19.description0": "使用&b结晶器&r，各种水晶粉都可以加工回原来的形态",
 	"ftbquests.chapter.digital.quests19.description2": "请务必查看 JEI 的几率",
-	
+
 	"ftbquests.chapter.elemental_craft.title": "元素工艺",
 	"ftbquests.chapter.elemental_craft.quests0.title": "惰性元素来源",
 	"ftbquests.chapter.elemental_craft.quests0.subtitle": "元素之路",
@@ -494,7 +492,7 @@
 	"ftbquests.chapter.elemental_craft.quests23.description0": "&b符文&r用于&6升级&r仪器",
 	"ftbquests.chapter.elemental_craft.quests23.description2": "将&b符文刻印器&r放在元素容器上，除了放上必要的材料并通入相应元素以外，你还需要手持符文刻印凿并&o按住&r鼠标右键才能合成",
 	"ftbquests.chapter.elemental_craft.quests23.tasks2.title": "符文",
-	
+
 	"ftbquests.chapter.everything_from_nothing.title": "无中生有",
 	"ftbquests.chapter.everything_from_nothing.subtitle": "不管怎样，这是重要的一个",
 	"ftbquests.chapter.everything_from_nothing.quests0.title": "自动哐哐哐！",
@@ -752,7 +750,7 @@
 	"ftbquests.chapter.getting_on_up.quests63.description0": "使用胶乳桶，合成&b胶乳加工机&r，输入水和胶乳以制作&6小块干橡胶&r",
 	"ftbquests.chapter.getting_on_up.quests63.description2": "以3x3的方式合成可以获得干橡胶，可以进一步加工成&6胶乳橡胶片&r。",
 	"ftbquests.chapter.getting_on_up.quests71.description": "&b感应炉&r使用能量将多种材料结合成更高级的合金。",
-	
+
 	"ftbquests.chapter.getting_started.title": "I - 入门",
 	"ftbquests.chapter.getting_started.subtitle": "里面有电解质！",
 	"ftbquests.chapter.getting_started.quests0.title": "原木（树）",
@@ -1049,7 +1047,7 @@
 	"ftbquests.chapter.hexerei.quests11.subtitle": "做个增强扫帚尾",
 	"ftbquests.chapter.hexerei.quests11.description": "你可以用&b增强扫帚尾&r替换普通的，它可以飞行更久而且&6可以附魔&r！",
 
-	"ftbquests.chapter.iii_2.title": "火星",
+	"ftbquests.chapter.iii_2.title": "III - 火星",
 	"ftbquests.chapter.iii_2.quests0.description": "&b符文祭坛&r是最早需要使用微缩合成制作的方块之一。请查看 JEI 如何放置方块，并丢入魔力钻石启动制作",
 	"ftbquests.chapter.iii_2.quests1.description": "将元素工艺符文、新生魔艺元素、魔力钢和魔力尘放置于符文祭坛制作植物魔法符文",
 	"ftbquests.chapter.iii_2.quests8.description": "将盐放入化学氧化机，就会生产气态盐水。将其输入回旋式气液转换机中，制成液态盐水",
@@ -1151,7 +1149,6 @@
 	"ftbquests.chapter.invisible_quests.quests1.description0": "完成进度章节中的 \\\"访问下界天空村庄\\\" 任务",
 	"ftbquests.chapter.invisible_quests.quests1.description2": "如果你访问了绯红村庄，这项任务就完成了！",
 	"ftbquests.chapter.invisible_quests.quests3.tasks0.title": "任务阻断",
-
 
 	"ftbquests.chapter.invisible_quests.quests7.tasks0.title": "看见山羊了！",
 	"ftbquests.chapter.iv_2.title": "IV - 金星",
@@ -1572,7 +1569,6 @@
 	"ftbquests.chapter.overpowered.quests9.title": "在某处，在那里…",
 	"ftbquests.chapter.overpowered.quests9.subtitle": "在某处，在那里…",
 	"ftbquests.chapter.overpowered.quests9.description0": "&b传奇之眼&r会&6帮助您找到天空村庄&r！",
-	"ftbquests.chapter.overpowered.quests9.description2": "请查阅【天高任鸟飞】章节以查看更多",
 	"ftbquests.chapter.overpowered.quests9.tasks0.title": "造访天空村庄",
 	"ftbquests.chapter.overpowered.quests10.title": "迅捷魔力",
 	"ftbquests.chapter.overpowered.quests11.title": "炽厄之泪",
@@ -1721,7 +1717,7 @@
 	"ftbquests.chapter.pedestals_expanded.quests26.description5": "• 在副手持有时，潜行右击可循环浏览类型",
 	"ftbquests.chapter.pedestals_expanded.quests26.description6": "• 在副手持有时，右击可启用/禁用当前类型",
 
-	"ftbquests.chapter.pipe_dreams.title": "管道之梦",
+	"ftbquests.chapter.pipe_dreams.title": "管道",
 	"ftbquests.chapter.pipe_dreams.quests19.subtitle": "管道就是用来吸~的",
 	"ftbquests.chapter.pipe_dreams.quests19.description0": "&b激光节点&r可以通过使用&6卡片&r与相邻的容器进行交互。只需将卡片插入面向方块的那面。",
 	"ftbquests.chapter.pipe_dreams.quests19.description2": "在节点界面中，右击卡片进行配置。界面相当复杂，所以强烈推荐阅读&6LaserIO 101&r。",
@@ -1792,7 +1788,6 @@
 	"ftbquests.chapter.progression.subtitle": "勇往直前！",
 	"ftbquests.chapter.progression.quests0.subtitle": "在某处…",
 	"ftbquests.chapter.progression.quests0.description0": "&b传奇之眼&r会&6帮助您找到天空村庄&r！",
-	"ftbquests.chapter.progression.quests0.description2": "查阅【天高任鸟飞】章节以查看更多",
 	"ftbquests.chapter.progression.quests0.tasks1.title": "造访下界村庄",
 	"ftbquests.chapter.progression.quests1.title": "获取资源",
 	"ftbquests.chapter.progression.quests1.subtitle": "首先要做的事",
@@ -1803,7 +1798,6 @@
 	"ftbquests.chapter.progression.quests2.subtitle": "高强合金筛网",
 	"ftbquests.chapter.progression.quests2.description0": "&b更好的筛网&r是进度不可或缺的部分，因为它们可以解锁许多必要的材料",
 	"ftbquests.chapter.progression.quests2.description2": "每一个更高级的筛网都能获得之前筛网所能获得的一切，因此没有理由保留旧的筛网",
-	"ftbquests.chapter.progression.quests2.description4": "有关这些网格的更多信息，请参阅无中生有章节",
 	"ftbquests.chapter.progression.quests3.subtitle": "前往更深处",
 	"ftbquests.chapter.progression.quests3.description0": "进入下界后，传奇之眼会自动转化为&b下界传奇之眼&r！",
 	"ftbquests.chapter.progression.quests3.description2": "它指向&6下界天空岛&r，到处都是猪人，可以跟它们交易]",
@@ -1818,7 +1812,6 @@
 	"ftbquests.chapter.progression.quests5.subtitle": "三个头颅的龙",
 	"ftbquests.chapter.progression.quests5.description0": "到达末地，&b与三头龙战斗并击败它&r，它已取代了末影龙！",
 	"ftbquests.chapter.progression.quests5.description2": "之后，您可以&6自由发挥&r！现在一切都向你敞开",
-	"ftbquests.chapter.progression.quests5.description4": "如果你想挑战更高难度，请查阅【超能力！】章节！否则，请享受在天空、探索其他MOD吧！",
 	"ftbquests.chapter.progression.quests5.tasks0.title": "击杀末影龙，三头龙",
 	"ftbquests.chapter.progression.quests6.title": "把它扔进去",
 	"ftbquests.chapter.progression.quests6.subtitle": "可视化进度",
@@ -1830,9 +1823,7 @@
 	"ftbquests.chapter.progression.quests7.description0": "在&dFTB Skies&r中，你有很多种生产 FE 能量的方法。请根据自己的喜好探索各种科技mod",
 	"ftbquests.chapter.progression.quests7.description2": "简单的方法，：&6风力发电机&r或各种形式的&6煤炭发电机&r都是游戏初期的最佳选择",
 
-
 	"ftbquests.chapter.teleportation_101.title": "传送101",
-
 
 	"ftbquests.chapter.tetra.title": "Tetra",
 	"ftbquests.chapter.tetra.quests0.title": "Tetra时间！",
@@ -1893,7 +1884,6 @@
 	"ftbquests.chapter.tetra.quests12.description2": "多个卷轴可以放置在同一个方块中。",
 	"ftbquests.chapter.tetra.quests12.tasks0.title": "卷轴",
 
-
 	"ftbquests.chapter.thermal_expansion.title": "热力膨胀",
 	"ftbquests.chapter.thermal_expansion.quests0.subtitle": "这只是个无聊的外壳",
 	"ftbquests.chapter.thermal_expansion.quests0.description0": "我们那简陋机器框架的下一步是升级为机器框架。",
@@ -1928,6 +1918,7 @@
 	"ftbquests.chapter.thermal_expansion.quests11.description0": "热力机器可以安装各种&b增强&r，改变它们的某种功能。",
 	"ftbquests.chapter.thermal_expansion.quests11.description2": "有的只是让它工作得更快或更高效，有的则完全增加了新的功能。",
 	"ftbquests.chapter.thermal_expansion.quests11.tasks0.title": "机器增强",
+
 	"ftbquests.chapter.to_the_stars.title": "飞向太空！",
 	"ftbquests.chapter.to_the_stars.quests0.title": "NASA工作台",
 	"ftbquests.chapter.to_the_stars.quests0.subtitle": "法律上有区别",
@@ -2046,12 +2037,9 @@
 	"ftbquests.chapter.travel.quests11.description7": "&7虚空铁砧&r - 清除物品的附魔，并返还一些经验",
 	"ftbquests.chapter.travel.quests11.tasks0.title": "铁砧",
 
-
 	"ftbquests.chapter.vi__into_the_unknown.title": "VI - 步入未知",
 
-
 	"ftbquests.chapter.v_2.title": "V - 霜原",
-
 
 	"ftbquests.chapter.welcome.title": "欢迎",
 	"ftbquests.chapter.welcome.subtitle": "超越天际",
@@ -2061,17 +2049,5 @@
 	"ftbquests.chapter.welcome.quests0.description4": "任务书的左侧是&6章节列表&r",
 	"ftbquests.chapter.welcome.quests0.description6": "虽然大部分所需的资源都可以通过JEI找到，但是任务书还将指引你到达其他维度，把你的火箭发射到星辰之间！",
 	"ftbquests.chapter.welcome.quests0.description8": "FTB团队：",
-
-
-	"ftbquests.chapter.welcome.quests0.description9": "&b我们希望您享受接下来的旅途…你将面临我们精心为你准备的挑战！&r",
-	"ftbquests.reward_tables.alloy_smelter.title": "合金",
-	"ftbquests.reward_tables.bookshelf.title": "书架",
-	"ftbquests.reward_tables.botania_runes.title": "植物魔法符文",
-	"ftbquests.reward_tables.dml_predictions.title": "预测产物",
-	"ftbquests.reward_tables.dynamo_loot.title": "能源炉战利品",
-	"ftbquests.reward_tables.food.title": "可放置食物",
-	"ftbquests.reward_tables.food_2.title": "食物",
-	"ftbquests.reward_tables.laser_lenses.title": "镭射聚焦透镜",
-	"ftbquests.reward_tables.soul_generator.title": "灵魂发电机",
-	"ftbquests.reward_tables.storage_part.title": "存储组件"
+	"ftbquests.chapter.welcome.quests0.description9": "&b我们希望您享受接下来的旅途…你将面临我们精心为你准备的挑战！&r"
 }

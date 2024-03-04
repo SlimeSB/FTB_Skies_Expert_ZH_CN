@@ -11,20 +11,18 @@
 		}
 	}
 	id: "1F5D6AC8C1C940DF"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftbskies:textures/quests/progression.png"
-			rotation: 0.0d
-			width: 7.506024096385542d
-			x: 1.5d
-			y: -2.0d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/progression.png"
+		rotation: 0.0d
+		width: 7.506024096385542d
+		x: 1.5d
+		y: -2.0d
+	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -33,28 +31,24 @@
 			description: [
 				"{ftbquests.chapter.progression.quests0.description0}"
 				""
-				"{ftbquests.chapter.progression.quests0.description2}"
+				"[\"\",\"查看章节 \",{\"text\":\"天高任鸟飞\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1AA9D32D3A6F9ECE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"天高任鸟飞章节\"]}},\" 以了解更多详细信息\"]"
 			]
 			icon: "ftbskies:eye_of_legend"
 			id: "6C87D545B4CF34FB"
-			rewards: [
-				{
-					id: "65F3E9E33C644102"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [
-								{
-									id: "minecraft:unbreaking"
-									lvl: 8s
-								}
-							]
-						}
+			rewards: [{
+				id: "65F3E9E33C644102"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 8s
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.progression.quests0.subtitle}"
 			tasks: [
 				{
@@ -82,14 +76,12 @@
 			disable_toast: true
 			icon: "createsifter:sifter"
 			id: "00E85EE1B2FFA9CF"
-			rewards: [
-				{
-					count: 8
-					id: "04EC195F88468D60"
-					item: "supplementaries:flax"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "04EC195F88468D60"
+				item: "supplementaries:flax"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.progression.quests1.subtitle}"
 			tasks: [
 				{
@@ -143,7 +135,7 @@
 				""
 				"{ftbquests.chapter.progression.quests2.description2}"
 				""
-				"{ftbquests.chapter.progression.quests2.description4}"
+				"[\"\",\"有关这些筛网的详细信息，请参阅 \",{\"text\":\"无中生有\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"765CE56E943A0E79\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"无中生有章节\"]}},\" 章节\"]"
 			]
 			icon: {
 				Count: 1b
@@ -209,13 +201,11 @@
 			]
 			icon: "ftbskies:eye_of_legend_nether"
 			id: "4E676DFBDBD49BDD"
-			rewards: [
-				{
-					id: "50114B77230191AB"
-					item: "botania:floating_thermalily"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "50114B77230191AB"
+				item: "botania:floating_thermalily"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.progression.quests3.subtitle}"
 			tasks: [
 				{
@@ -241,7 +231,7 @@
 				""
 				"{ftbquests.chapter.progression.quests4.description2}"
 				"{ftbquests.chapter.progression.quests4.description3}"
-				"{ftbquests.chapter.progression.quests4.description4}"
+				"[\"\",\"• 飞往太空使用 \",{\"text\":\"Ad Astra\",\"color\":\"yellow\"},\" MOD。请查看章节 \",{\"text\":\"飞向太空\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"22AD1FAD303703DE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"飞向太空章节\"]}},\" 了解更多详细信息\"]"
 			]
 			icon: "minecraft:end_portal_frame"
 			id: "58DEB16DB734623C"
@@ -264,14 +254,12 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.progression.quests4.subtitle}"
-			tasks: [
-				{
-					dimension: "minecraft:the_end"
-					id: "760F0B5D0929CF40"
-					title: "{ftbquests.chapter.progression.quests4.tasks0.title}"
-					type: "dimension"
-				}
-			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "760F0B5D0929CF40"
+				title: "{ftbquests.chapter.progression.quests4.tasks0.title}"
+				type: "dimension"
+			}]
 			x: 4.5d
 			y: 0.0d
 		}
@@ -282,7 +270,7 @@
 				""
 				"{ftbquests.chapter.progression.quests5.description2}"
 				""
-				"{ftbquests.chapter.progression.quests5.description4}"
+				"[\"\",\"如果您想挑战更高难度，请查看 \",{\"text\":\"过载挑战\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2166DD3F75BEF301\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"过载挑战章节\"]}},\" 章节！否则，请享受在天空、探索其他MOD吧！\"]"
 			]
 			icon: "minecraft:dragon_head"
 			id: "0EDA2BDDA51B15EF"
@@ -324,15 +312,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.progression.quests5.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:ender_dragon"
-					id: "709C4B87684D8494"
-					title: "{ftbquests.chapter.progression.quests5.tasks0.title}"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "709C4B87684D8494"
+				title: "{ftbquests.chapter.progression.quests5.tasks0.title}"
+				type: "kill"
+				value: 1L
+			}]
 			title: "{ftbquests.chapter.progression.quests5.title}"
 			x: 6.0d
 			y: 0.0d
@@ -347,21 +333,17 @@
 				"{ftbquests.chapter.progression.quests6.description4}"
 			]
 			id: "5BBBE30D2EB43582"
-			rewards: [
-				{
-					id: "2EF4FC460DC85496"
-					item: "ftbquests:screen_1"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2EF4FC460DC85496"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.progression.quests6.subtitle}"
-			tasks: [
-				{
-					id: "7F11A04DDE7160FA"
-					item: "ftbquests:screen_1"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7F11A04DDE7160FA"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.progression.quests6.title}"
 			x: -1.5d
 			y: 0.0d
@@ -383,55 +365,19 @@
 					type: "item"
 				}
 				{
-					id: "17172A1C9BFC6C77"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								energy: {
-									energy: 0
-								}
-							}
-						}
-						id: "cyclic:battery_clay"
-						tag: {
-							energytt: 0
-							energyttmax: 16000
-						}
-					}
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "1C7A5FDE087B6929"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								energy: {
-									energy: 0
-								}
-							}
-						}
-						id: "cyclic:battery_clay"
-						tag: {
-							energytt: 0
-							energyttmax: 16000
-						}
-					}
+					id: "2573590055CAAA14"
+					item: "mekanism:basic_energy_cube"
 					team_reward: true
 					type: "item"
 				}
 			]
 			subtitle: "{ftbquests.chapter.progression.quests7.subtitle}"
-			tasks: [
-				{
-					id: "52D581534195DA74"
-					max_input: 2147283000L
-					type: "forge_energy"
-					value: 10000L
-				}
-			]
+			tasks: [{
+				id: "52D581534195DA74"
+				max_input: 2147283000L
+				type: "forge_energy"
+				value: 10000L
+			}]
 			title: "{ftbquests.chapter.progression.quests7.title}"
 			x: 0.0d
 			y: 0.0d

@@ -18,20 +18,18 @@
 		}
 	}
 	id: "7F39E2C99EE5ED52"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftbskies:textures/quests/portable.png"
-			rotation: 0.0d
-			width: 5.554216867469879d
-			x: -3.5d
-			y: -3.5d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/portable.png"
+		rotation: 0.0d
+		width: 5.554216867469879d
+		x: -3.5d
+		y: -3.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -63,49 +61,47 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.portable.quests0.subtitle}"
-			tasks: [
-				{
-					id: "755DB2988D820D4C"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "dankstorage:dank_1"
-								}
-								{
-									Count: 1b
-									id: "dankstorage:dank_2"
-								}
-								{
-									Count: 1b
-									id: "dankstorage:dank_3"
-								}
-								{
-									Count: 1b
-									id: "dankstorage:dank_4"
-								}
-								{
-									Count: 1b
-									id: "dankstorage:dank_5"
-								}
-								{
-									Count: 1b
-									id: "dankstorage:dank_6"
-								}
-								{
-									Count: 1b
-									id: "dankstorage:dank_7"
-								}
-							]
-						}
+			tasks: [{
+				id: "755DB2988D820D4C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "dankstorage:dank_1"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_2"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_3"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_4"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_5"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_6"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_7"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.portable.quests0.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.portable.quests0.tasks0.title}"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -1.5d
 		}
@@ -137,12 +133,10 @@
 						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [
-								{
-									id: "ensorcellation:soulbound"
-									lvl: 1s
-								}
-							]
+							StoredEnchantments: [{
+								id: "ensorcellation:soulbound"
+								lvl: 1s
+							}]
 						}
 					}
 					type: "item"
@@ -154,35 +148,31 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.portable.quests1.subtitle}"
-			tasks: [
-				{
-					id: "42B33546BABE41AD"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "sophisticatedbackpacks:backpack"
-									tag: {
-										contentsUuid: [I;
-											-1231575342
-											-295287108
-											-1522154686
-											42011806
-										]
-										inventorySlots: 27
-										upgradeSlots: 1
-									}
-								}
-							]
-						}
+			tasks: [{
+				id: "42B33546BABE41AD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "sophisticatedbackpacks:backpack"
+							tag: {
+								contentsUuid: [I;
+									-1231575342
+									-295287108
+									-1522154686
+									42011806
+								]
+								inventorySlots: 27
+								upgradeSlots: 1
+							}
+						}]
 					}
-					title: "{ftbquests.chapter.portable.quests1.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.portable.quests1.tasks0.title}"
+				type: "item"
+			}]
 			x: -3.5d
 			y: -1.5d
 		}
@@ -221,77 +211,75 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.portable.quests2.subtitle}"
-			tasks: [
-				{
-					id: "7720322D9E9A9A77"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "sophisticatedbackpacks:iron_backpack"
-									tag: {
-										contentsUuid: [I;
-											618027645
-											-1552267667
-											-2087375270
-											-1171695860
-										]
-										inventorySlots: 54
-										upgradeSlots: 2
-									}
+			tasks: [{
+				id: "7720322D9E9A9A77"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:iron_backpack"
+								tag: {
+									contentsUuid: [I;
+										618027645
+										-1552267667
+										-2087375270
+										-1171695860
+									]
+									inventorySlots: 54
+									upgradeSlots: 2
 								}
-								{
-									Count: 1b
-									id: "sophisticatedbackpacks:gold_backpack"
-									tag: {
-										contentsUuid: [I;
-											239225295
-											-497335732
-											-1312352762
-											1136145860
-										]
-										inventorySlots: 81
-										upgradeSlots: 3
-									}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:gold_backpack"
+								tag: {
+									contentsUuid: [I;
+										239225295
+										-497335732
+										-1312352762
+										1136145860
+									]
+									inventorySlots: 81
+									upgradeSlots: 3
 								}
-								{
-									Count: 1b
-									id: "sophisticatedbackpacks:diamond_backpack"
-									tag: {
-										contentsUuid: [I;
-											658115119
-											-1689826641
-											-1198785039
-											799252935
-										]
-										inventorySlots: 108
-										upgradeSlots: 5
-									}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:diamond_backpack"
+								tag: {
+									contentsUuid: [I;
+										658115119
+										-1689826641
+										-1198785039
+										799252935
+									]
+									inventorySlots: 108
+									upgradeSlots: 5
 								}
-								{
-									Count: 1b
-									id: "sophisticatedbackpacks:netherite_backpack"
-									tag: {
-										contentsUuid: [I;
-											1154287413
-											-291682563
-											-1496554960
-											1388194259
-										]
-										inventorySlots: 120
-										upgradeSlots: 7
-									}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:netherite_backpack"
+								tag: {
+									contentsUuid: [I;
+										1154287413
+										-291682563
+										-1496554960
+										1388194259
+									]
+									inventorySlots: 120
+									upgradeSlots: 7
 								}
-							]
-						}
+							}
+						]
 					}
-					title: "{ftbquests.chapter.portable.quests2.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.portable.quests2.tasks0.title}"
+				type: "item"
+			}]
 			x: -3.5d
 			y: -0.5d
 		}
@@ -317,20 +305,18 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.portable.quests3.subtitle}"
-			tasks: [
-				{
-					id: "24AFD595D112FE30"
-					item: {
-						Count: 1b
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "soph.*upgrade"
-						}
+			tasks: [{
+				id: "24AFD595D112FE30"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "soph.*upgrade"
 					}
-					title: "{ftbquests.chapter.portable.quests3.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.portable.quests3.tasks0.title}"
+				type: "item"
+			}]
 			x: -3.5d
 			y: 0.5d
 		}
@@ -373,19 +359,17 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.portable.quests4.subtitle}"
-			tasks: [
-				{
-					id: "2F0832CA61A7381C"
-					item: {
-						Count: 1b
-						id: "technobauble:backpack"
-						tag: {
-							Inventory: [ ]
-						}
+			tasks: [{
+				id: "2F0832CA61A7381C"
+				item: {
+					Count: 1b
+					id: "technobauble:backpack"
+					tag: {
+						Inventory: [ ]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -5.0d
 			y: -1.5d
 		}

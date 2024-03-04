@@ -5,30 +5,26 @@
 	group: "0069DEC26FDAB775"
 	icon: "botania:corporea_spark_creative"
 	id: "2166DD3F75BEF301"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftbskies:textures/quests/endgame.png"
-			rotation: 0.0d
-			width: 5.457831325301205d
-			x: -1.0d
-			y: -4.0d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/endgame.png"
+		rotation: 0.0d
+		width: 5.457831325301205d
+		x: -1.0d
+		y: -4.0d
+	}]
 	order_index: 0
 	progression_mode: "flexible"
-	quest_links: [
-		{
-			id: "5EEFD202BB88C0FC"
-			linked_quest: "2AD24EEEE1735F2B"
-			x: -1.5d
-			y: -2.0d
-		}
-	]
+	quest_links: [{
+		id: "5EEFD202BB88C0FC"
+		linked_quest: "2AD24EEEE1735F2B"
+		x: -1.5d
+		y: -2.0d
+	}]
 	quests: [
 		{
 			dependencies: ["2AD24EEEE1735F2B"]
@@ -38,23 +34,19 @@
 				id: "mekanism:basic_energy_cube"
 				tag: {
 					mekData: {
-						EnergyContainers: [
-							{
-								Container: 0b
-								stored: "4000000"
-							}
-						]
+						EnergyContainers: [{
+							Container: 0b
+							stored: "4000000"
+						}]
 					}
 				}
 			}
 			id: "2BB98FF362A444CA"
-			rewards: [
-				{
-					id: "3C21EA150B17D78A"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "3C21EA150B17D78A"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [
 				{
 					id: "7FDF924AE6B57788"
@@ -84,23 +76,19 @@
 				id: "mekanism:advanced_energy_cube"
 				tag: {
 					mekData: {
-						EnergyContainers: [
-							{
-								Container: 0b
-								stored: "16000000"
-							}
-						]
+						EnergyContainers: [{
+							Container: 0b
+							stored: "16000000"
+						}]
 					}
 				}
 			}
 			id: "3D17DED808F475F4"
-			rewards: [
-				{
-					id: "57A40EB62611FB49"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "57A40EB62611FB49"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [
 				{
 					id: "5B25867FB01AF4BB"
@@ -130,23 +118,19 @@
 				id: "mekanism:elite_energy_cube"
 				tag: {
 					mekData: {
-						EnergyContainers: [
-							{
-								Container: 0b
-								stored: "64000000"
-							}
-						]
+						EnergyContainers: [{
+							Container: 0b
+							stored: "64000000"
+						}]
 					}
 				}
 			}
 			id: "2E6990BD6234A262"
-			rewards: [
-				{
-					id: "311805FA104E825D"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "311805FA104E825D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "66A124BDC604EED8"
@@ -176,23 +160,19 @@
 				id: "mekanism:ultimate_energy_cube"
 				tag: {
 					mekData: {
-						EnergyContainers: [
-							{
-								Container: 0b
-								stored: "256000000"
-							}
-						]
+						EnergyContainers: [{
+							Container: 0b
+							stored: "256000000"
+						}]
 					}
 				}
 			}
 			id: "7A3D525EF43B9351"
-			rewards: [
-				{
-					id: "20ACBC93C1851015"
-					type: "xp"
-					xp: 200
-				}
-			]
+			rewards: [{
+				id: "20ACBC93C1851015"
+				type: "xp"
+				xp: 200
+			}]
 			tasks: [
 				{
 					id: "206B9F23450DE22D"
@@ -356,13 +336,11 @@
 				tag: { }
 			}
 			id: "186350F9924A925E"
-			rewards: [
-				{
-					id: "2E0CCEFB75FBD10E"
-					item: "hexerei:creative_waxing_kit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2E0CCEFB75FBD10E"
+				item: "hexerei:creative_waxing_kit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					consume_items: true
@@ -471,12 +449,10 @@
 						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [
-								{
-									id: "minecraft:mending"
-									lvl: 1s
-								}
-							]
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
 						}
 					}
 					type: "item"
@@ -507,7 +483,7 @@
 			description: [
 				"{ftbquests.chapter.overpowered.quests9.description0}"
 				""
-				"{ftbquests.chapter.overpowered.quests9.description2}"
+				"[\"\",\"查看章节 \",{\"text\":\"天高任鸟飞\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1AA9D32D3A6F9ECE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"天高任鸟飞章节\"]}},\" 以了解更多详细信息\"]"
 			]
 			icon: "ftbskies:eye_of_legend"
 			id: "51D750DD48D0E4E5"
@@ -579,13 +555,11 @@
 			dependencies: ["2E6990BD6234A262"]
 			icon: "ad_astra:desh_ingot"
 			id: "098223A3129994C0"
-			rewards: [
-				{
-					id: "0684457F86CFA779"
-					item: "botania:creative_pool"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0684457F86CFA779"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
 			tasks: [
 				{
 					consume_items: true
@@ -661,13 +635,11 @@
 			dependencies: ["3EE49ADBA2E7E922"]
 			icon: "cyclic:gem_amber"
 			id: "518AB236A8459FAA"
-			rewards: [
-				{
-					id: "072DC11AD6001A25"
-					item: "create:creative_motor"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "072DC11AD6001A25"
+				item: "create:creative_motor"
+				type: "item"
+			}]
 			tasks: [
 				{
 					consume_items: true
@@ -717,13 +689,11 @@
 			dependencies: ["57DFABCAF4BD9D8F"]
 			icon: "cyclic:gem_obsidian"
 			id: "35DDEF1224B13D1E"
-			rewards: [
-				{
-					id: "0498D82C0751E736"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "0498D82C0751E736"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					consume_items: true
@@ -764,13 +734,11 @@
 			dependencies: ["518AB236A8459FAA"]
 			icon: "thermal:lumium_ingot"
 			id: "7D40A97046FDD7D1"
-			rewards: [
-				{
-					id: "385F452E846E6CF0"
-					item: "appbot:creative_mana_cell"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "385F452E846E6CF0"
+				item: "appbot:creative_mana_cell"
+				type: "item"
+			}]
 			tasks: [
 				{
 					consume_items: true
@@ -809,13 +777,11 @@
 			dependencies: ["35DDEF1224B13D1E"]
 			icon: "thermal:enderium_ingot"
 			id: "31AD8A1087A9A5B2"
-			rewards: [
-				{
-					id: "71E47919E924F82A"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "71E47919E924F82A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					consume_items: true

@@ -7,131 +7,109 @@
 	id: "398BD7FD6ABB840A"
 	order_index: 1
 	progression_mode: "linear"
-	quest_links: [
-		{
-			id: "7DF54B61AF3FFA75"
-			linked_quest: "0FD6A469178B02A0"
-			x: 11.0d
-			y: -4.0d
-		}
-	]
+	quest_links: [{
+		id: "7DF54B61AF3FFA75"
+		linked_quest: "0FD6A469178B02A0"
+		x: 11.0d
+		y: -4.0d
+	}]
 	quests: [
 		{
 			id: "432AF82A70CFBD03"
-			tasks: [
-				{
-					id: "33399E3EC5DE019B"
-					item: "mekanism:basic_mechanical_pipe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "33399E3EC5DE019B"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
 			x: 2.5d
 			y: -2.0d
 		}
 		{
 			id: "788ED5BF6E4C41B7"
-			tasks: [
-				{
-					id: "48B6487FA394081C"
-					item: "mekanism:basic_pressurized_tube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "48B6487FA394081C"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			id: "7621486DB055ED2B"
-			rewards: [
-				{
-					id: "587EFF29E05C1818"
-					item: {
-						Count: 1b
-						id: "mekanism:configurator"
-						tag: {
-							mekData: {
-								EnergyContainers: [
-									{
-										Container: 0b
-										stored: "60000"
-									}
-								]
-							}
+			rewards: [{
+				id: "587EFF29E05C1818"
+				item: {
+					Count: 1b
+					id: "mekanism:configurator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "60000"
+							}]
 						}
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "2D597233350CE247"
-					item: "mekanism:basic_logistical_transporter"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D597233350CE247"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			id: "4353098126B8B7F2"
-			tasks: [
-				{
-					id: "007F4A0AAD745995"
-					item: "mekanism:basic_thermodynamic_conductor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "007F4A0AAD745995"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -2.0d
 		}
 		{
 			id: "527BD24E9F6E4AF2"
-			tasks: [
-				{
-					id: "6FF50F73592E79C6"
-					item: "mekanism:basic_universal_cable"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6FF50F73592E79C6"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7621486DB055ED2B"]
 			id: "51329F5D4DAF96BF"
-			tasks: [
-				{
-					id: "03DD1E17BA64B16D"
-					item: "mekanism:diversion_transporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "03DD1E17BA64B16D"
+				item: "mekanism:diversion_transporter"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7621486DB055ED2B"]
 			id: "7C9244E94200E4E4"
-			tasks: [
-				{
-					id: "1931A95B02890C5C"
-					item: "mekanism:restrictive_transporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1931A95B02890C5C"
+				item: "mekanism:restrictive_transporter"
+				type: "item"
+			}]
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7621486DB055ED2B"]
 			id: "47CDC768F91E7CE0"
-			tasks: [
-				{
-					id: "32539B5EEFDECFB1"
-					item: "mekanism:logistical_sorter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "32539B5EEFDECFB1"
+				item: "mekanism:logistical_sorter"
+				type: "item"
+			}]
 			x: 1.0d
 			y: -3.5d
 		}
@@ -145,142 +123,120 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "6ACBAE5858671154"
-			tasks: [
-				{
-					id: "4608E3283E2B8EC9"
-					item: "mekanism:alloy_infused"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4608E3283E2B8EC9"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
 			x: 1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6ACBAE5858671154"]
 			id: "11A9FDF220163FF6"
-			tasks: [
-				{
-					id: "5943639AB739CDC4"
-					item: "mekanism:alloy_reinforced"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5943639AB739CDC4"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
 			x: 2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["11A9FDF220163FF6"]
 			id: "73013794260E4E88"
-			tasks: [
-				{
-					id: "188B694863595AB3"
-					item: "mekanism:alloy_atomic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "188B694863595AB3"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -0.5d
 		}
 		{
 			id: "65ECA39B94D33D9D"
-			tasks: [
-				{
-					id: "1C3C1E8C2AD61F56"
-					item: "industrialforegoing:conveyor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1C3C1E8C2AD61F56"
+				item: "industrialforegoing:conveyor"
+				type: "item"
+			}]
 			x: -6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "6BF3F0D29EA10489"
-			tasks: [
-				{
-					id: "7C319AE28528CA1D"
-					item: "industrialforegoing:conveyor_extraction_upgrade"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7C319AE28528CA1D"
+				item: "industrialforegoing:conveyor_extraction_upgrade"
+				type: "item"
+			}]
 			x: -5.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "3141F8DDEA01CFC4"
-			tasks: [
-				{
-					id: "7395109E690B45E9"
-					item: "industrialforegoing:conveyor_insertion_upgrade"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7395109E690B45E9"
+				item: "industrialforegoing:conveyor_insertion_upgrade"
+				type: "item"
+			}]
 			x: -7.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "7C7BDD48F794511A"
-			tasks: [
-				{
-					id: "28C4B09C8BAAC163"
-					item: "industrialforegoing:conveyor_detection_upgrade"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "28C4B09C8BAAC163"
+				item: "industrialforegoing:conveyor_detection_upgrade"
+				type: "item"
+			}]
 			x: -4.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "3E29AE803C3ED5BF"
-			tasks: [
-				{
-					id: "7019AB93DD91B554"
-					item: "industrialforegoing:conveyor_bouncing_upgrade"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7019AB93DD91B554"
+				item: "industrialforegoing:conveyor_bouncing_upgrade"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "7C904E6F87CEBA1C"
-			tasks: [
-				{
-					id: "7F2A5449BDFCDCBD"
-					item: "industrialforegoing:conveyor_dropping_upgrade"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7F2A5449BDFCDCBD"
+				item: "industrialforegoing:conveyor_dropping_upgrade"
+				type: "item"
+			}]
 			x: -6.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "6A1FE1B90D56171F"
-			tasks: [
-				{
-					id: "0D8C86961D7EEA9D"
-					item: "industrialforegoing:conveyor_blinking_upgrade"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0D8C86961D7EEA9D"
+				item: "industrialforegoing:conveyor_blinking_upgrade"
+				type: "item"
+			}]
 			x: -5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "608065E71D686CD7"
-			tasks: [
-				{
-					id: "195A92F94F2D0285"
-					item: "industrialforegoing:conveyor_splitting_upgrade"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "195A92F94F2D0285"
+				item: "industrialforegoing:conveyor_splitting_upgrade"
+				type: "item"
+			}]
 			x: -7.0d
 			y: -0.5d
 		}
@@ -307,13 +263,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests19.subtitle}"
-			tasks: [
-				{
-					id: "5D61AF01DB93B160"
-					item: "laserio:laser_node"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5D61AF01DB93B160"
+				item: "laserio:laser_node"
+				type: "item"
+			}]
 			x: 11.0d
 			y: -2.0d
 		}
@@ -344,13 +298,11 @@
 			]
 			shape: "diamond"
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests20.subtitle}"
-			tasks: [
-				{
-					id: "2987BF7B656DC9A5"
-					item: "laserio:card_item"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2987BF7B656DC9A5"
+				item: "laserio:card_item"
+				type: "item"
+			}]
 			x: 9.5d
 			y: -2.0d
 		}
@@ -359,22 +311,18 @@
 			dependency_requirement: "all_started"
 			description: ["{ftbquests.chapter.pipe_dreams.quests21.description}"]
 			id: "14F51A9FF3170F6C"
-			rewards: [
-				{
-					id: "57538128204F4A3E"
-					item: "laserio:card_fluid"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "57538128204F4A3E"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests21.subtitle}"
-			tasks: [
-				{
-					id: "3A8D7765E12CC30E"
-					item: "laserio:card_fluid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3A8D7765E12CC30E"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
 			x: 9.5d
 			y: -3.0d
 		}
@@ -382,22 +330,18 @@
 			dependencies: ["10971979B3BC1A85"]
 			description: ["{ftbquests.chapter.pipe_dreams.quests22.description}"]
 			id: "496655108E39C219"
-			rewards: [
-				{
-					id: "4B9CE5AAA059C621"
-					item: "laserio:card_energy"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4B9CE5AAA059C621"
+				item: "laserio:card_energy"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests22.subtitle}"
-			tasks: [
-				{
-					id: "35B1228B2FF8F268"
-					item: "laserio:card_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "35B1228B2FF8F268"
+				item: "laserio:card_energy"
+				type: "item"
+			}]
 			x: 9.5d
 			y: -1.0d
 		}
@@ -411,13 +355,11 @@
 			description: ["{ftbquests.chapter.pipe_dreams.quests23.description}"]
 			id: "0E202986F8B806A2"
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests23.subtitle}"
-			tasks: [
-				{
-					id: "51D7778D67B7CC0F"
-					item: "laserio:overclocker_card"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "51D7778D67B7CC0F"
+				item: "laserio:overclocker_card"
+				type: "item"
+			}]
 			x: 7.5d
 			y: -2.5d
 		}
@@ -426,13 +368,11 @@
 			description: ["{ftbquests.chapter.pipe_dreams.quests24.description}"]
 			id: "5AF145540133130C"
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests24.subtitle}"
-			tasks: [
-				{
-					id: "5EB02D398EAD9CBC"
-					item: "laserio:overclocker_node"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5EB02D398EAD9CBC"
+				item: "laserio:overclocker_node"
+				type: "item"
+			}]
 			x: 12.5d
 			y: -2.0d
 		}
@@ -444,153 +384,149 @@
 			]
 			description: ["{ftbquests.chapter.pipe_dreams.quests25.description}"]
 			id: "1536EADBA48A808B"
-			rewards: [
-				{
-					id: "6921A24E56702B3F"
-					item: {
-						Count: 1b
-						id: "laserio:filter_basic"
-						tag: {
-							inv: {
-								Items: [ ]
-								Size: 15
+			rewards: [{
+				id: "6921A24E56702B3F"
+				item: {
+					Count: 1b
+					id: "laserio:filter_basic"
+					tag: {
+						inv: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37C17958D14E2057"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "laserio:filter_basic"
+								tag: {
+									allowList: 1b
+									compareNBT: 0b
+									inv: {
+										Items: [ ]
+										Size: 15
+									}
+								}
 							}
-						}
+							{
+								Count: 1b
+								id: "laserio:filter_count"
+								tag: {
+									counts: [
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 0
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 1
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 2
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 3
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 4
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 5
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 6
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 7
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 8
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 9
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 10
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 11
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 12
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 13
+										}
+										{
+											Count: 0
+											MBAmount: 0
+											Slot: 14
+										}
+									]
+									inv: {
+										Items: [ ]
+										Size: 15
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "laserio:filter_tag"
+								tag: {
+									tags: [ ]
+								}
+							}
+							{
+								Count: 1b
+								id: "laserio:filter_mod"
+								tag: {
+									inv: {
+										Items: [ ]
+										Size: 15
+									}
+								}
+							}
+						]
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "37C17958D14E2057"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "laserio:filter_basic"
-									tag: {
-										allowList: 1b
-										compareNBT: 0b
-										inv: {
-											Items: [ ]
-											Size: 15
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "laserio:filter_count"
-									tag: {
-										counts: [
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 0
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 1
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 2
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 3
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 4
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 5
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 6
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 7
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 8
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 9
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 10
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 11
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 12
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 13
-											}
-											{
-												Count: 0
-												MBAmount: 0
-												Slot: 14
-											}
-										]
-										inv: {
-											Items: [ ]
-											Size: 15
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "laserio:filter_tag"
-									tag: {
-										tags: [ ]
-									}
-								}
-								{
-									Count: 1b
-									id: "laserio:filter_mod"
-									tag: {
-										inv: {
-											Items: [ ]
-											Size: 15
-										}
-									}
-								}
-							]
-						}
-					}
-					title: "{ftbquests.chapter.pipe_dreams.quests25.tasks0.title}"
-					type: "item"
-				}
-			]
+				title: "{ftbquests.chapter.pipe_dreams.quests25.tasks0.title}"
+				type: "item"
+			}]
 			x: 7.5d
 			y: -1.5d
 		}

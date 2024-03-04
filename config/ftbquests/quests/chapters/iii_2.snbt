@@ -12,26 +12,22 @@
 	}
 	id: "1FC6CD64ED4F361D"
 	order_index: 2
-	quest_links: [
-		{
-			id: "55E31234A0861993"
-			linked_quest: "4B7957DA13CD57F0"
-			x: -14.5d
-			y: 3.0d
-		}
-	]
+	quest_links: [{
+		id: "55E31234A0861993"
+		linked_quest: "4B7957DA13CD57F0"
+		x: -14.5d
+		y: 3.0d
+	}]
 	quests: [
 		{
 			dependencies: ["1A2D18FB7DBCD64A"]
 			description: ["{ftbquests.chapter.iii_2.quests0.description}"]
 			id: "1132B14C2B760DF3"
-			tasks: [
-				{
-					id: "4F77CFE832537F8C"
-					item: "botania:runic_altar"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4F77CFE832537F8C"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
 			x: -16.0d
 			y: 5.0d
 		}
@@ -71,19 +67,17 @@
 			dependencies: ["7C7B569E7B8FF057"]
 			id: "74A6C6A9996C6730"
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "24E3AF54B83B2950"
-					item: {
-						Count: 1b
-						id: "ad_astra:tier_2_rocket"
-						tag: {
-							BotariumData: { }
-						}
+			tasks: [{
+				id: "24E3AF54B83B2950"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -3.5d
 			y: 3.0d
 		}
@@ -152,43 +146,36 @@
 		}
 		{
 			dependencies: ["5AB569C0074866EA"]
+			description: ["艾瑟金属是一种稀有金属，通常只有与精神世界相通的人才能看到。但你将通过为银注入液态力量来创造它"]
 			id: "66F70F713EC9E3A0"
-			rewards: [
-				{
-					count: 8
-					id: "37F96913C989BE86"
-					item: "occultism:iesnium_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5929B35F4DEFD6B0"
-					item: "occultism:iesnium_dust"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "37F96913C989BE86"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5929B35F4DEFD6B0"
+				item: "occultism:iesnium_dust"
+				type: "item"
+			}]
 			x: -16.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["484F6381E7E67059"]
 			id: "34DF47C888DB083E"
-			rewards: [
-				{
-					count: 12
-					id: "03F8DAE6DDC1D442"
-					item: "thermal:signalum_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0F09E1B4B3E013C4"
-					item: "thermal:signalum_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 12
+				id: "03F8DAE6DDC1D442"
+				item: "thermal:signalum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F09E1B4B3E013C4"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
 			x: -16.0d
 			y: 3.0d
 		}
@@ -198,42 +185,34 @@
 				"4B7957DA13CD57F0"
 			]
 			id: "16A3C928FA132C75"
-			rewards: [
-				{
-					count: 8
-					id: "70AAD5DF43224DC8"
-					item: "ftbskies:platinum_dust"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "306C21CA93FBAD3D"
-					item: "ftbskies:platinum_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "70AAD5DF43224DC8"
+				item: "ftbskies:platinum_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "306C21CA93FBAD3D"
+				item: "ftbskies:platinum_ingot"
+				type: "item"
+			}]
 			x: -14.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["16A3C928FA132C75"]
 			id: "4F307893F2408298"
-			rewards: [
-				{
-					count: 9
-					id: "6C8771C53F48F183"
-					item: "mekanism:ingot_osmium"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "450472AC5CEBDA4D"
-					item: "mekanism:dust_osmium"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 9
+				id: "6C8771C53F48F183"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "450472AC5CEBDA4D"
+				item: "mekanism:dust_osmium"
+				type: "item"
+			}]
 			x: -12.5d
 			y: 1.0d
 		}
@@ -264,13 +243,11 @@
 			dependencies: ["09952D46C685ABA6"]
 			description: ["{ftbquests.chapter.iii_2.quests9.description}"]
 			id: "6D53D833B5787D97"
-			tasks: [
-				{
-					id: "4CCAADBABDC95983"
-					item: "mekanism:electrolytic_separator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4CCAADBABDC95983"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
 			x: -11.0d
 			y: 3.0d
 		}
@@ -278,27 +255,24 @@
 			dependencies: ["6D53D833B5787D97"]
 			description: ["{ftbquests.chapter.iii_2.quests10.description}"]
 			id: "6A75C648D9883BE1"
-			tasks: [
-				{
-					id: "537E511898F01C83"
-					item: "ae2:printed_silicon"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "537E511898F01C83"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
 			x: -9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["306ED75BD9A8E5F0"]
+			description: ["充能台可将 FE 能量集中到物品中，将其转化为更高级的物质形态。它还可以用来唤醒物品的充能状态，如充能赛特斯"]
 			icon: "powah:energizing_orb"
 			id: "15ABD02858A7365C"
-			rewards: [
-				{
-					id: "194E3720CC156256"
-					item: "powah:energizing_rod_starter"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "194E3720CC156256"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "576E6A523847AC8D"
@@ -317,13 +291,11 @@
 		{
 			dependencies: ["3543600DF606F8DB"]
 			id: "306ED75BD9A8E5F0"
-			tasks: [
-				{
-					id: "1652D64DF4DB5590"
-					item: "pneumaticcraft:kerosene_bucket"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1652D64DF4DB5590"
+				item: "pneumaticcraft:kerosene_bucket"
+				type: "item"
+			}]
 			x: -12.5d
 			y: 6.5d
 		}
@@ -333,13 +305,11 @@
 				"6463E0ED2BB04868"
 			]
 			id: "3543600DF606F8DB"
-			tasks: [
-				{
-					id: "6CB21A94269B657A"
-					item: "pneumaticcraft:refinery"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6CB21A94269B657A"
+				item: "pneumaticcraft:refinery"
+				type: "item"
+			}]
 			x: -14.0d
 			y: 6.5d
 		}
@@ -371,18 +341,13 @@
 			y: 6.5d
 		}
 		{
-			dependencies: [
-				"6A75C648D9883BE1"
-				"15ABD02858A7365C"
-			]
+			dependencies: ["6A75C648D9883BE1"]
 			id: "689309481480451A"
-			tasks: [
-				{
-					id: "0BC4A0BD6B81300A"
-					item: "jaopca:processors.desh"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0BC4A0BD6B81300A"
+				item: "jaopca:processors.desh"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 3.0d
 		}
@@ -397,53 +362,40 @@
 				"{ftbquests.chapter.iii_2.quests16.description2}"
 			]
 			id: "0FD6A469178B02A0"
-			rewards: [
-				{
-					count: 4
-					id: "100BF4AEF5A86B12"
-					item: "laserio:logic_chip"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4A25574842E9BD68"
-					item: "laserio:laser_wrench"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "1ADC44BBA9658E62"
-					item: "laserio:logic_chip"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "100BF4AEF5A86B12"
+				item: "laserio:logic_chip"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ADC44BBA9658E62"
+				item: "laserio:logic_chip"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6A75C648D9883BE1"]
 			id: "616FF6055BC253DA"
-			tasks: [
-				{
-					id: "0B53598B6865F23A"
-					item: "mekanism:advanced_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0B53598B6865F23A"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
 			x: -9.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3ABCFB42A4AEB889"]
 			id: "242946788D0F2107"
-			tasks: [
-				{
-					id: "61690F5B3DBB2684"
-					item: "industrialforegoing:stasis_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "61690F5B3DBB2684"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
 			x: -9.0d
 			y: -2.0d
 		}
@@ -453,99 +405,87 @@
 				"16A3C928FA132C75"
 			]
 			id: "3ABCFB42A4AEB889"
-			tasks: [
-				{
-					id: "5BF26E0D65F19D05"
-					item: "mekanism:elite_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5BF26E0D65F19D05"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
 			x: -9.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["616FF6055BC253DA"]
 			id: "6B87793AB156B2A4"
-			tasks: [
-				{
-					id: "6AE65E3F3DFB7538"
-					item: {
-						Count: 1b
-						id: "custommachinery:custom_machine_item"
-						tag: {
-							machine: "ftbskies:quantum_assembler"
-						}
+			tasks: [{
+				id: "6AE65E3F3DFB7538"
+				item: {
+					Count: 1b
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "ftbskies:quantum_assembler"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -7.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6B87793AB156B2A4"]
 			id: "46A24258394EE594"
-			tasks: [
-				{
-					id: "451C38564E5B0ABA"
-					item: "ftbskies:desh_space_plate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "451C38564E5B0ABA"
+				item: "ftbskies:desh_space_plate"
+				type: "item"
+			}]
 			x: -5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3CE6ABC8DECDC047"]
 			id: "478F241F30E039FE"
-			tasks: [
-				{
-					id: "7962FCC65369FBA0"
-					item: "minecraft:end_stone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7962FCC65369FBA0"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
 			x: -16.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["478F241F30E039FE"]
 			id: "2D8562A7144014B7"
-			tasks: [
-				{
-					id: "2D5F44FD3F6BCDB6"
-					item: "occultism:afrit_essence"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2D5F44FD3F6BCDB6"
+				item: "occultism:afrit_essence"
+				type: "item"
+			}]
 			x: -12.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["2D8562A7144014B7"]
 			id: "1B0ECCF574BE4511"
-			tasks: [
-				{
-					id: "436FDAFA4E52231E"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "enderstorage:ender_tank"
-								}
-								{
-									Count: 1b
-									id: "enderstorage:ender_chest"
-								}
-							]
-						}
+			tasks: [{
+				id: "436FDAFA4E52231E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "enderstorage:ender_tank"
+							}
+							{
+								Count: 1b
+								id: "enderstorage:ender_chest"
+							}
+						]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -10.5d
 			y: 8.5d
 		}
@@ -591,7 +531,7 @@
 							]
 							RepairCost: 15
 							display: {
-								Name: "{\"text\":\"The Purple People Eater\"}"
+								Name: "{\"text\":\"紫色食人魔\"}"
 							}
 						}
 					}
@@ -604,26 +544,22 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.iii_2.quests25.subtitle}"
-			tasks: [
-				{
-					id: "0102C71681004327"
-					item: "ftbskies:springaline_desh_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0102C71681004327"
+				item: "ftbskies:springaline_desh_ingot"
+				type: "item"
+			}]
 			x: -5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["46A24258394EE594"]
 			id: "7C7B569E7B8FF057"
-			tasks: [
-				{
-					id: "0D0AB9A7430909E8"
-					item: "ftbskies:desh_space_plating_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0D0AB9A7430909E8"
+				item: "ftbskies:desh_space_plating_block"
+				type: "item"
+			}]
 			x: -3.5d
 			y: -0.5d
 		}
@@ -632,13 +568,11 @@
 			id: "3357BF6B55CB7459"
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					dimension: "ad_astra:mars"
-					id: "2B78F693D134E9AB"
-					type: "dimension"
-				}
-			]
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "2B78F693D134E9AB"
+				type: "dimension"
+			}]
 			x: -0.5d
 			y: 3.0d
 		}

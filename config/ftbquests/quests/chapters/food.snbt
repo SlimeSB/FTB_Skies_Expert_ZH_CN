@@ -5,20 +5,18 @@
 	group: "7B39F21A0D5BB568"
 	icon: "nethersdelight:stuffed_hoglin"
 	id: "0E850CDFF8D30498"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftbskies:textures/quests/foodiesfarmers.png"
-			rotation: 0.0d
-			width: 10.53012048192771d
-			x: 1.5d
-			y: -4.5d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/foodiesfarmers.png"
+		rotation: 0.0d
+		width: 10.53012048192771d
+		x: 1.5d
+		y: -4.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -50,20 +48,18 @@
 			]
 			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.food.quests0.subtitle}"
-			tasks: [
-				{
-					id: "5A063EEC779EFCA6"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "farmersdelight:tools/knives"
-						}
+			tasks: [{
+				id: "5A063EEC779EFCA6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:tools/knives"
 					}
-					title: "{ftbquests.chapter.food.quests0.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.food.quests0.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.food.quests0.title}"
 			x: 0.5d
 			y: 1.5d
@@ -92,35 +88,33 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests1.subtitle}"
-			tasks: [
-				{
-					id: "7AE03AE4335F69ED"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "cyclic:shears_flint"
-									tag: {
-										Damage: 0
-									}
+			tasks: [{
+				id: "7AE03AE4335F69ED"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cyclic:shears_flint"
+								tag: {
+									Damage: 0
 								}
-								{
-									Count: 1b
-									id: "minecraft:shears"
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								Count: 1b
+								id: "minecraft:shears"
+								tag: {
+									Damage: 0
 								}
-							]
-						}
+							}
+						]
 					}
-					title: "{ftbquests.chapter.food.quests1.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.food.quests1.tasks0.title}"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -1.0d
 		}
@@ -130,7 +124,7 @@
 				""
 				"{ftbquests.chapter.food.quests2.description2}"
 				""
-				"{ftbquests.chapter.food.quests2.description4}"
+				"[\"\",\"此外，还有一个 \",{\"text\":\"事件\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4E44C546CAEDD703\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"事件任务\"]}},\" 可以随机使生物在附近光线充足的草方块上生成\"]"
 				""
 				"{ftbquests.chapter.food.quests2.description6}"
 			]
@@ -269,13 +263,11 @@
 			shape: "hexagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.food.quests3.subtitle}"
-			tasks: [
-				{
-					id: "5D7D5ADE212057A1"
-					item: "minecraft:beehive"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5D7D5ADE212057A1"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.food.quests3.title}"
 			x: -2.0059523809523654d
 			y: 1.6309523809523654d
@@ -302,13 +294,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests4.subtitle}"
-			tasks: [
-				{
-					id: "15D8168B12DC1C15"
-					item: "farmersdelight:rice"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "15D8168B12DC1C15"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.food.quests4.title}"
 			x: 0.0d
 			y: 0.5d
@@ -321,33 +311,29 @@
 				"{ftbquests.chapter.food.quests5.description2}"
 			]
 			id: "5DB55A645B23E187"
-			rewards: [
-				{
-					id: "759569287AEFC446"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								Items: [ ]
-								Size: 7
-							}
-						}
-						id: "cyclic:lunchbox"
-						tag: {
-							count_empty: 7
-							count_max: 7
+			rewards: [{
+				id: "759569287AEFC446"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 7
 						}
 					}
-					type: "item"
+					id: "cyclic:lunchbox"
+					tag: {
+						count_empty: 7
+						count_max: 7
+					}
 				}
-			]
-			tasks: [
-				{
-					id: "5CBA0EA80DEE7815"
-					item: "farmersdelight:minced_beef"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CBA0EA80DEE7815"
+				item: "farmersdelight:minced_beef"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 2.5d
 		}
@@ -370,20 +356,18 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests6.subtitle}"
-			tasks: [
-				{
-					id: "0F1DD696BC6E47C3"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:wool"
-						}
+			tasks: [{
+				id: "0F1DD696BC6E47C3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:wool"
 					}
-					title: "{ftbquests.chapter.food.quests6.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.food.quests6.tasks0.title}"
+				type: "item"
+			}]
 			x: 1.0d
 			y: -1.0d
 		}
@@ -404,13 +388,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests7.subtitle}"
-			tasks: [
-				{
-					id: "44720097257BDE5F"
-					item: "farmingforblockheads:market"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "44720097257BDE5F"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
 			x: 2.5d
 			y: -1.0d
 		}
@@ -450,20 +432,18 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests8.subtitle}"
-			tasks: [
-				{
-					id: "0522B00F831B9099"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:tools/hoes"
-						}
+			tasks: [{
+				id: "0522B00F831B9099"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/hoes"
 					}
-					title: "{ftbquests.chapter.food.quests8.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.food.quests8.tasks0.title}"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -1.0d
 		}
@@ -489,14 +469,12 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests9.subtitle}"
-			tasks: [
-				{
-					id: "3781DE5AD2729E50"
-					item: "minecraft:wheat"
-					title: "{ftbquests.chapter.food.quests9.tasks0.title}"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3781DE5AD2729E50"
+				item: "minecraft:wheat"
+				title: "{ftbquests.chapter.food.quests9.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.food.quests9.title}"
 			x: 5.5d
 			y: -1.0d
@@ -517,13 +495,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests10.subtitle}"
-			tasks: [
-				{
-					id: "5A0E19B8EE53EC6E"
-					item: "farmersdelight:stove"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5A0E19B8EE53EC6E"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.5d
 		}
@@ -555,13 +531,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests11.subtitle}"
-			tasks: [
-				{
-					id: "1362616DF5A0E4B6"
-					item: "farmersdelight:cooking_pot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1362616DF5A0E4B6"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
 			x: 5.5d
 			y: 0.5d
 		}
@@ -631,13 +605,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests13.subtitle}"
-			tasks: [
-				{
-					id: "536A65A25A8B4208"
-					item: "farmersdelight:bacon"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "536A65A25A8B4208"
+				item: "farmersdelight:bacon"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.food.quests13.title}"
 			x: 1.5d
 			y: 1.5d
@@ -664,13 +636,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests14.subtitle}"
-			tasks: [
-				{
-					id: "4B7D97227BA07791"
-					item: "farmersdelight:chicken_cuts"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4B7D97227BA07791"
+				item: "farmersdelight:chicken_cuts"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 2.5d
 		}
@@ -692,29 +662,27 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests15.subtitle}"
-			tasks: [
-				{
-					id: "70F7293855D49C4A"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "farmersdelight:salmon_slice"
-								}
-								{
-									Count: 1b
-									id: "farmersdelight:cod_slice"
-								}
-							]
-						}
+			tasks: [{
+				id: "70F7293855D49C4A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:salmon_slice"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:cod_slice"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.food.quests15.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.food.quests15.tasks0.title}"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 0.5d
 		}
@@ -739,13 +707,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests16.subtitle}"
-			tasks: [
-				{
-					id: "234C3AD8C56144EA"
-					item: "farmersdelight:mutton_chops"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "234C3AD8C56144EA"
+				item: "farmersdelight:mutton_chops"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 1.5d
 		}
@@ -785,13 +751,11 @@
 			]
 			shape: "rsquare"
 			subtitle: "{ftbquests.chapter.food.quests17.subtitle}"
-			tasks: [
-				{
-					id: "37D0DC6BEB830C62"
-					item: "cookingforblockheads:cooking_table"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "37D0DC6BEB830C62"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.food.quests17.title}"
 			x: 3.0d
 			y: 2.0d
@@ -818,13 +782,11 @@
 			]
 			shape: "rsquare"
 			subtitle: "{ftbquests.chapter.food.quests18.subtitle}"
-			tasks: [
-				{
-					id: "4C9F6EF783ADF13F"
-					item: "cookingforblockheads:sink"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4C9F6EF783ADF13F"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.food.quests18.title}"
 			x: 4.0d
 			y: 2.0d
@@ -846,13 +808,11 @@
 			]
 			shape: "rsquare"
 			subtitle: "{ftbquests.chapter.food.quests19.subtitle}"
-			tasks: [
-				{
-					id: "0477934320683DE9"
-					item: "cookingforblockheads:fridge"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0477934320683DE9"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 2.0d
 		}
@@ -874,13 +834,11 @@
 			]
 			shape: "rsquare"
 			subtitle: "{ftbquests.chapter.food.quests20.subtitle}"
-			tasks: [
-				{
-					id: "6275D0F72F622B16"
-					item: "cookingforblockheads:cow_jar"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6275D0F72F622B16"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.food.quests20.title}"
 			x: 3.0d
 			y: 3.0d
@@ -948,13 +906,11 @@
 			]
 			shape: "rsquare"
 			subtitle: "{ftbquests.chapter.food.quests22.subtitle}"
-			tasks: [
-				{
-					id: "62A275B4E27270F9"
-					item: "cookingforblockheads:oven"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "62A275B4E27270F9"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.food.quests22.title}"
 			x: 5.0d
 			y: 3.0d
@@ -981,20 +937,18 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests23.subtitle}"
-			tasks: [
-				{
-					id: "7CBCB6F326179DBC"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "minecraft:beds"
-						}
+			tasks: [{
+				id: "7CBCB6F326179DBC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
 					}
-					title: "{ftbquests.chapter.food.quests23.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.food.quests23.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.food.quests23.title}"
 			x: 1.0d
 			y: -2.5d

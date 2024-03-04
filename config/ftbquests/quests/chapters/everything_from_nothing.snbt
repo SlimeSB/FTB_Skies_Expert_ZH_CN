@@ -137,6 +137,12 @@
 			x: 1.0d
 			y: -2.5d
 		}
+		{
+			id: "290EF980189C9CA5"
+			linked_quest: "63280A6D52BBE4A8"
+			x: -5.0d
+			y: -0.5d
+		}
 	]
 	quests: [
 		{
@@ -155,53 +161,54 @@
 					count: 5
 					id: "33ABC9AF92CA3BEF"
 					item: "pedestals:augment_pedestal_t1_speed"
+					team_reward: true
 					type: "item"
 				}
 				{
 					count: 2
 					id: "76D735C477F1DFF4"
 					item: "ftbsba:iron_auto_hammer"
+					team_reward: true
 					type: "item"
 				}
 				{
 					count: 2
 					id: "67BDC32B059CB394"
 					item: "industrialforegoing:item_transporter_type"
+					team_reward: true
 					type: "item"
 				}
 			]
 			subtitle: "{ftbquests.chapter.everything_from_nothing.quests0.subtitle}"
-			tasks: [
-				{
-					id: "4099DF98A97BBA0C"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ftbsba:netherite_auto_hammer"
-								}
-								{
-									Count: 1b
-									id: "ftbsba:iron_auto_hammer"
-								}
-								{
-									Count: 1b
-									id: "ftbsba:diamond_auto_hammer"
-								}
-								{
-									Count: 1b
-									id: "ftbsba:gold_auto_hammer"
-								}
-							]
-						}
+			tasks: [{
+				id: "4099DF98A97BBA0C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ftbsba:netherite_auto_hammer"
+							}
+							{
+								Count: 1b
+								id: "ftbsba:iron_auto_hammer"
+							}
+							{
+								Count: 1b
+								id: "ftbsba:diamond_auto_hammer"
+							}
+							{
+								Count: 1b
+								id: "ftbsba:gold_auto_hammer"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.everything_from_nothing.quests0.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.everything_from_nothing.quests0.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.everything_from_nothing.quests0.title}"
 			x: -5.0d
 			y: -2.5d
@@ -219,20 +226,19 @@
 				{
 					id: "04FD0632B5582C6C"
 					item: "minecraft:budding_amethyst"
+					team_reward: true
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "06B840B3E5D15352"
-					item: {
-						Count: 1b
-						id: "ftbskies:desh_mesh"
-						tag: { }
-					}
-					type: "item"
+			tasks: [{
+				id: "06B840B3E5D15352"
+				item: {
+					Count: 1b
+					id: "ftbskies:desh_mesh"
+					tag: { }
 				}
-			]
+				type: "item"
+			}]
 			x: -5.0d
 			y: 3.5d
 		}
@@ -241,7 +247,7 @@
 			description: [
 				"{ftbquests.chapter.everything_from_nothing.quests2.description0}"
 				""
-				"{ftbquests.chapter.everything_from_nothing.quests2.description2}"
+				"[\"\",{\"text\":\"点击这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4FA6ADCA7857A92F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"植物魔法章节\"]}},\" 查看植物魔法章节以获得魔力钢的制作方法\"]"
 			]
 			id: "1C5F24FBAE411D2A"
 			rewards: [
@@ -265,38 +271,32 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.everything_from_nothing.quests2.subtitle}"
-			tasks: [
-				{
-					id: "3FA893E926DFA5E5"
-					item: {
-						Count: 1b
-						id: "ftbskies:mana_steel_mesh"
-						tag: { }
-					}
-					type: "item"
+			tasks: [{
+				id: "3FA893E926DFA5E5"
+				item: {
+					Count: 1b
+					id: "ftbskies:mana_steel_mesh"
+					tag: { }
 				}
-			]
+				type: "item"
+			}]
 			x: -5.0d
 			y: 1.5d
 		}
 		{
 			description: ["{ftbquests.chapter.everything_from_nothing.quests3.description}"]
 			id: "6F86D0F68AF695C6"
-			rewards: [
-				{
-					count: 16
-					id: "6E52C61D72CC938F"
-					item: "ftbskies:crushed_end_stone"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "7C3996700474C897"
-					item: "ftbskies:crushed_end_stone"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "6E52C61D72CC938F"
+				item: "ftbskies:crushed_end_stone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C3996700474C897"
+				item: "ftbskies:crushed_end_stone"
+				type: "item"
+			}]
 			x: 3.0d
 			y: -2.5d
 		}
@@ -307,21 +307,17 @@
 				"{ftbquests.chapter.everything_from_nothing.quests4.description2}"
 			]
 			id: "0E40F6876416E723"
-			rewards: [
-				{
-					count: 16
-					id: "3EF5A5BEA01ED7D9"
-					item: "ftbskies:crushed_netherrack"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0F3F14112F69EC94"
-					item: "ftbskies:crushed_netherrack"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "3EF5A5BEA01ED7D9"
+				item: "ftbskies:crushed_netherrack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F3F14112F69EC94"
+				item: "ftbskies:crushed_netherrack"
+				type: "item"
+			}]
 			x: -1.0d
 			y: -2.5d
 		}
@@ -329,39 +325,32 @@
 			dependencies: ["0E40F6876416E723"]
 			description: ["{ftbquests.chapter.everything_from_nothing.quests5.description}"]
 			hide_dependency_lines: true
-			icon: "occultism:raw_iesnium"
+			icon: "occultism:otherworld_sapling"
 			id: "484B1DC063CAD480"
-			tasks: [
-				{
-					id: "74B9876CAAFE760A"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "occultism:raw_iesnium"
-								}
-								{
-									Count: 1b
-									id: "occultism:otherworld_sapling"
-								}
-								{
-									Count: 1b
-									id: "ftbskies:warped_nylium_spores"
-								}
-								{
-									Count: 1b
-									id: "ftbskies:crimson_nylium_spores"
-								}
-							]
-						}
+			tasks: [{
+				id: "250738BEA165949A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "occultism:otherworld_sapling"
+							}
+							{
+								Count: 1b
+								id: "ftbskies:crimson_nylium_spores"
+							}
+							{
+								Count: 1b
+								id: "ftbskies:warped_nylium_spores"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.everything_from_nothing.quests5.tasks0.title}"
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.everything_from_nothing.quests5.title}"
 			x: -1.0d
 			y: -0.5d
@@ -369,28 +358,9 @@
 		{
 			dependencies: [
 				"6F86D0F68AF695C6"
-				"1C5F24FBAE411D2A"
-			]
-			description: ["{ftbquests.chapter.everything_from_nothing.quests6.description}"]
-			hide_dependency_lines: true
-			id: "01237FE502C591FA"
-			tasks: [
-				{
-					id: "1DAC5DE6F6CC8AC4"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.everything_from_nothing.quests6.title}"
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"6F86D0F68AF695C6"
 				"2A635BEBC12FF06E"
 			]
-			description: ["{ftbquests.chapter.everything_from_nothing.quests7.description}"]
+			description: ["使用&6春涌水晶戴斯网&r筛选&6粉碎末地石&r产出&b维度碎片&r"]
 			hide_dependency_lines: true
 			icon: "rftoolsbase:dimensionalshard"
 			id: "62DC20E267EC7C3C"
@@ -407,20 +377,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.everything_from_nothing.quests7.title}"
+			title: "粉碎末地石 → 春涌水晶戴斯网"
 			x: 3.0d
 			y: 3.5d
 		}
 		{
 			description: ["{ftbquests.chapter.everything_from_nothing.quests8.description}"]
 			id: "1B941662E3F1C481"
-			tasks: [
-				{
-					id: "214BD4D63F52EAA1"
-					item: "minecraft:sand"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "214BD4D63F52EAA1"
+				item: "minecraft:sand"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.everything_from_nothing.quests8.title}"
 			x: -3.0d
 			y: -2.5d
@@ -506,45 +474,43 @@
 			hide_dependency_lines: true
 			icon: "minecraft:clay_ball"
 			id: "420A850AA13E6578"
-			tasks: [
-				{
-					id: "7320308875865FF7"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "minecraft:slime_ball"
-								}
-								{
-									Count: 1b
-									id: "mekanism:salt"
-								}
-								{
-									Count: 1b
-									id: "minecraft:clay_ball"
-								}
-								{
-									Count: 1b
-									id: "minecraft:sea_pickle"
-								}
-								{
-									Count: 1b
-									id: "minecraft:kelp"
-								}
-								{
-									Count: 1b
-									id: "minecraft:seagrass"
-								}
-							]
-						}
+			tasks: [{
+				id: "7320308875865FF7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:slime_ball"
+							}
+							{
+								Count: 1b
+								id: "mekanism:salt"
+							}
+							{
+								Count: 1b
+								id: "minecraft:clay_ball"
+							}
+							{
+								Count: 1b
+								id: "minecraft:sea_pickle"
+							}
+							{
+								Count: 1b
+								id: "minecraft:kelp"
+							}
+							{
+								Count: 1b
+								id: "minecraft:seagrass"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.everything_from_nothing.quests10.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.everything_from_nothing.quests10.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.everything_from_nothing.quests10.title}"
 			x: -3.0d
 			y: -0.5d
@@ -554,7 +520,7 @@
 				"0E40F6876416E723"
 				"2A635BEBC12FF06E"
 			]
-			description: ["{ftbquests.chapter.everything_from_nothing.quests11.description}"]
+			description: ["使用&6春涌水晶戴斯网&r筛选&6粉碎下界岩&r产出&b下界合金碎片&r."]
 			hide_dependency_lines: true
 			icon: "minecraft:netherite_scrap"
 			id: "2F0973FB648704AF"
@@ -621,7 +587,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.everything_from_nothing.quests11.title}"
+			title: "粉碎下界岩 → 春涌水晶戴斯网"
 			x: -1.0d
 			y: 3.5d
 		}
@@ -630,7 +596,7 @@
 				"1B941662E3F1C481"
 				"2A635BEBC12FF06E"
 			]
-			description: ["{ftbquests.chapter.everything_from_nothing.quests12.description}"]
+			description: ["&6含水沙子&r does &cnot have any additional drops&r when using higher tier meshes."]
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "minecraft:prismarine_shard"
@@ -697,7 +663,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.everything_from_nothing.quests12.title}"
+			title: "含水沙子 → 春涌水晶戴斯网"
 			x: -3.0d
 			y: 3.5d
 		}
@@ -706,29 +672,27 @@
 			hide_dependency_lines: true
 			icon: "minecraft:quartz"
 			id: "09BFE8C08415DAD8"
-			tasks: [
-				{
-					id: "5F56DC9A18987BD4"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "minecraft:quartz"
-								}
-								{
-									Count: 1b
-									id: "minecraft:nether_wart"
-								}
-							]
-						}
+			tasks: [{
+				id: "5F56DC9A18987BD4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:quartz"
+							}
+							{
+								Count: 1b
+								id: "minecraft:nether_wart"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.everything_from_nothing.quests13.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.everything_from_nothing.quests13.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.everything_from_nothing.quests13.title}"
 			x: 1.0d
 			y: -0.5d
@@ -738,39 +702,47 @@
 			description: ["{ftbquests.chapter.everything_from_nothing.quests14.description}"]
 			disable_toast: true
 			hide_dependency_lines: true
-			icon: "minecraft:quartz"
+			icon: "minecraft:blaze_powder"
 			id: "3080C511A3122ED1"
-			tasks: [
-				{
-					disable_toast: true
-					id: "4CD97519754D9282"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "minecraft:quartz"
-								}
-								{
-									Count: 1b
-									id: "minecraft:nether_wart"
-								}
-							]
-						}
+			tasks: [{
+				id: "75B603B830B5DE69"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "occultism:otherworld_sapling"
+							}
+							{
+								Count: 1b
+								id: "ftbskies:crimson_nylium_spores"
+							}
+							{
+								Count: 1b
+								id: "ftbskies:warped_nylium_spores"
+							}
+							{
+								Count: 1b
+								id: "minecraft:blaze_powder"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:inert_crystal"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.everything_from_nothing.quests14.tasks0.title}"
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.everything_from_nothing.quests14.title}"
-			x: 1.0d
+				type: "item"
+			}]
+			title: "粉碎下界岩 → 魔力钢筛网"
+			x: -1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2A635BEBC12FF06E"]
-			description: ["{ftbquests.chapter.everything_from_nothing.quests15.description}"]
+			description: ["使用&6春涌水晶戴斯网&r筛选&6灵魂沙&r产出&b恶魂之泪&r."]
 			hide_dependency_lines: true
 			icon: "minecraft:ghast_tear"
 			id: "66BD17836AD23157"
@@ -803,7 +775,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.everything_from_nothing.quests15.title}"
+			title: "灵魂沙 → 春涌水晶戴斯网"
 			x: 1.0d
 			y: 3.5d
 		}

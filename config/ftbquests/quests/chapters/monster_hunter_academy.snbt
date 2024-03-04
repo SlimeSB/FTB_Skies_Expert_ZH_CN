@@ -5,31 +5,27 @@
 	group: "0EEBC99BAFECE694"
 	icon: "artifacts:obsidian_skull"
 	id: "7C86067509404015"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftbskies:textures/quests/monsterhunter.png"
-			rotation: 0.0d
-			width: 9.686746987951807d
-			x: 1.0d
-			y: -7.5d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/monsterhunter.png"
+		rotation: 0.0d
+		width: 9.686746987951807d
+		x: 1.0d
+		y: -7.5d
+	}]
 	order_index: 0
-	quest_links: [
-		{
-			id: "027647D9415D27CF"
-			linked_quest: "0EDA2BDDA51B15EF"
-			shape: "hexagon"
-			size: 1.5d
-			x: 0.5d
-			y: 1.0d
-		}
-	]
+	quest_links: [{
+		id: "027647D9415D27CF"
+		linked_quest: "0EDA2BDDA51B15EF"
+		shape: "hexagon"
+		size: 1.5d
+		x: 0.5d
+		y: 1.0d
+	}]
 	quests: [
 		{
 			id: "04025393B4CC471D"
@@ -51,23 +47,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests0.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:zombie"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:zombie"
-							}
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
 						}
 					}
-					id: "2FF22FD8AB385BB8"
-					type: "kill"
-					value: 1L
 				}
-			]
+				id: "2FF22FD8AB385BB8"
+				type: "kill"
+				value: 1L
+			}]
 			x: -5.0d
 			y: -1.5d
 		}
@@ -95,23 +89,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests1.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:zombie"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:zombie"
-							}
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
 						}
 					}
-					id: "41CCD5867CD3BA5B"
-					type: "kill"
-					value: 5L
 				}
-			]
+				id: "41CCD5867CD3BA5B"
+				type: "kill"
+				value: 5L
+			}]
 			x: -5.0d
 			y: -3.0d
 		}
@@ -132,23 +124,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests2.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:zombie"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:zombie"
-							}
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
 						}
 					}
-					id: "555E1238CD77E6FA"
-					type: "kill"
-					value: 25L
 				}
-			]
+				id: "555E1238CD77E6FA"
+				type: "kill"
+				value: 25L
+			}]
 			x: -5.0d
 			y: -4.5d
 		}
@@ -184,23 +174,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests3.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:zombie"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:zombie"
-							}
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
 						}
 					}
-					id: "445EAB40815C0104"
-					type: "kill"
-					value: 50L
 				}
-			]
+				id: "445EAB40815C0104"
+				type: "kill"
+				value: 50L
+			}]
 			x: -5.0d
 			y: -6.0d
 		}
@@ -221,23 +209,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests4.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:skeleton"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:skeleton"
-							}
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:skeleton"
 						}
 					}
-					id: "6CCDDAA215AB8DAE"
-					type: "kill"
-					value: 25L
 				}
-			]
+				id: "6CCDDAA215AB8DAE"
+				type: "kill"
+				value: 25L
+			}]
 			x: -3.5d
 			y: -4.5d
 		}
@@ -265,23 +251,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests5.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:skeleton"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:skeleton"
-							}
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:skeleton"
 						}
 					}
-					id: "3F60C67CAB3993AE"
-					type: "kill"
-					value: 5L
 				}
-			]
+				id: "3F60C67CAB3993AE"
+				type: "kill"
+				value: 5L
+			}]
 			x: -3.5d
 			y: -3.0d
 		}
@@ -300,23 +284,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests6.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:skeleton"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:skeleton"
-							}
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:skeleton"
 						}
 					}
-					id: "25DBB3CA4B0354F7"
-					type: "kill"
-					value: 1L
 				}
-			]
+				id: "25DBB3CA4B0354F7"
+				type: "kill"
+				value: 1L
+			}]
 			x: -3.5d
 			y: -1.5d
 		}
@@ -349,48 +331,42 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests7.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:skeleton"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:skeleton"
-							}
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:skeleton"
 						}
 					}
-					id: "7132BF0F7EF562AA"
-					type: "kill"
-					value: 50L
 				}
-			]
+				id: "7132BF0F7EF562AA"
+				type: "kill"
+				value: 50L
+			}]
 			x: -3.5d
 			y: -6.0d
 		}
 		{
 			description: ["{ftbquests.chapter.monster_hunter_academy.quests8.description}"]
 			id: "5232D87988CDA312"
-			rewards: [
-				{
-					id: "039B54255BFA56D0"
-					item: "ars_nouveau:glyph_split"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "039B54255BFA56D0"
+				item: "ars_nouveau:glyph_split"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests8.subtitle}"
-			tasks: [
-				{
-					entity: "ars_nouveau:wilden_boss"
-					icon: "ars_nouveau:wilden_tribute"
-					id: "18971826C2D4C30E"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: "ars_nouveau:wilden_tribute"
+				id: "18971826C2D4C30E"
+				type: "kill"
+				value: 1L
+			}]
 			x: 2.5d
 			y: 1.0d
 		}
@@ -399,15 +375,13 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests9.subtitle}"
-			tasks: [
-				{
-					entity: "botania:doppleganger"
-					icon: "botania:gaia_head"
-					id: "160AA069B91BE1BB"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "160AA069B91BE1BB"
+				type: "kill"
+				value: 1L
+			}]
 			x: 4.5d
 			y: 1.0d
 		}
@@ -432,23 +406,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests10.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:creeper"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:creeper"
-							}
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:creeper"
 						}
 					}
-					id: "25EFE1308A7C0334"
-					type: "kill"
-					value: 1L
 				}
-			]
+				id: "25EFE1308A7C0334"
+				type: "kill"
+				value: 1L
+			}]
 			x: -2.0d
 			y: -1.5d
 		}
@@ -472,23 +444,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests11.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:spider"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:spider"
-							}
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:spider"
 						}
 					}
-					id: "2E6C09E2850D7FA3"
-					type: "kill"
-					value: 1L
 				}
-			]
+				id: "2E6C09E2850D7FA3"
+				type: "kill"
+				value: 1L
+			}]
 			x: -0.5d
 			y: -1.5d
 		}
@@ -514,23 +484,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests12.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:witch"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:witch"
-							}
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:witch"
 						}
 					}
-					id: "2156B94CB4399A08"
-					type: "kill"
-					value: 1L
 				}
-			]
+				id: "2156B94CB4399A08"
+				type: "kill"
+				value: 1L
+			}]
 			x: 1.0d
 			y: -1.5d
 		}
@@ -549,23 +517,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests13.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:blaze"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:blaze"
-							}
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:blaze"
 						}
 					}
-					id: "314A402BA8A374E5"
-					type: "kill"
-					value: 1L
 				}
-			]
+				id: "314A402BA8A374E5"
+				type: "kill"
+				value: 1L
+			}]
 			x: 4.0d
 			y: -1.5d
 		}
@@ -589,23 +555,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests14.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:enderman"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:enderman"
-							}
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:enderman"
 						}
 					}
-					id: "4DF2F50FC7F86601"
-					type: "kill"
-					value: 1L
 				}
-			]
+				id: "4DF2F50FC7F86601"
+				type: "kill"
+				value: 1L
+			}]
 			x: 5.5d
 			y: -1.5d
 		}
@@ -634,23 +598,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests15.subtitle}"
-			tasks: [
-				{
-					entity: "ars_nouveau:wilden_stalker"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:ars_nouveau/wilden_mobs"
-							}
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ars_nouveau/wilden_mobs"
 						}
 					}
-					id: "5A9075AE0A39439C"
-					type: "kill"
-					value: 1L
 				}
-			]
+				id: "5A9075AE0A39439C"
+				type: "kill"
+				value: 1L
+			}]
 			x: 7.0d
 			y: -1.5d
 		}
@@ -679,23 +641,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests16.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:hoglin"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:hoglin"
-							}
+			tasks: [{
+				entity: "minecraft:hoglin"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:hoglin"
 						}
 					}
-					id: "1BF80B53558D95D8"
-					type: "kill"
-					value: 1L
 				}
-			]
+				id: "1BF80B53558D95D8"
+				type: "kill"
+				value: 1L
+			}]
 			x: 8.5d
 			y: -1.5d
 		}
@@ -720,15 +680,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests17.subtitle}"
-			tasks: [
-				{
-					entity: "occultism:possessed_endermite"
-					icon: "unusualend:enderblob_moult"
-					id: "30645866E698D5C3"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				icon: "unusualend:enderblob_moult"
+				id: "30645866E698D5C3"
+				type: "kill"
+				value: 1L
+			}]
 			x: 10.0d
 			y: -1.5d
 		}
@@ -762,23 +720,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests18.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:creeper"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:creeper"
-							}
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:creeper"
 						}
 					}
-					id: "46966E03020BC6A5"
-					type: "kill"
-					value: 5L
 				}
-			]
+				id: "46966E03020BC6A5"
+				type: "kill"
+				value: 5L
+			}]
 			x: -2.0d
 			y: -3.0d
 		}
@@ -799,23 +755,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests19.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:creeper"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:creeper"
-							}
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:creeper"
 						}
 					}
-					id: "054D7A9EB1EAAF20"
-					type: "kill"
-					value: 25L
 				}
-			]
+				id: "054D7A9EB1EAAF20"
+				type: "kill"
+				value: 25L
+			}]
 			x: -2.0d
 			y: -4.5d
 		}
@@ -849,23 +803,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests20.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:creeper"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:creeper"
-							}
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:creeper"
 						}
 					}
-					id: "1C6C92A02BC5DFA4"
-					type: "kill"
-					value: 50L
 				}
-			]
+				id: "1C6C92A02BC5DFA4"
+				type: "kill"
+				value: 50L
+			}]
 			x: -2.0d
 			y: -6.0d
 		}
@@ -898,23 +850,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests21.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:spider"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:spider"
-							}
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:spider"
 						}
 					}
-					id: "30678AD99267D855"
-					type: "kill"
-					value: 5L
 				}
-			]
+				id: "30678AD99267D855"
+				type: "kill"
+				value: 5L
+			}]
 			x: -0.5d
 			y: -3.0d
 		}
@@ -934,23 +884,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests22.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:spider"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:spider"
-							}
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:spider"
 						}
 					}
-					id: "0402A068FABB8B80"
-					type: "kill"
-					value: 25L
 				}
-			]
+				id: "0402A068FABB8B80"
+				type: "kill"
+				value: 25L
+			}]
 			x: -0.5d
 			y: -4.5d
 		}
@@ -983,23 +931,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests23.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:spider"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:spider"
-							}
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:spider"
 						}
 					}
-					id: "0B264437B3E5A36F"
-					type: "kill"
-					value: 50L
 				}
-			]
+				id: "0B264437B3E5A36F"
+				type: "kill"
+				value: 50L
+			}]
 			x: -0.5d
 			y: -6.0d
 		}
@@ -1039,23 +985,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests24.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:witch"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:witch"
-							}
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:witch"
 						}
 					}
-					id: "78529F8ABBE367B8"
-					type: "kill"
-					value: 5L
 				}
-			]
+				id: "78529F8ABBE367B8"
+				type: "kill"
+				value: 5L
+			}]
 			x: 1.0d
 			y: -3.0d
 		}
@@ -1082,23 +1026,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests25.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:witch"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:witch"
-							}
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:witch"
 						}
 					}
-					id: "66C447F55A01A92B"
-					type: "kill"
-					value: 25L
 				}
-			]
+				id: "66C447F55A01A92B"
+				type: "kill"
+				value: 25L
+			}]
 			x: 1.0d
 			y: -4.5d
 		}
@@ -1138,23 +1080,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests26.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:witch"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:witch"
-							}
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:witch"
 						}
 					}
-					id: "3B87C9748B3F6F21"
-					type: "kill"
-					value: 50L
 				}
-			]
+				id: "3B87C9748B3F6F21"
+				type: "kill"
+				value: 50L
+			}]
 			x: 1.0d
 			y: -6.0d
 		}
@@ -1187,23 +1127,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests27.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:blaze"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:blaze"
-							}
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:blaze"
 						}
 					}
-					id: "63F40AF4B06B688A"
-					type: "kill"
-					value: 5L
 				}
-			]
+				id: "63F40AF4B06B688A"
+				type: "kill"
+				value: 5L
+			}]
 			x: 4.0d
 			y: -3.0d
 		}
@@ -1241,23 +1179,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests28.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:blaze"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:blaze"
-							}
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:blaze"
 						}
 					}
-					id: "298DF61C1B7DD714"
-					type: "kill"
-					value: 25L
 				}
-			]
+				id: "298DF61C1B7DD714"
+				type: "kill"
+				value: 25L
+			}]
 			x: 4.0d
 			y: -4.5d
 		}
@@ -1301,23 +1237,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests29.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:blaze"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:blaze"
-							}
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:blaze"
 						}
 					}
-					id: "0278A694ABC192D0"
-					type: "kill"
-					value: 50L
 				}
-			]
+				id: "0278A694ABC192D0"
+				type: "kill"
+				value: 50L
+			}]
 			x: 4.0d
 			y: -6.0d
 		}
@@ -1350,23 +1284,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests30.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:enderman"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:enderman"
-							}
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:enderman"
 						}
 					}
-					id: "4A2A6A04CB1125EB"
-					type: "kill"
-					value: 5L
 				}
-			]
+				id: "4A2A6A04CB1125EB"
+				type: "kill"
+				value: 5L
+			}]
 			x: 5.5d
 			y: -3.0d
 		}
@@ -1386,23 +1318,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests31.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:enderman"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:enderman"
-							}
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:enderman"
 						}
 					}
-					id: "74C2CBEA71D6E548"
-					type: "kill"
-					value: 25L
 				}
-			]
+				id: "74C2CBEA71D6E548"
+				type: "kill"
+				value: 25L
+			}]
 			x: 5.5d
 			y: -4.5d
 		}
@@ -1435,23 +1365,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests32.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:enderman"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:enderman"
-							}
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:enderman"
 						}
 					}
-					id: "619BD972575BC050"
-					type: "kill"
-					value: 50L
 				}
-			]
+				id: "619BD972575BC050"
+				type: "kill"
+				value: 50L
+			}]
 			x: 5.5d
 			y: -6.0d
 		}
@@ -1481,23 +1409,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests33.subtitle}"
-			tasks: [
-				{
-					entity: "ars_nouveau:wilden_stalker"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:ars_nouveau/wilden_mobs"
-							}
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ars_nouveau/wilden_mobs"
 						}
 					}
-					id: "1D2C60A546C65D91"
-					type: "kill"
-					value: 25L
 				}
-			]
+				id: "1D2C60A546C65D91"
+				type: "kill"
+				value: 25L
+			}]
 			x: 7.0d
 			y: -3.0d
 		}
@@ -1532,23 +1458,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests34.subtitle}"
-			tasks: [
-				{
-					entity: "ars_nouveau:wilden_stalker"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:ars_nouveau/wilden_mobs"
-							}
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ars_nouveau/wilden_mobs"
 						}
 					}
-					id: "53F4BC3E7E8292B6"
-					type: "kill"
-					value: 50L
 				}
-			]
+				id: "53F4BC3E7E8292B6"
+				type: "kill"
+				value: 50L
+			}]
 			x: 7.0d
 			y: -4.5d
 		}
@@ -1585,16 +1509,14 @@
 										id: "minecraft:hoglin"
 									}
 								}
-								SpawnPotentials: [
-									{
-										data: {
-											entity: {
-												id: "minecraft:hoglin"
-											}
+								SpawnPotentials: [{
+									data: {
+										entity: {
+											id: "minecraft:hoglin"
 										}
-										weight: 1
 									}
-								]
+									weight: 1
+								}]
 								SpawnRange: 4s
 								id: "minecraft:mob_spawner"
 								ignore_conditions: 0b
@@ -1613,23 +1535,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests35.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:hoglin"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:hoglin"
-							}
+			tasks: [{
+				entity: "minecraft:hoglin"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:hoglin"
 						}
 					}
-					id: "1CB19D6A65B4F677"
-					type: "kill"
-					value: 25L
 				}
-			]
+				id: "1CB19D6A65B4F677"
+				type: "kill"
+				value: 25L
+			}]
 			x: 8.5d
 			y: -3.0d
 		}
@@ -1648,23 +1568,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests36.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:wither_skeleton"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:wither_skeleton"
-							}
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither_skeleton"
 						}
 					}
-					id: "026E1E451A3F69C7"
-					type: "kill"
-					value: 1L
 				}
-			]
+				id: "026E1E451A3F69C7"
+				type: "kill"
+				value: 1L
+			}]
 			x: 2.5d
 			y: -1.5d
 		}
@@ -1698,23 +1616,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests37.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:wither_skeleton"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:wither_skeleton"
-							}
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither_skeleton"
 						}
 					}
-					id: "346EBFF19BF4E61D"
-					type: "kill"
-					value: 5L
 				}
-			]
+				id: "346EBFF19BF4E61D"
+				type: "kill"
+				value: 5L
+			}]
 			x: 2.5d
 			y: -3.0d
 		}
@@ -1740,23 +1656,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests38.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:wither_skeleton"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:wither_skeleton"
-							}
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither_skeleton"
 						}
 					}
-					id: "78574B22E436B448"
-					type: "kill"
-					value: 25L
 				}
-			]
+				id: "78574B22E436B448"
+				type: "kill"
+				value: 25L
+			}]
 			x: 2.5d
 			y: -4.5d
 		}
@@ -1794,23 +1708,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests39.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:wither_skeleton"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:wither_skeleton"
-							}
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither_skeleton"
 						}
 					}
-					id: "25136829CA5E8220"
-					type: "kill"
-					value: 50L
 				}
-			]
+				id: "25136829CA5E8220"
+				type: "kill"
+				value: 50L
+			}]
 			x: 2.5d
 			y: -6.0d
 		}
@@ -1838,23 +1750,21 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests40.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:zombie"
-					icon: {
-						Count: 1b
-						id: "hostilenetworks:data_model"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:zombie"
-							}
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
 						}
 					}
-					id: "1F3ABDD85E45B096"
-					type: "kill"
-					value: 100L
 				}
-			]
+				id: "1F3ABDD85E45B096"
+				type: "kill"
+				value: 100L
+			}]
 			x: -5.0d
 			y: -7.5d
 		}
@@ -1930,15 +1840,13 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.monster_hunter_academy.quests42.subtitle}"
-			tasks: [
-				{
-					entity: "minecraft:wandering_trader"
-					id: "61ABBC84D913A93E"
-					title: "{ftbquests.chapter.monster_hunter_academy.quests42.tasks0.title}"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				id: "61ABBC84D913A93E"
+				title: "{ftbquests.chapter.monster_hunter_academy.quests42.tasks0.title}"
+				type: "kill"
+				value: 1L
+			}]
 			title: "{ftbquests.chapter.monster_hunter_academy.quests42.title}"
 			x: 6.5d
 			y: 1.0d
@@ -1948,24 +1856,20 @@
 			dependencies: ["25C422785F916872"]
 			icon: "alexsdelight:cooked_centipede_leg"
 			id: "04AC1473DC239E08"
-			rewards: [
-				{
-					auto: "no_toast"
-					icon: "alexsdelight:cooked_centipede_leg"
-					id: "5EAAFBF3680D8462"
-					ignore_reward_blocking: true
-					stage: "no_centipedes"
-					title: "{ftbquests.chapter.monster_hunter_academy.quests43.rewards0.title}"
-					type: "gamestage"
-				}
-			]
-			tasks: [
-				{
-					id: "2A2BEC58A2BEAD9E"
-					title: "{ftbquests.chapter.monster_hunter_academy.quests43.tasks0.title}"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				icon: "alexsdelight:cooked_centipede_leg"
+				id: "5EAAFBF3680D8462"
+				ignore_reward_blocking: true
+				stage: "no_centipedes"
+				title: "{ftbquests.chapter.monster_hunter_academy.quests43.rewards0.title}"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "2A2BEC58A2BEAD9E"
+				title: "{ftbquests.chapter.monster_hunter_academy.quests43.tasks0.title}"
+				type: "checkmark"
+			}]
 			x: -2.5d
 			y: 2.5d
 		}
@@ -1974,25 +1878,21 @@
 			dependencies: ["25C422785F916872"]
 			icon: "alexsmobs:centipede_leg"
 			id: "7A0E632E72F2273B"
-			rewards: [
-				{
-					auto: "no_toast"
-					icon: "alexsmobs:centipede_leg"
-					id: "13BCC8FDD712595B"
-					ignore_reward_blocking: true
-					remove: true
-					stage: "no_centipedes"
-					title: "{ftbquests.chapter.monster_hunter_academy.quests44.rewards0.title}"
-					type: "gamestage"
-				}
-			]
-			tasks: [
-				{
-					id: "0FD7F0278972D451"
-					title: "{ftbquests.chapter.monster_hunter_academy.quests44.tasks0.title}"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				icon: "alexsmobs:centipede_leg"
+				id: "13BCC8FDD712595B"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "no_centipedes"
+				title: "{ftbquests.chapter.monster_hunter_academy.quests44.rewards0.title}"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "0FD7F0278972D451"
+				title: "{ftbquests.chapter.monster_hunter_academy.quests44.tasks0.title}"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: 2.5d
 		}

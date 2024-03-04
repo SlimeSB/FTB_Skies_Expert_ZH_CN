@@ -5,20 +5,18 @@
 	group: "0B729A29DA0A889D"
 	icon: "ars_nouveau:archmage_spell_book"
 	id: "4A41252630A0A14A"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftbskies:textures/quests/ars.png"
-			rotation: 0.0d
-			width: 7.409638554216867d
-			x: 0.5d
-			y: -4.0d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/ars.png"
+		rotation: 0.0d
+		width: 7.409638554216867d
+		x: 0.5d
+		y: -4.0d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -48,13 +46,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests0.subtitle}"
-			tasks: [
-				{
-					id: "26636B356CD755A1"
-					title: "{ftbquests.chapter.ars_nouveau.quests0.tasks0.title}"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "26636B356CD755A1"
+				title: "{ftbquests.chapter.ars_nouveau.quests0.tasks0.title}"
+				type: "checkmark"
+			}]
 			x: -2.0d
 			y: -0.5d
 		}
@@ -85,13 +81,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests1.subtitle}"
-			tasks: [
-				{
-					id: "7FFEEC93E4BE21D8"
-					item: "ars_nouveau:novice_spell_book"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7FFEEC93E4BE21D8"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
 			x: 0.0d
 			y: -0.5d
 		}
@@ -118,13 +112,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests2.subtitle}"
-			tasks: [
-				{
-					id: "662BDE8CEEBB03B2"
-					item: "ars_nouveau:imbuement_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "662BDE8CEEBB03B2"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 2.5d
 		}
@@ -159,17 +151,15 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests3.subtitle}"
-			tasks: [
-				{
-					id: "48B6EC20641A62DF"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:spell_parchment"
-						tag: { }
-					}
-					type: "item"
+			tasks: [{
+				id: "48B6EC20641A62DF"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:spell_parchment"
+					tag: { }
 				}
-			]
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.ars_nouveau.quests3.title}"
 			x: 0.0d
 			y: -2.0d
@@ -201,13 +191,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests4.subtitle}"
-			tasks: [
-				{
-					id: "5787CE41D7D9CDBD"
-					item: "ars_nouveau:apprentice_spell_book"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5787CE41D7D9CDBD"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
 			x: 1.5d
 			y: -0.5d
 		}
@@ -239,13 +227,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests5.subtitle}"
-			tasks: [
-				{
-					id: "75C0C642BE913103"
-					item: "ars_nouveau:archmage_spell_book"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "75C0C642BE913103"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
 			x: 3.0d
 			y: -0.5d
 		}
@@ -253,13 +239,11 @@
 			dependencies: ["62236A7CCEB10D6E"]
 			description: ["{ftbquests.chapter.ars_nouveau.quests6.description}"]
 			id: "76A23AB6136EDAFD"
-			rewards: [
-				{
-					id: "4EE5732FB574E38C"
-					item: "ars_nouveau:glyph_fell"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4EE5732FB574E38C"
+				item: "ars_nouveau:glyph_fell"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests6.subtitle}"
 			tasks: [
 				{
@@ -326,13 +310,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests7.subtitle}"
-			tasks: [
-				{
-					id: "2D9ED1B644E26B44"
-					item: "ars_nouveau:source_gem"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2D9ED1B644E26B44"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 4.0d
 		}
@@ -344,21 +326,17 @@
 				"{ftbquests.chapter.ars_nouveau.quests8.description2}"
 			]
 			id: "4F93CB2B27A6B18A"
-			rewards: [
-				{
-					id: "735C9727D9393AB3"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "735C9727D9393AB3"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests8.subtitle}"
-			tasks: [
-				{
-					id: "68C1C99D3E78F255"
-					item: "ars_nouveau:source_jar"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "68C1C99D3E78F255"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 4.0d
 		}
@@ -384,41 +362,39 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests9.subtitle}"
-			tasks: [
-				{
-					id: "6FB91E937BDB1901"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ars_nouveau:agronomic_sourcelink"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:mycelial_sourcelink"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:vitalic_sourcelink"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:volcanic_sourcelink"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:alchemical_sourcelink"
-								}
-							]
-						}
+			tasks: [{
+				id: "6FB91E937BDB1901"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:agronomic_sourcelink"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:mycelial_sourcelink"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:vitalic_sourcelink"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:volcanic_sourcelink"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:alchemical_sourcelink"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.ars_nouveau.quests9.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.ars_nouveau.quests9.tasks0.title}"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 4.0d
 		}
@@ -440,13 +416,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests10.subtitle}"
-			tasks: [
-				{
-					id: "709773F6FDAAD159"
-					item: "ars_nouveau:sourcestone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "709773F6FDAAD159"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 5.5d
 		}
@@ -471,14 +445,12 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests11.subtitle}"
-			tasks: [
-				{
-					count: 8L
-					id: "0856B2C0E2A8833A"
-					item: "ars_nouveau:arcane_pedestal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "0856B2C0E2A8833A"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 5.5d
 		}
@@ -554,12 +526,10 @@
 									Count: 1b
 									id: "itemfilters:not"
 									tag: {
-										items: [
-											{
-												Count: 1b
-												id: "ars_nouveau:ritual_brazier"
-											}
-										]
+										items: [{
+											Count: 1b
+											id: "ars_nouveau:ritual_brazier"
+										}]
 									}
 								}
 							]
@@ -594,13 +564,11 @@
 			]
 			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests13.subtitle}"
-			tasks: [
-				{
-					id: "600285BCEBEC9D3E"
-					item: "ars_nouveau:arcane_core"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "600285BCEBEC9D3E"
+				item: "ars_nouveau:arcane_core"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 7.0d
 		}
@@ -621,13 +589,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests14.subtitle}"
-			tasks: [
-				{
-					id: "1C64F82D1494EA91"
-					item: "ars_nouveau:enchanting_apparatus"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1C64F82D1494EA91"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 7.0d
 		}
@@ -635,25 +601,21 @@
 			dependencies: ["033BAE1703CCEEF7"]
 			description: ["{ftbquests.chapter.ars_nouveau.quests15.description}"]
 			id: "5317866A71AB865B"
-			rewards: [
-				{
-					id: "1A50A02E0F5B10FE"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "1A50A02E0F5B10FE"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests15.subtitle}"
-			tasks: [
-				{
-					id: "6B0D032DD95A1595"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:dominion_wand"
-						tag: { }
-					}
-					type: "item"
+			tasks: [{
+				id: "6B0D032DD95A1595"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
 				}
-			]
+				type: "item"
+			}]
 			x: -2.0d
 			y: 8.5d
 		}
@@ -675,13 +637,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests16.subtitle}"
-			tasks: [
-				{
-					id: "49E73A24746748DC"
-					item: "ars_nouveau:magebloom_crop"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "49E73A24746748DC"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 7.0d
 		}
@@ -703,13 +663,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests17.subtitle}"
-			tasks: [
-				{
-					id: "24C88367DB464330"
-					item: "ars_nouveau:magebloom_fiber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "24C88367DB464330"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 8.5d
 		}
@@ -739,13 +697,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests18.subtitle}"
-			tasks: [
-				{
-					id: "0B15B530E60A4B2D"
-					item: "ars_nouveau:scribes_table"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0B15B530E60A4B2D"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 2.5d
 		}
@@ -760,21 +716,17 @@
 				"{ftbquests.chapter.ars_nouveau.quests19.description2}"
 			]
 			id: "45B269FB21C93109"
-			rewards: [
-				{
-					id: "1E6B9CC529BABE31"
-					item: "toomanyglyphs:glyph_lay_on_hands"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1E6B9CC529BABE31"
+				item: "toomanyglyphs:glyph_lay_on_hands"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests19.subtitle}"
-			tasks: [
-				{
-					id: "39B99A8213B45C97"
-					item: "ars_nouveau:glyph_launch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "39B99A8213B45C97"
+				item: "ars_nouveau:glyph_launch"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 1.0d
 		}
@@ -785,21 +737,17 @@
 			]
 			description: ["{ftbquests.chapter.ars_nouveau.quests20.description}"]
 			id: "516B77C479CAA6DE"
-			rewards: [
-				{
-					id: "7B854805938583A8"
-					item: "ars_nouveau:glyph_heal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7B854805938583A8"
+				item: "ars_nouveau:glyph_heal"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests20.subtitle}"
-			tasks: [
-				{
-					id: "6BAE281286005FD2"
-					item: "ars_nouveau:glyph_aoe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6BAE281286005FD2"
+				item: "ars_nouveau:glyph_aoe"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 1.0d
 		}
@@ -810,23 +758,19 @@
 			]
 			description: ["{ftbquests.chapter.ars_nouveau.quests21.description}"]
 			id: "10CA7CA928B52BB6"
-			rewards: [
-				{
-					id: "1CC0AD38C630A10B"
-					item: "ars_nouveau:glyph_intangible"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1CC0AD38C630A10B"
+				item: "ars_nouveau:glyph_intangible"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests21.subtitle}"
-			tasks: [
-				{
-					id: "3FE0268B9698BA75"
-					item: "ars_nouveau:glyph_orbit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3FE0268B9698BA75"
+				item: "ars_nouveau:glyph_orbit"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 1.0d
 		}
@@ -853,17 +797,15 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests22.subtitle}"
-			tasks: [
-				{
-					icon: "ars_nouveau:amethyst_golem_charm"
-					id: "0227215AB2BA209B"
-					observe_type: 5
-					timer: 0L
-					title: "{ftbquests.chapter.ars_nouveau.quests22.tasks0.title}"
-					to_observe: "ars_nouveau:amethyst_golem"
-					type: "observation"
-				}
-			]
+			tasks: [{
+				icon: "ars_nouveau:amethyst_golem_charm"
+				id: "0227215AB2BA209B"
+				observe_type: 5
+				timer: 0L
+				title: "{ftbquests.chapter.ars_nouveau.quests22.tasks0.title}"
+				to_observe: "ars_nouveau:amethyst_golem"
+				type: "observation"
+			}]
 			title: "{ftbquests.chapter.ars_nouveau.quests22.title}"
 			x: -6.0d
 			y: 4.0d
@@ -939,19 +881,17 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests24.subtitle}"
-			tasks: [
-				{
-					id: "440BB4E526CECA4B"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:runic_chalk"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "440BB4E526CECA4B"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:runic_chalk"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 0.0d
 			y: 10.0d
 		}
@@ -993,13 +933,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests25.subtitle}"
-			tasks: [
-				{
-					id: "5C35B2DED3938EB3"
-					item: "ars_nouveau:basic_spell_turret"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5C35B2DED3938EB3"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 2.5d
 		}
@@ -1048,31 +986,29 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests26.subtitle}"
-			tasks: [
-				{
-					id: "06E9142ED9B41152"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ars_nouveau:warp_scroll"
-									tag: { }
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:stable_warp_scroll"
-									tag: { }
-								}
-							]
-						}
+			tasks: [{
+				id: "06E9142ED9B41152"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:warp_scroll"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:stable_warp_scroll"
+								tag: { }
+							}
+						]
 					}
-					title: "{ftbquests.chapter.ars_nouveau.quests26.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.ars_nouveau.quests26.tasks0.title}"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 5.5d
 		}
@@ -1245,13 +1181,11 @@
 			]
 			icon: "ars_nouveau:thread_undying"
 			id: "5DD629B0834D432F"
-			rewards: [
-				{
-					id: "59F32CA75F560CAB"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
+			rewards: [{
+				id: "59F32CA75F560CAB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			subtitle: "{ftbquests.chapter.ars_nouveau.quests28.subtitle}"
 			tasks: [
 				{
@@ -1293,24 +1227,20 @@
 				"{ftbquests.chapter.ars_nouveau.quests29.description12}"
 			]
 			id: "41A43C5FB735239F"
-			rewards: [
-				{
-					id: "7F300A963A8915D8"
-					item: "ars_nouveau:starbuncle_se"
-					type: "item"
+			rewards: [{
+				id: "7F300A963A8915D8"
+				item: "ars_nouveau:starbuncle_se"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E18B008CD06CC9A"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "1E18B008CD06CC9A"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:starbuncle_charm"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			x: -3.5d
 			y: 10.0d
 		}
@@ -1338,45 +1268,43 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3B245C27BCD39C67"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "starbunclemania:star_hat"
-								}
-								{
-									Count: 1b
-									id: "starbunclemania:star_battery"
-								}
-								{
-									Count: 1b
-									id: "starbunclemania:star_bucket"
-								}
-								{
-									Count: 1b
-									id: "starbunclemania:star_balloon"
-								}
-								{
-									Count: 1b
-									id: "starbunclemania:star_bin"
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:wixie_hat"
-								}
-							]
-						}
+			tasks: [{
+				id: "3B245C27BCD39C67"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "starbunclemania:star_hat"
+							}
+							{
+								Count: 1b
+								id: "starbunclemania:star_battery"
+							}
+							{
+								Count: 1b
+								id: "starbunclemania:star_bucket"
+							}
+							{
+								Count: 1b
+								id: "starbunclemania:star_balloon"
+							}
+							{
+								Count: 1b
+								id: "starbunclemania:star_bin"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:wixie_hat"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.ars_nouveau.quests30.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.ars_nouveau.quests30.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.ars_nouveau.quests30.title}"
 			x: -3.5d
 			y: 11.0d

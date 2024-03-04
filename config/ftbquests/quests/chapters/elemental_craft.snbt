@@ -5,20 +5,18 @@
 	group: "0B729A29DA0A889D"
 	icon: "elementalcraft:fireite_ingot"
 	id: "23EED105DF68860B"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftbskies:textures/quests/elementalcraft.png"
-			rotation: 0.0d
-			width: 10.108433734939759d
-			x: 6.0d
-			y: 0.0d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/elementalcraft.png"
+		rotation: 0.0d
+		width: 10.108433734939759d
+		x: 6.0d
+		y: 0.0d
+	}]
 	order_index: 1
 	quest_links: [
 		{
@@ -42,27 +40,23 @@
 				"{ftbquests.chapter.elemental_craft.quests0.description2}"
 			]
 			id: "406DF8081DE4CB77"
-			rewards: [
-				{
-					id: "053D7B034D873A5D"
-					item: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "elementalcraft:element_book"
-						}
+			rewards: [{
+				id: "053D7B034D873A5D"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "elementalcraft:element_book"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests0.subtitle}"
-			tasks: [
-				{
-					id: "6E59466AC4B75CE5"
-					item: "elementalcraft:inert_crystal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6E59466AC4B75CE5"
+				item: "elementalcraft:inert_crystal"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.elemental_craft.quests0.title}"
 			x: 5.0d
 			y: 1.5d
@@ -85,13 +79,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests1.subtitle}"
-			tasks: [
-				{
-					id: "549EE4FFC4CA6465"
-					item: "elementalcraft:contained_crystal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "549EE4FFC4CA6465"
+				item: "elementalcraft:contained_crystal"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 1.5d
 		}
@@ -144,22 +136,18 @@
 			dependencies: ["03CDBFDD75BE1D0A"]
 			description: ["{ftbquests.chapter.elemental_craft.quests3.description}"]
 			id: "02EE17E62B428C6B"
-			rewards: [
-				{
-					count: 8
-					id: "26CD95ED7A82908D"
-					item: "elementalcraft:drenched_iron_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "26CD95ED7A82908D"
+				item: "elementalcraft:drenched_iron_ingot"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests3.subtitle}"
-			tasks: [
-				{
-					id: "60C9049082490CC8"
-					item: "elementalcraft:drenched_iron_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "60C9049082490CC8"
+				item: "elementalcraft:drenched_iron_ingot"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 5.0d
 		}
@@ -172,13 +160,11 @@
 			]
 			id: "484583FE5B31EB72"
 			subtitle: "{ftbquests.chapter.elemental_craft.quests4.subtitle}"
-			tasks: [
-				{
-					id: "3A7745A7D3EE9219"
-					item: "elementalcraft:container"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3A7745A7D3EE9219"
+				item: "elementalcraft:container"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 5.0d
 		}
@@ -213,13 +199,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests5.subtitle}"
-			tasks: [
-				{
-					id: "401B29D69DEE31BA"
-					item: "elementalcraft:binder"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "401B29D69DEE31BA"
+				item: "elementalcraft:binder"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 5.0d
 		}
@@ -246,13 +230,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests6.subtitle}"
-			tasks: [
-				{
-					id: "60CCD9F1575192C3"
-					item: "elementalcraft:swift_alloy_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "60CCD9F1575192C3"
+				item: "elementalcraft:swift_alloy_ingot"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 5.0d
 		}
@@ -310,21 +292,17 @@
 				"{ftbquests.chapter.elemental_craft.quests8.description2}"
 			]
 			id: "0C9AC0881A6A95BE"
-			rewards: [
-				{
-					id: "6549FCE026613F64"
-					item: "elementalcraft:springaline_cluster"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6549FCE026613F64"
+				item: "elementalcraft:springaline_cluster"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests8.subtitle}"
-			tasks: [
-				{
-					id: "67BBC02811468243"
-					item: "elementalcraft:springaline_shard"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "67BBC02811468243"
+				item: "elementalcraft:springaline_shard"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 6.5d
 		}
@@ -348,13 +326,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests9.subtitle}"
-			tasks: [
-				{
-					id: "539FDD157DE011A9"
-					item: "elementalcraft:source_stabilizer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "539FDD157DE011A9"
+				item: "elementalcraft:source_stabilizer"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 6.5d
 		}
@@ -363,13 +339,11 @@
 			description: ["{ftbquests.chapter.elemental_craft.quests10.description}"]
 			id: "34C5844081BEEB4E"
 			subtitle: "{ftbquests.chapter.elemental_craft.quests10.subtitle}"
-			tasks: [
-				{
-					id: "080BAE43093D5E3B"
-					item: "elementalcraft:extractor_improved"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "080BAE43093D5E3B"
+				item: "elementalcraft:extractor_improved"
+				type: "item"
+			}]
 			x: 9.5d
 			y: 6.5d
 		}
@@ -378,45 +352,41 @@
 			description: ["{ftbquests.chapter.elemental_craft.quests11.description}"]
 			icon: "elementalcraft:firefurnace"
 			id: "4A3FCC75874B828F"
-			rewards: [
-				{
-					id: "64B4D1E79B813E62"
-					item: {
-						Count: 1b
-						id: "elementalcraft:scroll"
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:inferno"
-							}
+			rewards: [{
+				id: "64B4D1E79B813E62"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:inferno"
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests11.subtitle}"
-			tasks: [
-				{
-					id: "512D0162A1894682"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "elementalcraft:firefurnace"
-								}
-								{
-									Count: 1b
-									id: "elementalcraft:fireblastfurnace"
-								}
-							]
-						}
+			tasks: [{
+				id: "512D0162A1894682"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "elementalcraft:firefurnace"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:fireblastfurnace"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.elemental_craft.quests11.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.elemental_craft.quests11.tasks0.title}"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 5.0d
 		}
@@ -424,13 +394,11 @@
 			dependencies: ["506D851AFD0ABF56"]
 			description: ["{ftbquests.chapter.elemental_craft.quests12.description}"]
 			id: "19750F792AE3093F"
-			tasks: [
-				{
-					id: "0208E31B826495D5"
-					item: "elementalcraft:crystallizer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0208E31B826495D5"
+				item: "elementalcraft:crystallizer"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 3.5d
 		}
@@ -438,22 +406,18 @@
 			dependencies: ["30E0AA2412E909CC"]
 			description: ["{ftbquests.chapter.elemental_craft.quests13.description}"]
 			id: "66175A6C5CB63C39"
-			rewards: [
-				{
-					count: 16
-					id: "22449A8BD5BF0124"
-					item: "elementalcraft:scroll_paper"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "22449A8BD5BF0124"
+				item: "elementalcraft:scroll_paper"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests13.subtitle}"
-			tasks: [
-				{
-					id: "28428C434E5CE22A"
-					item: "elementalcraft:spell_desk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "28428C434E5CE22A"
+				item: "elementalcraft:spell_desk"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 6.5d
 		}
@@ -474,51 +438,45 @@
 				}
 			}
 			id: "49EDE3DDAE796798"
-			rewards: [
-				{
-					id: "53AC20E8E653E0A8"
-					item: "elementalcraft:focus"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "53AC20E8E653E0A8"
+				item: "elementalcraft:focus"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests14.subtitle}"
-			tasks: [
-				{
-					id: "522BAFC746DCBBC4"
-					item: {
-						Count: 1b
-						id: "itemfilters:and"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "itemfilters:tag"
-									tag: {
-										value: "elementalcraft:spell_holders"
-									}
+			tasks: [{
+				id: "522BAFC746DCBBC4"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "elementalcraft:spell_holders"
 								}
-								{
-									Count: 1b
-									id: "itemfilters:not"
-									tag: {
-										items: [
-											{
-												Count: 1b
-												id: "itemfilters:tag"
-												tag: {
-													value: "elementalcraft:spell_cast_tools"
-												}
-											}
-										]
-									}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:not"
+								tag: {
+									items: [{
+										Count: 1b
+										id: "itemfilters:tag"
+										tag: {
+											value: "elementalcraft:spell_cast_tools"
+										}
+									}]
 								}
-							]
-						}
+							}
+						]
 					}
-					title: "{ftbquests.chapter.elemental_craft.quests14.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.elemental_craft.quests14.tasks0.title}"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 8.0d
 		}
@@ -557,77 +515,75 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests15.subtitle}"
-			tasks: [
-				{
-					id: "1BEDEBC027E2F85E"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									ForgeCaps: {
-										Parent: {
-											element_amount: 0
-											element_capacity: 10000
-											element_type: "fire"
-										}
-									}
-									id: "elementalcraft:element_holder_fire"
-									tag: {
-										Damage: 0
+			tasks: [{
+				id: "1BEDEBC027E2F85E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "fire"
 									}
 								}
-								{
-									Count: 1b
-									ForgeCaps: {
-										Parent: {
-											element_amount: 0
-											element_capacity: 10000
-											element_type: "water"
-										}
-									}
-									id: "elementalcraft:element_holder_water"
-									tag: {
-										Damage: 0
+								id: "elementalcraft:element_holder_fire"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "water"
 									}
 								}
-								{
-									Count: 1b
-									ForgeCaps: {
-										Parent: {
-											element_amount: 0
-											element_capacity: 10000
-											element_type: "earth"
-										}
-									}
-									id: "elementalcraft:element_holder_earth"
-									tag: {
-										Damage: 0
+								id: "elementalcraft:element_holder_water"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "earth"
 									}
 								}
-								{
-									Count: 1b
-									ForgeCaps: {
-										Parent: {
-											element_amount: 0
-											element_capacity: 10000
-											element_type: "air"
-										}
-									}
-									id: "elementalcraft:element_holder_air"
-									tag: {
-										Damage: 0
+								id: "elementalcraft:element_holder_earth"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "air"
 									}
 								}
-							]
-						}
+								id: "elementalcraft:element_holder_air"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
-					title: "{ftbquests.chapter.elemental_craft.quests15.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.elemental_craft.quests15.tasks0.title}"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 6.5d
 		}
@@ -640,14 +596,12 @@
 			]
 			icon: "elementalcraft:source_displacement_plate_water"
 			id: "43A8F862784D28F8"
-			rewards: [
-				{
-					count: 4
-					id: "77CD29C5E0EC5982"
-					item: "elementalcraft:source"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "77CD29C5E0EC5982"
+				item: "elementalcraft:source"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests16.subtitle}"
 			tasks: [
 				{
@@ -755,13 +709,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests17.subtitle}"
-			tasks: [
-				{
-					id: "21FE10CD79AC24BF"
-					item: "elementalcraft:purerock"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "21FE10CD79AC24BF"
+				item: "elementalcraft:purerock"
+				type: "item"
+			}]
 			x: 11.0d
 			y: 5.0d
 		}
@@ -824,13 +776,11 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests18.subtitle}"
-			tasks: [
-				{
-					id: "4EC6ED1EFD2BFB1D"
-					item: "elementalcraft:spell_book"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4EC6ED1EFD2BFB1D"
+				item: "elementalcraft:spell_book"
+				type: "item"
+			}]
 			x: 11.0d
 			y: 6.5d
 		}
@@ -904,42 +854,38 @@
 			]
 			icon: "elementalcraft:elementpipe_impaired"
 			id: "6788A53BF6922535"
-			rewards: [
-				{
-					count: 16
-					id: "2B6DB64284486F80"
-					item: "elementalcraft:elementpipe_impaired"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "2B6DB64284486F80"
+				item: "elementalcraft:elementpipe_impaired"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests20.subtitle}"
-			tasks: [
-				{
-					id: "1681A5E4C32C4DFE"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "elementalcraft:elementpipe_impaired"
-								}
-								{
-									Count: 1b
-									id: "elementalcraft:elementpipe"
-								}
-								{
-									Count: 1b
-									id: "elementalcraft:elementpipe_improved"
-								}
-							]
-						}
+			tasks: [{
+				id: "1681A5E4C32C4DFE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "elementalcraft:elementpipe_impaired"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:elementpipe"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:elementpipe_improved"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.elemental_craft.quests20.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.elemental_craft.quests20.tasks0.title}"
+				type: "item"
+			}]
 			x: 5.746701090074588d
 			y: 2.404761904761905d
 		}
@@ -953,20 +899,18 @@
 			icon: "elementalcraft:focus"
 			id: "786D87D9202EA4D8"
 			subtitle: "{ftbquests.chapter.elemental_craft.quests21.subtitle}"
-			tasks: [
-				{
-					id: "46208466A95A25CC"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "elementalcraft:spell_cast_tools"
-						}
+			tasks: [{
+				id: "46208466A95A25CC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "elementalcraft:spell_cast_tools"
 					}
-					title: "{ftbquests.chapter.elemental_craft.quests21.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.elemental_craft.quests21.tasks0.title}"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 8.0d
 		}
@@ -980,20 +924,18 @@
 			icon: "elementalcraft:shrine_upgrade_crystal_growth"
 			id: "4E182563697445E6"
 			subtitle: "{ftbquests.chapter.elemental_craft.quests22.subtitle}"
-			tasks: [
-				{
-					id: "6E832E5E1CE44E45"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "elementalcraft:shrine_upgrades"
-						}
+			tasks: [{
+				id: "6E832E5E1CE44E45"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "elementalcraft:shrine_upgrades"
 					}
-					title: "{ftbquests.chapter.elemental_craft.quests22.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.elemental_craft.quests22.tasks0.title}"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 8.0d
 		}
@@ -1006,21 +948,19 @@
 			]
 			icon: "elementalcraft:inscriber"
 			id: "607F958A95AD26B7"
-			rewards: [
-				{
-					id: "288C0E320808E839"
-					item: {
-						Count: 1b
-						id: "elementalcraft:rune"
-						tag: {
-							elementalcraft: {
-								rune: "elementalcraft:fus"
-							}
+			rewards: [{
+				id: "288C0E320808E839"
+				item: {
+					Count: 1b
+					id: "elementalcraft:rune"
+					tag: {
+						elementalcraft: {
+							rune: "elementalcraft:fus"
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.elemental_craft.quests23.subtitle}"
 			tasks: [
 				{
@@ -1045,17 +985,15 @@
 						Count: 1b
 						id: "itemfilters:or"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "elementalcraft:rune"
-									tag: {
-										elementalcraft: {
-											rune: "elementalcraft:tano"
-										}
+							items: [{
+								Count: 1b
+								id: "elementalcraft:rune"
+								tag: {
+									elementalcraft: {
+										rune: "elementalcraft:tano"
 									}
 								}
-							]
+							}]
 						}
 					}
 					title: "{ftbquests.chapter.elemental_craft.quests23.tasks2.title}"

@@ -9,20 +9,18 @@
 		tag: { }
 	}
 	id: "6D15A5034A67C911"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftbskies:textures/quests/armorsweapons.png"
-			rotation: 0.0d
-			width: 10.44578313253012d
-			x: -5.0d
-			y: -12.5d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/armorsweapons.png"
+		rotation: 0.0d
+		width: 10.44578313253012d
+		x: -5.0d
+		y: -12.5d
+	}]
 	order_index: 1
 	quest_links: [
 		{
@@ -70,24 +68,20 @@
 			description: ["{ftbquests.chapter.armor__weapons.quests0.description}"]
 			icon: "unstabletools:unstable_chestplate"
 			id: "28E8F86212EBDA57"
-			rewards: [
-				{
-					id: "1D53477B6DA6CD62"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [
-								{
-									id: "minecraft:unbreaking"
-									lvl: 3s
-								}
-							]
-						}
+			rewards: [{
+				id: "1D53477B6DA6CD62"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.armor__weapons.quests0.subtitle}"
 			tasks: [
 				{
@@ -386,36 +380,32 @@
 				"{ftbquests.chapter.armor__weapons.quests4.description2}"
 			]
 			id: "1D5F417637C8DA57"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5B4C9E1FAA337624"
-					table_id: 8339261241703954627L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B4C9E1FAA337624"
+				table_id: 8339261241703954627L
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.armor__weapons.quests4.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1b
-						id: "minecraft:iron_sword"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
 					}
-					id: "2945F5399D24C2EA"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:swords"
-						}
-					}
-					title: "{ftbquests.chapter.armor__weapons.quests4.tasks0.title}"
-					type: "item"
 				}
-			]
+				id: "2945F5399D24C2EA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:swords"
+					}
+				}
+				title: "{ftbquests.chapter.armor__weapons.quests4.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.armor__weapons.quests4.title}"
 			x: -3.0d
 			y: -11.0d
@@ -428,13 +418,11 @@
 			]
 			id: "43815686D219F056"
 			subtitle: "{ftbquests.chapter.armor__weapons.quests5.subtitle}"
-			tasks: [
-				{
-					id: "197DE3C359F7445F"
-					item: "unstabletools:unstable_sword"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "197DE3C359F7445F"
+				item: "unstabletools:unstable_sword"
+				type: "item"
+			}]
 			x: -3.0d
 			y: -9.0d
 		}
@@ -445,27 +433,23 @@
 				"{ftbquests.chapter.armor__weapons.quests6.description2}"
 			]
 			id: "1F508246A6BFE47C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "689C5508E2C300F1"
-					table_id: 7483574547536166713L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					id: "386C96867407692A"
-					item: {
-						Count: 1b
-						id: "botania:elementium_sword"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "689C5508E2C300F1"
+				table_id: 7483574547536166713L
+				type: "random"
+			}]
+			tasks: [{
+				id: "386C96867407692A"
+				item: {
+					Count: 1b
+					id: "botania:elementium_sword"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -3.0d
 			y: -8.0d
 		}
@@ -476,19 +460,17 @@
 				"{ftbquests.chapter.armor__weapons.quests7.description2}"
 			]
 			id: "3B31C0560EA14112"
-			tasks: [
-				{
-					id: "09A5B58C1E788A55"
-					item: {
-						Count: 1b
-						id: "botania:manasteel_sword"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "09A5B58C1E788A55"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_sword"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -4.0d
 			y: -8.0d
 		}
@@ -496,17 +478,15 @@
 			description: ["{ftbquests.chapter.armor__weapons.quests8.description}"]
 			id: "3175A8350A2A9475"
 			subtitle: "{ftbquests.chapter.armor__weapons.quests8.subtitle}"
-			tasks: [
-				{
-					id: "167FB0203FBA6EF2"
-					item: {
-						Count: 1b
-						id: "redstone_arsenal:flux_sword"
-						tag: { }
-					}
-					type: "item"
+			tasks: [{
+				id: "167FB0203FBA6EF2"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_sword"
+					tag: { }
 				}
-			]
+				type: "item"
+			}]
 			x: -2.0d
 			y: -6.0d
 		}
@@ -532,41 +512,39 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.armor__weapons.quests9.subtitle}"
-			tasks: [
-				{
-					id: "40FC994799303FF7"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								bane: 0
-								bleed: 0
-								camo: 0b
-								ender: 0b
-								force: 0
-								freezing: 0b
-								heat: 0b
-								light: 0b
-								luck: 0
-								lumber: 0b
-								rainbow: 0b
-								sharp: 0
-								sight: 0b
-								silk: 0b
-								speed: 0
-								sturdy: 0
-								treasure: 0b
-								wing: 0b
-							}
-						}
-						id: "forcecraft:force_sword"
-						tag: {
-							Damage: 0
+			tasks: [{
+				id: "40FC994799303FF7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							bane: 0
+							bleed: 0
+							camo: 0b
+							ender: 0b
+							force: 0
+							freezing: 0b
+							heat: 0b
+							light: 0b
+							luck: 0
+							lumber: 0b
+							rainbow: 0b
+							sharp: 0
+							sight: 0b
+							silk: 0b
+							speed: 0
+							sturdy: 0
+							treasure: 0b
+							wing: 0b
 						}
 					}
-					type: "item"
+					id: "forcecraft:force_sword"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			x: -2.0d
 			y: -10.0d
 		}
@@ -591,19 +569,17 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.armor__weapons.quests10.subtitle}"
-			tasks: [
-				{
-					id: "6E4C3E16AA3DDD56"
-					item: {
-						Count: 1b
-						id: "botania:terra_sword"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "6E4C3E16AA3DDD56"
+				item: {
+					Count: 1b
+					id: "botania:terra_sword"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -2.0d
 			y: -8.0d
 		}
@@ -635,19 +611,17 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.armor__weapons.quests11.subtitle}"
-			tasks: [
-				{
-					id: "2873980A49B805B4"
-					item: {
-						Count: 1b
-						id: "botanicadds:mana_stealer_sword"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "2873980A49B805B4"
+				item: {
+					Count: 1b
+					id: "botanicadds:mana_stealer_sword"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -0.5d
 			y: -8.0d
 		}
@@ -712,19 +686,17 @@
 				}
 			}
 			id: "7A550BCBD0313361"
-			rewards: [
-				{
-					id: "0BB7839B012B48CF"
-					item: {
-						Count: 1b
-						id: "forcecraft:force_mitt"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "0BB7839B012B48CF"
+				item: {
+					Count: 1b
+					id: "forcecraft:force_mitt"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.armor__weapons.quests12.subtitle}"
 			tasks: [
 				{
@@ -878,17 +850,15 @@
 				tag: { }
 			}
 			id: "7B45BB89451CEDF2"
-			rewards: [
-				{
-					id: "37CA13F58DB001A8"
-					item: {
-						Count: 1b
-						id: "thermal:flux_capacitor"
-						tag: { }
-					}
-					type: "item"
+			rewards: [{
+				id: "37CA13F58DB001A8"
+				item: {
+					Count: 1b
+					id: "thermal:flux_capacitor"
+					tag: { }
 				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "792C73FDE6DBBA7C"
@@ -1043,13 +1013,11 @@
 		}
 		{
 			id: "48393A42961854CA"
-			tasks: [
-				{
-					id: "5672D113A307FB5D"
-					item: "mekanism:meka_tool"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5672D113A307FB5D"
+				item: "mekanism:meka_tool"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -6.0d
 		}
@@ -1067,14 +1035,12 @@
 				}
 			}
 			id: "55D45B42D79AFCFC"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "63C0AAA30D32358C"
-					table_id: 2037149495147763474L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63C0AAA30D32358C"
+				table_id: 2037149495147763474L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "40913CB9758B7490"
@@ -1391,116 +1357,112 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "50746954B1452F66"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "mekanismtools:bronze_sword"
-									tag: {
-										Damage: 0
-									}
+			tasks: [{
+				id: "50746954B1452F66"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanismtools:bronze_sword"
+								tag: {
+									Damage: 0
 								}
-								{
-									Count: 1b
-									id: "mekanismtools:lapis_lazuli_sword"
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:lapis_lazuli_sword"
+								tag: {
+									Damage: 0
 								}
-								{
-									Count: 1b
-									id: "mekanismtools:osmium_sword"
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:osmium_sword"
+								tag: {
+									Damage: 0
 								}
-								{
-									Count: 1b
-									id: "mekanismtools:refined_glowstone_sword"
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:refined_glowstone_sword"
+								tag: {
+									Damage: 0
 								}
-								{
-									Count: 1b
-									id: "mekanismtools:refined_obsidian_sword"
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:refined_obsidian_sword"
+								tag: {
+									Damage: 0
 								}
-								{
-									Count: 1b
-									id: "mekanismtools:steel_sword"
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:steel_sword"
+								tag: {
+									Damage: 0
 								}
-								{
-									Count: 1b
-									id: "cyclic:netherbrick_sword"
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								Count: 1b
+								id: "cyclic:netherbrick_sword"
+								tag: {
+									Damage: 0
 								}
-								{
-									Count: 1b
-									id: "cyclic:sandstone_sword"
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								Count: 1b
+								id: "cyclic:sandstone_sword"
+								tag: {
+									Damage: 0
 								}
-								{
-									Count: 1b
-									id: "cyclic:amethyst_sword"
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								Count: 1b
+								id: "cyclic:amethyst_sword"
+								tag: {
+									Damage: 0
 								}
-								{
-									Count: 1b
-									id: "cyclic:copper_sword"
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								Count: 1b
+								id: "cyclic:copper_sword"
+								tag: {
+									Damage: 0
 								}
-								{
-									Count: 1b
-									id: "cyclic:emerald_sword"
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								Count: 1b
+								id: "cyclic:emerald_sword"
+								tag: {
+									Damage: 0
 								}
-							]
-						}
+							}
+						]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.armor__weapons.quests17.title}"
 			x: -4.0d
 			y: -10.0d
 		}
 		{
 			id: "3D10C460E2678694"
-			tasks: [
-				{
-					id: "55FF714255672B44"
-					item: {
-						Count: 1b
-						id: "ars_nouveau:enchanters_sword"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "55FF714255672B44"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -4.0d
 			y: -7.0d
 		}
@@ -1511,26 +1473,22 @@
 				"{ftbquests.chapter.armor__weapons.quests19.description2}"
 			]
 			id: "44BDD15BF419EBED"
-			rewards: [
-				{
-					id: "0856292107F35BFC"
-					item: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "apotheosis:apoth_chronicle"
-						}
+			rewards: [{
+				id: "0856292107F35BFC"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "446E2E27198B3718"
-					item: "minecraft:enchanting_table"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "446E2E27198B3718"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
 			x: -5.25d
 			y: -3.5d
 		}
@@ -1559,14 +1517,12 @@
 							facets: 2
 							gem: "apotheosis:core/samurai"
 							rarity: "common"
-							uuids: [
-								[I;
-									-1242656437
-									-1116323003
-									-1947285440
-									979338116
-								]
-							]
+							uuids: [[I;
+								-1242656437
+								-1116323003
+								-1947285440
+								979338116
+							]]
 						}
 					}
 					id: "263BB5A82A94030F"
@@ -1574,13 +1530,11 @@
 					type: "command"
 				}
 			]
-			tasks: [
-				{
-					id: "524C4D93E1FD9F58"
-					item: "apotheosis:salvaging_table"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "524C4D93E1FD9F58"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -2.5d
 		}
@@ -1612,13 +1566,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4D4C65F5C60686D6"
-					item: "apotheosis:reforging_table"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4D4C65F5C60686D6"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -2.5d
 		}
@@ -1638,12 +1590,10 @@
 						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [
-								{
-									id: "apotheosis:splitting"
-									lvl: 1s
-								}
-							]
+							StoredEnchantments: [{
+								id: "apotheosis:splitting"
+								lvl: 1s
+							}]
 						}
 					}
 					type: "item"
@@ -1654,12 +1604,10 @@
 						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [
-								{
-									id: "apotheosis:obliteration"
-									lvl: 1s
-								}
-							]
+							StoredEnchantments: [{
+								id: "apotheosis:obliteration"
+								lvl: 1s
+							}]
 						}
 					}
 					type: "item"
@@ -1694,20 +1642,16 @@
 				"{ftbquests.chapter.armor__weapons.quests23.description2}"
 			]
 			id: "5D70616D49561CC1"
-			rewards: [
-				{
-					id: "50A98723F694EC76"
-					item: "apotheosis:sigil_of_socketing"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "136506CC3CEAF1CE"
-					item: "apotheosis:sigil_of_socketing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "50A98723F694EC76"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "136506CC3CEAF1CE"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
 			x: -3.0d
 			y: -2.5d
 		}
@@ -1717,21 +1661,17 @@
 				""
 			]
 			id: "3B8E477224B8CE1D"
-			rewards: [
-				{
-					count: 4
-					id: "160E9003EBA7853F"
-					item: "apotheosis:gem_dust"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "356A8EBF6FD987B8"
-					item: "apotheosis:gem_cutting_table"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "160E9003EBA7853F"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "356A8EBF6FD987B8"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
 			x: -8.5d
 			y: -2.5d
 		}
@@ -1742,22 +1682,18 @@
 				"{ftbquests.chapter.armor__weapons.quests25.description2}"
 			]
 			id: "6259DB5EC9C05704"
-			rewards: [
-				{
-					id: "5D44563FFC7AF008"
-					table_id: 5106282646167267221L
-					title: "{ftbquests.chapter.armor__weapons.quests25.rewards0.title}"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "5D44563FFC7AF008"
+				table_id: 5106282646167267221L
+				title: "{ftbquests.chapter.armor__weapons.quests25.rewards0.title}"
+				type: "random"
+			}]
 			subtitle: "{ftbquests.chapter.armor__weapons.quests25.subtitle}"
-			tasks: [
-				{
-					id: "625AE91E92D34161"
-					item: "apotheosis:library"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "625AE91E92D34161"
+				item: "apotheosis:library"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -2.5d
 		}
@@ -1769,13 +1705,11 @@
 			]
 			id: "0AB9CE20455EE77C"
 			subtitle: "{ftbquests.chapter.armor__weapons.quests26.subtitle}"
-			tasks: [
-				{
-					id: "642F743A3183CE48"
-					item: "minecraft:anvil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "642F743A3183CE48"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
 			x: -4.5d
 			y: -1.5d
 		}

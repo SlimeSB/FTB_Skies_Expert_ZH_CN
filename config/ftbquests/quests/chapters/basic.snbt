@@ -5,20 +5,18 @@
 	group: "5A42857CD4E60814"
 	icon: "ironchest:diamond_chest"
 	id: "3DA4B4386B953C43"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftbskies:textures/quests/basic.png"
-			rotation: 0.0d
-			width: 3.2048192771084336d
-			x: -3.0d
-			y: -5.5d
-		}
-	]
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ftbskies:textures/quests/basic.png"
+		rotation: 0.0d
+		width: 3.2048192771084336d
+		x: -3.0d
+		y: -5.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -26,55 +24,51 @@
 			description: ["{ftbquests.chapter.basic.quests0.description}"]
 			icon: "ironchest:iron_chest"
 			id: "37FC7216C7912F45"
-			rewards: [
-				{
-					count: 2
-					id: "200C29ED9B6FCE60"
-					item: "ironchest:wood_to_iron_chest_upgrade"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "200C29ED9B6FCE60"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+				team_reward: true
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.basic.quests0.subtitle}"
-			tasks: [
-				{
-					id: "0723D12D3E358858"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ironchest:copper_chest"
-								}
-								{
-									Count: 1b
-									id: "ironchest:iron_chest"
-								}
-								{
-									Count: 1b
-									id: "ironchest:gold_chest"
-								}
-								{
-									Count: 1b
-									id: "ironchest:diamond_chest"
-								}
-								{
-									Count: 1b
-									id: "ironchest:crystal_chest"
-								}
-								{
-									Count: 1b
-									id: "ironchest:obsidian_chest"
-								}
-							]
-						}
+			tasks: [{
+				id: "0723D12D3E358858"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ironchest:copper_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:iron_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:gold_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:diamond_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:crystal_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:obsidian_chest"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.basic.quests0.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.basic.quests0.tasks0.title}"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -2.5d
 		}
@@ -107,20 +101,18 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.basic.quests1.subtitle}"
-			tasks: [
-				{
-					id: "6B6273B0BBF584BE"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "functionalstorage:drawer"
-						}
+			tasks: [{
+				id: "6B6273B0BBF584BE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
 					}
-					title: "{ftbquests.chapter.basic.quests1.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.basic.quests1.tasks0.title}"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.basic.quests1.title}"
 			x: -7.0d
 			y: -1.0d
@@ -134,33 +126,31 @@
 			icon: "functionalstorage:fluid_1"
 			id: "4063F0E2A671ADE7"
 			subtitle: "{ftbquests.chapter.basic.quests2.subtitle}"
-			tasks: [
-				{
-					id: "15C802767392E5CA"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "functionalstorage:fluid_1"
-								}
-								{
-									Count: 1b
-									id: "functionalstorage:fluid_2"
-								}
-								{
-									Count: 1b
-									id: "functionalstorage:fluid_4"
-								}
-							]
-						}
+			tasks: [{
+				id: "15C802767392E5CA"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_1"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_2"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_4"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.basic.quests2.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.basic.quests2.tasks0.title}"
+				type: "item"
+			}]
 			x: -7.0d
 			y: -2.5d
 		}
@@ -173,38 +163,34 @@
 			]
 			icon: "functionalstorage:compacting_drawer"
 			id: "242EFF7E2DE9A613"
-			rewards: [
-				{
-					id: "68F03A81C6F1BB29"
-					item: "functionalstorage:copper_upgrade"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "68F03A81C6F1BB29"
+				item: "functionalstorage:copper_upgrade"
+				team_reward: true
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.basic.quests3.subtitle}"
-			tasks: [
-				{
-					id: "444061162CF6D7CD"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "functionalstorage:compacting_drawer"
-								}
-								{
-									Count: 1b
-									id: "functionalstorage:simple_compacting_drawer"
-								}
-							]
-						}
+			tasks: [{
+				id: "444061162CF6D7CD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:compacting_drawer"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:simple_compacting_drawer"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.basic.quests3.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.basic.quests3.tasks0.title}"
+				type: "item"
+			}]
 			x: -6.0d
 			y: -1.0d
 		}
@@ -219,28 +205,24 @@
 			]
 			id: "69EF9592D7348DC1"
 			min_width: 250
-			rewards: [
-				{
-					id: "33AB3BB6262B86E8"
-					item: {
-						Count: 1b
-						id: "functionalstorage:linking_tool"
-						tag: {
-							Action: "ADD"
-							Mode: "SINGLE"
-						}
+			rewards: [{
+				id: "33AB3BB6262B86E8"
+				item: {
+					Count: 1b
+					id: "functionalstorage:linking_tool"
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.basic.quests4.subtitle}"
-			tasks: [
-				{
-					id: "478B96E6F0AFEC13"
-					item: "functionalstorage:storage_controller"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "478B96E6F0AFEC13"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
 			x: -6.0d
 			y: -2.0d
 		}
@@ -249,46 +231,42 @@
 			description: ["{ftbquests.chapter.basic.quests5.description}"]
 			icon: "functionalstorage:gold_upgrade"
 			id: "372B404B0DA2BA73"
-			rewards: [
-				{
-					id: "15277A185F400142"
-					item: "functionalstorage:copper_upgrade"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "15277A185F400142"
+				item: "functionalstorage:copper_upgrade"
+				team_reward: true
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.basic.quests5.subtitle}"
-			tasks: [
-				{
-					id: "3A5D891E5286A13D"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "functionalstorage:copper_upgrade"
-								}
-								{
-									Count: 1b
-									id: "functionalstorage:gold_upgrade"
-								}
-								{
-									Count: 1b
-									id: "functionalstorage:diamond_upgrade"
-								}
-								{
-									Count: 1b
-									id: "functionalstorage:netherite_upgrade"
-								}
-							]
-						}
+			tasks: [{
+				id: "3A5D891E5286A13D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:copper_upgrade"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:gold_upgrade"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:diamond_upgrade"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:netherite_upgrade"
+							}
+						]
 					}
-					title: "{ftbquests.chapter.basic.quests5.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.basic.quests5.tasks0.title}"
+				type: "item"
+			}]
 			x: -8.0d
 			y: -1.0d
 		}
@@ -297,61 +275,57 @@
 			description: ["{ftbquests.chapter.basic.quests6.description}"]
 			icon: "functionalstorage:void_upgrade"
 			id: "091C50470E8E7F6D"
-			rewards: [
-				{
-					count: 4
-					id: "2CEDF2C4799762DE"
-					item: "functionalstorage:void_upgrade"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "1750A37E0ED2B26B"
-					item: {
-						Count: 1b
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "functionalstorage:collector_upgrade"
-									tag: {
-										Direction: "down"
-									}
+			rewards: [{
+				count: 4
+				id: "2CEDF2C4799762DE"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1750A37E0ED2B26B"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:collector_upgrade"
+								tag: {
+									Direction: "down"
 								}
-								{
-									Count: 1b
-									id: "functionalstorage:puller_upgrade"
-									tag: {
-										Direction: "down"
-									}
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:puller_upgrade"
+								tag: {
+									Direction: "down"
 								}
-								{
-									Count: 1b
-									id: "functionalstorage:pusher_upgrade"
-									tag: {
-										Direction: "down"
-									}
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:pusher_upgrade"
+								tag: {
+									Direction: "down"
 								}
-								{
-									Count: 1b
-									id: "functionalstorage:void_upgrade"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:void_upgrade"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:redstone_upgrade"
+								tag: {
+									Slot: 0
 								}
-								{
-									Count: 1b
-									id: "functionalstorage:redstone_upgrade"
-									tag: {
-										Slot: 0
-									}
-								}
-							]
-						}
+							}
+						]
 					}
-					title: "{ftbquests.chapter.basic.quests6.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.basic.quests6.tasks0.title}"
+				type: "item"
+			}]
 			x: -8.0d
 			y: -2.0d
 		}
@@ -360,20 +334,18 @@
 			description: ["{ftbquests.chapter.basic.quests7.description}"]
 			icon: "ironchest:wood_to_iron_chest_upgrade"
 			id: "06D50A7ECF5CF824"
-			tasks: [
-				{
-					id: "48F7DA3CBDBCBF40"
-					item: {
-						Count: 1b
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "ironchest.*upgrade"
-						}
+			tasks: [{
+				id: "48F7DA3CBDBCBF40"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "ironchest.*upgrade"
 					}
-					title: "{ftbquests.chapter.basic.quests7.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "{ftbquests.chapter.basic.quests7.tasks0.title}"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -2.5d
 		}
@@ -381,50 +353,42 @@
 			description: ["{ftbquests.chapter.basic.quests8.description}"]
 			id: "3F6DF7BDB60898D8"
 			subtitle: "{ftbquests.chapter.basic.quests8.subtitle}"
-			tasks: [
-				{
-					id: "62646A4893B4FFC2"
-					item: "trashcans:item_trash_can"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "62646A4893B4FFC2"
+				item: "trashcans:item_trash_can"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["448C62F81B3D0F32"]
 			id: "2B5354F410F2EF34"
-			tasks: [
-				{
-					id: "53D2B333A845F34D"
-					item: "functionalstorage:ender_drawer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "53D2B333A845F34D"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
 			x: -7.0d
 			y: 0.5d
 		}
 		{
 			id: "7610C61331AB090B"
-			tasks: [
-				{
-					id: "4EB8380F04604CE8"
-					item: "trashcans:liquid_trash_can"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4EB8380F04604CE8"
+				item: "trashcans:liquid_trash_can"
+				type: "item"
+			}]
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			id: "2431CFD4563CF358"
-			tasks: [
-				{
-					id: "36DD7B878A157DE0"
-					item: "trashcans:energy_trash_can"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "36DD7B878A157DE0"
+				item: "trashcans:energy_trash_can"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -1.0d
 		}
@@ -435,13 +399,11 @@
 				"3F6DF7BDB60898D8"
 			]
 			id: "0ACB63B04A6F452C"
-			tasks: [
-				{
-					id: "4021FB81E1603507"
-					item: "trashcans:ultimate_trash_can"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4021FB81E1603507"
+				item: "trashcans:ultimate_trash_can"
+				type: "item"
+			}]
 			x: -3.0d
 			y: 0.5d
 		}

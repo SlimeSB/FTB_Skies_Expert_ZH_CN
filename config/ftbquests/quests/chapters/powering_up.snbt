@@ -192,44 +192,36 @@
 			]
 			id: "2B4D33AB5B6C845D"
 			min_width: 250
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					icon: "reaper:soul_catalyst"
-					id: "15DA15BBBDEB5155"
-					table_id: 4497167300119145730L
-					title: "{ftbquests.chapter.powering_up.quests0.rewards0.title}"
-					type: "choice"
-				}
-			]
-			tasks: [
-				{
-					id: "47E7F1DFC2A56E3B"
-					item: "reaper:reaper_generator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: "reaper:soul_catalyst"
+				id: "15DA15BBBDEB5155"
+				table_id: 4497167300119145730L
+				title: "{ftbquests.chapter.powering_up.quests0.rewards0.title}"
+				type: "choice"
+			}]
+			tasks: [{
+				id: "47E7F1DFC2A56E3B"
+				item: "reaper:reaper_generator"
+				type: "item"
+			}]
 			x: -3.0d
 			y: -2.0d
 		}
 		{
 			description: ["{ftbquests.chapter.powering_up.quests1.description}"]
 			id: "2EC3BF5A9A807E65"
-			rewards: [
-				{
-					count: 16
-					id: "092F1AF5825EC785"
-					item: "cyclic:peat_fuel"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0DC2FA72D0E56609"
-					item: "cyclic:generator_item"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "092F1AF5825EC785"
+				item: "cyclic:peat_fuel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DC2FA72D0E56609"
+				item: "cyclic:generator_item"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -2.0d
 		}
@@ -306,49 +298,41 @@
 		}
 		{
 			id: "2C8C7357D930FC5B"
-			tasks: [
-				{
-					id: "593E7203DF8BDC4D"
-					item: "create_new_age:redstone_magnet"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "593E7203DF8BDC4D"
+				item: "create_new_age:redstone_magnet"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			id: "6AB8BAE319F773CF"
-			tasks: [
-				{
-					id: "298C098839D950C7"
-					item: "create_new_age:layered_magnet"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "298C098839D950C7"
+				item: "create_new_age:layered_magnet"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			id: "397F54EC2BB55F66"
-			tasks: [
-				{
-					id: "1E418EC23260AFDD"
-					item: "create_new_age:fluxuated_magnetite"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1E418EC23260AFDD"
+				item: "create_new_age:fluxuated_magnetite"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			id: "13E62001D1046293"
-			tasks: [
-				{
-					id: "4D5E679BAEFAC492"
-					item: "create_new_age:netherite_magnet"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4D5E679BAEFAC492"
+				item: "create_new_age:netherite_magnet"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 6.0d
 		}
