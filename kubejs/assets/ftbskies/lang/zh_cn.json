@@ -65,6 +65,7 @@
 	"block.ftbskies.ostrum_space_plating_block": "紫金太空金属板块",
 	"block.ftbskies.calorite_space_plating_block": "耐热金属太空金属板块",
 	"block.ftbskies.honeyed_moon_stone": "蜜渍月石",
+	"block.ftbskies.honeyed_tar": "蜜渍焦油块",
 	"block.ftbskies.honeyed_mars_stone": "蜜渍火星石",
 	"block.ftbskies.honeyed_venus_stone": "蜜渍金星石",
 	"block.ftbskies.force_infused_moon_stone": "力量灌注月石",
@@ -135,6 +136,8 @@
 	"item.ftbskies.flux_oil_bucket": "红石充能石油桶",
 	"fluid.ftbskies.flux_diesel": "红石充能柴油",
 	"item.ftbskies.flux_diesel_bucket": "红石充能柴油桶",
+	"fluid.ftbskies.nitro_diesel": "硝基柴油",
+	"item.ftbskies.nitro_diesel_bucket": "硝基柴油桶",
 	"fluid.ftbskies.benzene": "液态苯",
 	"item.ftbskies.benzene_bucket": "液态苯桶",
 	"fluid.ftbskies.carbon_dioxide": "液态二氧化碳",
@@ -203,9 +206,11 @@
 	"item.ftbskies.sentient_steel": "感知钢",
 	"item.ftbskies.tiny_coal": "小块煤炭",
 	"item.ftbskies.tiny_charcoal": "小块木炭",
+	"item.ftbskies.incomplete_energizera": "能源之花（未完成）",
 	"item.ftbskies.volatile_substrate": "不稳定基片",
 	"item.ftbskies.venus_blaze_rod": "金星烈焰棒",
 	"item.ftbskies.venus_blaze_dust": "金星烈焰粉",
+	"item.ftbskies.cryotheum": "凛冰粉",
 	"item.ftbskies.osmium_infused_ostrum_ingot": "锇灌注紫金锭",
 	"item.ftbskies.osmium_infused_ostrum_plate": "锇灌注紫金板",
 	"item.ftbskies.perfected_gem_catalyst": "完美宝石催化石",
@@ -220,6 +225,11 @@
 	"item.ftbskies.incomplete_desh_space_plating_block": "戴斯板金属（未完成）",
 	"item.ftbskies.incomplete_ostrum_space_plating_block": "紫金板金属（未完成）",
 	"item.ftbskies.incomplete_calorite_space_plating_block": "耐热金属板金属（未完成）",
+
+	"item.ftbskies.enigmatic_circuit": "神秘控制电路",
+	"item.ftbskies.weak_rad_shielding": "微弱辐射防护模块",
+	"item.ftbskies.rad_shielding": "辐射防护模块",
+
 
 	"item.ftbskies.mobfarm_deployer": "刷怪场部署器",
 	"item.ftbskies.spirit_deployer": "灵魂部署器",
@@ -241,6 +251,7 @@
 	"gas.kubejs.refinery_gas": "炼油气",
 	"gas.kubejs.benzene_gas": "苯气",
 	"gas.kubejs.ethane_gas": "乙烷气体",
+	"gas.kubejs.nitro_gas": "硝基气体",
 
 	"#Kubejs_eyeoflegend": "",
 	"item.ftbskies.eye_of_legend": "传奇之眼",
