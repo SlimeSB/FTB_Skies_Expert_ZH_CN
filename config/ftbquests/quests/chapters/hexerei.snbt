@@ -22,12 +22,20 @@
 		y: -5.0d
 	}]
 	order_index: 4
-	quest_links: [{
-		id: "68344CE03E5EC1F9"
-		linked_quest: "699619C29CED9AA8"
-		x: 2.5d
-		y: -2.5d
-	}]
+	quest_links: [
+		{
+			id: "68344CE03E5EC1F9"
+			linked_quest: "699619C29CED9AA8"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "0D1912410DAA5477"
+			linked_quest: "79EBE2B0EBD3F66E"
+			x: 4.0d
+			y: -1.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["549E34CDA26FBB90"]
@@ -429,23 +437,6 @@
 		}
 		{
 			dependencies: ["699619C29CED9AA8"]
-			description: ["{ftbquests.chapter.hexerei.quests9.description}"]
-			disable_toast: true
-			id: "1DFB50B4D5A7296B"
-			subtitle: "{ftbquests.chapter.hexerei.quests9.subtitle}"
-			tasks: [{
-				id: "62DF38A1DF5A003F"
-				item: "hexerei:blood_sigil"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"1DFB50B4D5A7296B"
-				"699619C29CED9AA8"
-			]
 			description: [
 				"{ftbquests.chapter.hexerei.quests10.description0}"
 				""
