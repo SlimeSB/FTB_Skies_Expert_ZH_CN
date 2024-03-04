@@ -23,14 +23,18 @@
 		{
 			id: "1EA4EBB0900CCCFA"
 			linked_quest: "623ECDC05E1FEEE1"
-			x: -4.0d
-			y: -3.0d
+			shape: "pentagon"
+			size: 2.0d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			id: "6A365DFF56A6AE3C"
 			linked_quest: "38428BE09619A2C4"
-			x: -6.0d
-			y: -3.0d
+			shape: "pentagon"
+			size: 2.0d
+			x: -8.5d
+			y: -1.0d
 		}
 	]
 	quests: [
@@ -197,6 +201,7 @@
 					type: "item"
 				}
 			]
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.magical.quests6.subtitle}"
 			tasks: [{
 				id: "340185AD624FF4AF"
@@ -204,7 +209,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -3.0d
+			y: -1.0d
 		}
 	]
 	title: "{ftbquests.chapter.magical.title}"
