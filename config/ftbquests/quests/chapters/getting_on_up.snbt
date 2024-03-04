@@ -1044,6 +1044,7 @@
 				"5FA347FE418919B7"
 				"0DD3B81E485957AA"
 				"7C2AC8ED9461A831"
+				"4E676DFBDBD49BDD"
 			]
 			id: "3CE6ABC8DECDC047"
 			shape: "octagon"
@@ -1057,6 +1058,9 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["19E85C8A02ACF973"]
+			description: ["是时候发射你的火箭了"]
+			hide_dependency_lines: true
 			id: "5FA347FE418919B7"
 			tasks: [{
 				id: "2DEC18FF5503AA2D"
@@ -1320,6 +1324,8 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["35FC40D9D9111862"]
+			description: ["&b化学溶解室&r需要 FE，使用液体和几种物品，并把它们变成新的东西"]
 			id: "23101731BE8EBFAD"
 			tasks: [{
 				id: "1C0FA7BA9D402524"
