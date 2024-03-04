@@ -1,6 +1,15 @@
 {
   "name": "高级搅拌器",
-  "appearance": {"light": 7},
+  "appearance": {
+    "block": "ftbskies:machine/advanced_mixer",
+    "running": {
+      "block": "ftbskies:machine/advanced_mixer_active",
+      "ambient_sound": "thermal:block.machine_crucible"
+    },
+    "resistance": 9,
+    "hardness": 3,
+    "requires_tool": false
+  },
   "components": [
     {
       "type": "custommachinery:energy",

@@ -4,14 +4,14 @@
   "components": [
     {
       "type": "custommachinery:energy",
-      "capacity": 10000000,
+      "capacity": 100000000,
       "maxInput": 10000000,
       "maxOutput": 10000000
     },
     {
       "type": "custommachinery:fluid",
       "id": "inputtank1",
-      "capacity": 4000,
+      "capacity": 10000,
       "maxInput": 1000,
       "maxOutput": 1000,
       "mode": "input",
@@ -23,7 +23,7 @@
     {
       "type": "custommachinery:fluid",
       "id": "inputtank2",
-      "capacity": 4000,
+      "capacity": 10000,
       "maxInput": 1000,
       "maxOutput": 1000,
       "mode": "input",
@@ -35,7 +35,7 @@
     {
       "type": "custommachinery:fluid",
       "id": "inputtank3",
-      "capacity": 4000,
+      "capacity": 10000,
       "maxInput": 1000,
       "maxOutput": 1000,
       "mode": "input",
@@ -47,7 +47,7 @@
     {
       "type": "custommachinery:fluid",
       "id": "inputtank4",
-      "capacity": 4000,
+      "capacity": 10000,
       "maxInput": 1000,
       "maxOutput": 1000,
       "mode": "input",
@@ -61,7 +61,7 @@
     {
       "type": "custommachinery:fluid",
       "id": "inputtank5",
-      "capacity": 4000,
+      "capacity": 10000,
       "maxInput": 1000,
       "maxOutput": 1000,
       "mode": "input",
@@ -72,13 +72,13 @@
     {
       "type": "custommachinery:fluid",
       "id": "inputtank6",
-      "capacity": 4000,
+      "capacity": 10000,
       "maxInput": 1000,
       "maxOutput": 1000,
       "mode": "input",
       "whitelist": true,
       "filter": ["minecraft:water",
-      "minecraft:lava"]
+      "minecraft:lava", "ftbskies:stabilized_fire"]
 
     },
     {

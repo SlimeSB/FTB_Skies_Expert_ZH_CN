@@ -4,8 +4,8 @@
   "components": [
     {
       "type": "custommachinery:energy",
-      "capacity": 100000,
-      "maxInput": 1000,
+      "capacity": 1500000,
+      "maxInput": 100000,
       "maxOutput": 666
     },
     
