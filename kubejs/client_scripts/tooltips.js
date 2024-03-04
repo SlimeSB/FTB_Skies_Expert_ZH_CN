@@ -92,6 +92,7 @@
 		],
 		'安装工厂安装器获取',
 	],
+	["create:creative_blaze_cake", "⚠ 使用时会消耗掉 ⚠"]
 ]
 
 ItemEvents.tooltip(e => {
