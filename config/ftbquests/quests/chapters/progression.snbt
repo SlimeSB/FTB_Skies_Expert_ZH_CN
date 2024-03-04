@@ -20,11 +20,45 @@
 		image: "ftbskies:textures/quests/progression.png"
 		rotation: 0.0d
 		width: 7.506024096385542d
-		x: 1.5d
+		x: -0.5d
 		y: -2.0d
 	}]
 	order_index: 6
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "203E5EC4511FBE50"
+			linked_quest: "3CE6ABC8DECDC047"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "4031BAC2F4CC9419"
+			linked_quest: "3357BF6B55CB7459"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "12FDD6B9366D4D9D"
+			linked_quest: "33E8639DD7A3D265"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "4A7B81D0201F6B22"
+			linked_quest: "0917AAA728ED75D5"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "6F82FA35F2739F99"
+			linked_quest: "058225A01C33EAFA"
+			shape: "hexagon"
+			size: 2.0d
+			title: "Do you like Piña Coladas?"
+			x: -0.5714285714285907d
+			y: 2.0892857142857153d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["2AD24EEEE1735F2B"]
@@ -216,17 +250,15 @@
 					type: "structure"
 				}
 			]
-			x: 3.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["4E676DFBDBD49BDD"]
+			dependencies: ["0917AAA728ED75D5"]
 			description: [
 				"{ftbquests.chapter.progression.quests4.description0}"
 				""
-				"{ftbquests.chapter.progression.quests4.description2}"
-				"{ftbquests.chapter.progression.quests4.description3}"
-				"[\"\",\"• 飞往太空使用 \",{\"text\":\"Ad Astra\",\"color\":\"yellow\"},\" MOD。请查看章节 \",{\"text\":\"飞向太空\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"22AD1FAD303703DE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"飞向太空章节\"]}},\" 了解更多详细信息\"]"
+				"在Skies中有两种方法可以做到这一点，建造一个末地传送门或飞到那里，但是在Skies Expert中，只有在使用 4 级火箭到达霜原之后，您才可以选择在霜原上建造并放置&6末地传送门框架&r"
 			]
 			icon: "minecraft:end_portal_frame"
 			id: "58DEB16DB734623C"
@@ -255,8 +287,8 @@
 				title: "{ftbquests.chapter.progression.quests4.tasks0.title}"
 				type: "dimension"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["58DEB16DB734623C"]
@@ -315,8 +347,8 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.progression.quests5.title}"
-			x: 6.0d
-			y: 0.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["00E85EE1B2FFA9CF"]
