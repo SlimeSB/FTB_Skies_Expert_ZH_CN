@@ -29,7 +29,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -61,7 +61,7 @@
 				}
 			]
 			x: -14.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7C7B569E7B8FF057"]
@@ -287,7 +287,7 @@
 				}
 			]
 			x: -10.5d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3543600DF606F8DB"]
@@ -298,7 +298,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -312,7 +312,7 @@
 				type: "item"
 			}]
 			x: -14.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -339,7 +339,7 @@
 				}
 			]
 			x: -16.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6A75C648D9883BE1"]
@@ -388,17 +388,6 @@
 			}]
 			x: -9.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["3ABCFB42A4AEB889"]
-			id: "242946788D0F2107"
-			tasks: [{
-				id: "61690F5B3DBB2684"
-				item: "industrialforegoing:stasis_chamber"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -451,7 +440,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["478F241F30E039FE"]
@@ -462,7 +451,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2D8562A7144014B7"]
@@ -488,7 +477,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -553,8 +542,8 @@
 				item: "ftbskies:springaline_desh_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -16.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["46A24258394EE594"]
@@ -568,7 +557,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["74A6C6A9996C6730"]
+			dependencies: [
+				"74A6C6A9996C6730"
+				"3CE6ABC8DECDC047"
+			]
 			id: "3357BF6B55CB7459"
 			shape: "hexagon"
 			size: 2.0d
