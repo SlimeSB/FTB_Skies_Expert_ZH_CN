@@ -1086,11 +1086,6 @@
 					type: "item"
 				}
 				{
-					id: "0C2D04C8A1873620"
-					item: "reaper:rune_obitus"
-					type: "item"
-				}
-				{
 					id: "2D2A41348369C5FE"
 					item: "reaper:rune_humano"
 					type: "item"
