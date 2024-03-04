@@ -4,7 +4,9 @@
 	['ftbskies:warped_nylium_spores', '右击下界岩，将其转化为诡异菌岩'],
 	['ftbskies:crimson_nylium_spores', '右击下界岩，将其转化为绯红菌岩'],
 	['ftbskies:eye_of_legend', '向最近的天空村庄方向移动'],
+	['cyclic:placer', '因可无视区块声明而被禁用'],
 	['ftbskies:eye_of_legend_end', '向最近的末地城方向移动'],
+	['tropicraft:pineapple', '放置并种植一个菠萝，以获得多个菠萝'],
 	['ftbskies:eye_of_legend_nether', '向最近的下界村庄方向移动'],
 	['minecraft:end_portal_frame', '空手 Shift 右击拾取 \n 只能在霜原上放置'],
 	['minecraft:wither_rose', '可与猪灵交易获得'],
@@ -49,10 +51,7 @@
 	],
 	['pedestals:upgrade_pedestal_attacker', '功能类似杀手乔，但在基座上！'],
 	['spirit:soul_crystal', '需要 4 级灵魂吞噬结构！'],
-	[
-		'reaper:reaper_generator',
-		'合成配方需要不同的灵魂吞噬结构！更多信息请查看 JEI',
-	],
+	['reaper:reaper_generator', '合成配方需要不同的灵魂吞噬结构！更多信息请查看 JEI'],
 	[
 		[
 			'mekanism:basic_smelting_factory',
@@ -90,9 +89,12 @@
 			'mekanism:ultimate_infusing_factory',
 			'mekanism:ultimate_sawing_factory',
 		],
-		'安装工厂安装器获取',
+		'⚠  安装工厂安装器获取',
 	],
-	["create:creative_blaze_cake", "⚠ 使用时会消耗掉 ⚠"]
+	['create:creative_blaze_cake', '⚠ 使用时会消耗掉 ⚠'],
+	['ftbskies:lightly_magical_imbued_soil', 'ⓘ 在园艺玻璃罩中可增加 25% 的生长速度'],
+	['ftbskies:magical_imbued_soil', 'ⓘ 在园艺玻璃罩中可增加 50% 的生长速度'],
+	['ftbskies:densely_magical_imbued_soil', 'ⓘ 在园艺玻璃罩中可增加 75% 的生长速度'],
 ]
 
 ItemEvents.tooltip(e => {
