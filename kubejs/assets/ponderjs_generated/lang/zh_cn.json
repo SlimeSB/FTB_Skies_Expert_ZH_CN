@@ -106,10 +106,10 @@
 	"kubejs.ponder.induction_construction.text_14": "该思索最初是为 FTB 大学 1.19 版制作的！",
 
 	"kubejs.ponder.soul_engulfing.header": "如何构建灵魂吞噬多方块结构",
-	"kubejs.ponder.soul_engulfing.text_1": "T1级：只有一个灵魂沙",
-	"kubejs.ponder.soul_engulfing.text_2": "T2级：用异界石和灵魂尘块围绕灵魂沙",
-	"kubejs.ponder.soul_engulfing.text_3": "T3级：用异界石板盖住灵魂玻璃",
-	"kubejs.ponder.soul_engulfing.text_4": "T4级：放置角柱",
+	"kubejs.ponder.soul_engulfing.text_1": "1 级：只有一个灵魂沙",
+	"kubejs.ponder.soul_engulfing.text_2": "2 级：用异界石和灵魂尘块围绕灵魂沙",
+	"kubejs.ponder.soul_engulfing.text_3": "3 级：放置灵魂玻璃和异界石台阶",
+	"kubejs.ponder.soul_engulfing.text_4": "4 级：放置角柱",
 	"kubejs.ponder.soul_engulfing.text_5": "使用漏斗和花格箱，就可以轻松把物品扔进灵魂之火",
 
 	"kubejs.ponder.soul_pedestal.header": "如何构建灵魂召唤",
