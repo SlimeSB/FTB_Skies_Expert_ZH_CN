@@ -662,6 +662,7 @@
 			description: ["{ftbquests.chapter.to_the_stars.quests18.description}"]
 			icon: "minecraft:dragon_head"
 			id: "600534C4296633CA"
+			secret: true
 			subtitle: "{ftbquests.chapter.to_the_stars.quests18.subtitle}"
 			tasks: [{
 				dimension: "minecraft:the_end"

@@ -600,14 +600,14 @@
 				}
 				{
 					id: "556FCF5E7877938D"
-					item: "farmersdelight:cooked_bacon"
+					item: "forcecraft:cooked_bacon"
 					type: "item"
 				}
 			]
 			subtitle: "{ftbquests.chapter.food.quests13.subtitle}"
 			tasks: [{
 				id: "536A65A25A8B4208"
-				item: "farmersdelight:bacon"
+				item: "farmersdelight:raw_bacon"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.food.quests13.title}"
@@ -741,11 +741,6 @@
 				{
 					id: "4EA6E93B01EA7C7F"
 					item: "quark:apple_crate"
-					type: "item"
-				}
-				{
-					id: "5F27C64F78E0F288"
-					item: "incubation:hay_nest"
 					type: "item"
 				}
 			]

@@ -530,6 +530,144 @@
 			x: 7.5d
 			y: -1.5d
 		}
+		{
+			description: ["物品和流体运输器是一种方便的单方块管道解决方案。它们可以过滤或设置为调节模式，以保持一定数量的物品库存。这对整个游戏的自动化非常有用"]
+			icon: "industrialforegoing:item_transporter_type"
+			id: "06C18EDCBEAC021A"
+			rewards: [{
+				count: 2
+				id: "54ADFB0F40B04BD0"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:speed_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "66672E3E31802362"
+					title: "运输器"
+					type: "checkmark"
+				}
+				{
+					id: "17A6EAD6443D611C"
+					item: "industrialforegoing:fluid_transporter_type"
+					type: "item"
+				}
+				{
+					id: "438AAB8501685A0C"
+					item: "industrialforegoing:item_transporter_type"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6BC7929F32E241EB"]
+			description: ["通过集成动力存储终端，您可以访问所有与物品接口相连的容器，甚至可以从中合成物品。这甚至还能与神秘学维度存储等物品配合使用，在游戏初期提供出色的后勤保障，制作终端来连接你的各种容器"]
+			id: "35D270F211D7F4DA"
+			rewards: [{
+				count: 4
+				id: "783D1492F27850E5"
+				item: "integratedtunnels:part_interface_item"
+				type: "item"
+			}]
+			tasks: [{
+				id: "757F644E19C02EF7"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			description: ["一旦你获得了魔力转换的树苗，集成动力就能实现更高级的自动化，这是与大部分设备连接所需要基础线缆，因此你可能需要不少这样的线缆"]
+			id: "6BC7929F32E241EB"
+			rewards: [
+				{
+					count: 32
+					id: "07A970040FAEC033"
+					item: "integrateddynamics:cable"
+					type: "item"
+				}
+				{
+					id: "11BEB62112C4C944"
+					item: "integrateddynamics:wrench"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "491116D5CBEEFD60"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6BC7929F32E241EB"]
+			description: [
+				"集成动力的输入和输出功能依赖于&b变量卡&r。每次配置输入和输出都需要一张变量卡，告诉它应该做什么。您可以在逻辑编程器中对变量卡进行编程（也有便携版）"
+				""
+				"一个简单的例子是将变量卡设置为布尔值 true，然后将布尔值 true 变量移动到输入器GUI中的输入所有物品选项旁边。这将告诉它从连接的容器中输入所有物品"
+			]
+			id: "34C95E6EAE0EBBDF"
+			rewards: [{
+				count: 4
+				id: "2A148AD0A579BE7E"
+				item: "integrateddynamics:variable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72F619AFE7CD49CC"
+				item: "integrateddynamics:variablestore"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["35D270F211D7F4DA"]
+			description: ["除了物品接口外，集成动力还能与流体和能量进行对接。这可以让您实现更高级的物流。流体接口现在就可以使用，但能量接口要后期才能制作"]
+			id: "2E222429C682BCE3"
+			rewards: [
+				{
+					id: "2EE382E5AA842556"
+					item: "functionalstorage:netherite_upgrade"
+					type: "item"
+				}
+				{
+					id: "45492C64BBA6965A"
+					item: "functionalstorage:fluid_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "238DDA47971E3967"
+				item: "integratedtunnels:part_interface_fluid"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34C95E6EAE0EBBDF"]
+			id: "68F8ABF85F6CAAC2"
+			tasks: [{
+				id: "127D6CA75D68B7F0"
+				item: "integratedtunnels:part_exporter_item"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
 	]
 	title: "{ftbquests.chapter.pipe_dreams.title}"
 }

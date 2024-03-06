@@ -212,7 +212,7 @@
 			]
 			subtitle: "{ftbquests.chapter.portable.quests2.subtitle}"
 			tasks: [{
-				id: "7720322D9E9A9A77"
+				id: "51C9500EB5A09DB9"
 				item: {
 					Count: 1b
 					id: "itemfilters:or"
@@ -223,10 +223,10 @@
 								id: "sophisticatedbackpacks:iron_backpack"
 								tag: {
 									contentsUuid: [I;
-										618027645
-										-1552267667
-										-2087375270
-										-1171695860
+										-326734135
+										1083786570
+										-1437792024
+										1903965083
 									]
 									inventorySlots: 54
 									upgradeSlots: 2
@@ -237,49 +237,22 @@
 								id: "sophisticatedbackpacks:gold_backpack"
 								tag: {
 									contentsUuid: [I;
-										239225295
-										-497335732
-										-1312352762
-										1136145860
+										557299039
+										-925940762
+										-1076295865
+										-1150617445
 									]
-									inventorySlots: 81
+									inventorySlots: 63
 									upgradeSlots: 3
-								}
-							}
-							{
-								Count: 1b
-								id: "sophisticatedbackpacks:diamond_backpack"
-								tag: {
-									contentsUuid: [I;
-										658115119
-										-1689826641
-										-1198785039
-										799252935
-									]
-									inventorySlots: 108
-									upgradeSlots: 5
-								}
-							}
-							{
-								Count: 1b
-								id: "sophisticatedbackpacks:netherite_backpack"
-								tag: {
-									contentsUuid: [I;
-										1154287413
-										-291682563
-										-1496554960
-										1388194259
-									]
-									inventorySlots: 120
-									upgradeSlots: 7
 								}
 							}
 						]
 					}
 				}
-				title: "{ftbquests.chapter.portable.quests2.tasks0.title}"
+				title: "背包"
 				type: "item"
 			}]
+			title: "升级您的背包"
 			x: -3.5d
 			y: -0.5d
 		}

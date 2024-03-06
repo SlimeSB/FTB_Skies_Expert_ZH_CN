@@ -1856,15 +1856,24 @@
 			dependencies: ["25C422785F916872"]
 			icon: "alexsdelight:cooked_centipede_leg"
 			id: "04AC1473DC239E08"
-			rewards: [{
-				auto: "no_toast"
-				icon: "alexsdelight:cooked_centipede_leg"
-				id: "5EAAFBF3680D8462"
-				ignore_reward_blocking: true
-				stage: "no_centipedes"
-				title: "{ftbquests.chapter.monster_hunter_academy.quests43.rewards0.title}"
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					icon: "alexsdelight:cooked_centipede_leg"
+					id: "5EAAFBF3680D8462"
+					ignore_reward_blocking: true
+					stage: "no_centipedes"
+					team_reward: false
+					title: "Disable Centipede Spawn"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					description: "Disabled Centipedes Spawn"
+					id: "75BDD2DDB461BA00"
+					type: "toast"
+				}
+			]
 			tasks: [{
 				id: "2A2BEC58A2BEAD9E"
 				title: "{ftbquests.chapter.monster_hunter_academy.quests43.tasks0.title}"
@@ -1878,16 +1887,25 @@
 			dependencies: ["25C422785F916872"]
 			icon: "alexsmobs:centipede_leg"
 			id: "7A0E632E72F2273B"
-			rewards: [{
-				auto: "no_toast"
-				icon: "alexsmobs:centipede_leg"
-				id: "13BCC8FDD712595B"
-				ignore_reward_blocking: true
-				remove: true
-				stage: "no_centipedes"
-				title: "{ftbquests.chapter.monster_hunter_academy.quests44.rewards0.title}"
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					auto: "no_toast"
+					icon: "alexsmobs:centipede_leg"
+					id: "13BCC8FDD712595B"
+					ignore_reward_blocking: true
+					remove: true
+					stage: "no_centipedes"
+					team_reward: false
+					title: "Enable Centipede Spawn"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					description: "Enabled Centipedes Spawn"
+					id: "395A30F6E4C1E2A2"
+					type: "toast"
+				}
+			]
 			tasks: [{
 				id: "0FD7F0278972D451"
 				title: "{ftbquests.chapter.monster_hunter_academy.quests44.tasks0.title}"
@@ -1897,9 +1915,13 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"由于有些人&6&l蜈蚣恐惧症&r（害怕蜈蚣），我们决定添加一个任务来禁用这些怪物"
+				""
+				"此事件以团队为基础，如果您在多人服务器上游戏，则不应干扰其他团队"
+			]
 			icon: "botania:cosmetic_googly_eyes"
 			id: "25C422785F916872"
-			invisible: true
 			invisible_until_tasks: 1
 			min_required_tasks: 1
 			shape: "hexagon"

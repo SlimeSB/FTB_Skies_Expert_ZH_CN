@@ -171,6 +171,9 @@
 	quests: [
 		{
 			description: [
+				"&l&4重要事项&r"
+				"此合成配方需要不同的灵魂吞噬设置；请务必查看 JEI"
+				""
 				"{ftbquests.chapter.powering_up.quests0.description0}"
 				""
 				"{ftbquests.chapter.powering_up.quests0.description2}"
@@ -190,21 +193,43 @@
 				""
 				"{ftbquests.chapter.powering_up.quests0.description17}"
 			]
+			icon: "reaper:reaper_generator"
 			id: "2B4D33AB5B6C845D"
 			min_width: 250
-			rewards: [{
-				exclude_from_claim_all: true
-				icon: "reaper:soul_catalyst"
-				id: "15DA15BBBDEB5155"
-				table_id: 4497167300119145730L
-				title: "{ftbquests.chapter.powering_up.quests0.rewards0.title}"
-				type: "choice"
-			}]
-			tasks: [{
-				id: "47E7F1DFC2A56E3B"
-				item: "reaper:reaper_generator"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: "reaper:soul_catalyst"
+					id: "15DA15BBBDEB5155"
+					table_id: 4497167300119145730L
+					title: "Choice Reward"
+					type: "choice"
+				}
+				{
+					id: "785204E67F4BF2BA"
+					item: "reaper:rune_obitus"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "47E7F1DFC2A56E3B"
+					item: "reaper:reaper_generator"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "03735E947BD82049"
+					item: "spirit:compressed_soul_powder_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3F80BFE5DEEFF5A0"
+					item: "spirit:soul_slate"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -2.0d
 		}

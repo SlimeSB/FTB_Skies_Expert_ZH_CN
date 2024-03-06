@@ -11,7 +11,7 @@ const lootbeeEvent = {
   requireBlockBelow: true,
   itemDespawnTime: 400,
   stage: null,          // stage to gate the event
-  mode: "stage",         // time or stage
+  mode: "time",         // time or stage
   lootStages: {         // Stage to gate the loot tables
     table1: null,
     table2: "lootstage2",

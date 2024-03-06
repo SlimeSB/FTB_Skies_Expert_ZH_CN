@@ -20,8 +20,17 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["06B4690E613A8090"]
+			dependencies: [
+				"06B4690E613A8090"
+				"0EDA2BDDA51B15EF"
+			]
+			description: ["漫长的艰苦旅程终于结束了。制作您的冰镇菠萝椰汁，坐在日出的草坪椅上，喝着冰镇饮料，仿佛置身于热带天堂，留下的只有美好的劳动回忆。我谨代表整个 FTB 团队感谢您的参与，并向您表示祝贺，希望您享受这次旅程！"]
 			id: "058225A01C33EAFA"
+			rewards: [{
+				id: "02666255CA6A7EF3"
+				item: "createaddition:creative_energy"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -29,6 +38,7 @@
 				item: "tropicraft:pina_colada"
 				type: "item"
 			}]
+			title: "您喜欢冰镇菠萝椰汁吗？"
 			x: 4.5d
 			y: 0.0d
 		}

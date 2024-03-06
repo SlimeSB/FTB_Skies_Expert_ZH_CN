@@ -91,6 +91,12 @@
 				"{ftbquests.chapter.getting_on_up.quests3.description2}"
 			]
 			id: "37F767C6CF2223C6"
+			rewards: [{
+				count: 4
+				id: "1C3C86A4E39A2A63"
+				item: "pneumaticcraft:reinforced_stone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7878C156660F683F"
 				item: "pneumaticcraft:reinforced_stone"
@@ -123,6 +129,13 @@
 			]
 			id: "33D0CFE3B6344959"
 			subtitle: "{ftbquests.chapter.getting_on_up.quests5.subtitle}"
+			rewards: [{
+				count: 2
+				id: "0496C6A66712F288"
+				item: "industrialforegoing:fluid_transporter_type"
+				team_reward: true
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D072B99C1F9378B"
 				item: "immersiveengineering:phenolic_resin_bucket"
@@ -209,6 +222,21 @@
 				"4EBAB26A6012D1D8"
 			]
 			id: "21ECA818965840C8"
+			rewards: [
+				{
+					id: "0F21D3349AA45015"
+					item: "functionalstorage:fluid_2"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "71ABA65F8D45D72C"
+					item: "functionalstorage:copper_upgrade"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1F59D0D3E7A2C607"
 				item: "immersiveengineering:acetaldehyde_bucket"
@@ -231,6 +259,12 @@
 				"{ftbquests.chapter.getting_on_up.quests10.description5}"
 			]
 			id: "6D55396114BACE52"
+			rewards: [{
+				id: "1FE65EF2595969B8"
+				item: "pneumaticcraft:security_upgrade"
+				team_reward: true
+				type: "item"
+			}]
 			tasks: [{
 				id: "610DF6BB9AB22D8A"
 				item: "pneumaticcraft:ethanol_bucket"
@@ -250,6 +284,12 @@
 				"{ftbquests.chapter.getting_on_up.quests11.description2}"
 			]
 			id: "4EBAB26A6012D1D8"
+			rewards: [{
+				id: "03FCE07B44D4B2A0"
+				item: "thermal:upgrade_augment_1"
+				team_reward: true
+				type: "item"
+			}]
 			tasks: [{
 				id: "169939300A685FCF"
 				item: "ftbskies:molten_silver_bucket"
@@ -262,6 +302,7 @@
 			dependencies: [
 				"1CB5B313E0D86567"
 				"35FC40D9D9111862"
+				"23101731BE8EBFAD"
 			]
 			description: [
 				"{ftbquests.chapter.getting_on_up.quests12.description0}"
@@ -306,6 +347,12 @@
 				"{ftbquests.chapter.getting_on_up.quests14.description4}"
 			]
 			id: "512DBD469AC4E9B9"
+			rewards: [{
+				count: 4
+				id: "46041D8598E94042"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
 			tasks: [{
 				id: "71A0319A51AAFEF0"
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
@@ -337,6 +384,11 @@
 				"{ftbquests.chapter.getting_on_up.quests16.description2}"
 			]
 			id: "54C6834B4F80A8BC"
+			rewards: [{
+				id: "5550199E74E516C5"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.getting_on_up.quests16.subtitle}"
 			tasks: [{
 				id: "2D4551963E5F58AB"
@@ -365,6 +417,22 @@
 		{
 			dependencies: ["54C6834B4F80A8BC"]
 			id: "55A340C65E7ED6EA"
+			rewards: [
+				{
+					count: 16
+					id: "5631F7314B4596C4"
+					item: "occultism:silver_ingot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0005277064B5B616"
+					item: "minecraft:redstone"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "79074C685364D6D0"
 				item: "thermal:redstone_bucket"
@@ -445,8 +513,22 @@
 				"{ftbquests.chapter.getting_on_up.quests21.description0}"
 				""
 				"{ftbquests.chapter.getting_on_up.quests21.description2}"
+				""
+				"一旦你拥有了魔力，其他几种产生魔力的花就能制作。&b能源之花&r是一个不错的选择，它能将能量转化为魔力。"
 			]
 			id: "1C321982361F2B7C"
+			rewards: [
+				{
+					id: "37AE61D8BE00A6EA"
+					item: "botania:elven_spreader"
+					type: "item"
+				}
+				{
+					id: "63D3F106C61A701C"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "4D3DBD84707E8567"
 				item: "botania:kekimurus"
@@ -459,6 +541,18 @@
 			dependencies: ["1C321982361F2B7C"]
 			description: ["{ftbquests.chapter.getting_on_up.quests22.description}"]
 			id: "3A20EE0298F3F10C"
+			rewards: [
+				{
+					id: "3132445144655D46"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "35E1EC61F6F2CE5F"
+					item: "createaddition:honey_cake"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.getting_on_up.quests22.subtitle}"
 			tasks: [{
 				id: "6FCEC4AE8BDD12FF"
@@ -476,6 +570,19 @@
 				"{ftbquests.chapter.getting_on_up.quests23.description2}"
 			]
 			id: "4A6EE8999E8918EF"
+			rewards: [{
+				id: "423578B2BBF23934"
+				item: {
+					Count: 1b
+					id: "elementalcraft:rune"
+					tag: {
+						elementalcraft: {
+							rune: "elementalcraft:mewtwo"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E1BB56A1166F682"
 				item: "elementalcraft:infuser"
@@ -486,8 +593,18 @@
 		}
 		{
 			dependencies: ["3A0F10FC8919F05F"]
-			description: ["{ftbquests.chapter.getting_on_up.quests24.description}"]
+			description: [
+					"{ftbquests.chapter.getting_on_up.quests24.description}"
+					""
+					"这些都值得通过自动化工程师装配台一起实现自动化，让您之后的发展更轻松"
+				]
 			id: "3DEBC88BD5116314"
+			rewards: [{
+				count: 4
+				id: "6FECE62B61BF0CFB"
+				item: "immersiveengineering:logic_circuit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "19CEFC786F4B7D84"
 				item: "immersiveengineering:logic_circuit"
@@ -517,54 +634,6 @@
 		}
 		{
 			dependencies: ["5EB5407E9D179ACB"]
-			description: [
-				"{ftbquests.chapter.getting_on_up.quests26.description0}"
-				""
-				"{ftbquests.chapter.getting_on_up.quests26.description2}"
-			]
-			id: "5F38C19AC41CC9B4"
-			tasks: [
-				{
-					count: 3L
-					id: "26ACB8C8481D2D53"
-					item: "immersiveengineering:fluid_pipe"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0B4058878B8E5418"
-					item: "immersiveengineering:light_engineering"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0B8217EF15A9CBE9"
-					item: "immersiveengineering:sheetmetal_iron"
-					type: "item"
-				}
-				{
-					id: "64BFA4B3F1184981"
-					item: "immersiveengineering:rs_engineering"
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "6994DA8DDE24DD66"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					type: "item"
-				}
-				{
-					id: "5457773FFC315855"
-					item: "immersiveengineering:steel_fence"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.getting_on_up.quests26.title}"
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5F38C19AC41CC9B4"]
 			description: ["{ftbquests.chapter.getting_on_up.quests27.description}"]
 			id: "7A7D286C39CFC927"
 			tasks: [{
@@ -679,6 +748,18 @@
 			dependencies: ["5C08259CFF4E6E3E"]
 			description: ["{ftbquests.chapter.getting_on_up.quests33.description}"]
 			id: "7E61BEFDBD52D267"
+			rewards: [
+				{
+					id: "5A9BEBD8C42DDE96"
+					item: "tetra:pristine_diamond"
+					type: "item"
+				}
+				{
+					id: "371C3997116A52CC"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "2C028C867687A21C"
 				item: "botania:mana_diamond"
@@ -734,6 +815,22 @@
 				"{ftbquests.chapter.getting_on_up.quests35.description2}"
 			]
 			id: "0E20574CA05CC507"
+			rewards: [
+				{
+					id: "5F93ED34617B2EF2"
+					item: {
+						Count: 1b
+						id: "ftbskies:mana_steel_mesh"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1C53B8EA9BE75AA6"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "534F88AD6E6D1F1F"
 				item: {
@@ -804,6 +901,24 @@
 			dependencies: ["5C08259CFF4E6E3E"]
 			description: ["{ftbquests.chapter.getting_on_up.quests39.description}"]
 			id: "438EC4B936AD076A"
+			rewards: [
+				{
+					id: "1A9D2EFD94A7E2C6"
+					item: {
+						Count: 1b
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "ars_nouveau:spell_damage_potion_strong"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C6A678A5E730982"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "704963BC0A2BE486"
 				item: "ars_nouveau:magebloom_crop"
@@ -1035,8 +1150,31 @@
 				"5FA347FE418919B7"
 				"0DD3B81E485957AA"
 				"7C2AC8ED9461A831"
+				"4E676DFBDBD49BDD"
 			]
+			description: [
+					"到达月球后，你就可以开始寻找开采一些新资源了。您需要收集一些&b戴斯&r和&b奶酪&r。也可以考虑寻找一些月球村民进行交易！"
+				]
 			id: "3CE6ABC8DECDC047"
+			rewards: [
+				{
+					id: "4A62F87D1C00F5A9"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:core/lunar"
+							rarity: "epic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A1BAC6C478BBD4E"
+					type: "xp"
+					xp: 5
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
@@ -1048,6 +1186,9 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["19E85C8A02ACF973"]
+			description: ["是时候发射你的火箭了"]
+			hide_dependency_lines: true
 			id: "5FA347FE418919B7"
 			tasks: [{
 				id: "2DEC18FF5503AA2D"
@@ -1201,6 +1342,11 @@
 				"{ftbquests.chapter.getting_on_up.quests58.description2}"
 			]
 			id: "04594286DA10AC35"
+			rewards: [{
+				id: "4E37054986A5E98D"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22F1E5DB87767A76"
 				item: "starbunclemania:source_condenser"
@@ -1311,7 +1457,8 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["35F349BD58D194C5"]
+			dependencies: ["35FC40D9D9111862"]
+			description: ["&b化学溶解室&r需要 FE，使用液体和几种物品，并把它们变成新的东西"]
 			id: "23101731BE8EBFAD"
 			tasks: [{
 				id: "1C0FA7BA9D402524"
@@ -1429,6 +1576,19 @@
 		{
 			dependencies: ["484F6381E7E67059"]
 			id: "30D0FAEFC28B24F5"
+			rewards: [
+				{
+					count: 5
+					id: "3EFC461E568EC4F2"
+					item: "create_new_age:overcharged_gold"
+					type: "item"
+				}
+				{
+					id: "51A5EA16D0C24F64"
+					type: "xp"
+					xp: 5
+				}
+			]
 			tasks: [{
 				id: "7B93F03017BCE0AE"
 				item: "create_new_age:overcharged_gold"

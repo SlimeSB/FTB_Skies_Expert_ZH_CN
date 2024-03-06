@@ -1,17 +1,37 @@
 {
-  "name": "制造矩阵",
-  "appearance": {"light": 7},
+  "name": "高级搅拌器",
+  "appearance": {
+    "block": "ftbskies:machine/advanced_mixer",
+    "running": {
+      "block": "ftbskies:machine/advanced_mixer_active",
+      "ambient_sound": "thermal:block.machine_crucible"
+    },
+    "resistance": 9,
+    "hardness": 3,
+    "requires_tool": false
+  },
   "components": [
     {
       "type": "custommachinery:energy",
-      "capacity": 1500000,
-      "maxInput": 100000,
-      "maxOutput": 666
-    },
-    
+      "capacity": 1000000,
+      "maxInput": 50000
+    },   
+    {
+      "type": "custommachinery:heat",
+      "capacity": "6000",
+      "base_temp": 60
+    },  
     {
       "type": "custommachinery:fluid",
-      "id": "inputtank",
+      "id": "inputtank1",
+      "capacity": 10000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "inputtank2",
       "capacity": 10000,
       "maxInput": 1000,
       "maxOutput": 1000,
@@ -19,7 +39,17 @@
     },
     {
       "type": "custommachinery:item",
-      "id": "inputslot",
+      "id": "inputslot1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "inputslot3",
       "mode": "input"
     },
     {
@@ -32,32 +62,7 @@
     },
     {
       "type": "custommachinery:item",
-      "id": "outputslot1",
-      "mode": "output"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "outputslot2",
-      "mode": "output"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "outputslot3",
-      "mode": "output"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "outputslot4",
-      "mode": "output"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "outputslot5",
-      "mode": "output"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "outputslot6",
+      "id": "outputslot",
       "mode": "output"
     }
   ],
@@ -77,73 +82,70 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 8,
-      "text": "制造矩阵"
+      "text": "高级搅拌器"
     },
     {
       "type": "custommachinery:energy",
       "x": 7,
       "y": 20,
       "height": 54,
-      "width": 18
+      "width": 5
     },
     {
+      "type": "custommachinery:heat",
+      "x": 16,
+      "y": 20,
+      "height": 54,
+      "width": 5
+    },        
+    {
       "type": "custommachinery:fluid",
-      "x": 27,
+      "x": 25,
       "y": 20,
       "height": 54,
       "width": 18,
-      "id": "inputtank"
-    },
-    {
-      "type": "custommachinery:slot",
-      "x": 51,
-      "y": 37,
-      "id": "inputslot"
-    },
-    {
-      "type": "custommachinery:progress",
-      "x": 77,
-      "y": 39
-    },
-    {
-      "type": "custommachinery:slot",
-      "x": 109,
-      "y": 20,
-      "id": "outputslot1"
-    },
-    {
-      "type": "custommachinery:slot",
-      "x": 127,
-      "y": 20,
-      "id": "outputslot2"
-    },
-    {
-      "type": "custommachinery:slot",
-      "x": 109,
-      "y": 38,
-      "id": "outputslot3"
-    },
-    {
-      "type": "custommachinery:slot",
-      "x": 127,
-      "y": 38,
-      "id": "outputslot4"
-    },
-    {
-      "type": "custommachinery:slot",
-      "x": 109,
-      "y": 56,
-      "id": "outputslot5"
-    },
-    {
-      "type": "custommachinery:slot",
-      "x": 127,
-      "y": 56,
-      "id": "outputslot6"
+      "id": "inputtank1"
     },
     {
       "type": "custommachinery:fluid",
-      "x": 151,
+      "x": 47,
+      "y": 20,
+      "height": 54,
+      "width": 18,
+      "id": "inputtank2"
+    },    
+    {
+      "type": "custommachinery:slot",
+      "x": 69,
+      "y": 20,
+      "id": "inputslot1"
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 69,
+      "y": 40,
+      "id": "inputslot2"
+    },    
+    {
+      "type": "custommachinery:slot",
+      "x": 69,
+      "y": 60,
+      "id": "inputslot3"
+    }, 
+    {
+      "type": "custommachinery:progress",
+      "x": 89,
+      "y": 42
+    },
+    {
+      "type": "custommachinery:slot",
+      "x": 121,
+      "y": 40,
+      "id": "outputslot"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x":143,
       "y": 20,
       "height": 54,
       "width": 18,

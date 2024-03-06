@@ -1,5 +1,5 @@
 {
-  "name": "涡轮柴油应力发生器",
+  "name": "涡轮柴油引擎",
   "appearance": {
     "block": "ftbskies:machine/turbo_diesel_generator",
     "running": {
@@ -22,7 +22,7 @@
       "maxInput": 1000,
       "maxOutput": 1000,
       "mode": "input",
-      "filter": ["#forge:biodiesel", "#forge:diesel", "#forge:flux_diesel", "#forge:force_biodiesel", "#forge:force_diesel"],
+      "filter": ["#forge:biodiesel", "#forge:diesel", "#forge:flux_diesel", "#forge:force_biodiesel", "#forge:force_diesel", "#forge:nitro_diesel"],
       "whitelist": true
     },    
     {
@@ -57,7 +57,7 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 8,
-      "text": "涡轮柴油应力发生器"
+      "text": "涡轮柴油引擎"
     },
     {
       "type": "custommachinery:fluid",
@@ -89,7 +89,7 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 78,
-      "text": "Inventory"
+      "text": "物品栏"
     },
     {
       "type": "custommachinery:player_inventory",

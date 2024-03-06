@@ -54,14 +54,27 @@ const goatEvent = {
     });
   },
 };
+
+
 EntityEvents.hurt(event => {
-    const { entity, target } = event;
-  if (!target || !entity) return
-    if (target.isPlayer() && entity.type == 'minecraft:goat') {
-        if (!target.stages.has("seen_goat")) {
-            target.stages.add("seen_goat")
-            message(target, "你被山羊撞了！")
-            Utils.server.scheduleInTicks(40, () => { message(target, "山羊事件现在可以在任务书中禁用！") })
-        }
+
+  const { source, entity } = event;
+  if (!entity || !source) return
+  if (source.getActual() == null) return
+  if (entity.isPlayer() && source.getActual().type == 'minecraft:goat') {
+    if (!entity.stages.has("seen_goat")) {
+      entity.stages.add("seen_goat")
+      Utils.server.scheduleInTicks(40, () => {
+        entity.sendSystemMessage({ text: "✔ 山羊事件现在可以在任务书中禁用！", color: "green" }, true)
+      })
     }
+  }
+  else if (source.getActual().isPlayer() && entity.type == 'minecraft:goat') {
+    if (!source.getActual().stages.has("seen_goat")) {
+      source.getActual().stages.add("seen_goat")
+      Utils.server.scheduleInTicks(40, () => {
+        source.getActual().sendSystemMessage({ text: "✔ 山羊事件现在可以在任务书中禁用！", color: "green" }, true)
+      })
+    }
+  }
 })

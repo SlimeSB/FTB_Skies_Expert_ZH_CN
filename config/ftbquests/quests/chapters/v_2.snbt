@@ -65,7 +65,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["5ABCCB790F09F904"]
+			dependencies: [
+				"5ABCCB790F09F904"
+				"33E8639DD7A3D265"
+			]
 			id: "0917AAA728ED75D5"
 			shape: "hexagon"
 			size: 2.0d

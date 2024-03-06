@@ -48,29 +48,6 @@ BlockEvents.placed('minecraft:end_portal_frame', event => {
 	}
 })
 
-// Deny Cryo Fuel placement when not on Glacio
-BlockEvents.placed('ad_astra:cryo_freezer', event => {
-	const { level, player, block } = event
-	if (level.getDimension() !== 'ad_astra:glacio') {
-		if (!player.isCreative()) {
-			error(event, '只能放置在霜原上')
-			block.set('minecraft:air')
-			returnBlock(event, 'ad_astra:cryo_freezer')
-		}
-	}
-})
-
-BlockEvents.placed('productivebees:feeder', event => {
-	const { level, player, block } = event
-	if (level.getDimension().getNamespace() === 'ad_astra') {
-		if (!player.isCreative()) {
-			error(event, '不能放在太空中')
-			block.set('minecraft:air')
-			returnBlock(event, 'productivebees:feeder')
-		}
-	}
-})
-
 BlockEvents.rightClicked('minecraft:end_portal_frame', event => {
 	const { item, hand, player } = event
 	if (hand != 'MAIN_HAND') return
@@ -219,6 +196,8 @@ PlayerEvents.inventoryChanged(event => {
 	) {
 		swapItem(player, item.id.toString(), 'ftbskies:eye_of_legend')
 	}
+	if (item.id == 'ftbskies:mana_steel_mesh' && !player.stages.has('mana_steel_mesh'))
+		player.stages.add('mana_steel_mesh')
 })
 //easter egg
 ItemEvents.rightClicked('ftbskies:easter_egg', event => {
@@ -255,6 +234,41 @@ ItemEvents.rightClicked('ftbskies:easter_egg', event => {
 	}
 })
 
+BlockEvents.rightClicked('occultism:storage_controller', event => {
+	const { player, block, item } = event
+	if (item.id == 'ars_nouveau:dominion_wand') {
+		error(event, '不能在存储促动器上使用该魔杖')
+		event.cancel()
+	}
+})
+const lecternTile = Java.loadClass(
+	'com.hollingsworth.arsnouveau.common.block.tile.StorageLecternTile'
+)
+BlockEvents.rightClicked('ars_nouveau:storage_lectern', event => {
+	const { player, block, item, level } = event
+	const storageControllers = []
+
+	let currLectern = lecternTile(level.getBlockEntity(block.pos))
+	let mainLectern = currLectern.getMainLectern()
+	let connectedInventories = mainLectern.connectedInventories
+
+	// check for storage controller
+	connectedInventories.forEach(inventory => {
+		let block = level.getBlock(inventory)
+		if (block.id == 'occultism:storage_controller') {
+			error(event, '检测到存储促动器，从网络中移除...')
+			storageControllers.push(inventory)
+		}
+	})
+
+	storageControllers.forEach(controller => {
+		connectedInventories.remove(controller)
+	})
+	if (storageControllers.length > 0) {
+		event.cancel()
+	}
+})
+
 //Player tick handler
 PlayerEvents.tick(event => {
 	const { player, server, level } = event
@@ -267,15 +281,17 @@ PlayerEvents.tick(event => {
 
 	//prevents all of these update checks from happening too often
 	if (pData.gameTimer % 80 != 0) return
-
-	if (
-		!player.stages.has('got_pearl') &&
-		getRandomInt(1, 100) < 15 &&
-		level.dimension != 'minecraft:overworld'
-	) {
-		try_enderman_spawn(player, level)
-	}
 	pData.gameTimer = 0
+
+	if (player.stages.has('trigger_enderman')) {
+		if (
+			!player.stages.has('got_pearl') &&
+			getRandomInt(1, 100) < 15 &&
+			level.dimension != 'minecraft:overworld'
+		) {
+			try_enderman_spawn(player, level)
+		}
+	}
 
 	// seen blaze event
 	if (!player.stages.has('seen_blaze')) {
@@ -338,40 +354,71 @@ function try_enderman_spawn(player, level) {
 	}
 }
 
-BlockEvents.placed(
-	[
-		'ftbskies:force_infused_moon_stone',
-		'ftbskies:honeyed_moon_stone',
-		'ftbskies:honeyed_mars_stone',
-		'ftbskies:honeyed_venus_stone',
-		'mekanismgenerators:advanced_solar_generator',
-	],
-	event => {
-		const { block } = event
-		let biome = block.biomeId
-		if (biome == 'ad_astra:orbit') return
-
-		if (event.player) {
-			let blockName = Text.translate(block.item.descriptionId).string
-			error(event, `您只能将 ${blockName} 放在轨道空间中！`)
-		}
+BlockEvents.rightClicked('create:hand_crank', event => {
+	let canceled = false
+	let player = event.entity
+	if (!player.isPlayer()) canceled = true
+	if (player.isFake()) canceled = true
+	if (canceled === true) {
+		event.block.offset(event.facing).popItem(Item.of('create:hand_crank'))
+		event.block.set('minecraft:air')
 		event.cancel()
 	}
-)
+})
 
-// liquid source explosion WIP
-// ItemEvents.rightClicked("starbunclemania:source_fluid_bucket", (event) => {
-//     const { player, item, target, hand } = event;
-//     if (item = "starbunclemania:source_fluid_bucket") {
+BlockEvents.placed(['minecraft:end_portal_frame'], event => {
+	const { block } = event
+	let dimension = block.level.dimension
+	if (dimension == 'ad_astra:glacio') return
 
-//         let explosion = target.block.createExplosion();
+	if (event.player) {
+		let blockName = Text.translate(block.item.descriptionId).string
+		error(event, `您只能将 ${blockName} 放置在霜原上`)
+	}
+	event.cancel()
+})
 
-//         explosion.damagesTerrain(false);
-//         explosion.destroysTerrain(false);
-//         explosion.strength(5);
-//         explosion.explode();
-//         player.tell("Test");
-//         event.cancel();
-//     }
-//     return;
-// })
+PlayerEvents.loggedIn(event => {
+	const { player, server } = event
+
+	if (event.level.dimension == 'minecraft:overworld') return
+	player.stages.remove('in_prison')
+	if (player.stages.has('special_player')) return
+
+	let username = player.username.toLowerCase()
+	if (Object.keys(global.specialPlayers).includes(username)) {
+		player.stages.add('special_player')
+		player.tell(global.specialPlayers[username].message)
+
+		global.specialPlayers[username].items.forEach(item => {
+			player.give(item)
+		})
+	}
+})
+
+EntityEvents.hurt('minecraft:player', event => {
+	const { entity, source } = event
+	if (entity.stages.has('in_prison') && source.getActual().type == 'minecraft:enderman') {
+		event.cancel()
+	}
+})
+
+const castleBreakable = ['minecraft:snow_block']
+BlockEvents.broken(event => {
+	const { player, block, level } = event
+	let kuLevel = new Ku.Level(level)
+	let blockPos = new BlockPos(block.pos.x, block.pos.y, block.pos.z)
+	if (!kuLevel.isStructureAtLocation(blockPos, 'castle_in_the_sky:castle_in_the_sky')) return
+	if (castleBreakable.includes(block.id)) return
+	message(event, '天空城的力量太强大，无法破坏')
+	event.cancel()
+})
+
+BlockEvents.rightClicked('create:blaze_burner', event => {
+	const { block, item, player, server } = event
+	if (item.id != 'create:creative_blaze_cake') return
+	if (player && player.isPlayer() && player.isCreative()) return
+	server.scheduleInTicks(1, callback => {
+		item.count--
+	})
+})

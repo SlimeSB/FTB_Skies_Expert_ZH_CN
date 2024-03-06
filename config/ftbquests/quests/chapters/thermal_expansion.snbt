@@ -99,13 +99,21 @@
 			dependencies: ["1828D9CBF5BDE917"]
 			description: ["{ftbquests.chapter.thermal_expansion.quests3.description}"]
 			id: "018720B0E3284D10"
-			rewards: [{
-				icon: { Count: 8b, id: "thermal:signalum_ingot" }
-				id: "6049346B334C8AE8"
-				table_id: 1406487820430908686L
-				title: "{ftbquests.chapter.thermal_expansion.quests3.rewards0.title}"
-				type: "random"
-			}]
+			rewards: [
+				{
+					icon: { Count: 8b, id: "thermal:signalum_ingot" }
+					id: "6049346B334C8AE8"
+					table_id: 1406487820430908686L
+					title: "Random Thermal Alloy"
+					type: "random"
+				}
+				{
+					count: 8
+					id: "7FCEE34258261829"
+					item: "thermal:invar_ingot"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.thermal_expansion.quests3.subtitle}"
 			tasks: [{
 				id: "708D5EA8DF543C89"

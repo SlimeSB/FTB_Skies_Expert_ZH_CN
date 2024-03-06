@@ -227,58 +227,25 @@
 		}
 		{
 			dependencies: ["2AE67A32EAF07AB1"]
-			description: [
-				"{ftbquests.chapter.not_the_bees.quests6.description0}"
-				""
-				"{ftbquests.chapter.not_the_bees.quests6.description2}"
-			]
-			id: "7DC7B46FB9C9DF91"
-			rewards: [
-				{
-					id: "30E6A3E4B8309612"
-					item: {
-						Count: 1b
-						id: "productivebees:spawn_egg_configurable_bee"
-						tag: {
-							EntityTag: {
-								type: "productivebees:experience"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "10F2A4D85B105A40"
-					item: "mekanism:basic_mechanical_pipe"
-					type: "item"
-				}
-			]
-			secret: true
-			subtitle: "{ftbquests.chapter.not_the_bees.quests6.subtitle}"
-			tasks: [{
-				id: "262D9DCF845A4508"
-				item: "productivebees:centrifuge"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2AE67A32EAF07AB1"]
-			description: ["{ftbquests.chapter.not_the_bees.quests7.description}"]
+			description:  ["{ftbquests.chapter.not_the_bees.quests7.description}"]
 			id: "5A67BA82D407F5F8"
 			rewards: [
-				{
-					count: 8
-					id: "79DEC543BD0A35EE"
-					item: "mekanism:basic_universal_cable"
-					type: "item"
-				}
 				{
 					count: 16
 					id: "05DD2A0037F44F97"
 					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E8D01EEF32212EE"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "76F46F4C887B02D7"
+					item: "immersiveengineering:wirecoil_copper_ins"
 					type: "item"
 				}
 			]
@@ -353,7 +320,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7DC7B46FB9C9DF91"]
+			dependencies: ["2AE67A32EAF07AB1"]
 			description: ["{ftbquests.chapter.not_the_bees.quests10.description}"]
 			id: "5E84ED98D0271F14"
 			rewards: [
@@ -382,7 +349,7 @@
 			}]
 			title: "{ftbquests.chapter.not_the_bees.quests10.title}"
 			x: -3.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2D9C20EB61AA1DDA"]
