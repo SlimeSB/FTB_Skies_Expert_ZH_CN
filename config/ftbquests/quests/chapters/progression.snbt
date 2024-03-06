@@ -11,18 +11,20 @@
 		}
 	}
 	id: "1F5D6AC8C1C940DF"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/progression.png"
-		rotation: 0.0d
-		width: 7.506024096385542d
-		x: -0.5d
-		y: -2.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/progression.png"
+			rotation: 0.0d
+			width: 7.506024096385542d
+			x: -0.5d
+			y: -2.0d
+		}
+	]
 	order_index: 6
 	quest_links: [
 		{
@@ -65,24 +67,28 @@
 			description: [
 				"{ftbquests.chapter.progression.quests0.description0}"
 				""
-				"[\"\",\"查看章节 \",{\"text\":\"天高任鸟飞\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1AA9D32D3A6F9ECE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"天高任鸟飞章节\"]}},\" 以了解更多详细信息\"]"
+				"{ftbquests.chapter.progression.quests0.description2}"
 			]
 			icon: "ftbskies:eye_of_legend"
 			id: "6C87D545B4CF34FB"
-			rewards: [{
-				id: "65F3E9E33C644102"
-				item: {
-					Count: 1b
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:unbreaking"
-							lvl: 8s
-						}]
+			rewards: [
+				{
+					id: "65F3E9E33C644102"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 8s
+								}
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			subtitle: "{ftbquests.chapter.progression.quests0.subtitle}"
 			tasks: [
 				{
@@ -110,12 +116,14 @@
 			disable_toast: true
 			icon: "createsifter:sifter"
 			id: "00E85EE1B2FFA9CF"
-			rewards: [{
-				count: 8
-				id: "04EC195F88468D60"
-				item: "supplementaries:flax"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "04EC195F88468D60"
+					item: "supplementaries:flax"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.progression.quests1.subtitle}"
 			tasks: [
 				{
@@ -169,7 +177,7 @@
 				""
 				"{ftbquests.chapter.progression.quests2.description2}"
 				""
-				"[\"\",\"有关这些筛网的详细信息，请参阅 \",{\"text\":\"无中生有\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"765CE56E943A0E79\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"无中生有章节\"]}},\" 章节\"]"
+				"{ftbquests.chapter.progression.quests2.description4}"
 			]
 			icon: {
 				Count: 1b
@@ -258,7 +266,7 @@
 			description: [
 				"{ftbquests.chapter.progression.quests4.description0}"
 				""
-				"在Skies中有两种方法可以做到这一点，建造一个末地传送门或飞到那里，但是在Skies Expert中，只有在使用 4 级火箭到达霜原之后，您才可以选择在霜原上建造并放置&6末地传送门框架&r"
+				"{ftbquests.chapter.progression.quests4.description2}"
 			]
 			icon: "minecraft:end_portal_frame"
 			id: "58DEB16DB734623C"
@@ -281,12 +289,14 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.progression.quests4.subtitle}"
-			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "760F0B5D0929CF40"
-				title: "{ftbquests.chapter.progression.quests4.tasks0.title}"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "760F0B5D0929CF40"
+					title: "{ftbquests.chapter.progression.quests4.tasks0.title}"
+					type: "dimension"
+				}
+			]
 			x: -3.0d
 			y: 4.5d
 		}
@@ -297,7 +307,7 @@
 				""
 				"{ftbquests.chapter.progression.quests5.description2}"
 				""
-				"[\"\",\"如果您想挑战更高难度，请查看 \",{\"text\":\"过载挑战\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2166DD3F75BEF301\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"过载挑战章节\"]}},\" 章节！否则，请享受在天空、探索其他MOD吧！\"]"
+				"{ftbquests.chapter.progression.quests5.description4}"
 			]
 			icon: "minecraft:dragon_head"
 			id: "0EDA2BDDA51B15EF"
@@ -339,13 +349,15 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.progression.quests5.subtitle}"
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "709C4B87684D8494"
-				title: "{ftbquests.chapter.progression.quests5.tasks0.title}"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "709C4B87684D8494"
+					title: "{ftbquests.chapter.progression.quests5.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
 			title: "{ftbquests.chapter.progression.quests5.title}"
 			x: -3.0d
 			y: 3.0d
@@ -360,17 +372,21 @@
 				"{ftbquests.chapter.progression.quests6.description4}"
 			]
 			id: "5BBBE30D2EB43582"
-			rewards: [{
-				id: "2EF4FC460DC85496"
-				item: "ftbquests:screen_1"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2EF4FC460DC85496"
+					item: "ftbquests:screen_1"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.progression.quests6.subtitle}"
-			tasks: [{
-				id: "7F11A04DDE7160FA"
-				item: "ftbquests:screen_1"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7F11A04DDE7160FA"
+					item: "ftbquests:screen_1"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.progression.quests6.title}"
 			x: -1.5d
 			y: 0.0d
@@ -405,13 +421,15 @@
 						tag: {
 							RepairCost: 0
 							display: {
-								Name: "{\"text\":\"最后的埃利安人\"}"
+								Name: "{\"text\":\"The Last Elyrian\"}"
 							}
 							mekData: {
-								EnergyContainers: [{
-									Container: 0b
-									stored: "100000"
-								}]
+								EnergyContainers: [
+									{
+										Container: 0b
+										stored: "100000"
+									}
+								]
 							}
 						}
 					}
@@ -426,12 +444,14 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.progression.quests7.subtitle}"
-			tasks: [{
-				id: "52D581534195DA74"
-				max_input: 2147283000L
-				type: "forge_energy"
-				value: 10000L
-			}]
+			tasks: [
+				{
+					id: "52D581534195DA74"
+					max_input: 2147283000L
+					type: "forge_energy"
+					value: 10000L
+				}
+			]
 			title: "{ftbquests.chapter.progression.quests7.title}"
 			x: 0.0d
 			y: 0.0d

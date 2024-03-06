@@ -9,18 +9,20 @@
 		tag: { }
 	}
 	id: "54CDE1D5662C43BE"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/gadgets.png"
-		rotation: 0.0d
-		width: 10.614457831325302d
-		x: 1.5d
-		y: -7.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/gadgets.png"
+			rotation: 0.0d
+			width: 10.614457831325302d
+			x: 1.5d
+			y: -7.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -67,39 +69,41 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.travel.quests0.subtitle}"
-			tasks: [{
-				id: "0889866185BD5D36"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "cyclic:collector"
-							}
-							{
-								Count: 1b
-								id: "itemcollectors:basic_collector"
-							}
-							{
-								Count: 1b
-								id: "itemcollectors:advanced_collector"
-							}
-							{
-								Count: 1b
-								id: "pneumaticcraft:collector_drone"
-							}
-							{
-								Count: 1b
-								id: "thermal:device_collector"
-							}
-						]
+			tasks: [
+				{
+					id: "0889866185BD5D36"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "cyclic:collector"
+								}
+								{
+									Count: 1b
+									id: "itemcollectors:basic_collector"
+								}
+								{
+									Count: 1b
+									id: "itemcollectors:advanced_collector"
+								}
+								{
+									Count: 1b
+									id: "pneumaticcraft:collector_drone"
+								}
+								{
+									Count: 1b
+									id: "thermal:device_collector"
+								}
+							]
+						}
 					}
+					title: "{ftbquests.chapter.travel.quests0.tasks0.title}"
+					type: "item"
 				}
-				title: "{ftbquests.chapter.travel.quests0.tasks0.title}"
-				type: "item"
-			}]
+			]
 			title: "{ftbquests.chapter.travel.quests0.title}"
 			x: 4.0d
 			y: -4.5d
@@ -108,11 +112,13 @@
 			description: ["{ftbquests.chapter.travel.quests1.description}"]
 			id: "58326A104EE243AE"
 			subtitle: "{ftbquests.chapter.travel.quests1.subtitle}"
-			tasks: [{
-				id: "7BBBB0E5446C673E"
-				item: "fluxnetworks:flux_core"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7BBBB0E5446C673E"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.travel.quests1.title}"
 			x: 1.5d
 			y: -2.5d
@@ -128,31 +134,33 @@
 			id: "7AA90C76389E69D3"
 			shape: "diamond"
 			subtitle: "{ftbquests.chapter.travel.quests2.subtitle}"
-			tasks: [{
-				id: "4042A70385FB661B"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "fluxnetworks:basic_flux_storage"
-							}
-							{
-								Count: 1b
-								id: "fluxnetworks:herculean_flux_storage"
-							}
-							{
-								Count: 1b
-								id: "fluxnetworks:gargantuan_flux_storage"
-							}
-						]
+			tasks: [
+				{
+					id: "4042A70385FB661B"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "fluxnetworks:basic_flux_storage"
+								}
+								{
+									Count: 1b
+									id: "fluxnetworks:herculean_flux_storage"
+								}
+								{
+									Count: 1b
+									id: "fluxnetworks:gargantuan_flux_storage"
+								}
+							]
+						}
 					}
+					title: "{ftbquests.chapter.travel.quests2.tasks0.title}"
+					type: "item"
 				}
-				title: "{ftbquests.chapter.travel.quests2.tasks0.title}"
-				type: "item"
-			}]
+			]
 			x: 3.0d
 			y: -1.0d
 		}
@@ -166,11 +174,13 @@
 			id: "3A8654A5EAF8980F"
 			shape: "diamond"
 			subtitle: "{ftbquests.chapter.travel.quests3.subtitle}"
-			tasks: [{
-				id: "091F6F381EEA16F7"
-				item: "fluxnetworks:flux_point"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "091F6F381EEA16F7"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -1.0d
 		}
@@ -184,11 +194,13 @@
 			id: "05972B4D9D7BFFB9"
 			shape: "diamond"
 			subtitle: "{ftbquests.chapter.travel.quests4.subtitle}"
-			tasks: [{
-				id: "791B9D3057A4944A"
-				item: "fluxnetworks:flux_plug"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "791B9D3057A4944A"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -1.0d
 		}
@@ -203,11 +215,13 @@
 			shape: "diamond"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.travel.quests5.subtitle}"
-			tasks: [{
-				id: "41E06D0DC95AD4EB"
-				item: "fluxnetworks:flux_controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "41E06D0DC95AD4EB"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+			]
 			x: 1.500000000000007d
 			y: 0.8035714285714377d
 		}
@@ -216,6 +230,8 @@
 				"{ftbquests.chapter.travel.quests6.description0}"
 				""
 				"{ftbquests.chapter.travel.quests6.description2}"
+				""
+				"{ftbquests.chapter.travel.quests6.description4}"
 			]
 			id: "70A8D88256576F5C"
 			rewards: [
@@ -232,18 +248,20 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.travel.quests6.subtitle}"
-			tasks: [{
-				id: "5564659107752781"
-				item: {
-					Count: 1b
-					id: "gag:time_sand_pouch"
-					tag: {
-						grains: 1440
-						totalAccumulatedTime: 1440
+			tasks: [
+				{
+					id: "5564659107752781"
+					item: {
+						Count: 1b
+						id: "gag:time_sand_pouch"
+						tag: {
+							grains: 1440
+							totalAccumulatedTime: 1440
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 0.5d
 			y: -5.0d
 		}
@@ -268,17 +286,19 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.travel.quests7.subtitle}"
-			tasks: [{
-				id: "03C25700D0BA245C"
-				item: {
-					Count: 1b
-					id: "minecraft:elytra"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "03C25700D0BA245C"
+					item: {
+						Count: 1b
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			title: "{ftbquests.chapter.travel.quests7.title}"
 			x: 4.5d
 			y: -3.0d
@@ -291,15 +311,17 @@
 			]
 			id: "37DFCD3EF3B90B9B"
 			subtitle: "{ftbquests.chapter.travel.quests8.subtitle}"
-			tasks: [{
-				id: "0C9122C6D03F4006"
-				item: {
-					Count: 1b
-					id: "shrink:shrinking_device"
-					tag: { }
+			tasks: [
+				{
+					id: "0C9122C6D03F4006"
+					item: {
+						Count: 1b
+						id: "shrink:shrinking_device"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 1.5d
 			y: 2.5d
 		}
@@ -310,19 +332,23 @@
 				"{ftbquests.chapter.travel.quests9.description2}"
 			]
 			id: "3A26B88CFD6901A5"
-			rewards: [{
-				count: 2
-				id: "6CC6A396FE782553"
-				item: "minecraft:chest"
-				team_reward: true
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "6CC6A396FE782553"
+					item: "minecraft:chest"
+					team_reward: true
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.travel.quests9.subtitle}"
-			tasks: [{
-				id: "4DC30B9DEB73278F"
-				item: "craftingstation:crafting_station"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4DC30B9DEB73278F"
+					item: "craftingstation:crafting_station"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -1.0d
 		}
@@ -354,35 +380,37 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.travel.quests10.subtitle}"
-			tasks: [{
-				id: "6873D2F5E3EE78D8"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ironjetpacks:jetpack"
-								tag: {
-									Id: "ironjetpacks:wood"
-									Throttle: 1.0d
+			tasks: [
+				{
+					id: "6873D2F5E3EE78D8"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ironjetpacks:jetpack"
+									tag: {
+										Id: "ironjetpacks:wood"
+										Throttle: 1.0d
+									}
 								}
-							}
-							{
-								Count: 1b
-								id: "mekanism:jetpack_armored"
-							}
-							{
-								Count: 1b
-								id: "mekanism:jetpack"
-							}
-						]
+								{
+									Count: 1b
+									id: "mekanism:jetpack_armored"
+								}
+								{
+									Count: 1b
+									id: "mekanism:jetpack"
+								}
+							]
+						}
 					}
+					title: "{ftbquests.chapter.travel.quests10.tasks0.title}"
+					type: "item"
 				}
-				title: "{ftbquests.chapter.travel.quests10.tasks0.title}"
-				type: "item"
-			}]
+			]
 			x: 4.5d
 			y: -1.0d
 		}
@@ -399,33 +427,37 @@
 			]
 			icon: "cyclic:anvil"
 			id: "527D1071645708E4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "54C968E5B84FDD5B"
-				table_id: 8339261241703954627L
-				type: "random"
-			}]
-			tasks: [{
-				id: "1769D44FF2E2F3FF"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "cyclic:anvil"
-							}
-							{
-								Count: 1b
-								id: "cyclic:anvil_void"
-							}
-						]
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54C968E5B84FDD5B"
+					table_id: 8339261241703954627L
+					type: "random"
 				}
-				title: "{ftbquests.chapter.travel.quests11.tasks0.title}"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "1769D44FF2E2F3FF"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "cyclic:anvil"
+								}
+								{
+									Count: 1b
+									id: "cyclic:anvil_void"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.travel.quests11.tasks0.title}"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.travel.quests11.title}"
 			x: 2.5d
 			y: -5.0d

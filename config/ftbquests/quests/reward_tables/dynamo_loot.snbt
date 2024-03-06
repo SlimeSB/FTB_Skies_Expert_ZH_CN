@@ -3,7 +3,10 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ count: 32, item: "minecraft:coal" }
+		{
+			count: 32
+			item: "minecraft:coal"
+		}
 		{
 			item: {
 				Count: 1b
@@ -30,7 +33,8 @@
 							SecName: "[None]"
 							SecUUID: "1ef1a6f0-87bc-4e78-0a0b-c6824eb787ea"
 						}
-						Sides: [B;
+						Sides: [
+							"B;"
 							0b
 							0b
 							0b
@@ -38,12 +42,14 @@
 							0b
 							0b
 						]
-						TankInv: [{
-							Amount: 16000
-							Capacity: 32000
-							FluidName: "minecraft:lava"
-							Tank: 0b
-						}]
+						TankInv: [
+							{
+								Amount: 16000
+								Capacity: 32000
+								FluidName: "minecraft:lava"
+								Tank: 0b
+							}
+						]
 						Xfer: {
 							XferIn: 0b
 							XferOut: 1b
@@ -54,7 +60,7 @@
 					RepairCost: 0
 					display: {
 						Lore: ["\"(+NBT)\""]
-						Name: "{\"text\":\"流体单元 (16 桶熔岩)\"}"
+						Name: "{\"text\":\"Fluid Cell (16 Buckets Lava)\"}"
 					}
 				}
 			}
@@ -85,7 +91,8 @@
 							SecName: "[None]"
 							SecUUID: "1ef1a6f0-87bc-4e78-0a0b-c6824eb787ea"
 						}
-						Sides: [B;
+						Sides: [
+							"B;"
 							0b
 							0b
 							0b
@@ -93,12 +100,14 @@
 							0b
 							0b
 						]
-						TankInv: [{
-							Amount: 32000
-							Capacity: 32000
-							FluidName: "thermal:creosote"
-							Tank: 0b
-						}]
+						TankInv: [
+							{
+								Amount: 32000
+								Capacity: 32000
+								FluidName: "thermal:creosote"
+								Tank: 0b
+							}
+						]
 						Xfer: {
 							XferIn: 0b
 							XferOut: 1b
@@ -109,26 +118,37 @@
 					RepairCost: 0
 					display: {
 						Lore: ["\"(+NBT)\""]
-						Name: "{\"text\":\"流体单元 (32 桶熔岩)\"}"
+						Name: "{\"text\":\"Fluid Cell (32 Buckets Creosote)\"}"
 					}
 				}
 			}
 		}
-		{ count: 4, item: "thermal:netherite_coin" }
-		{ count: 8, item: "minecraft:amethyst_shard" }
+		{
+			count: 4
+			item: "thermal:netherite_coin"
+		}
+		{
+			count: 8
+			item: "minecraft:amethyst_shard"
+		}
 		{
 			item: {
 				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:unbreaking"
-						lvl: 3s
-					}]
+					StoredEnchantments: [
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}
+					]
 				}
 			}
 		}
-		{ count: 2, item: "hexcasting:sub_sandwich" }
+		{
+			count: 2
+			item: "hexcasting:sub_sandwich"
+		}
 	]
-	title: "能源炉战利品"
+	title: "{ftbquests.reward_tables.dynamo_loot.title}"
 }

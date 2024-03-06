@@ -11,25 +11,29 @@
 		}
 	}
 	id: "1AA9D32D3A6F9ECE"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/skyhigh.png"
-		rotation: 0.0d
-		width: 10.626506024096386d
-		x: -1.5d
-		y: -5.5d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/skyhigh.png"
+			rotation: 0.0d
+			width: 10.626506024096386d
+			x: -1.5d
+			y: -5.5d
+		}
+	]
 	order_index: 0
-	quest_links: [{
-		id: "00D42E0F81D5E554"
-		linked_quest: "297DE3ACF3E0B994"
-		x: -3.0d
-		y: -2.0d
-	}]
+	quest_links: [
+		{
+			id: "00D42E0F81D5E554"
+			linked_quest: "297DE3ACF3E0B994"
+			x: -3.0d
+			y: -2.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["64790EB9F3B55F27"]
@@ -46,13 +50,15 @@
 			id: "0DF3159A5238A6F4"
 			min_width: 250
 			subtitle: "{ftbquests.chapter.nether_delights.quests0.subtitle}"
-			tasks: [{
-				icon: "easy_villagers:villager"
-				id: "6F056A12C6EC97BF"
-				structure: "skyvillages:skyvillage"
-				title: "{ftbquests.chapter.nether_delights.quests0.tasks0.title}"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "easy_villagers:villager"
+					id: "6F056A12C6EC97BF"
+					structure: "skyvillages:skyvillage"
+					title: "{ftbquests.chapter.nether_delights.quests0.tasks0.title}"
+					type: "structure"
+				}
+			]
 			title: "{ftbquests.chapter.nether_delights.quests0.title}"
 			x: 0.0d
 			y: -2.0d
@@ -66,11 +72,13 @@
 			]
 			id: "64790EB9F3B55F27"
 			subtitle: "{ftbquests.chapter.nether_delights.quests1.subtitle}"
-			tasks: [{
-				id: "191F0492EDAFE007"
-				item: "ftbskies:eye_of_legend"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "191F0492EDAFE007"
+					item: "ftbskies:eye_of_legend"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -2.0d
 		}
@@ -83,11 +91,13 @@
 			]
 			id: "3815E3655E9B9330"
 			subtitle: "{ftbquests.chapter.nether_delights.quests2.subtitle}"
-			tasks: [{
-				id: "6EADFB4A73F859CA"
-				item: "ftbskies:eye_of_legend_end"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6EADFB4A73F859CA"
+					item: "ftbskies:eye_of_legend_end"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -3.5d
 		}
@@ -96,11 +106,13 @@
 			description: ["{ftbquests.chapter.nether_delights.quests3.description}"]
 			id: "3E26C522258D890F"
 			subtitle: "{ftbquests.chapter.nether_delights.quests3.subtitle}"
-			tasks: [{
-				id: "6D3C5169189B9C2E"
-				item: "ftbskies:eye_of_legend_nether"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6D3C5169189B9C2E"
+					item: "ftbskies:eye_of_legend_nether"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -0.5d
 		}

@@ -5,18 +5,20 @@
 	group: "43731E7F4BACB580"
 	icon: "mekanism:alloy_atomic"
 	id: "4F6ED2800B9E5204"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/mekanism.png"
-		rotation: 0.0d
-		width: 5.614457831325301d
-		x: -1.5d
-		y: -5.5d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/mekanism.png"
+			rotation: 0.0d
+			width: 5.614457831325301d
+			x: -1.5d
+			y: -5.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -25,7 +27,7 @@
 			description: [
 				"{ftbquests.chapter.mekanism.quests0.description0}"
 				""
-				"[\"\",{\"text\":\"我们增加了一个思索，教大家如何建造裂变反应堆。在裂变反应堆端口上进行思索，或 \"},{\"text\":\"点击这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanismgenerators:fission_reactor_port\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanismgenerators:fission_reactor_port\"]}},{\"text\":\" 也可以查看\"}]"
+				"{ftbquests.chapter.mekanism.quests0.description2}"
 			]
 			icon: "mekanismgenerators:fission_fuel_assembly"
 			id: "7A12F045C037533B"
@@ -90,10 +92,12 @@
 			id: "18E3F8DC5D6230F8"
 			min_width: 275
 			subtitle: "{ftbquests.chapter.mekanism.quests1.subtitle}"
-			tasks: [{
-				id: "705E5264B6A3E450"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "705E5264B6A3E450"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.mekanism.quests1.title}"
 			x: 4.0d
 			y: -0.5d
@@ -184,10 +188,12 @@
 			id: "3EFD67B7F3E35F92"
 			min_width: 375
 			subtitle: "{ftbquests.chapter.mekanism.quests4.subtitle}"
-			tasks: [{
-				id: "721A38117E3114C9"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "721A38117E3114C9"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.mekanism.quests4.title}"
 			x: 5.5d
 			y: -0.5d
@@ -201,11 +207,13 @@
 			]
 			id: "33D7265E09AAD8BF"
 			subtitle: "{ftbquests.chapter.mekanism.quests5.subtitle}"
-			tasks: [{
-				id: "091B9C611C6C127E"
-				item: "mekanism:laser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "091B9C611C6C127E"
+					item: "mekanism:laser"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 2.5d
 		}
@@ -223,11 +231,13 @@
 			id: "2AA8BC86BA3E5BE0"
 			min_width: 275
 			subtitle: "{ftbquests.chapter.mekanism.quests6.subtitle}"
-			tasks: [{
-				id: "64BA14811EE7239B"
-				item: "mekanism:laser_amplifier"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "64BA14811EE7239B"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 2.5d
 		}
@@ -239,18 +249,20 @@
 			description: [
 				"{ftbquests.chapter.mekanism.quests7.description0}"
 				""
-				"[\"\",{\"text\":\"我们添加了一个思索来教大家如何建造聚变反应堆。在聚变反应堆控制器上进行思索，或 \"},{\"text\":\"点击这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanismgenerators:fusion_reactor_controller\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanismgenerators:fusion_reactor_controller\"]}},{\"text\":\" 查看\"}]"
+				"{ftbquests.chapter.mekanism.quests7.description2}"
 				""
 				"{ftbquests.chapter.mekanism.quests7.description4}"
 			]
 			id: "72AE4E5705BEA62E"
 			min_width: 250
 			subtitle: "{ftbquests.chapter.mekanism.quests7.subtitle}"
-			tasks: [{
-				id: "3EA20FFEDD4C0D94"
-				item: "mekanismgenerators:fusion_reactor_controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3EA20FFEDD4C0D94"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 1.0d
 		}
@@ -272,11 +284,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.mekanism.quests8.subtitle}"
-			tasks: [{
-				id: "4A0DB1DF9DA80161"
-				item: "mekanism:steel_casing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4A0DB1DF9DA80161"
+					item: "mekanism:steel_casing"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -0.5d
 		}
@@ -288,10 +302,6 @@
 				"{ftbquests.chapter.mekanism.quests9.description2}"
 				""
 				"{ftbquests.chapter.mekanism.quests9.description4}"
-				""
-				"{ftbquests.chapter.mekanism.quests9.description6}"
-				""
-				"提示：实际上，运行这台机器并不需要电。您可以在它的电源插槽中使用红石为其供电"
 			]
 			id: "4B7957DA13CD57F0"
 			min_width: 250
@@ -316,11 +326,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.mekanism.quests9.subtitle}"
-			tasks: [{
-				id: "7665F1BBCBF968EE"
-				item: "mekanism:metallurgic_infuser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7665F1BBCBF968EE"
+					item: "mekanism:metallurgic_infuser"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -2.0d
 		}
@@ -331,17 +343,21 @@
 			]
 			description: ["{ftbquests.chapter.mekanism.quests10.description}"]
 			id: "3FBA24C65E4CB3BF"
-			rewards: [{
-				id: "547D7E7F83CDED03"
-				item: "mekanism:enriched_diamond"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "547D7E7F83CDED03"
+					item: "mekanism:enriched_diamond"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.mekanism.quests10.subtitle}"
-			tasks: [{
-				id: "2E07AAE28175F1D5"
-				item: "mekanism:enrichment_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E07AAE28175F1D5"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -0.5d
 		}
@@ -350,11 +366,13 @@
 			description: ["{ftbquests.chapter.mekanism.quests11.description}"]
 			id: "02842172385BA9F8"
 			subtitle: "{ftbquests.chapter.mekanism.quests11.subtitle}"
-			tasks: [{
-				id: "5F3568A076875E06"
-				item: "mekanism:alloy_infused"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5F3568A076875E06"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -2.0d
 		}
@@ -367,11 +385,13 @@
 			]
 			id: "4EFD69C9CB62431B"
 			subtitle: "{ftbquests.chapter.mekanism.quests12.subtitle}"
-			tasks: [{
-				id: "53680FD1DE299AF5"
-				item: "mekanism:alloy_reinforced"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "53680FD1DE299AF5"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -2.0d
 		}
@@ -386,11 +406,13 @@
 			]
 			id: "7DB566911A941A8E"
 			subtitle: "{ftbquests.chapter.mekanism.quests13.subtitle}"
-			tasks: [{
-				id: "7BA883FE1871D5F9"
-				item: "mekanism:alloy_atomic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7BA883FE1871D5F9"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -2.0d
 		}
@@ -403,11 +425,13 @@
 			]
 			id: "61C86A3CB0ACBCD4"
 			subtitle: "{ftbquests.chapter.mekanism.quests14.subtitle}"
-			tasks: [{
-				id: "77151E3F9424AD93"
-				item: "mekanism:basic_control_circuit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "77151E3F9424AD93"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -2.0d
 		}
@@ -416,11 +440,13 @@
 			description: ["{ftbquests.chapter.mekanism.quests15.description}"]
 			id: "4D31E10B02F63091"
 			subtitle: "{ftbquests.chapter.mekanism.quests15.subtitle}"
-			tasks: [{
-				id: "7A2553ACC9F962F9"
-				item: "mekanism:advanced_control_circuit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7A2553ACC9F962F9"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: 1.0d
 		}
@@ -429,11 +455,13 @@
 			description: ["{ftbquests.chapter.mekanism.quests16.description}"]
 			id: "4D06BE879E20A6E9"
 			subtitle: "{ftbquests.chapter.mekanism.quests16.subtitle}"
-			tasks: [{
-				id: "486EFEDB8222C5E7"
-				item: "mekanism:elite_control_circuit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "486EFEDB8222C5E7"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: 2.5d
 		}
@@ -442,11 +470,13 @@
 			description: ["{ftbquests.chapter.mekanism.quests17.description}"]
 			id: "15CE6667384505F6"
 			subtitle: "{ftbquests.chapter.mekanism.quests17.subtitle}"
-			tasks: [{
-				id: "2387DBD5A9264D17"
-				item: "mekanism:ultimate_control_circuit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2387DBD5A9264D17"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: 4.0d
 		}
@@ -458,18 +488,22 @@
 				"{ftbquests.chapter.mekanism.quests18.description2}"
 			]
 			id: "4487546F94A4687A"
-			rewards: [{
-				count: 4
-				id: "2C066E3BF805CE32"
-				item: "mekanism:alloy_infused"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "2C066E3BF805CE32"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.mekanism.quests18.subtitle}"
-			tasks: [{
-				id: "1FBE3D46C131B48C"
-				item: "mekanism:basic_tier_installer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1FBE3D46C131B48C"
+					item: "mekanism:basic_tier_installer"
+					type: "item"
+				}
+			]
 			x: -9.5d
 			y: -2.0d
 		}
@@ -481,18 +515,22 @@
 				"{ftbquests.chapter.mekanism.quests19.description2}"
 			]
 			id: "67FFE0F155AC0D0E"
-			rewards: [{
-				count: 4
-				id: "014125F223B6761E"
-				item: "mekanism:upgrade_energy"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "014125F223B6761E"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.mekanism.quests19.subtitle}"
-			tasks: [{
-				id: "674B2DD1C8E8B162"
-				item: "mekanism:advanced_tier_installer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "674B2DD1C8E8B162"
+					item: "mekanism:advanced_tier_installer"
+					type: "item"
+				}
+			]
 			x: -9.5d
 			y: 1.0d
 		}
@@ -504,18 +542,22 @@
 				"{ftbquests.chapter.mekanism.quests20.description2}"
 			]
 			id: "038B16C5B6C22F72"
-			rewards: [{
-				count: 4
-				id: "4D8BB993425BE539"
-				item: "mekanism:upgrade_speed"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "4D8BB993425BE539"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.mekanism.quests20.subtitle}"
-			tasks: [{
-				id: "60E96E20CDEBBBD1"
-				item: "mekanism:elite_tier_installer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "60E96E20CDEBBBD1"
+					item: "mekanism:elite_tier_installer"
+					type: "item"
+				}
+			]
 			x: -9.5d
 			y: 2.5d
 		}
@@ -538,11 +580,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.mekanism.quests21.subtitle}"
-			tasks: [{
-				id: "2DD73B6D6A1B8648"
-				item: "mekanism:ultimate_tier_installer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2DD73B6D6A1B8648"
+					item: "mekanism:ultimate_tier_installer"
+					type: "item"
+				}
+			]
 			x: -9.5d
 			y: 4.0d
 		}
@@ -555,11 +599,13 @@
 			]
 			id: "52B617A43EC1BC5F"
 			subtitle: "{ftbquests.chapter.mekanism.quests22.subtitle}"
-			tasks: [{
-				id: "554DF58F5E6F8C26"
-				item: "mekanism:chemical_injection_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "554DF58F5E6F8C26"
+					item: "mekanism:chemical_injection_chamber"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 2.5d
 		}
@@ -567,18 +613,22 @@
 			dependencies: ["1F8C2AF0A3A3A486"]
 			description: ["{ftbquests.chapter.mekanism.quests23.description}"]
 			id: "28473029CD0CCFEE"
-			rewards: [{
-				id: "718F37186D0DD637"
-				table_id: 8339261241703954627L
-				title: "{ftbquests.chapter.mekanism.quests23.rewards0.title}"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "718F37186D0DD637"
+					table_id: 8339261241703954627L
+					title: "{ftbquests.chapter.mekanism.quests23.rewards0.title}"
+					type: "random"
+				}
+			]
 			subtitle: "{ftbquests.chapter.mekanism.quests23.subtitle}"
-			tasks: [{
-				id: "323CD12C4AD6DDD6"
-				item: "mekanism:crusher"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "323CD12C4AD6DDD6"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 1.0d
 		}
@@ -586,31 +636,37 @@
 			dependencies: ["1F8C2AF0A3A3A486"]
 			description: ["{ftbquests.chapter.mekanism.quests24.description}"]
 			id: "7465EE35F1A7C50C"
-			rewards: [{
-				id: "196A25402711458D"
-				item: {
-					Count: 1b
-					id: "mekanism:basic_chemical_tank"
-					tag: {
-						mekData: {
-							GasTanks: [{
-								Tank: 0b
-								stored: {
-									amount: 32000L
-									gasName: "mekanism:oxygen"
-								}
-							}]
+			rewards: [
+				{
+					id: "196A25402711458D"
+					item: {
+						Count: 1b
+						id: "mekanism:basic_chemical_tank"
+						tag: {
+							mekData: {
+								GasTanks: [
+									{
+										Tank: 0b
+										stored: {
+											amount: 32000L
+											gasName: "mekanism:oxygen"
+										}
+									}
+								]
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			subtitle: "{ftbquests.chapter.mekanism.quests24.subtitle}"
-			tasks: [{
-				id: "52A99A0202E2EDC4"
-				item: "mekanism:purification_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "52A99A0202E2EDC4"
+					item: "mekanism:purification_chamber"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 1.0d
 		}
@@ -618,18 +674,22 @@
 			dependencies: ["1F8C2AF0A3A3A486"]
 			description: ["{ftbquests.chapter.mekanism.quests25.description}"]
 			id: "5CBB3901C4B91EFC"
-			rewards: [{
-				count: 16
-				id: "5F928E50F004C8C8"
-				item: "mekanism:fluorite_gem"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "5F928E50F004C8C8"
+					item: "mekanism:fluorite_gem"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.mekanism.quests25.subtitle}"
-			tasks: [{
-				id: "2BE4FE74FB0CD04E"
-				item: "mekanism:pressurized_reaction_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2BE4FE74FB0CD04E"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -0.5d
 		}
@@ -642,11 +702,13 @@
 			]
 			id: "35AB0E82434B81DF"
 			subtitle: "{ftbquests.chapter.mekanism.quests26.subtitle}"
-			tasks: [{
-				id: "023C51C58245BD3E"
-				item: "mekanism:solar_neutron_activator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "023C51C58245BD3E"
+					item: "mekanism:solar_neutron_activator"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -0.5d
 		}
@@ -686,11 +748,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.mekanism.quests27.subtitle}"
-			tasks: [{
-				id: "767C7F9FD5704F26"
-				item: "mekanism:thermal_evaporation_controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "767C7F9FD5704F26"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -3.5d
 		}
@@ -701,17 +765,21 @@
 			]
 			description: ["{ftbquests.chapter.mekanism.quests28.description}"]
 			id: "2C33D1D9DFB63524"
-			rewards: [{
-				id: "6EF7E1F047FEA0A0"
-				item: "mekanism:radioactive_waste_barrel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6EF7E1F047FEA0A0"
+					item: "mekanism:radioactive_waste_barrel"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.mekanism.quests28.subtitle}"
-			tasks: [{
-				id: "7DB238006762ABD9"
-				item: "mekanism:pellet_polonium"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7DB238006762ABD9"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: -0.5d
 		}
@@ -724,11 +792,13 @@
 			]
 			icon: "mekanism:mekasuit_bodyarmor"
 			id: "65ABCBDF33FB459C"
-			rewards: [{
-				id: "0021711C9D7C82C0"
-				item: "mekanism:modification_station"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0021711C9D7C82C0"
+					item: "mekanism:modification_station"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.mekanism.quests29.subtitle}"
 			tasks: [
 				{
@@ -761,15 +831,17 @@
 			description: [
 				"{ftbquests.chapter.mekanism.quests30.description0}"
 				""
-				"[\"\",{\"text\":\"思索超临界移相器端口，或者 \"},{\"text\":\"点击这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanism:sps_port\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanism:sps_port\"]}},{\"text\":\" 查看它是如何构造的\"}]"
+				"{ftbquests.chapter.mekanism.quests30.description2}"
 			]
 			icon: "mekanism:sps_port"
 			id: "1ED836C619117362"
-			rewards: [{
-				id: "6DC7A2CEDE665F46"
-				item: "mekanism:chemical_crystallizer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6DC7A2CEDE665F46"
+					item: "mekanism:chemical_crystallizer"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.mekanism.quests30.subtitle}"
 			tasks: [
 				{
@@ -799,7 +871,7 @@
 				""
 				"{ftbquests.chapter.mekanism.quests31.description2}"
 				""
-				"[\"\",{\"text\":\"我们添加了一个思索，教大家如何建造涡轮机。请在涡轮阀门上进行思索，或 \"},{\"text\":\"点击这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanismgenerators:turbine_valve\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanismgenerators:turbine_valve\"]}},{\"text\":\" 也可以查看\"}]"
+				"{ftbquests.chapter.mekanism.quests31.description4}"
 			]
 			icon: "mekanismgenerators:turbine_blade"
 			id: "11D6A515D73C196B"
@@ -826,9 +898,7 @@
 		}
 		{
 			dependencies: ["4B7957DA13CD57F0"]
-			description: [
-				"{ftbquests.chapter.mekanism.quests32.description0}"
-			]
+			description: ["{ftbquests.chapter.mekanism.quests32.description}"]
 			id: "7DE50AED14AA463E"
 			rewards: [
 				{
@@ -844,11 +914,13 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "7F3A941E22AD760B"
-				item: "mekanismgenerators:advanced_solar_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7F3A941E22AD760B"
+					item: "mekanismgenerators:advanced_solar_generator"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -3.5d
 		}
@@ -858,27 +930,31 @@
 				"7DE50AED14AA463E"
 			]
 			description: [
-				"当然，您也可以使用&6末影储罐&f，但是&e这个任务&f在此提醒您一些非常重要的事情"
+				"{ftbquests.chapter.mekanism.quests33.description0}"
 				""
-				"要在你的&b空间站&f拥有一个&b水池&f "
-				"(需要&6蓄水器&f), "
-				"同时需要&6给房间加压供氧&f!"
+				"{ftbquests.chapter.mekanism.quests33.description2}"
+				"{ftbquests.chapter.mekanism.quests33.description3}"
+				"{ftbquests.chapter.mekanism.quests33.description4}"
 				""
-				"&8&如果你不这样做，就要准备好给自己弄个小冰场...&f"
+				"{ftbquests.chapter.mekanism.quests33.description6}"
 			]
 			icon: "minecraft:water_bucket"
 			id: "3294690FD3D82540"
 			min_width: 300
-			rewards: [{
-				id: "76A61ACF0440674A"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "79705F122465A9C6"
-				type: "checkmark"
-			}]
-			title: "但如何在轨道上产生水？"
+			rewards: [
+				{
+					id: "76A61ACF0440674A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "79705F122465A9C6"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.mekanism.quests33.title}"
 			x: -3.9693877551020478d
 			y: -4.346938775510196d
 		}

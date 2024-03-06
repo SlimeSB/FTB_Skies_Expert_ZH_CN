@@ -11,11 +11,13 @@
 		{
 			dependencies: ["5A05F4A7439FFAB9"]
 			id: "06B4690E613A8090"
-			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "4A049A1C9C8796ED"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "4A049A1C9C8796ED"
+					type: "dimension"
+				}
+			]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -24,55 +26,75 @@
 				"06B4690E613A8090"
 				"0EDA2BDDA51B15EF"
 			]
-			description: ["漫长的艰苦旅程终于结束了。制作您的冰镇菠萝椰汁，坐在日出的草坪椅上，喝着冰镇饮料，仿佛置身于热带天堂，留下的只有美好的劳动回忆。我谨代表整个 FTB 团队感谢您的参与，并向您表示祝贺，希望您享受这次旅程！"]
+			description: [
+				"{ftbquests.chapter.vi__into_the_unknown.quests1.description0}"
+				""
+				"{ftbquests.chapter.vi__into_the_unknown.quests1.description2}"
+				""
+				"{ftbquests.chapter.vi__into_the_unknown.quests1.description4}"
+				""
+				"{ftbquests.chapter.vi__into_the_unknown.quests1.description6}"
+				""
+				"{ftbquests.chapter.vi__into_the_unknown.quests1.description8}"
+			]
 			id: "058225A01C33EAFA"
-			rewards: [{
-				id: "02666255CA6A7EF3"
-				item: "createaddition:creative_energy"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "02666255CA6A7EF3"
+					item: "createaddition:creative_energy"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				id: "3C39C32F3B8E1489"
-				item: "tropicraft:pina_colada"
-				type: "item"
-			}]
-			title: "您喜欢冰镇菠萝椰汁吗？"
+			tasks: [
+				{
+					id: "3C39C32F3B8E1489"
+					item: "tropicraft:pina_colada"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.vi__into_the_unknown.quests1.title}"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E7B6008D25D9CC7"]
 			id: "5A05F4A7439FFAB9"
-			tasks: [{
-				count: 12L
-				id: "76A4BB88627A73E7"
-				item: "minecraft:end_portal_frame"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 12L
+					id: "76A4BB88627A73E7"
+					item: "minecraft:end_portal_frame"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0917AAA728ED75D5"]
 			id: "4FD6EAFF56944C0E"
-			tasks: [{
-				id: "584BE30D2EAC53EF"
-				item: "ad_astra:cryo_freezer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "584BE30D2EAC53EF"
+					item: "ad_astra:cryo_freezer"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4FD6EAFF56944C0E"]
 			id: "6E7B6008D25D9CC7"
-			tasks: [{
-				id: "4ADA87598CFFC6FA"
-				item: "ftbskies:cryo_infused_osmium_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4ADA87598CFFC6FA"
+					item: "ftbskies:cryo_infused_osmium_ingot"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 0.0d
 		}

@@ -6,18 +6,20 @@
 	group: "5A42857CD4E60814"
 	icon: "botania:corporea_index"
 	id: "1E2BFC921C6BD0BB"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/magical.png"
-		rotation: 0.0d
-		width: 4.771084337349397d
-		x: -5.0d
-		y: -8.5d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/magical.png"
+			rotation: 0.0d
+			width: 4.771084337349397d
+			x: -5.0d
+			y: -8.5d
+		}
+	]
 	order_index: 3
 	quest_links: [
 		{
@@ -50,12 +52,14 @@
 			icon: "botania:corporea_spark_master"
 			id: "69DE3088CD8EE75E"
 			min_width: 325
-			rewards: [{
-				count: 3
-				id: "4D1EC21D8967977E"
-				item: "botania:corporea_spark"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "4D1EC21D8967977E"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.magical.quests0.subtitle}"
 			tasks: [
 				{
@@ -84,11 +88,13 @@
 			]
 			id: "473F60B947745A57"
 			subtitle: "{ftbquests.chapter.magical.quests1.subtitle}"
-			tasks: [{
-				id: "481D8038C0EB0E18"
-				item: "botania:corporea_index"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "481D8038C0EB0E18"
+					item: "botania:corporea_index"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -4.5d
 		}
@@ -101,11 +107,13 @@
 			]
 			id: "48462142316EC808"
 			subtitle: "{ftbquests.chapter.magical.quests2.subtitle}"
-			tasks: [{
-				id: "72C42A8EEF2E8ACB"
-				item: "botania:corporea_funnel"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "72C42A8EEF2E8ACB"
+					item: "botania:corporea_funnel"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -5.5d
 		}
@@ -123,11 +131,13 @@
 			id: "0979860E89A3AD7F"
 			min_width: 325
 			subtitle: "{ftbquests.chapter.magical.quests3.subtitle}"
-			tasks: [{
-				id: "583234D4E85265A7"
-				item: "botania:corporea_interceptor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "583234D4E85265A7"
+					item: "botania:corporea_interceptor"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -5.5d
 		}
@@ -143,11 +153,13 @@
 			id: "5F038BF46205DC9C"
 			min_width: 325
 			subtitle: "{ftbquests.chapter.magical.quests4.subtitle}"
-			tasks: [{
-				id: "1302DC1342279E4C"
-				item: "botania:corporea_retainer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1302DC1342279E4C"
+					item: "botania:corporea_retainer"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -5.5d
 		}
@@ -160,11 +172,13 @@
 			]
 			id: "5D32A57D9BA2851E"
 			subtitle: "{ftbquests.chapter.magical.quests5.subtitle}"
-			tasks: [{
-				id: "6F0E9B02EDC669E2"
-				item: "botania:corporea_crystal_cube"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6F0E9B02EDC669E2"
+					item: "botania:corporea_crystal_cube"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -6.5d
 		}
@@ -178,10 +192,12 @@
 						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:protection"
-								lvl: 1s
-							}]
+							StoredEnchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 1s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -192,10 +208,12 @@
 						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:sharpness"
-								lvl: 1s
-							}]
+							StoredEnchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 1s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -203,11 +221,13 @@
 			]
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.magical.quests6.subtitle}"
-			tasks: [{
-				id: "340185AD624FF4AF"
-				item: "apotheosis:library"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "340185AD624FF4AF"
+					item: "apotheosis:library"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -1.0d
 		}

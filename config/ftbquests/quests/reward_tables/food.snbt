@@ -3,13 +3,27 @@
 	loot_size: 1
 	order_index: 6
 	rewards: [
-		{ item: "farmersdelight:honey_glazed_ham_block" }
-		{ item: "farmersdelight:stuffed_pumpkin_block" }
-		{ item: "farmersdelight:shepherds_pie_block" }
-		{ item: "farmersdelight:roast_chicken_block" }
-		{ item: "farmersdelight:sweet_berry_cheesecake" }
-		{ item: "farmersdelight:chocolate_pie" }
-		{ item: "farmersdelight:apple_pie" }
+		{
+			item: "farmersdelight:honey_glazed_ham_block"
+		}
+		{
+			item: "farmersdelight:stuffed_pumpkin_block"
+		}
+		{
+			item: "farmersdelight:shepherds_pie_block"
+		}
+		{
+			item: "farmersdelight:roast_chicken_block"
+		}
+		{
+			item: "farmersdelight:sweet_berry_cheesecake"
+		}
+		{
+			item: "farmersdelight:chocolate_pie"
+		}
+		{
+			item: "farmersdelight:apple_pie"
+		}
 	]
-	title: "可放置食物"
+	title: "{ftbquests.reward_tables.food.title}"
 }

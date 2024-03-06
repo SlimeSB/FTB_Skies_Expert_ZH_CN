@@ -9,18 +9,20 @@
 		tag: { }
 	}
 	id: "4FC04F404AA6A21C"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/beeeeees.png"
-		rotation: 0.0d
-		width: 4.457831325301205d
-		x: -3.0d
-		y: -5.5d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/beeeeees.png"
+			rotation: 0.0d
+			width: 4.457831325301205d
+			x: -3.0d
+			y: -5.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -47,11 +49,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.not_the_bees.quests0.subtitle}"
-			tasks: [{
-				id: "08619108D273F5EF"
-				item: "minecraft:beehive"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08619108D273F5EF"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -3.5d
 		}
@@ -66,24 +70,28 @@
 			]
 			icon: "productivebees:advanced_oak_beehive"
 			id: "2A1BB363E3B79C66"
-			rewards: [{
-				id: "2C0C0E72936EFD5F"
-				item: "productivebees:expansion_box_oak"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.not_the_bees.quests1.subtitle}"
-			tasks: [{
-				id: "7DF16B2E6A52FB99"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "productivebees:advanced_beehives"
-					}
+			rewards: [
+				{
+					id: "2C0C0E72936EFD5F"
+					item: "productivebees:expansion_box_oak"
+					type: "item"
 				}
-				title: "{ftbquests.chapter.not_the_bees.quests1.tasks0.title}"
-				type: "item"
-			}]
+			]
+			subtitle: "{ftbquests.chapter.not_the_bees.quests1.subtitle}"
+			tasks: [
+				{
+					id: "7DF16B2E6A52FB99"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "productivebees:advanced_beehives"
+						}
+					}
+					title: "{ftbquests.chapter.not_the_bees.quests1.tasks0.title}"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.not_the_bees.quests1.title}"
 			x: -1.0d
 			y: -2.0d
@@ -108,11 +116,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "118A7F5A0F2B458B"
-				item: "minecraft:honey_bottle"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "118A7F5A0F2B458B"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -3.5d
 		}
@@ -134,11 +144,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.not_the_bees.quests3.subtitle}"
-			tasks: [{
-				id: "449BD5AB4B235F3C"
-				item: "minecraft:honeycomb"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "449BD5AB4B235F3C"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.not_the_bees.quests3.title}"
 			x: -3.0d
 			y: -2.0d
@@ -172,13 +184,15 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.not_the_bees.quests4.subtitle}"
-			tasks: [{
-				advancement: "minecraft:husbandry/breed_an_animal"
-				criterion: ""
-				icon: "minecraft:poppy"
-				id: "79F1812405900914"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/breed_an_animal"
+					criterion: ""
+					icon: "minecraft:poppy"
+					id: "79F1812405900914"
+					type: "advancement"
+				}
+			]
 			title: "{ftbquests.chapter.not_the_bees.quests4.title}"
 			x: -4.5d
 			y: -2.0d
@@ -217,17 +231,19 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "1D0C76D8314DC134"
-				title: "{ftbquests.chapter.not_the_bees.quests5.tasks0.title}"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "1D0C76D8314DC134"
+					title: "{ftbquests.chapter.not_the_bees.quests5.tasks0.title}"
+					type: "checkmark"
+				}
+			]
 			x: -4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2AE67A32EAF07AB1"]
-			description:  ["{ftbquests.chapter.not_the_bees.quests7.description}"]
+			description: ["{ftbquests.chapter.not_the_bees.quests6.description}"]
 			id: "5A67BA82D407F5F8"
 			rewards: [
 				{
@@ -249,25 +265,27 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.not_the_bees.quests7.subtitle}"
-			tasks: [{
-				id: "04FEDAE9D77645A7"
-				item: "productivebees:incubator"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.not_the_bees.quests6.subtitle}"
+			tasks: [
+				{
+					id: "04FEDAE9D77645A7"
+					item: "productivebees:incubator"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2AE67A32EAF07AB1"]
 			description: [
-				"{ftbquests.chapter.not_the_bees.quests8.description0}"
+				"{ftbquests.chapter.not_the_bees.quests7.description0}"
 				""
-				"{ftbquests.chapter.not_the_bees.quests8.description2}"
+				"{ftbquests.chapter.not_the_bees.quests7.description2}"
 				""
-				"{ftbquests.chapter.not_the_bees.quests8.description4}"
+				"{ftbquests.chapter.not_the_bees.quests7.description4}"
 				""
-				"{ftbquests.chapter.not_the_bees.quests8.description6}"
+				"{ftbquests.chapter.not_the_bees.quests7.description6}"
 			]
 			id: "33BC280CC6A6C3FE"
 			min_width: 225
@@ -284,18 +302,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.not_the_bees.quests8.subtitle}"
-			tasks: [{
-				id: "4D558CD816272ED8"
-				item: "productivebees:gene_indexer"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.not_the_bees.quests7.subtitle}"
+			tasks: [
+				{
+					id: "4D558CD816272ED8"
+					item: "productivebees:gene_indexer"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2AE67A32EAF07AB1"]
-			description: ["{ftbquests.chapter.not_the_bees.quests9.description}"]
+			description: ["{ftbquests.chapter.not_the_bees.quests8.description}"]
 			id: "2D9C20EB61AA1DDA"
 			rewards: [
 				{
@@ -310,18 +330,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.not_the_bees.quests9.subtitle}"
-			tasks: [{
-				id: "39E3E75629A66B53"
-				item: "productivebees:bottler"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.not_the_bees.quests8.subtitle}"
+			tasks: [
+				{
+					id: "39E3E75629A66B53"
+					item: "productivebees:bottler"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2AE67A32EAF07AB1"]
-			description: ["{ftbquests.chapter.not_the_bees.quests10.description}"]
+			description: ["{ftbquests.chapter.not_the_bees.quests9.description}"]
 			id: "5E84ED98D0271F14"
 			rewards: [
 				{
@@ -341,28 +363,30 @@
 				}
 			]
 			secret: true
-			subtitle: "{ftbquests.chapter.not_the_bees.quests10.subtitle}"
-			tasks: [{
-				id: "5B630D4C93AF1B4C"
-				item: "productivebees:powered_centrifuge"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.not_the_bees.quests10.title}"
+			subtitle: "{ftbquests.chapter.not_the_bees.quests9.subtitle}"
+			tasks: [
+				{
+					id: "5B630D4C93AF1B4C"
+					item: "productivebees:powered_centrifuge"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.not_the_bees.quests9.title}"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2D9C20EB61AA1DDA"]
 			description: [
-				"{ftbquests.chapter.not_the_bees.quests11.description0}"
+				"{ftbquests.chapter.not_the_bees.quests10.description0}"
 				""
-				"{ftbquests.chapter.not_the_bees.quests11.description2}"
+				"{ftbquests.chapter.not_the_bees.quests10.description2}"
 				""
-				"{ftbquests.chapter.not_the_bees.quests11.description4}"
+				"{ftbquests.chapter.not_the_bees.quests10.description4}"
 				""
-				"{ftbquests.chapter.not_the_bees.quests11.description6}"
+				"{ftbquests.chapter.not_the_bees.quests10.description6}"
 				""
-				"{ftbquests.chapter.not_the_bees.quests11.description8}"
+				"{ftbquests.chapter.not_the_bees.quests10.description8}"
 			]
 			id: "71069A4260D55B97"
 			min_width: 250
@@ -380,12 +404,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.not_the_bees.quests11.subtitle}"
-			tasks: [{
-				id: "38447C9EEB342E91"
-				item: "productivebees:gene_bottle"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.not_the_bees.quests10.subtitle}"
+			tasks: [
+				{
+					id: "38447C9EEB342E91"
+					item: "productivebees:gene_bottle"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 1.0d
 		}

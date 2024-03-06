@@ -7,109 +7,131 @@
 	id: "398BD7FD6ABB840A"
 	order_index: 1
 	progression_mode: "linear"
-	quest_links: [{
-		id: "7DF54B61AF3FFA75"
-		linked_quest: "0FD6A469178B02A0"
-		x: 11.0d
-		y: -4.0d
-	}]
+	quest_links: [
+		{
+			id: "7DF54B61AF3FFA75"
+			linked_quest: "0FD6A469178B02A0"
+			x: 11.0d
+			y: -4.0d
+		}
+	]
 	quests: [
 		{
 			id: "432AF82A70CFBD03"
-			tasks: [{
-				id: "33399E3EC5DE019B"
-				item: "mekanism:basic_mechanical_pipe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33399E3EC5DE019B"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -2.0d
 		}
 		{
 			id: "788ED5BF6E4C41B7"
-			tasks: [{
-				id: "48B6487FA394081C"
-				item: "mekanism:basic_pressurized_tube"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48B6487FA394081C"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			id: "7621486DB055ED2B"
-			rewards: [{
-				id: "587EFF29E05C1818"
-				item: {
-					Count: 1b
-					id: "mekanism:configurator"
-					tag: {
-						mekData: {
-							EnergyContainers: [{
-								Container: 0b
-								stored: "60000"
-							}]
+			rewards: [
+				{
+					id: "587EFF29E05C1818"
+					item: {
+						Count: 1b
+						id: "mekanism:configurator"
+						tag: {
+							mekData: {
+								EnergyContainers: [
+									{
+										Container: 0b
+										stored: "60000"
+									}
+								]
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2D597233350CE247"
-				item: "mekanism:basic_logistical_transporter"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "2D597233350CE247"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			id: "4353098126B8B7F2"
-			tasks: [{
-				id: "007F4A0AAD745995"
-				item: "mekanism:basic_thermodynamic_conductor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "007F4A0AAD745995"
+					item: "mekanism:basic_thermodynamic_conductor"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -2.0d
 		}
 		{
 			id: "527BD24E9F6E4AF2"
-			tasks: [{
-				id: "6FF50F73592E79C6"
-				item: "mekanism:basic_universal_cable"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6FF50F73592E79C6"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7621486DB055ED2B"]
 			id: "51329F5D4DAF96BF"
-			tasks: [{
-				id: "03DD1E17BA64B16D"
-				item: "mekanism:diversion_transporter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "03DD1E17BA64B16D"
+					item: "mekanism:diversion_transporter"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7621486DB055ED2B"]
 			id: "7C9244E94200E4E4"
-			tasks: [{
-				id: "1931A95B02890C5C"
-				item: "mekanism:restrictive_transporter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1931A95B02890C5C"
+					item: "mekanism:restrictive_transporter"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7621486DB055ED2B"]
 			id: "47CDC768F91E7CE0"
-			tasks: [{
-				id: "32539B5EEFDECFB1"
-				item: "mekanism:logistical_sorter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "32539B5EEFDECFB1"
+					item: "mekanism:logistical_sorter"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -3.5d
 		}
@@ -123,120 +145,142 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "6ACBAE5858671154"
-			tasks: [{
-				id: "4608E3283E2B8EC9"
-				item: "mekanism:alloy_infused"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4608E3283E2B8EC9"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6ACBAE5858671154"]
 			id: "11A9FDF220163FF6"
-			tasks: [{
-				id: "5943639AB739CDC4"
-				item: "mekanism:alloy_reinforced"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5943639AB739CDC4"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["11A9FDF220163FF6"]
 			id: "73013794260E4E88"
-			tasks: [{
-				id: "188B694863595AB3"
-				item: "mekanism:alloy_atomic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "188B694863595AB3"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -0.5d
 		}
 		{
 			id: "65ECA39B94D33D9D"
-			tasks: [{
-				id: "1C3C1E8C2AD61F56"
-				item: "industrialforegoing:conveyor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C3C1E8C2AD61F56"
+					item: "industrialforegoing:conveyor"
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "6BF3F0D29EA10489"
-			tasks: [{
-				id: "7C319AE28528CA1D"
-				item: "industrialforegoing:conveyor_extraction_upgrade"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7C319AE28528CA1D"
+					item: "industrialforegoing:conveyor_extraction_upgrade"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "3141F8DDEA01CFC4"
-			tasks: [{
-				id: "7395109E690B45E9"
-				item: "industrialforegoing:conveyor_insertion_upgrade"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7395109E690B45E9"
+					item: "industrialforegoing:conveyor_insertion_upgrade"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "7C7BDD48F794511A"
-			tasks: [{
-				id: "28C4B09C8BAAC163"
-				item: "industrialforegoing:conveyor_detection_upgrade"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "28C4B09C8BAAC163"
+					item: "industrialforegoing:conveyor_detection_upgrade"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "3E29AE803C3ED5BF"
-			tasks: [{
-				id: "7019AB93DD91B554"
-				item: "industrialforegoing:conveyor_bouncing_upgrade"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7019AB93DD91B554"
+					item: "industrialforegoing:conveyor_bouncing_upgrade"
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "7C904E6F87CEBA1C"
-			tasks: [{
-				id: "7F2A5449BDFCDCBD"
-				item: "industrialforegoing:conveyor_dropping_upgrade"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7F2A5449BDFCDCBD"
+					item: "industrialforegoing:conveyor_dropping_upgrade"
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "6A1FE1B90D56171F"
-			tasks: [{
-				id: "0D8C86961D7EEA9D"
-				item: "industrialforegoing:conveyor_blinking_upgrade"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0D8C86961D7EEA9D"
+					item: "industrialforegoing:conveyor_blinking_upgrade"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
 			id: "608065E71D686CD7"
-			tasks: [{
-				id: "195A92F94F2D0285"
-				item: "industrialforegoing:conveyor_splitting_upgrade"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "195A92F94F2D0285"
+					item: "industrialforegoing:conveyor_splitting_upgrade"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -0.5d
 		}
@@ -263,11 +307,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests19.subtitle}"
-			tasks: [{
-				id: "5D61AF01DB93B160"
-				item: "laserio:laser_node"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D61AF01DB93B160"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: -2.0d
 		}
@@ -298,11 +344,13 @@
 			]
 			shape: "diamond"
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests20.subtitle}"
-			tasks: [{
-				id: "2987BF7B656DC9A5"
-				item: "laserio:card_item"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2987BF7B656DC9A5"
+					item: "laserio:card_item"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: -2.0d
 		}
@@ -311,18 +359,22 @@
 			dependency_requirement: "all_started"
 			description: ["{ftbquests.chapter.pipe_dreams.quests21.description}"]
 			id: "14F51A9FF3170F6C"
-			rewards: [{
-				id: "57538128204F4A3E"
-				item: "laserio:card_fluid"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "57538128204F4A3E"
+					item: "laserio:card_fluid"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests21.subtitle}"
-			tasks: [{
-				id: "3A8D7765E12CC30E"
-				item: "laserio:card_fluid"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3A8D7765E12CC30E"
+					item: "laserio:card_fluid"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: -3.0d
 		}
@@ -330,18 +382,22 @@
 			dependencies: ["10971979B3BC1A85"]
 			description: ["{ftbquests.chapter.pipe_dreams.quests22.description}"]
 			id: "496655108E39C219"
-			rewards: [{
-				id: "4B9CE5AAA059C621"
-				item: "laserio:card_energy"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4B9CE5AAA059C621"
+					item: "laserio:card_energy"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests22.subtitle}"
-			tasks: [{
-				id: "35B1228B2FF8F268"
-				item: "laserio:card_energy"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "35B1228B2FF8F268"
+					item: "laserio:card_energy"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: -1.0d
 		}
@@ -355,11 +411,13 @@
 			description: ["{ftbquests.chapter.pipe_dreams.quests23.description}"]
 			id: "0E202986F8B806A2"
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests23.subtitle}"
-			tasks: [{
-				id: "51D7778D67B7CC0F"
-				item: "laserio:overclocker_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "51D7778D67B7CC0F"
+					item: "laserio:overclocker_card"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: -2.5d
 		}
@@ -368,11 +426,13 @@
 			description: ["{ftbquests.chapter.pipe_dreams.quests24.description}"]
 			id: "5AF145540133130C"
 			subtitle: "{ftbquests.chapter.pipe_dreams.quests24.subtitle}"
-			tasks: [{
-				id: "5EB02D398EAD9CBC"
-				item: "laserio:overclocker_node"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5EB02D398EAD9CBC"
+					item: "laserio:overclocker_node"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -2.0d
 		}
@@ -384,174 +444,180 @@
 			]
 			description: ["{ftbquests.chapter.pipe_dreams.quests25.description}"]
 			id: "1536EADBA48A808B"
-			rewards: [{
-				id: "6921A24E56702B3F"
-				item: {
-					Count: 1b
-					id: "laserio:filter_basic"
-					tag: {
-						inv: {
-							Items: [ ]
-							Size: 15
+			rewards: [
+				{
+					id: "6921A24E56702B3F"
+					item: {
+						Count: 1b
+						id: "laserio:filter_basic"
+						tag: {
+							inv: {
+								Items: [ ]
+								Size: 15
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "37C17958D14E2057"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "laserio:filter_basic"
-								tag: {
-									allowList: 1b
-									compareNBT: 0b
-									inv: {
-										Items: [ ]
-										Size: 15
+			]
+			tasks: [
+				{
+					id: "37C17958D14E2057"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "laserio:filter_basic"
+									tag: {
+										allowList: 1b
+										compareNBT: 0b
+										inv: {
+											Items: [ ]
+											Size: 15
+										}
 									}
 								}
-							}
-							{
-								Count: 1b
-								id: "laserio:filter_count"
-								tag: {
-									counts: [
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 0
+								{
+									Count: 1b
+									id: "laserio:filter_count"
+									tag: {
+										counts: [
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 0
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 1
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 2
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 3
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 4
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 5
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 6
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 7
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 8
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 9
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 10
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 11
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 12
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 13
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 14
+											}
+										]
+										inv: {
+											Items: [ ]
+											Size: 15
 										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 1
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 2
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 3
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 4
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 5
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 6
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 7
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 8
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 9
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 10
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 11
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 12
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 13
-										}
-										{
-											Count: 0
-											MBAmount: 0
-											Slot: 14
-										}
-									]
-									inv: {
-										Items: [ ]
-										Size: 15
 									}
 								}
-							}
-							{
-								Count: 1b
-								id: "laserio:filter_tag"
-								tag: {
-									tags: [ ]
-								}
-							}
-							{
-								Count: 1b
-								id: "laserio:filter_mod"
-								tag: {
-									inv: {
-										Items: [ ]
-										Size: 15
+								{
+									Count: 1b
+									id: "laserio:filter_tag"
+									tag: {
+										tags: [ ]
 									}
 								}
-							}
-						]
+								{
+									Count: 1b
+									id: "laserio:filter_mod"
+									tag: {
+										inv: {
+											Items: [ ]
+											Size: 15
+										}
+									}
+								}
+							]
+						}
 					}
+					title: "{ftbquests.chapter.pipe_dreams.quests25.tasks0.title}"
+					type: "item"
 				}
-				title: "{ftbquests.chapter.pipe_dreams.quests25.tasks0.title}"
-				type: "item"
-			}]
+			]
 			x: 7.5d
 			y: -1.5d
 		}
 		{
-			description: ["物品和流体运输器是一种方便的单方块管道解决方案。它们可以过滤或设置为调节模式，以保持一定数量的物品库存。这对整个游戏的自动化非常有用"]
+			description: ["{ftbquests.chapter.pipe_dreams.quests26.description}"]
 			icon: "industrialforegoing:item_transporter_type"
 			id: "06C18EDCBEAC021A"
-			rewards: [{
-				count: 2
-				id: "54ADFB0F40B04BD0"
-				item: {
-					Count: 1b
-					id: "industrialforegoing:speed_addon_2"
-					tag: {
-						TitaniumAugment: {
-							Speed: 3.0f
+			rewards: [
+				{
+					count: 2
+					id: "54ADFB0F40B04BD0"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			tasks: [
 				{
 					id: "66672E3E31802362"
-					title: "运输器"
+					title: "{ftbquests.chapter.pipe_dreams.quests26.tasks0.title}"
 					type: "checkmark"
 				}
 				{
@@ -570,24 +636,28 @@
 		}
 		{
 			dependencies: ["6BC7929F32E241EB"]
-			description: ["通过集成动力存储终端，您可以访问所有与物品接口相连的容器，甚至可以从中合成物品。这甚至还能与神秘学维度存储等物品配合使用，在游戏初期提供出色的后勤保障，制作终端来连接你的各种容器"]
+			description: ["{ftbquests.chapter.pipe_dreams.quests27.description}"]
 			id: "35D270F211D7F4DA"
-			rewards: [{
-				count: 4
-				id: "783D1492F27850E5"
-				item: "integratedtunnels:part_interface_item"
-				type: "item"
-			}]
-			tasks: [{
-				id: "757F644E19C02EF7"
-				item: "integratedterminals:part_terminal_storage"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "783D1492F27850E5"
+					item: "integratedtunnels:part_interface_item"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "757F644E19C02EF7"
+					item: "integratedterminals:part_terminal_storage"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 2.5d
 		}
 		{
-			description: ["一旦你获得了魔力转换的树苗，集成动力就能实现更高级的自动化，这是与大部分设备连接所需要基础线缆，因此你可能需要不少这样的线缆"]
+			description: ["{ftbquests.chapter.pipe_dreams.quests28.description}"]
 			id: "6BC7929F32E241EB"
 			rewards: [
 				{
@@ -602,40 +672,46 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 4L
-				id: "491116D5CBEEFD60"
-				item: "integrateddynamics:cable"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "491116D5CBEEFD60"
+					item: "integrateddynamics:cable"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6BC7929F32E241EB"]
 			description: [
-				"集成动力的输入和输出功能依赖于&b变量卡&r。每次配置输入和输出都需要一张变量卡，告诉它应该做什么。您可以在逻辑编程器中对变量卡进行编程（也有便携版）"
+				"{ftbquests.chapter.pipe_dreams.quests29.description0}"
 				""
-				"一个简单的例子是将变量卡设置为布尔值 true，然后将布尔值 true 变量移动到输入器GUI中的输入所有物品选项旁边。这将告诉它从连接的容器中输入所有物品"
+				"{ftbquests.chapter.pipe_dreams.quests29.description2}"
 			]
 			id: "34C95E6EAE0EBBDF"
-			rewards: [{
-				count: 4
-				id: "2A148AD0A579BE7E"
-				item: "integrateddynamics:variable"
-				type: "item"
-			}]
-			tasks: [{
-				id: "72F619AFE7CD49CC"
-				item: "integrateddynamics:variablestore"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "2A148AD0A579BE7E"
+					item: "integrateddynamics:variable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "72F619AFE7CD49CC"
+					item: "integrateddynamics:variablestore"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["35D270F211D7F4DA"]
-			description: ["除了物品接口外，集成动力还能与流体和能量进行对接。这可以让您实现更高级的物流。流体接口现在就可以使用，但能量接口要后期才能制作"]
+			description: ["{ftbquests.chapter.pipe_dreams.quests30.description}"]
 			id: "2E222429C682BCE3"
 			rewards: [
 				{
@@ -649,22 +725,26 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "238DDA47971E3967"
-				item: "integratedtunnels:part_interface_fluid"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "238DDA47971E3967"
+					item: "integratedtunnels:part_interface_fluid"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["34C95E6EAE0EBBDF"]
 			id: "68F8ABF85F6CAAC2"
-			tasks: [{
-				id: "127D6CA75D68B7F0"
-				item: "integratedtunnels:part_exporter_item"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "127D6CA75D68B7F0"
+					item: "integratedtunnels:part_exporter_item"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 4.0d
 		}

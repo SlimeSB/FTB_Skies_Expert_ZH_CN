@@ -191,5 +191,5 @@
 			}
 		}
 	]
-	title: "预测产物"
+	title: "{ftbquests.reward_tables.dml_predictions.title}"
 }

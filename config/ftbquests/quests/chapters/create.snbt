@@ -5,18 +5,20 @@
 	group: "43731E7F4BACB580"
 	icon: "create:millstone"
 	id: "57B8F4D55D7177E1"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/create.png"
-		rotation: 0.0d
-		width: 4.180722891566265d
-		x: 4.0d
-		y: -11.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/create.png"
+			rotation: 0.0d
+			width: 4.180722891566265d
+			x: 4.0d
+			y: -11.0d
+		}
+	]
 	order_index: 0
 	quest_links: [
 		{
@@ -61,11 +63,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.create.quests0.subtitle}"
-			tasks: [{
-				id: "65F80C8270C54309"
-				item: "create:millstone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "65F80C8270C54309"
+					item: "create:millstone"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -7.0d
 		}
@@ -74,17 +78,22 @@
 			description: ["{ftbquests.chapter.create.quests1.description}"]
 			id: "757DC52392EB674B"
 			subtitle: "{ftbquests.chapter.create.quests1.subtitle}"
-			tasks: [{
-				id: "5BA8B31D505D3F7D"
-				item: "create:mechanical_crafter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5BA8B31D505D3F7D"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["757DC52392EB674B"]
-			description: ["{ftbquests.chapter.create.quests2.description}"]
+			description: [
+				"{ftbquests.chapter.create.quests2.description0}"
+				"{ftbquests.chapter.create.quests2.description1}"
+			]
 			id: "3F6111879910D997"
 			rewards: [
 				{
@@ -104,11 +113,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.create.quests2.subtitle}"
-			tasks: [{
-				id: "4BE578B352D7D690"
-				item: "createaddition:electric_motor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4BE578B352D7D690"
+					item: "createaddition:electric_motor"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.create.quests2.title}"
 			x: 10.0d
 			y: -6.5d
@@ -118,23 +129,27 @@
 			description: [
 				"{ftbquests.chapter.create.quests3.description0}"
 				""
-				"它既可以左击，也可以右击，目标是方块、物品或实体。机械手是输装配线的一部分，用于将物品装配到正在制作的物品上"
+				"{ftbquests.chapter.create.quests3.description2}"
 				""
-				"有些序列装配需要多次循环制作产品，物品保险库对此特别有用"
+				"{ftbquests.chapter.create.quests3.description4}"
 			]
 			id: "3CBC0294148DF019"
-			rewards: [{
-				count: 4
-				id: "2005A02606410826"
-				item: "create:item_vault"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "2005A02606410826"
+					item: "create:item_vault"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.create.quests3.subtitle}"
-			tasks: [{
-				id: "17631476EBD40CBE"
-				item: "create:deployer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "17631476EBD40CBE"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -5.0d
 		}
@@ -143,11 +158,13 @@
 			description: ["{ftbquests.chapter.create.quests4.description}"]
 			id: "2A8562EC7696B873"
 			subtitle: "{ftbquests.chapter.create.quests4.subtitle}"
-			tasks: [{
-				id: "4CFD8A36E7BBE49E"
-				item: "create:mechanical_arm"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4CFD8A36E7BBE49E"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -3.5d
 		}
@@ -184,11 +201,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.create.quests5.subtitle}"
-			tasks: [{
-				id: "5C1C71997C208ED5"
-				item: "create:mechanical_saw"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5C1C71997C208ED5"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -8.0d
 		}
@@ -214,11 +233,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.create.quests6.subtitle}"
-			tasks: [{
-				id: "124D74D6A9AF18A7"
-				item: "create:mechanical_harvester"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "124D74D6A9AF18A7"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -4.0d
 		}
@@ -226,17 +247,21 @@
 			dependencies: ["4A70C09DFF9712E6"]
 			description: ["{ftbquests.chapter.create.quests7.description}"]
 			id: "18DDC163A4ECE484"
-			rewards: [{
-				id: "71ACF23AA951514E"
-				item: "create:depot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "71ACF23AA951514E"
+					item: "create:depot"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.create.quests7.subtitle}"
-			tasks: [{
-				id: "71485AE707B7083D"
-				item: "create:spout"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "71485AE707B7083D"
+					item: "create:spout"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -5.0d
 		}
@@ -251,18 +276,22 @@
 			]
 			icon: "create:blaze_burner"
 			id: "3162D0E1ACEE2D5D"
-			rewards: [{
-				count: 16
-				id: "11B4A47A9C6AA691"
-				item: "archers_paradox:blaze_arrow"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "11B4A47A9C6AA691"
+					item: "archers_paradox:blaze_arrow"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.create.quests8.subtitle}"
-			tasks: [{
-				id: "2DE88EA675B63449"
-				item: "create:blaze_burner"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2DE88EA675B63449"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -5.0d
 		}
@@ -284,11 +313,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.create.quests9.subtitle}"
-			tasks: [{
-				id: "4E9AA07951BAA781"
-				item: "create:chute"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4E9AA07951BAA781"
+					item: "create:chute"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -8.0d
 		}
@@ -296,18 +327,22 @@
 			dependencies: ["1E9D75DFCD6A09EC"]
 			description: ["{ftbquests.chapter.create.quests10.description}"]
 			id: "7C94AC3DDD309238"
-			rewards: [{
-				count: 4
-				id: "42CC3AFA68730DEC"
-				item: "create:brass_sheet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "42CC3AFA68730DEC"
+					item: "create:brass_sheet"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.create.quests10.subtitle}"
-			tasks: [{
-				id: "561778F62900BA6E"
-				item: "create:smart_chute"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "561778F62900BA6E"
+					item: "create:smart_chute"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -9.5d
 		}
@@ -315,18 +350,22 @@
 			dependencies: ["666B10EE4EAA1871"]
 			description: ["{ftbquests.chapter.create.quests11.description}"]
 			id: "46B27890B3EF957C"
-			rewards: [{
-				count: 4
-				id: "3536D177F791F520"
-				item: "supplementaries:brass_lantern"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "3536D177F791F520"
+					item: "supplementaries:brass_lantern"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.create.quests11.subtitle}"
-			tasks: [{
-				id: "4A3C6E5EEEEBCDD7"
-				item: "create:brass_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4A3C6E5EEEEBCDD7"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -6.5d
 		}
@@ -338,17 +377,21 @@
 				"{ftbquests.chapter.create.quests12.description2}"
 			]
 			id: "48DB5502DE6901BC"
-			rewards: [{
-				id: "50E216E3A1C1EFA5"
-				item: "create:portable_storage_interface"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "50E216E3A1C1EFA5"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.create.quests12.subtitle}"
-			tasks: [{
-				id: "27F45657E7337A7C"
-				item: "create:portable_storage_interface"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "27F45657E7337A7C"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -5.0d
 		}
@@ -385,11 +428,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.create.quests13.subtitle}"
-			tasks: [{
-				id: "66D0AED95576C63A"
-				item: "create:brass_funnel"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66D0AED95576C63A"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -8.0d
 		}
@@ -428,38 +473,44 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.create.quests14.subtitle}"
-			tasks: [{
-				id: "1D185D945D61DB04"
-				item: "create:mechanical_bearing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1D185D945D61DB04"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["4A70C09DFF9712E6"]
-			description: ["&b轧机&r是您早期可以制作&6金属棒&r、&6金属线&r和&6石英纤维&r的机器"]
+			description: ["{ftbquests.chapter.create.quests15.description}"]
 			id: "37C93D2FF4464B8F"
-			rewards: [{
-				count: 4
-				id: "440C8E0658D7A82B"
-				item: "ae2:quartz_fiber"
-				type: "item"
-			}]
-			tasks: [{
-				id: "29FB488B160B4FE5"
-				item: "createaddition:rolling_mill"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "440C8E0658D7A82B"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29FB488B160B4FE5"
+					item: "createaddition:rolling_mill"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["19E85C8A02ACF973"]
 			description: [
-				"虽然前期就可以制作出&b普通激发器&r，但它几乎没有什么用处"
+				"{ftbquests.chapter.create.quests16.description0}"
 				""
-				"在获得&6压缩铁锭&r后，可进一步加工成&b充电铁锭&r"
+				"{ftbquests.chapter.create.quests16.description2}"
 			]
 			id: "2AE8F4700835904E"
 			rewards: [
@@ -477,43 +528,49 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "06577CA4294B5759"
-				item: "create_new_age:energiser_t1"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "06577CA4294B5759"
+					item: "create_new_age:energiser_t1"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -9.0d
 		}
 		{
 			description: [
-				"在&dFTB Skies Expert&r中大多数生产压力的方法已被禁用"
+				"{ftbquests.chapter.create.quests17.description0}"
 				""
-				"下面是一些关于可能为您生产应力的机器信息"
+				"{ftbquests.chapter.create.quests17.description2}"
 				"{@pagebreak}"
-				"从手摇曲柄开始，您很快就会发展到"
+				"{ftbquests.chapter.create.quests17.description4}"
 				""
-				"[\"\",\"\",{\"text\":\"[ 水车 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 703631B507075DC1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击我跳转任务\"]}}]"
+				"{ftbquests.chapter.create.quests17.description6}"
 				""
 				"{@pagebreak}"
-				"不久之后，您就可以有更持久的解决方案了。下一步就是"
+				"{ftbquests.chapter.create.quests17.description9}"
 				""
-				"[\"\",\"\",{\"text\":\"[ 柴油引擎 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 2BBB711EC45D27B3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击我跳转任务\"]}}]"
+				"{ftbquests.chapter.create.quests17.description11}"
 				""
-				"这些将有多个等级，可接受多个等级的燃料。要获得最大的应力，关键在于结合现有柴油给出最佳方案"
+				"{ftbquests.chapter.create.quests17.description13}"
 			]
 			id: "52AC1D40163ADAB2"
-			rewards: [{
-				id: "67A1F398559BAF6D"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "182961D4CF07074B"
-				title: "已读！(我只是一个复选标记）"
-				type: "checkmark"
-			}]
-			title: "机械动力、能量、应力和你！"
+			rewards: [
+				{
+					id: "67A1F398559BAF6D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "182961D4CF07074B"
+					title: "{ftbquests.chapter.create.quests17.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.create.quests17.title}"
 			x: -1.0d
 			y: -6.5d
 		}

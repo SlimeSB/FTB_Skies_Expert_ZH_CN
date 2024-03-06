@@ -6,53 +6,61 @@
 	group: ""
 	icon: "botania:floating_entropinnyum"
 	id: "481283CFB175515F"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 30.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/skyisland-noclouds.png"
-		rotation: 0.0d
-		width: 50.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 30.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/skyisland-noclouds.png"
+			rotation: 0.0d
+			width: 50.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"{ftbquests.chapter.welcome.quests0.description0}"
-			""
-			"{ftbquests.chapter.welcome.quests0.description2}"
-			""
-			"{ftbquests.chapter.welcome.quests0.description4}"
-			""
-			"{ftbquests.chapter.welcome.quests0.description6}"
-			""
-			"{ftbquests.chapter.welcome.quests0.description8}"
-			"{ftbquests.chapter.welcome.quests0.description9}"
-		]
-		disable_toast: true
-		id: "6F9D278DA2F03FFC"
-		min_width: 250
-		rewards: [{
-			id: "30534E6110285EE8"
-			type: "xp"
-			xp: 5
-		}]
-		shape: "hexagon"
-		size: 2.0d
-		tasks: [{
-			dimension: "minecraft:overworld"
-			icon: "forcecraft:force_gem"
-			id: "6D345792186A6BBD"
-			type: "dimension"
-		}]
-		title: "{ftbquests.chapter.welcome.quests0.title}"
-		x: -0.8928571428571388d
-		y: -1.8392857142857082d
-	}]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.welcome.quests0.description0}"
+				""
+				"{ftbquests.chapter.welcome.quests0.description2}"
+				""
+				"{ftbquests.chapter.welcome.quests0.description4}"
+				""
+				"{ftbquests.chapter.welcome.quests0.description6}"
+				""
+				"{ftbquests.chapter.welcome.quests0.description8}"
+				"{ftbquests.chapter.welcome.quests0.description9}"
+			]
+			disable_toast: true
+			id: "6F9D278DA2F03FFC"
+			min_width: 250
+			rewards: [
+				{
+					id: "30534E6110285EE8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "forcecraft:force_gem"
+					id: "6D345792186A6BBD"
+					type: "dimension"
+				}
+			]
+			title: "{ftbquests.chapter.welcome.quests0.title}"
+			x: -0.8928571428571388d
+			y: -1.8392857142857082d
+		}
+	]
 	subtitle: ["{ftbquests.chapter.welcome.subtitle}"]
 	title: "{ftbquests.chapter.welcome.title}"
 }

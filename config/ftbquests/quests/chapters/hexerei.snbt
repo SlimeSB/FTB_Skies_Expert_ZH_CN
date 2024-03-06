@@ -9,18 +9,20 @@
 		tag: { }
 	}
 	id: "1AFDB1E4472F38A7"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/hexerei.png"
-		rotation: 0.0d
-		width: 4.650602409638554d
-		x: 2.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/hexerei.png"
+			rotation: 0.0d
+			width: 4.650602409638554d
+			x: 2.0d
+			y: -5.0d
+		}
+	]
 	order_index: 4
 	quest_links: [
 		{
@@ -48,37 +50,41 @@
 			]
 			icon: "hexerei:book_of_shadows_altar"
 			id: "012FA57E9C8FC833"
-			rewards: [{
-				id: "4AC4944BD65C7BB7"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{ftbquests.chapter.hexerei.quests0.subtitle}"
-			tasks: [{
-				id: "6A0533C6E08AA68F"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "hexerei:book_of_shadows_altar"
-							}
-							{
-								Count: 1b
-								id: "hexerei:willow_altar"
-							}
-							{
-								Count: 1b
-								id: "hexerei:witch_hazel_altar"
-							}
-						]
-					}
+			rewards: [
+				{
+					id: "4AC4944BD65C7BB7"
+					type: "xp"
+					xp: 10
 				}
-				title: "{ftbquests.chapter.hexerei.quests0.tasks0.title}"
-				type: "item"
-			}]
+			]
+			subtitle: "{ftbquests.chapter.hexerei.quests0.subtitle}"
+			tasks: [
+				{
+					id: "6A0533C6E08AA68F"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "hexerei:book_of_shadows_altar"
+								}
+								{
+									Count: 1b
+									id: "hexerei:willow_altar"
+								}
+								{
+									Count: 1b
+									id: "hexerei:witch_hazel_altar"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.hexerei.quests0.tasks0.title}"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.hexerei.quests0.title}"
 			x: -0.5d
 			y: -1.0d
@@ -105,31 +111,33 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.hexerei.quests1.subtitle}"
-			tasks: [{
-				id: "6831DA3DF78E5624"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "hexerei:willow_sapling"
-							}
-							{
-								Count: 1b
-								id: "hexerei:mahogany_sapling"
-							}
-							{
-								Count: 1b
-								id: "hexerei:witch_hazel_sapling"
-							}
-						]
+			tasks: [
+				{
+					id: "6831DA3DF78E5624"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "hexerei:willow_sapling"
+								}
+								{
+									Count: 1b
+									id: "hexerei:mahogany_sapling"
+								}
+								{
+									Count: 1b
+									id: "hexerei:witch_hazel_sapling"
+								}
+							]
+						}
 					}
+					title: "{ftbquests.chapter.hexerei.quests1.tasks0.title}"
+					type: "item"
 				}
-				title: "{ftbquests.chapter.hexerei.quests1.tasks0.title}"
-				type: "item"
-			}]
+			]
 			x: -0.5d
 			y: -2.5d
 		}
@@ -155,15 +163,17 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "30B8906A1E7E62AA"
-				item: {
-					Count: 1b
-					id: "hexerei:coffer"
-					tag: { }
+			tasks: [
+				{
+					id: "30B8906A1E7E62AA"
+					item: {
+						Count: 1b
+						id: "hexerei:coffer"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 1.0d
 			y: -1.0d
 		}
@@ -194,11 +204,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.hexerei.quests3.subtitle}"
-			tasks: [{
-				id: "397A4916DB20E39E"
-				item: "hexerei:sage_seed"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "397A4916DB20E39E"
+					item: "hexerei:sage_seed"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -2.5d
 		}
@@ -233,11 +245,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.hexerei.quests4.subtitle}"
-			tasks: [{
-				id: "6B3155DAEB7DB6B7"
-				item: "hexerei:sage_burning_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6B3155DAEB7DB6B7"
+					item: "hexerei:sage_burning_plate"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -1.0d
 		}
@@ -259,11 +273,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.hexerei.quests5.subtitle}"
-			tasks: [{
-				id: "08CA7B617216D46A"
-				item: "hexerei:herb_drying_rack"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08CA7B617216D46A"
+					item: "hexerei:herb_drying_rack"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -1.0d
 		}
@@ -307,15 +323,17 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.hexerei.quests6.subtitle}"
-			tasks: [{
-				icon: "botania:cosmetic_googly_eyes"
-				id: "735F32430655301E"
-				observe_type: 5
-				timer: 0L
-				title: "{ftbquests.chapter.hexerei.quests6.tasks0.title}"
-				to_observe: "hexerei:crow"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					icon: "botania:cosmetic_googly_eyes"
+					id: "735F32430655301E"
+					observe_type: 5
+					timer: 0L
+					title: "{ftbquests.chapter.hexerei.quests6.tasks0.title}"
+					to_observe: "hexerei:crow"
+					type: "observation"
+				}
+			]
 			title: "{ftbquests.chapter.hexerei.quests6.title}"
 			x: 2.5d
 			y: 0.5d
@@ -350,11 +368,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.hexerei.quests7.subtitle}"
-			tasks: [{
-				id: "7FD2FE90AC13388E"
-				item: "hexerei:pestle_and_mortar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7FD2FE90AC13388E"
+					item: "hexerei:pestle_and_mortar"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -1.0d
 		}
@@ -376,10 +396,12 @@
 						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [{
-								id: "cyclic:traveler"
-								lvl: 1s
-							}]
+							StoredEnchantments: [
+								{
+									id: "cyclic:traveler"
+									lvl: 1s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -438,15 +460,15 @@
 		{
 			dependencies: ["699619C29CED9AA8"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests10.description0}"
+				"{ftbquests.chapter.hexerei.quests9.description0}"
 				""
-				"{ftbquests.chapter.hexerei.quests10.description2}"
+				"{ftbquests.chapter.hexerei.quests9.description2}"
 				""
-				"{ftbquests.chapter.hexerei.quests10.description4}"
+				"{ftbquests.chapter.hexerei.quests9.description4}"
 				""
-				"{ftbquests.chapter.hexerei.quests10.description6}"
+				"{ftbquests.chapter.hexerei.quests9.description6}"
 				""
-				"{ftbquests.chapter.hexerei.quests10.description8}"
+				"{ftbquests.chapter.hexerei.quests9.description8}"
 			]
 			icon: {
 				Count: 1b
@@ -472,36 +494,38 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.hexerei.quests10.subtitle}"
-			tasks: [{
-				id: "4670298B4957DD77"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "hexerei:willow_broom"
-								tag: { }
-							}
-							{
-								Count: 1b
-								id: "hexerei:mahogany_broom"
-								tag: { }
-							}
-						]
+			subtitle: "{ftbquests.chapter.hexerei.quests9.subtitle}"
+			tasks: [
+				{
+					id: "4670298B4957DD77"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "hexerei:willow_broom"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "hexerei:mahogany_broom"
+									tag: { }
+								}
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.hexerei.quests10.title}"
+			]
+			title: "{ftbquests.chapter.hexerei.quests9.title}"
 			x: 5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["48B93DB363CE1030"]
-			description: ["{ftbquests.chapter.hexerei.quests11.description}"]
+			description: ["{ftbquests.chapter.hexerei.quests10.description}"]
 			id: "6D1F261748DC8065"
 			rewards: [
 				{
@@ -521,18 +545,20 @@
 					xp: 10
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests11.subtitle}"
-			tasks: [{
-				id: "7F21B82F317F3166"
-				item: {
-					Count: 1b
-					id: "hexerei:herb_enhanced_broom_brush"
-					tag: {
-						Damage: 0
+			subtitle: "{ftbquests.chapter.hexerei.quests10.subtitle}"
+			tasks: [
+				{
+					id: "7F21B82F317F3166"
+					item: {
+						Count: 1b
+						id: "hexerei:herb_enhanced_broom_brush"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 7.0d
 			y: 0.5d
 		}

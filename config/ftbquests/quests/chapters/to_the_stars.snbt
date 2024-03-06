@@ -11,18 +11,20 @@
 		}
 	}
 	id: "22AD1FAD303703DE"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/adastra.png"
-		rotation: 0.0d
-		width: 5.144578313253012d
-		x: 6.5d
-		y: -7.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/adastra.png"
+			rotation: 0.0d
+			width: 5.144578313253012d
+			x: 6.5d
+			y: -7.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -33,17 +35,21 @@
 				"{ftbquests.chapter.to_the_stars.quests0.description2}"
 			]
 			id: "5C442AB0745E0A9F"
-			rewards: [{
-				id: "02EF85896DA72C7E"
-				item: "ad_astra:astrodux"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "02EF85896DA72C7E"
+					item: "ad_astra:astrodux"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.to_the_stars.quests0.subtitle}"
-			tasks: [{
-				id: "0F90EAE26D847D54"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0F90EAE26D847D54"
+					item: "ad_astra:nasa_workbench"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.to_the_stars.quests0.title}"
 			x: 0.5d
 			y: -3.0d
@@ -67,12 +73,14 @@
 				}
 			}
 			id: "1F8DE53B2E2D31C4"
-			rewards: [{
-				count: 32
-				id: "5E12E04C59A3FB66"
-				item: "minecraft:soul_torch"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "5E12E04C59A3FB66"
+					item: "minecraft:soul_torch"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.to_the_stars.quests1.subtitle}"
 			tasks: [
 				{
@@ -103,11 +111,13 @@
 			]
 			id: "0CA38772D2301B20"
 			subtitle: "{ftbquests.chapter.to_the_stars.quests2.subtitle}"
-			tasks: [{
-				id: "1276CAD67BBC9D52"
-				item: "ad_astra:fuel_refinery"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1276CAD67BBC9D52"
+					item: "ad_astra:fuel_refinery"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -4.5d
 		}
@@ -186,28 +196,34 @@
 				"{ftbquests.chapter.to_the_stars.quests4.description4}"
 			]
 			id: "7B15D0666F8BBED8"
-			rewards: [{
-				id: "110FB17B53642D57"
-				item: {
-					Count: 1b
-					id: "ad_astra:oxygen_tank"
-					tag: {
-						BotariumData: {
-							StoredFluids: [{
-								Amount: 500L
-								Fluid: "ad_astra:oxygen"
-							}]
+			rewards: [
+				{
+					id: "110FB17B53642D57"
+					item: {
+						Count: 1b
+						id: "ad_astra:oxygen_tank"
+						tag: {
+							BotariumData: {
+								StoredFluids: [
+									{
+										Amount: 500L
+										Fluid: "ad_astra:oxygen"
+									}
+								]
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			subtitle: "{ftbquests.chapter.to_the_stars.quests4.subtitle}"
-			tasks: [{
-				id: "2C3784CF265DF180"
-				item: "ad_astra:oxygen_loader"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2C3784CF265DF180"
+					item: "ad_astra:oxygen_loader"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -1.5d
 		}
@@ -224,17 +240,21 @@
 			]
 			icon: "minecraft:filled_map"
 			id: "7C412DF5A03BB4D7"
-			rewards: [{
-				count: 3
-				id: "2827FD577697256D"
-				item: "ad_astra:fuel_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "2827FD577697256D"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.to_the_stars.quests5.subtitle}"
-			tasks: [{
-				id: "446208D31C823C00"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "446208D31C823C00"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.to_the_stars.quests5.title}"
 			x: 3.5d
 			y: -3.0d
@@ -281,20 +301,24 @@
 			]
 			icon: "ad_astra:moon_globe"
 			id: "2988FCC006B3A285"
-			rewards: [{
-				count: 16
-				id: "6D9FE65E0E88AA82"
-				item: "ad_astra:cheese"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "6D9FE65E0E88AA82"
+					item: "ad_astra:cheese"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.to_the_stars.quests7.subtitle}"
-			tasks: [{
-				dimension: "ad_astra:moon"
-				icon: "ad_astra:moon_globe"
-				id: "1DA69E518D4E192B"
-				title: "{ftbquests.chapter.to_the_stars.quests7.tasks0.title}"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					icon: "ad_astra:moon_globe"
+					id: "1DA69E518D4E192B"
+					title: "{ftbquests.chapter.to_the_stars.quests7.tasks0.title}"
+					type: "dimension"
+				}
+			]
 			x: 5.0d
 			y: -3.0d
 		}
@@ -308,11 +332,13 @@
 			id: "0758AE9BEA02B588"
 			size: 0.75d
 			subtitle: "{ftbquests.chapter.to_the_stars.quests8.subtitle}"
-			tasks: [{
-				id: "0F29C1EE53B9EDFA"
-				item: "ad_astra_giselle_addon:fuel_loader"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0F29C1EE53B9EDFA"
+					item: "ad_astra_giselle_addon:fuel_loader"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -5.25d
 		}
@@ -326,17 +352,19 @@
 			id: "14275C56C0BD2599"
 			optional: true
 			subtitle: "{ftbquests.chapter.to_the_stars.quests9.subtitle}"
-			tasks: [{
-				id: "7D468B863D729CF3"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_1_rover"
-					tag: {
-						BotariumData: { }
+			tasks: [
+				{
+					id: "7D468B863D729CF3"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_1_rover"
+						tag: {
+							BotariumData: { }
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.0d
 			y: -1.5d
 		}
@@ -349,22 +377,26 @@
 			]
 			id: "131541B40619DA30"
 			subtitle: "{ftbquests.chapter.to_the_stars.quests10.subtitle}"
-			tasks: [{
-				id: "34FE4C7CBE07C1BB"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_2_rocket"
-					tag: {
-						BotariumData: {
-							StoredFluids: [{
-								Amount: 0L
-								Fluid: "minecraft:empty"
-							}]
+			tasks: [
+				{
+					id: "34FE4C7CBE07C1BB"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_2_rocket"
+						tag: {
+							BotariumData: {
+								StoredFluids: [
+									{
+										Amount: 0L
+										Fluid: "minecraft:empty"
+									}
+								]
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.5d
 			y: -3.0d
 		}
@@ -380,13 +412,15 @@
 			icon: "ad_astra:mars_globe"
 			id: "46F03CC6467032F9"
 			subtitle: "{ftbquests.chapter.to_the_stars.quests11.subtitle}"
-			tasks: [{
-				dimension: "ad_astra:mars"
-				icon: "ad_astra:mars_globe"
-				id: "4B714BB9F42330A1"
-				title: "{ftbquests.chapter.to_the_stars.quests11.tasks0.title}"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					icon: "ad_astra:mars_globe"
+					id: "4B714BB9F42330A1"
+					title: "{ftbquests.chapter.to_the_stars.quests11.tasks0.title}"
+					type: "dimension"
+				}
+			]
 			title: "{ftbquests.chapter.to_the_stars.quests11.title}"
 			x: 8.0d
 			y: -3.0d
@@ -396,17 +430,19 @@
 			description: ["{ftbquests.chapter.to_the_stars.quests12.description}"]
 			id: "0407804C7ED7A408"
 			subtitle: "{ftbquests.chapter.to_the_stars.quests12.subtitle}"
-			tasks: [{
-				id: "45BE5C71A53741B4"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_3_rocket"
-					tag: {
-						BotariumData: { }
+			tasks: [
+				{
+					id: "45BE5C71A53741B4"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_3_rocket"
+						tag: {
+							BotariumData: { }
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 9.5d
 			y: -3.5d
 		}
@@ -418,17 +454,21 @@
 				"{ftbquests.chapter.to_the_stars.quests13.description2}"
 			]
 			id: "62FDE7EA1AAEFA1A"
-			rewards: [{
-				id: "0E99DFFEA6F6377F"
-				item: "ad_astra:cryo_fuel_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0E99DFFEA6F6377F"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.to_the_stars.quests13.subtitle}"
-			tasks: [{
-				id: "2C9BA99AA18EED7F"
-				item: "ad_astra:cryo_freezer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2C9BA99AA18EED7F"
+					item: "ad_astra:cryo_freezer"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: -1.5d
 		}
@@ -510,39 +550,41 @@
 			icon: "ad_astra:mercury_globe"
 			id: "3C606FCA13976092"
 			subtitle: "{ftbquests.chapter.to_the_stars.quests15.subtitle}"
-			tasks: [{
-				id: "50A226645CC9AB2C"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ad_astra:mercury_globe"
-								tag: {
-									RepairCost: 0
-									display: {
-										Name: "{\"text\":\"登陆水星\"}"
+			tasks: [
+				{
+					id: "50A226645CC9AB2C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ad_astra:mercury_globe"
+									tag: {
+										RepairCost: 0
+										display: {
+											Name: "{\"text\":\"Reach Mercury\"}"
+										}
 									}
 								}
-							}
-							{
-								Count: 1b
-								id: "ad_astra:venus_globe"
-								tag: {
-									RepairCost: 0
-									display: {
-										Name: "{\"text\":\"登陆金星\"}"
+								{
+									Count: 1b
+									id: "ad_astra:venus_globe"
+									tag: {
+										RepairCost: 0
+										display: {
+											Name: "{\"text\":\"Reach Venus\"}"
+										}
 									}
 								}
-							}
-						]
+							]
+						}
 					}
+					title: "{ftbquests.chapter.to_the_stars.quests15.tasks0.title}"
+					type: "item"
 				}
-				title: "{ftbquests.chapter.to_the_stars.quests15.tasks0.title}"
-				type: "item"
-			}]
+			]
 			x: 11.0d
 			y: -3.0d
 		}
@@ -561,11 +603,13 @@
 				}
 			}
 			id: "6806890FCE48F28A"
-			rewards: [{
-				id: "5500F198A9769E60"
-				item: "minecraft:cake"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5500F198A9769E60"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.to_the_stars.quests16.subtitle}"
 			tasks: [
 				{
@@ -664,13 +708,15 @@
 			id: "600534C4296633CA"
 			secret: true
 			subtitle: "{ftbquests.chapter.to_the_stars.quests18.subtitle}"
-			tasks: [{
-				dimension: "minecraft:the_end"
-				icon: "minecraft:end_stone"
-				id: "70E11B553EED02A1"
-				title: "{ftbquests.chapter.to_the_stars.quests18.tasks0.title}"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					icon: "minecraft:end_stone"
+					id: "70E11B553EED02A1"
+					title: "{ftbquests.chapter.to_the_stars.quests18.tasks0.title}"
+					type: "dimension"
+				}
+			]
 			x: 3.5d
 			y: -4.5d
 		}

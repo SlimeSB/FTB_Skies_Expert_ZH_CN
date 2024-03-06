@@ -13,9 +13,21 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ count: 8, item: "thermal:signalum_ingot", weight: 0.7f }
-		{ count: 8, item: "thermal:lumium_ingot", weight: 0.25f }
-		{ count: 8, item: "thermal:enderium_ingot", weight: 0.05f }
+		{
+			count: 8
+			item: "thermal:signalum_ingot"
+			weight: 0.7f
+		}
+		{
+			count: 8
+			item: "thermal:lumium_ingot"
+			weight: 0.25f
+		}
+		{
+			count: 8
+			item: "thermal:enderium_ingot"
+			weight: 0.05f
+		}
 	]
-	title: "合金"
+	title: "{ftbquests.reward_tables.alloy_smelter.title}"
 }

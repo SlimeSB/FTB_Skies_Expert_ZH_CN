@@ -3,23 +3,55 @@
 	loot_size: 1
 	order_index: 4
 	rewards: [
-		{ item: "industrialforegoing:laser_lens0" }
-		{ item: "industrialforegoing:laser_lens1" }
-		{ item: "industrialforegoing:laser_lens2" }
-		{ item: "industrialforegoing:laser_lens3" }
-		{ item: "industrialforegoing:laser_lens4" }
-		{ item: "industrialforegoing:laser_lens5" }
-		{ item: "industrialforegoing:laser_lens6" }
-		{ item: "industrialforegoing:laser_lens7" }
-		{ item: "industrialforegoing:laser_lens8" }
-		{ item: "industrialforegoing:laser_lens9" }
-		{ item: "industrialforegoing:laser_lens10" }
-		{ item: "industrialforegoing:laser_lens11" }
-		{ item: "industrialforegoing:laser_lens12" }
-		{ item: "industrialforegoing:laser_lens13" }
-		{ item: "industrialforegoing:laser_lens14" }
-		{ item: "industrialforegoing:laser_lens15" }
+		{
+			item: "industrialforegoing:laser_lens0"
+		}
+		{
+			item: "industrialforegoing:laser_lens1"
+		}
+		{
+			item: "industrialforegoing:laser_lens2"
+		}
+		{
+			item: "industrialforegoing:laser_lens3"
+		}
+		{
+			item: "industrialforegoing:laser_lens4"
+		}
+		{
+			item: "industrialforegoing:laser_lens5"
+		}
+		{
+			item: "industrialforegoing:laser_lens6"
+		}
+		{
+			item: "industrialforegoing:laser_lens7"
+		}
+		{
+			item: "industrialforegoing:laser_lens8"
+		}
+		{
+			item: "industrialforegoing:laser_lens9"
+		}
+		{
+			item: "industrialforegoing:laser_lens10"
+		}
+		{
+			item: "industrialforegoing:laser_lens11"
+		}
+		{
+			item: "industrialforegoing:laser_lens12"
+		}
+		{
+			item: "industrialforegoing:laser_lens13"
+		}
+		{
+			item: "industrialforegoing:laser_lens14"
+		}
+		{
+			item: "industrialforegoing:laser_lens15"
+		}
 	]
-	title: "镭射聚焦透镜"
+	title: "{ftbquests.reward_tables.laser_lenses.title}"
 	use_title: true
 }

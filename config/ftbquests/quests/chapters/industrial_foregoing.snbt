@@ -5,18 +5,20 @@
 	group: "43731E7F4BACB580"
 	icon: "industrialforegoing:laser_drill"
 	id: "4C0785489624C4E8"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/industrial_foregoing.png"
-		rotation: 0.0d
-		width: 12.710843373493976d
-		x: 5.0d
-		y: -3.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/industrial_foregoing.png"
+			rotation: 0.0d
+			width: 12.710843373493976d
+			x: 5.0d
+			y: -3.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -51,11 +53,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests0.subtitle}"
-			tasks: [{
-				id: "57D87525D82B2BF3"
-				item: "industrialforegoing:fluid_extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "57D87525D82B2BF3"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 0.5d
 		}
@@ -64,11 +68,13 @@
 			description: ["{ftbquests.chapter.industrial_foregoing.quests1.description}"]
 			id: "7DB9660E0AFC5C9A"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests1.subtitle}"
-			tasks: [{
-				id: "7DA8D6D4479FAC35"
-				item: "industrialforegoing:latex_processing_unit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7DA8D6D4479FAC35"
+					item: "industrialforegoing:latex_processing_unit"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 0.5d
 		}
@@ -81,11 +87,13 @@
 			]
 			id: "4A32B2D21ECAAB70"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests2.subtitle}"
-			tasks: [{
-				id: "308656C1E747AF93"
-				item: "industrialforegoing:dissolution_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "308656C1E747AF93"
+					item: "industrialforegoing:dissolution_chamber"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 0.5d
 		}
@@ -131,11 +139,13 @@
 			id: "37B4ADEAD08AC53D"
 			min_required_tasks: 1
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests4.subtitle}"
-			tasks: [{
-				id: "5D6A969DF58C3A00"
-				item: "industrialforegoing:mob_slaughter_factory"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D6A969DF58C3A00"
+					item: "industrialforegoing:mob_slaughter_factory"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.industrial_foregoing.quests4.title}"
 			x: 3.5d
 			y: 2.0d
@@ -154,11 +164,13 @@
 			icon: "industrialforegoing:plant_sower"
 			id: "38AA5E2D2C2EF919"
 			min_width: 250
-			rewards: [{
-				id: "3DE1B8E5EC4EF596"
-				item: "industrialforegoing:sludge_refiner"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3DE1B8E5EC4EF596"
+					item: "industrialforegoing:sludge_refiner"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests5.subtitle}"
 			tasks: [
 				{
@@ -186,12 +198,14 @@
 			]
 			icon: "industrialforegoing:sewer"
 			id: "522CA08A4FCEB960"
-			rewards: [{
-				count: 64
-				id: "12FF5ED66F9F8655"
-				item: "industrialforegoing:fertilizer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "12FF5ED66F9F8655"
+					item: "industrialforegoing:fertilizer"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests6.subtitle}"
 			tasks: [
 				{
@@ -217,11 +231,13 @@
 			]
 			id: "759747F69000A279"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests7.subtitle}"
-			tasks: [{
-				id: "6DE9CDC258743469"
-				item: "industrialforegoing:hydroponic_bed"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6DE9CDC258743469"
+					item: "industrialforegoing:hydroponic_bed"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 0.5d
 		}
@@ -234,11 +250,13 @@
 			]
 			id: "798B3790689ECD39"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests8.subtitle}"
-			tasks: [{
-				id: "2495A6418AC1A9A6"
-				item: "industrialforegoing:machine_frame_pity"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2495A6418AC1A9A6"
+					item: "industrialforegoing:machine_frame_pity"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 2.0d
 		}
@@ -247,11 +265,13 @@
 			description: ["{ftbquests.chapter.industrial_foregoing.quests9.description}"]
 			id: "131CD4C1FC0EF496"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests9.subtitle}"
-			tasks: [{
-				id: "4146E0BB6A7F25F6"
-				item: "industrialforegoing:machine_frame_simple"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4146E0BB6A7F25F6"
+					item: "industrialforegoing:machine_frame_simple"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 0.5d
 		}
@@ -263,11 +283,13 @@
 			description: ["{ftbquests.chapter.industrial_foregoing.quests10.description}"]
 			id: "63AC318EF1756053"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests10.subtitle}"
-			tasks: [{
-				id: "20DA43F69ECAE540"
-				item: "industrialforegoing:machine_frame_advanced"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20DA43F69ECAE540"
+					item: "industrialforegoing:machine_frame_advanced"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 2.0d
 		}
@@ -284,12 +306,14 @@
 			]
 			icon: "industrialforegoing:ore_laser_base"
 			id: "7D423153EACFABA1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5A239465B715C7E9"
-				table_id: 392020771426855546L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A239465B715C7E9"
+					table_id: 392020771426855546L
+					type: "choice"
+				}
+			]
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests11.subtitle}"
 			tasks: [
 				{
@@ -328,11 +352,13 @@
 			description: ["{ftbquests.chapter.industrial_foregoing.quests12.description}"]
 			id: "1DA41A6839C5BA8C"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests12.subtitle}"
-			tasks: [{
-				id: "0249C4115E79D562"
-				item: "industrialforegoing:machine_frame_supreme"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0249C4115E79D562"
+					item: "industrialforegoing:machine_frame_supreme"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 2.0d
 		}
@@ -341,11 +367,13 @@
 			description: ["{ftbquests.chapter.industrial_foregoing.quests13.description}"]
 			id: "1BCE20772114DB4F"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests13.subtitle}"
-			tasks: [{
-				id: "472727D82ACA3300"
-				item: "industrialforegoing:plant_fertilizer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "472727D82ACA3300"
+					item: "industrialforegoing:plant_fertilizer"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 0.5d
 		}
@@ -386,11 +414,13 @@
 			]
 			id: "5D4D1AC1912552CE"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests15.subtitle}"
-			tasks: [{
-				id: "3D9F5D6B23953EE4"
-				item: "industrialforegoing:mob_crusher"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3D9F5D6B23953EE4"
+					item: "industrialforegoing:mob_crusher"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 3.5d
 		}
@@ -428,11 +458,13 @@
 			]
 			id: "427CA49FB1EDA175"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests17.subtitle}"
-			tasks: [{
-				id: "24DA9AC788062136"
-				item: "industrialforegoing:mechanical_dirt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "24DA9AC788062136"
+					item: "industrialforegoing:mechanical_dirt"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 3.5d
 		}
@@ -546,11 +578,13 @@
 			description: ["{ftbquests.chapter.industrial_foregoing.quests19.description}"]
 			id: "086D19A143DB1205"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests19.subtitle}"
-			tasks: [{
-				id: "2881A14C3D8BEE80"
-				item: "industrialforegoing:meat_feeder"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2881A14C3D8BEE80"
+					item: "industrialforegoing:meat_feeder"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 4.5d
 		}
@@ -577,89 +611,91 @@
 			}
 			id: "3AE1F34F833B0320"
 			subtitle: "{ftbquests.chapter.industrial_foregoing.quests20.subtitle}"
-			tasks: [{
-				id: "0937CC68195913A1"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "industrialforegoing:infinity_drill"
-								tag: {
-									CanCharge: 1b
-									Energy: 0L
-									Fluid: {
-										Amount: 0
-										FluidName: "biofuel"
+			tasks: [
+				{
+					id: "0937CC68195913A1"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_drill"
+									tag: {
+										CanCharge: 1b
+										Energy: 0L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Selected: "POOR"
+										Special: 0b
 									}
-									Selected: "POOR"
-									Special: 0b
 								}
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:infinity_saw"
-								tag: {
-									CanCharge: 1b
-									Energy: 0L
-									Fluid: {
-										Amount: 0
-										FluidName: "biofuel"
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_saw"
+									tag: {
+										CanCharge: 1b
+										Energy: 0L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Selected: "POOR"
+										Special: 0b
 									}
-									Selected: "POOR"
-									Special: 0b
 								}
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:infinity_hammer"
-								tag: {
-									Beheading: 0
-									CanCharge: 1b
-									Energy: 0L
-									Fluid: {
-										Amount: 0
-										FluidName: "biofuel"
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_hammer"
+									tag: {
+										Beheading: 0
+										CanCharge: 1b
+										Energy: 0L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Selected: "POOR"
+										Special: 0b
 									}
-									Selected: "POOR"
-									Special: 0b
 								}
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:infinity_trident"
-								tag: {
-									CanCharge: 1b
-									Channeling: 0b
-									Energy: 0L
-									Fluid: {
-										Amount: 0
-										FluidName: "biofuel"
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_trident"
+									tag: {
+										CanCharge: 1b
+										Channeling: 0b
+										Energy: 0L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Loyalty: 0
+										Riptide: 0
+										Selected: "POOR"
+										Special: 0b
 									}
-									Loyalty: 0
-									Riptide: 0
-									Selected: "POOR"
-									Special: 0b
 								}
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:infinity_backpack"
-								tag: {
-									CanCharge: 1b
-									Energy: 0L
-									Selected: "POOR"
-									Special: 0b
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_backpack"
+									tag: {
+										CanCharge: 1b
+										Energy: 0L
+										Selected: "POOR"
+										Special: 0b
+									}
 								}
-							}
-						]
+							]
+						}
 					}
+					title: "{ftbquests.chapter.industrial_foregoing.quests20.tasks0.title}"
+					type: "item"
 				}
-				title: "{ftbquests.chapter.industrial_foregoing.quests20.tasks0.title}"
-				type: "item"
-			}]
+			]
 			title: "{ftbquests.chapter.industrial_foregoing.quests20.title}"
 			x: 5.0d
 			y: -1.0d

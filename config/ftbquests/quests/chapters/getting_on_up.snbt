@@ -46,11 +46,13 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				id: "4D8B95DB656E1ECC"
-				title: "{ftbquests.chapter.getting_on_up.quests0.tasks0.title}"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4D8B95DB656E1ECC"
+					title: "{ftbquests.chapter.getting_on_up.quests0.tasks0.title}"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.getting_on_up.quests0.title}"
 			x: -9.5d
 			y: -1.0d
@@ -59,11 +61,13 @@
 			dependencies: ["4A6EE8999E8918EF"]
 			description: ["{ftbquests.chapter.getting_on_up.quests1.description}"]
 			id: "76E787BC252CA661"
-			tasks: [{
-				id: "409924F2435D818E"
-				item: "ftbskies:magic_steel"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "409924F2435D818E"
+					item: "ftbskies:magic_steel"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -2.5d
 		}
@@ -75,11 +79,13 @@
 				"{ftbquests.chapter.getting_on_up.quests2.description2}"
 			]
 			id: "440C9867EDD44E25"
-			tasks: [{
-				id: "2B0FC3271674C486"
-				item: "industrialforegoing:fluid_extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2B0FC3271674C486"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 5.0d
 		}
@@ -89,19 +95,25 @@
 				"{ftbquests.chapter.getting_on_up.quests3.description0}"
 				""
 				"{ftbquests.chapter.getting_on_up.quests3.description2}"
+				""
+				"{ftbquests.chapter.getting_on_up.quests3.description4}"
 			]
 			id: "37F767C6CF2223C6"
-			rewards: [{
-				count: 4
-				id: "1C3C86A4E39A2A63"
-				item: "pneumaticcraft:reinforced_stone"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7878C156660F683F"
-				item: "pneumaticcraft:reinforced_stone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "1C3C86A4E39A2A63"
+					item: "pneumaticcraft:reinforced_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7878C156660F683F"
+					item: "pneumaticcraft:reinforced_stone"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 2.0d
 		}
@@ -109,11 +121,13 @@
 			dependencies: ["440C9867EDD44E25"]
 			description: ["{ftbquests.chapter.getting_on_up.quests4.description}"]
 			id: "2B6FD74697BDF264"
-			tasks: [{
-				id: "233120575A7A311B"
-				item: "industrialforegoing:latex_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "233120575A7A311B"
+					item: "industrialforegoing:latex_bucket"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 5.0d
 		}
@@ -128,19 +142,23 @@
 				"{ftbquests.chapter.getting_on_up.quests5.description2}"
 			]
 			id: "33D0CFE3B6344959"
+			rewards: [
+				{
+					count: 2
+					id: "0496C6A66712F288"
+					item: "industrialforegoing:fluid_transporter_type"
+					team_reward: true
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.getting_on_up.quests5.subtitle}"
-			rewards: [{
-				count: 2
-				id: "0496C6A66712F288"
-				item: "industrialforegoing:fluid_transporter_type"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "6D072B99C1F9378B"
-				item: "immersiveengineering:phenolic_resin_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6D072B99C1F9378B"
+					item: "immersiveengineering:phenolic_resin_bucket"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 5.0d
 		}
@@ -151,11 +169,13 @@
 			]
 			description: ["{ftbquests.chapter.getting_on_up.quests6.description}"]
 			id: "7DC648A1B1440AE1"
-			tasks: [{
-				id: "1CB5B313E0D86567"
-				item: "immersiveengineering:plate_duroplast"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1CB5B313E0D86567"
+					item: "immersiveengineering:plate_duroplast"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 5.0d
 		}
@@ -169,7 +189,7 @@
 				"{ftbquests.chapter.getting_on_up.quests7.description4}"
 				""
 				"{ftbquests.chapter.getting_on_up.quests7.description6}"
-				"{ftbquests.chapter.getting_on_up.quests7.description7}"
+				"{@pagebreak}"
 				"{ftbquests.chapter.getting_on_up.quests7.description8}"
 				""
 				"{ftbquests.chapter.getting_on_up.quests7.description10}"
@@ -208,11 +228,13 @@
 		{
 			dependencies: ["19E85C8A02ACF973"]
 			id: "69CB990446D2AC64"
-			tasks: [{
-				id: "2A6F35FFFA085C0D"
-				item: "pneumaticcraft:fluid_mixer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A6F35FFFA085C0D"
+					item: "pneumaticcraft:fluid_mixer"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 3.5d
 		}
@@ -237,11 +259,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "1F59D0D3E7A2C607"
-				item: "immersiveengineering:acetaldehyde_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1F59D0D3E7A2C607"
+					item: "immersiveengineering:acetaldehyde_bucket"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 3.5d
 		}
@@ -259,17 +283,21 @@
 				"{ftbquests.chapter.getting_on_up.quests10.description5}"
 			]
 			id: "6D55396114BACE52"
-			rewards: [{
-				id: "1FE65EF2595969B8"
-				item: "pneumaticcraft:security_upgrade"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "610DF6BB9AB22D8A"
-				item: "pneumaticcraft:ethanol_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1FE65EF2595969B8"
+					item: "pneumaticcraft:security_upgrade"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "610DF6BB9AB22D8A"
+					item: "pneumaticcraft:ethanol_bucket"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 3.0d
 		}
@@ -284,17 +312,21 @@
 				"{ftbquests.chapter.getting_on_up.quests11.description2}"
 			]
 			id: "4EBAB26A6012D1D8"
-			rewards: [{
-				id: "03FCE07B44D4B2A0"
-				item: "thermal:upgrade_augment_1"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "169939300A685FCF"
-				item: "ftbskies:molten_silver_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "03FCE07B44D4B2A0"
+					item: "thermal:upgrade_augment_1"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "169939300A685FCF"
+					item: "ftbskies:molten_silver_bucket"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 4.0d
 		}
@@ -310,11 +342,13 @@
 				"{ftbquests.chapter.getting_on_up.quests12.description2}"
 			]
 			id: "35F349BD58D194C5"
-			tasks: [{
-				id: "1C49151FB45FEC79"
-				item: "industrialforegoing:machine_frame_simple"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C49151FB45FEC79"
+					item: "industrialforegoing:machine_frame_simple"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: -2.5d
 		}
@@ -329,11 +363,13 @@
 				"{ftbquests.chapter.getting_on_up.quests13.description2}"
 			]
 			id: "14CE41C6564EAEC8"
-			tasks: [{
-				id: "51774C9CB48AADBC"
-				item: "botania:manasteel_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "51774C9CB48AADBC"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -2.5d
 		}
@@ -347,17 +383,21 @@
 				"{ftbquests.chapter.getting_on_up.quests14.description4}"
 			]
 			id: "512DBD469AC4E9B9"
-			rewards: [{
-				count: 4
-				id: "46041D8598E94042"
-				item: "immersiveengineering:light_engineering"
-				type: "item"
-			}]
-			tasks: [{
-				id: "71A0319A51AAFEF0"
-				item: "pneumaticcraft:thermopneumatic_processing_plant"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "46041D8598E94042"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "71A0319A51AAFEF0"
+					item: "pneumaticcraft:thermopneumatic_processing_plant"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 2.0d
 		}
@@ -368,11 +408,13 @@
 			]
 			description: ["{ftbquests.chapter.getting_on_up.quests15.description}"]
 			id: "34E30B343EB3A5AF"
-			tasks: [{
-				id: "60948E24C2A64937"
-				item: "ftbskies:volatile_redstone_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "60948E24C2A64937"
+					item: "ftbskies:volatile_redstone_bucket"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 2.0d
 		}
@@ -384,17 +426,21 @@
 				"{ftbquests.chapter.getting_on_up.quests16.description2}"
 			]
 			id: "54C6834B4F80A8BC"
-			rewards: [{
-				id: "5550199E74E516C5"
-				item: "thermal:upgrade_augment_2"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5550199E74E516C5"
+					item: "thermal:upgrade_augment_2"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.getting_on_up.quests16.subtitle}"
-			tasks: [{
-				id: "2D4551963E5F58AB"
-				item: "thermal:machine_refinery"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D4551963E5F58AB"
+					item: "thermal:machine_refinery"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 2.0d
 		}
@@ -406,11 +452,13 @@
 				"{ftbquests.chapter.getting_on_up.quests17.description2}"
 			]
 			id: "5EB5407E9D179ACB"
-			tasks: [{
-				id: "4C783117B4854C92"
-				item: "immersiveengineering:redstone_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4C783117B4854C92"
+					item: "immersiveengineering:redstone_acid_bucket"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 2.0d
 		}
@@ -433,11 +481,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "79074C685364D6D0"
-				item: "thermal:redstone_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "79074C685364D6D0"
+					item: "thermal:redstone_bucket"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 3.5d
 		}
@@ -445,11 +495,13 @@
 			dependencies: ["7DC648A1B1440AE1"]
 			description: ["{ftbquests.chapter.getting_on_up.quests19.description}"]
 			id: "3A0F10FC8919F05F"
-			tasks: [{
-				id: "5C1025231AB68164"
-				item: "immersiveengineering:circuit_board"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5C1025231AB68164"
+					item: "immersiveengineering:circuit_board"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 5.0d
 		}
@@ -514,7 +566,7 @@
 				""
 				"{ftbquests.chapter.getting_on_up.quests21.description2}"
 				""
-				"一旦你拥有了魔力，其他几种产生魔力的花就能制作。&b能源之花&r是一个不错的选择，它能将能量转化为魔力。"
+				"{ftbquests.chapter.getting_on_up.quests21.description4}"
 			]
 			id: "1C321982361F2B7C"
 			rewards: [
@@ -529,11 +581,13 @@
 					xp: 5
 				}
 			]
-			tasks: [{
-				id: "4D3DBD84707E8567"
-				item: "botania:kekimurus"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D3DBD84707E8567"
+					item: "botania:kekimurus"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -1.0d
 		}
@@ -554,11 +608,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.getting_on_up.quests22.subtitle}"
-			tasks: [{
-				id: "6FCEC4AE8BDD12FF"
-				item: "minecraft:cake"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6FCEC4AE8BDD12FF"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -1.0d
 		}
@@ -570,46 +626,54 @@
 				"{ftbquests.chapter.getting_on_up.quests23.description2}"
 			]
 			id: "4A6EE8999E8918EF"
-			rewards: [{
-				id: "423578B2BBF23934"
-				item: {
-					Count: 1b
-					id: "elementalcraft:rune"
-					tag: {
-						elementalcraft: {
-							rune: "elementalcraft:mewtwo"
+			rewards: [
+				{
+					id: "423578B2BBF23934"
+					item: {
+						Count: 1b
+						id: "elementalcraft:rune"
+						tag: {
+							elementalcraft: {
+								rune: "elementalcraft:mewtwo"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1E1BB56A1166F682"
-				item: "elementalcraft:infuser"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "1E1BB56A1166F682"
+					item: "elementalcraft:infuser"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3A0F10FC8919F05F"]
 			description: [
-					"{ftbquests.chapter.getting_on_up.quests24.description}"
-					""
-					"这些都值得通过自动化工程师装配台一起实现自动化，让您之后的发展更轻松"
-				]
+				"{ftbquests.chapter.getting_on_up.quests24.description0}"
+				""
+				"{ftbquests.chapter.getting_on_up.quests24.description2}"
+			]
 			id: "3DEBC88BD5116314"
-			rewards: [{
-				count: 4
-				id: "6FECE62B61BF0CFB"
-				item: "immersiveengineering:logic_circuit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "19CEFC786F4B7D84"
-				item: "immersiveengineering:logic_circuit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6FECE62B61BF0CFB"
+					item: "immersiveengineering:logic_circuit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "19CEFC786F4B7D84"
+					item: "immersiveengineering:logic_circuit"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 5.0d
 		}
@@ -624,83 +688,95 @@
 				"{ftbquests.chapter.getting_on_up.quests25.description2}"
 			]
 			id: "1C643FE271DDBA74"
-			tasks: [{
-				id: "003800A667106FA0"
-				item: "pneumaticcraft:empty_pcb"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "003800A667106FA0"
+					item: "pneumaticcraft:empty_pcb"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["5EB5407E9D179ACB"]
-			description: ["{ftbquests.chapter.getting_on_up.quests27.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests26.description}"]
 			id: "7A7D286C39CFC927"
-			tasks: [{
-				id: "435DEF58D27567D5"
-				item: "pneumaticcraft:etching_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "435DEF58D27567D5"
+					item: "pneumaticcraft:etching_acid_bucket"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7A7D286C39CFC927"]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests28.description0}"
+				"{ftbquests.chapter.getting_on_up.quests27.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests28.description2}"
-				"{ftbquests.chapter.getting_on_up.quests28.description3}"
-				"{ftbquests.chapter.getting_on_up.quests28.description4}"
-				"{ftbquests.chapter.getting_on_up.quests28.description5}"
-				"{ftbquests.chapter.getting_on_up.quests28.description6}"
+				"{ftbquests.chapter.getting_on_up.quests27.description2}"
+				"{ftbquests.chapter.getting_on_up.quests27.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.getting_on_up.quests27.description5}"
+				"{ftbquests.chapter.getting_on_up.quests27.description6}"
 			]
 			id: "0CC46424AED61EBA"
-			rewards: [{
-				id: "13A69E75D0D568A6"
-				item: "pneumaticcraft:etching_acid_bucket"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0BFA57CDF7CA01F7"
-				item: "pneumaticcraft:etching_tank"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "13A69E75D0D568A6"
+					item: "pneumaticcraft:etching_acid_bucket"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0BFA57CDF7CA01F7"
+					item: "pneumaticcraft:etching_tank"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["1C643FE271DDBA74"]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests29.description0}"
+				"{ftbquests.chapter.getting_on_up.quests28.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests29.description2}"
+				"{ftbquests.chapter.getting_on_up.quests28.description2}"
 			]
 			id: "7D0BC796844115D7"
-			tasks: [{
-				id: "3EB6673C1C05FED8"
-				item: "pneumaticcraft:uv_light_box"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3EB6673C1C05FED8"
+					item: "pneumaticcraft:uv_light_box"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7D0BC796844115D7"]
-			description: ["{ftbquests.chapter.getting_on_up.quests30.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests29.description}"]
 			id: "0A63498960D72568"
-			tasks: [{
-				id: "5D6E433B40233843"
-				item: {
-					Count: 1b
-					id: "pneumaticcraft:empty_pcb"
-					tag: {
-						"pneumaticcraft:uv_exposure": 100
+			tasks: [
+				{
+					id: "5D6E433B40233843"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:empty_pcb"
+						tag: {
+							"pneumaticcraft:uv_exposure": 100
+						}
 					}
+					match_nbt: true
+					type: "item"
 				}
-				match_nbt: true
-				type: "item"
-			}]
+			]
 			x: 9.5d
 			y: 3.5d
 		}
@@ -710,22 +786,26 @@
 				"0CC46424AED61EBA"
 			]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests31.description0}"
+				"{ftbquests.chapter.getting_on_up.quests30.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests31.description2}"
+				"{ftbquests.chapter.getting_on_up.quests30.description2}"
 			]
 			id: "04FD47A98A992154"
-			rewards: [{
-				count: 4
-				id: "26CA8E52536DEC80"
-				item: "pneumaticcraft:failed_pcb"
-				type: "item"
-			}]
-			tasks: [{
-				id: "01A3CD9700097A82"
-				item: "pneumaticcraft:unassembled_pcb"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "26CA8E52536DEC80"
+					item: "pneumaticcraft:failed_pcb"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "01A3CD9700097A82"
+					item: "pneumaticcraft:unassembled_pcb"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 2.0d
 		}
@@ -734,19 +814,21 @@
 				"04FD47A98A992154"
 				"0CC46424AED61EBA"
 			]
-			description: ["{ftbquests.chapter.getting_on_up.quests32.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests31.description}"]
 			id: "2521682B61050221"
-			tasks: [{
-				id: "7A0FB1A48A1FCA5F"
-				item: "pneumaticcraft:printed_circuit_board"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7A0FB1A48A1FCA5F"
+					item: "pneumaticcraft:printed_circuit_board"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C08259CFF4E6E3E"]
-			description: ["{ftbquests.chapter.getting_on_up.quests33.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests32.description}"]
 			id: "7E61BEFDBD52D267"
 			rewards: [
 				{
@@ -760,17 +842,20 @@
 					xp: 5
 				}
 			]
-			tasks: [{
-				id: "2C028C867687A21C"
-				item: "botania:mana_diamond"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2C028C867687A21C"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -4.0d
 		}
 		{
+			description: ["{ftbquests.chapter.getting_on_up.quests33.description}"]
 			id: "1238C315DE286E84"
-			subtitle: "{ftbquests.chapter.getting_on_up.quests34.subtitle}"
+			subtitle: "{ftbquests.chapter.getting_on_up.quests33.subtitle}"
 			tasks: [
 				{
 					id: "777C4B9CAAAC7E08"
@@ -803,16 +888,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.getting_on_up.quests34.title}"
+			title: "{ftbquests.chapter.getting_on_up.quests33.title}"
 			x: 8.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["14CE41C6564EAEC8"]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests35.description0}"
+				"{ftbquests.chapter.getting_on_up.quests34.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests35.description2}"
+				"{ftbquests.chapter.getting_on_up.quests34.description2}"
 			]
 			id: "0E20574CA05CC507"
 			rewards: [
@@ -831,15 +916,17 @@
 					xp: 5
 				}
 			]
-			tasks: [{
-				id: "534F88AD6E6D1F1F"
-				item: {
-					Count: 1b
-					id: "ftbskies:mana_steel_mesh"
-					tag: { }
+			tasks: [
+				{
+					id: "534F88AD6E6D1F1F"
+					item: {
+						Count: 1b
+						id: "ftbskies:mana_steel_mesh"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -1.0d
 			y: -1.0d
 		}
@@ -849,13 +936,15 @@
 				"1C49151FB45FEC79"
 				"23101731BE8EBFAD"
 			]
-			description: ["离太空更近一步！&bNASA 工作台&r 将帮助您装配您的第一枚火箭"]
+			description: ["{ftbquests.chapter.getting_on_up.quests35.description}"]
 			id: "15F1822C3D95A6CB"
-			tasks: [{
-				id: "7BF491D1FD49AFB2"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7BF491D1FD49AFB2"
+					item: "ad_astra:nasa_workbench"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: -1.0d
 		}
@@ -864,42 +953,46 @@
 				"15F1822C3D95A6CB"
 				"18AAC512C005567D"
 			]
-			description: ["你已准备好飞向星空！一级火箭将带你飞向月球和轨道空间"]
+			description: ["{ftbquests.chapter.getting_on_up.quests36.description}"]
 			id: "30469D3DC4FE7999"
-			tasks: [{
-				id: "4C5F012EB4FC801B"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_1_rocket"
-					tag: {
-						BotariumData: { }
+			tasks: [
+				{
+					id: "4C5F012EB4FC801B"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_1_rocket"
+						tag: {
+							BotariumData: { }
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 12.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7E61BEFDBD52D267"]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests38.description0}"
+				"{ftbquests.chapter.getting_on_up.quests37.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests38.description2}"
+				"{ftbquests.chapter.getting_on_up.quests37.description2}"
 			]
 			id: "1A2D18FB7DBCD64A"
-			tasks: [{
-				count: 4L
-				id: "5623CCE4E0B56F00"
-				item: "compactcrafting:field_projector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "5623CCE4E0B56F00"
+					item: "compactcrafting:field_projector"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5C08259CFF4E6E3E"]
-			description: ["{ftbquests.chapter.getting_on_up.quests39.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests38.description}"]
 			id: "438EC4B936AD076A"
 			rewards: [
 				{
@@ -919,53 +1012,61 @@
 					xp: 5
 				}
 			]
-			tasks: [{
-				id: "704963BC0A2BE486"
-				item: "ars_nouveau:magebloom_crop"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "704963BC0A2BE486"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["438EC4B936AD076A"]
-			description: ["{ftbquests.chapter.getting_on_up.quests40.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests39.description}"]
 			id: "09CA21A6C646FFC5"
-			tasks: [{
-				id: "72BEC2BB63785431"
-				item: "ars_nouveau:magebloom_fiber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "72BEC2BB63785431"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["09CA21A6C646FFC5"]
-			description: ["{ftbquests.chapter.getting_on_up.quests41.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests40.description}"]
 			id: "78EB15C4ED2BD34D"
-			tasks: [{
-				id: "732454609403532F"
-				item: "ars_nouveau:blaze_fiber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "732454609403532F"
+					item: "ars_nouveau:blaze_fiber"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["78EB15C4ED2BD34D"]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests42.description0}"
+				"{ftbquests.chapter.getting_on_up.quests41.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests42.description2}"
+				"{ftbquests.chapter.getting_on_up.quests41.description2}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests42.description4}"
+				"{ftbquests.chapter.getting_on_up.quests41.description4}"
 			]
 			id: "73E3DAC21CFCD8FD"
-			tasks: [{
-				id: "3C983678C5172DE7"
-				item: "botania:manaweave_cloth"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3C983678C5172DE7"
+					item: "botania:manaweave_cloth"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -7.0d
 		}
@@ -974,13 +1075,15 @@
 				"73E3DAC21CFCD8FD"
 				"6F91DBD099B24967"
 			]
-			description: ["{ftbquests.chapter.getting_on_up.quests43.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests42.description}"]
 			id: "1F8518BA11290D9E"
-			tasks: [{
-				id: "68436EF80B545F93"
-				item: "thermal:diving_fabric"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68436EF80B545F93"
+					item: "thermal:diving_fabric"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: -7.0d
 		}
@@ -990,16 +1093,18 @@
 				"08EF7BEA1B8C5599"
 			]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests44.description0}"
+				"{ftbquests.chapter.getting_on_up.quests43.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests44.description2}"
+				"{ftbquests.chapter.getting_on_up.quests43.description2}"
 			]
 			id: "6E07A4FD5CA66499"
-			tasks: [{
-				id: "33CAC9BDC170641F"
-				item: "thermal:hazmat_fabric"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33CAC9BDC170641F"
+					item: "thermal:hazmat_fabric"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: -7.0d
 		}
@@ -1009,66 +1114,77 @@
 				"41C58491F9A7C70F"
 			]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests45.description0}"
+				"{ftbquests.chapter.getting_on_up.quests44.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests45.description2}"
+				"{ftbquests.chapter.getting_on_up.quests44.description2}"
 			]
 			id: "08EF7BEA1B8C5599"
-			tasks: [{
-				id: "63BA220134F111CD"
-				item: "ftbskies:polyethylene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "63BA220134F111CD"
+					item: "ftbskies:polyethylene_bucket"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["2B0FC3271674C486"]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests46.description0}"
+				"{ftbquests.chapter.getting_on_up.quests45.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests46.description2}"
+				"{ftbquests.chapter.getting_on_up.quests45.description2}"
 			]
 			id: "6F91DBD099B24967"
-			tasks: [{
-				id: "0A852300C238D7F5"
-				item: "industrialforegoing:latex_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0A852300C238D7F5"
+					item: "industrialforegoing:latex_bucket"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3731BFD13EC9CA39"]
-			description: ["{ftbquests.chapter.getting_on_up.quests47.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests46.description}"]
 			id: "41C58491F9A7C70F"
-			tasks: [{
-				id: "2061DAEB09C7BAF3"
-				item: "mekanism:ethene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2061DAEB09C7BAF3"
+					item: "mekanism:ethene_bucket"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["0E20574CA05CC507"]
-			description: ["{ftbquests.chapter.getting_on_up.quests48.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests47.description}"]
 			id: "3731BFD13EC9CA39"
-			tasks: [{
-				id: "17D222129EE941FB"
-				item: "thermal:sulfur"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "17D222129EE941FB"
+					item: "thermal:sulfur"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: -2.5d
 		}
 		{
+			description: ["{ftbquests.chapter.getting_on_up.quests48.description}"]
 			id: "12C2B1C98E88AECE"
-			tasks: [{
-				id: "05B9A3D9551CD023"
-				item: "ftbskies:space_material"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "05B9A3D9551CD023"
+					item: "ftbskies:space_material"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -5.5d
 		}
@@ -1077,12 +1193,15 @@
 				"12C2B1C98E88AECE"
 				"1238C315DE286E84"
 			]
+			description: ["{ftbquests.chapter.getting_on_up.quests49.description}"]
 			id: "288E9BEE8C696862"
-			tasks: [{
-				id: "3E8BAB6986CE6388"
-				item: "ftbskies:space_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3E8BAB6986CE6388"
+					item: "ftbskies:space_plate"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: -5.5d
 		}
@@ -1091,7 +1210,7 @@
 				"6E07A4FD5CA66499"
 				"288E9BEE8C696862"
 			]
-			description: ["{ftbquests.chapter.getting_on_up.quests51.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests50.description}"]
 			id: "2D4374ECB03D841A"
 			tasks: [
 				{
@@ -1152,9 +1271,7 @@
 				"7C2AC8ED9461A831"
 				"4E676DFBDBD49BDD"
 			]
-			description: [
-					"到达月球后，你就可以开始寻找开采一些新资源了。您需要收集一些&b戴斯&r和&b奶酪&r。也可以考虑寻找一些月球村民进行交易！"
-				]
+			description: ["{ftbquests.chapter.getting_on_up.quests51.description}"]
 			id: "3CE6ABC8DECDC047"
 			rewards: [
 				{
@@ -1177,44 +1294,51 @@
 			]
 			shape: "octagon"
 			size: 2.0d
-			tasks: [{
-				dimension: "ad_astra:moon"
-				id: "40A881727A6E6DC0"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					id: "40A881727A6E6DC0"
+					type: "dimension"
+				}
+			]
 			x: 15.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["19E85C8A02ACF973"]
-			description: ["是时候发射你的火箭了"]
+			description: ["{ftbquests.chapter.getting_on_up.quests52.description}"]
 			hide_dependency_lines: true
 			id: "5FA347FE418919B7"
-			tasks: [{
-				id: "2DEC18FF5503AA2D"
-				item: "ad_astra:launch_pad"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2DEC18FF5503AA2D"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["35F349BD58D194C5"]
+			description: ["{ftbquests.chapter.getting_on_up.quests53.description}"]
 			id: "18AAC512C005567D"
-			tasks: [{
-				count: 4L
-				id: "4FA153C63C6C03BC"
-				item: "compactcrafting:field_projector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "4FA153C63C6C03BC"
+					item: "compactcrafting:field_projector"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["52486C8C6FBBA08A"]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests55.description0}"
-				"{ftbquests.chapter.getting_on_up.quests55.description1}"
+				"{ftbquests.chapter.getting_on_up.quests54.description0}"
+				"{ftbquests.chapter.getting_on_up.quests54.description1}"
 			]
 			id: "01BFE11258498F9D"
 			tasks: [
@@ -1271,24 +1395,26 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.getting_on_up.quests55.title}"
+			title: "{ftbquests.chapter.getting_on_up.quests54.title}"
 			x: -2.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["5C08259CFF4E6E3E"]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests56.description0}"
+				"{ftbquests.chapter.getting_on_up.quests55.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests56.description2}"
+				"{ftbquests.chapter.getting_on_up.quests55.description2}"
 			]
 			id: "52486C8C6FBBA08A"
-			rewards: [{
-				count: 3
-				id: "6A453F7BD3033C51"
-				item: "elementalcraft:minor_rune_slate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "6A453F7BD3033C51"
+					item: "elementalcraft:minor_rune_slate"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1882493E5576D933"
@@ -1312,7 +1438,7 @@
 		}
 		{
 			dependencies: ["04594286DA10AC35"]
-			description: ["{ftbquests.chapter.getting_on_up.quests57.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests56.description}"]
 			id: "1F3048CC1223587E"
 			rewards: [
 				{
@@ -1326,32 +1452,38 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "21243E2037F2AB4B"
-				item: "starbunclemania:source_fluid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "21243E2037F2AB4B"
+					item: "starbunclemania:source_fluid_bucket"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["5C08259CFF4E6E3E"]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests58.description0}"
+				"{ftbquests.chapter.getting_on_up.quests57.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests58.description2}"
+				"{ftbquests.chapter.getting_on_up.quests57.description2}"
 			]
 			id: "04594286DA10AC35"
-			rewards: [{
-				id: "4E37054986A5E98D"
-				item: "ars_nouveau:relay"
-				type: "item"
-			}]
-			tasks: [{
-				id: "22F1E5DB87767A76"
-				item: "starbunclemania:source_condenser"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4E37054986A5E98D"
+					item: "ars_nouveau:relay"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22F1E5DB87767A76"
+					item: "starbunclemania:source_condenser"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -8.5d
 		}
@@ -1361,27 +1493,32 @@
 				"2D1163EC766EC306"
 			]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests59.description0}"
+				"{ftbquests.chapter.getting_on_up.quests58.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests59.description2}"
+				"{ftbquests.chapter.getting_on_up.quests58.description2}"
 			]
 			id: "0DD3B81E485957AA"
-			tasks: [{
-				id: "6CE67E3FC3D23989"
-				item: "ad_astra:fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6CE67E3FC3D23989"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
 			x: 15.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["18AAC512C005567D"]
+			description: ["{ftbquests.chapter.getting_on_up.quests59.description}"]
 			id: "7C2AC8ED9461A831"
-			tasks: [{
-				id: "0B7894D00033F14D"
-				item: "ad_astra:oxygen_loader"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0B7894D00033F14D"
+					item: "ad_astra:oxygen_loader"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -4.0d
 		}
@@ -1392,79 +1529,94 @@
 				"31845EC3555CA64E"
 			]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests61.description0}"
+				"{ftbquests.chapter.getting_on_up.quests60.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests61.description2}"
+				"{ftbquests.chapter.getting_on_up.quests60.description2}"
 			]
 			id: "0DFB9AAECC68839D"
-			rewards: [{
-				count: 2
-				id: "2BA86311A64EAE69"
-				item: "occultism:silver_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1D2A42FFF2025EE1"
-				item: "occultism:raw_silver"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "2BA86311A64EAE69"
+					item: "occultism:silver_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D2A42FFF2025EE1"
+					item: "occultism:raw_silver"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0E20574CA05CC507"]
-			description: ["{ftbquests.chapter.getting_on_up.quests62.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests61.description}"]
 			id: "3E1489BBE83BC8F3"
-			tasks: [{
-				id: "363686D926A72BEF"
-				item: "thermal:cinnabar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "363686D926A72BEF"
+					item: "thermal:cinnabar"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2B6FD74697BDF264"]
 			description: [
-				"{ftbquests.chapter.getting_on_up.quests63.description0}"
+				"{ftbquests.chapter.getting_on_up.quests62.description0}"
 				""
-				"{ftbquests.chapter.getting_on_up.quests63.description2}"
+				"{ftbquests.chapter.getting_on_up.quests62.description2}"
 			]
 			id: "50E0D87532F0AB6E"
-			rewards: [{
-				count: 8
-				id: "6E37F4E8A4C2EE7B"
-				item: "industrialforegoing:tinydryrubber"
-				type: "item"
-			}]
-			tasks: [{
-				id: "24B6F3701F4B6E2A"
-				item: "industrialforegoing:latex_processing_unit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "6E37F4E8A4C2EE7B"
+					item: "industrialforegoing:tinydryrubber"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "24B6F3701F4B6E2A"
+					item: "industrialforegoing:latex_processing_unit"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["08EF7BEA1B8C5599"]
+			description: ["{ftbquests.chapter.getting_on_up.quests63.description}"]
 			id: "35FC40D9D9111862"
-			tasks: [{
-				id: "288E877C91FBB246"
-				item: "ftbskies:ldpe_sheet"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "288E877C91FBB246"
+					item: "ftbskies:ldpe_sheet"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["35FC40D9D9111862"]
-			description: ["&b化学溶解室&r需要 FE，使用液体和几种物品，并把它们变成新的东西"]
+			description: ["{ftbquests.chapter.getting_on_up.quests64.description}"]
 			id: "23101731BE8EBFAD"
-			tasks: [{
-				id: "1C0FA7BA9D402524"
-				item: "industrialforegoing:dissolution_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C0FA7BA9D402524"
+					item: "industrialforegoing:dissolution_chamber"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: -1.0d
 		}
@@ -1473,57 +1625,72 @@
 				"35FC40D9D9111862"
 				"404D37E3DCA1CB41"
 			]
+			description: ["{ftbquests.chapter.getting_on_up.quests65.description}"]
 			id: "148C5FBBC535EA2D"
-			tasks: [{
-				id: "3250B69A13449B80"
-				item: "ftbskies_companion:liquid_crystallizer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3250B69A13449B80"
+					item: "ftbskies_companion:liquid_crystallizer"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["148C5FBBC535EA2D"]
+			description: ["{ftbquests.chapter.getting_on_up.quests66.description}"]
 			id: "1F958840F39B1DEF"
-			tasks: [{
-				id: "20453AE8320E0691"
-				item: "forcecraft:force_gem"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20453AE8320E0691"
+					item: "forcecraft:force_gem"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2921F415CA8A7B4B"]
+			description: ["{ftbquests.chapter.getting_on_up.quests67.description}"]
 			id: "404D37E3DCA1CB41"
-			tasks: [{
-				id: "0153C21F44CE1CE7"
-				item: "thermal:machine_pyrolyzer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0153C21F44CE1CE7"
+					item: "thermal:machine_pyrolyzer"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -2.5d
 		}
 		{
+			description: ["{ftbquests.chapter.getting_on_up.quests68.description}"]
 			id: "2921F415CA8A7B4B"
-			tasks: [{
-				id: "14D58359403BA1CC"
-				item: "forcecraft:force_sapling"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "14D58359403BA1CC"
+					item: "forcecraft:force_sapling"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1F958840F39B1DEF"]
+			description: ["{ftbquests.chapter.getting_on_up.quests69.description}"]
 			id: "44B308254F8D1E83"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "38730F9F947E1DC7"
-				item: "ftbskies:force_infused_biodiesel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "38730F9F947E1DC7"
+					item: "ftbskies:force_infused_biodiesel_bucket"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: -0.5d
 		}
@@ -1532,7 +1699,7 @@
 				"38577A663483199E"
 				"1828D9CBF5BDE917"
 			]
-			description: ["{ftbquests.chapter.getting_on_up.quests71.description}"]
+			description: ["{ftbquests.chapter.getting_on_up.quests70.description}"]
 			id: "1E13CF94F45CE752"
 			rewards: [
 				{
@@ -1547,34 +1714,42 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "530B39AA03FD55EC"
-				item: "thermal:machine_smelter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "530B39AA03FD55EC"
+					item: "thermal:machine_smelter"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -10.0d
 		}
 		{
 			dependencies: ["1E13CF94F45CE752"]
+			description: ["{ftbquests.chapter.getting_on_up.quests71.description}"]
 			id: "484F6381E7E67059"
-			rewards: [{
-				count: 12
-				id: "0EA44961553D050B"
-				item: "thermal:electrum_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "5B9578763F61B590"
-				item: "thermal:electrum_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 12
+					id: "0EA44961553D050B"
+					item: "thermal:electrum_coin"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5B9578763F61B590"
+					item: "thermal:electrum_ingot"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["484F6381E7E67059"]
+			description: ["{ftbquests.chapter.getting_on_up.quests72.description}"]
 			id: "30D0FAEFC28B24F5"
 			rewards: [
 				{
@@ -1589,11 +1764,13 @@
 					xp: 5
 				}
 			]
-			tasks: [{
-				id: "7B93F03017BCE0AE"
-				item: "create_new_age:overcharged_gold"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7B93F03017BCE0AE"
+					item: "create_new_age:overcharged_gold"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: -10.0d
 		}

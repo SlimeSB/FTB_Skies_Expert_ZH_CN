@@ -5,18 +5,20 @@
 	group: "7B39F21A0D5BB568"
 	icon: "compactmachines:machine_giant"
 	id: "03E3E528BEE7C9A3"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/compacting.png"
-		rotation: 0.0d
-		width: 12.710843373493976d
-		x: 3.5d
-		y: -6.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/compacting.png"
+			rotation: 0.0d
+			width: 12.710843373493976d
+			x: 3.5d
+			y: -6.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -129,61 +131,63 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.base_expansion.quests1.subtitle}"
-			tasks: [{
-				id: "33BBE6C89ACC8EBC"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "buildinggadgets:gadget_building"
-								tag: {
-									energy: 500000.0d
-									state: {
-										data: { }
-										serializer: "buildinggadgets:dummy_serializer"
+			tasks: [
+				{
+					id: "33BBE6C89ACC8EBC"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "buildinggadgets:gadget_building"
+									tag: {
+										energy: 500000.0d
 										state: {
-											Name: "minecraft:air"
+											data: { }
+											serializer: "buildinggadgets:dummy_serializer"
+											state: {
+												Name: "minecraft:air"
+											}
 										}
 									}
 								}
-							}
-							{
-								Count: 1b
-								id: "buildinggadgets:gadget_exchanging"
-								tag: {
-									energy: 500000.0d
-									state: {
-										data: { }
-										serializer: "buildinggadgets:dummy_serializer"
+								{
+									Count: 1b
+									id: "buildinggadgets:gadget_exchanging"
+									tag: {
+										energy: 500000.0d
 										state: {
-											Name: "minecraft:air"
+											data: { }
+											serializer: "buildinggadgets:dummy_serializer"
+											state: {
+												Name: "minecraft:air"
+											}
 										}
 									}
 								}
-							}
-							{
-								Count: 1b
-								id: "buildinggadgets:gadget_copy_paste"
-								tag: {
-									energy: 500000.0d
-									mode: 0b
-									template_id: [I;
-										-429682952
-										1143621777
-										-1584007205
-										346185346
-									]
+								{
+									Count: 1b
+									id: "buildinggadgets:gadget_copy_paste"
+									tag: {
+										energy: 500000.0d
+										mode: 0b
+										template_id: [I;
+											-429682952
+											1143621777
+											-1584007205
+											346185346
+										]
+									}
 								}
-							}
-						]
+							]
+						}
 					}
+					title: "{ftbquests.chapter.base_expansion.quests1.tasks0.title}"
+					type: "item"
 				}
-				title: "{ftbquests.chapter.base_expansion.quests1.tasks0.title}"
-				type: "item"
-			}]
+			]
 			x: 3.5d
 			y: -1.5d
 		}
@@ -215,50 +219,52 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.base_expansion.quests2.subtitle}"
-			tasks: [{
-				id: "02BEEFBA5FBCA04C"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "constructionwand:stone_wand"
-								tag: {
-									Damage: 0
-									wand_options: { }
+			tasks: [
+				{
+					id: "02BEEFBA5FBCA04C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "constructionwand:stone_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
 								}
-							}
-							{
-								Count: 1b
-								id: "constructionwand:iron_wand"
-								tag: {
-									Damage: 0
-									wand_options: { }
+								{
+									Count: 1b
+									id: "constructionwand:iron_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
 								}
-							}
-							{
-								Count: 1b
-								id: "constructionwand:diamond_wand"
-								tag: {
-									Damage: 0
-									wand_options: { }
+								{
+									Count: 1b
+									id: "constructionwand:diamond_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
 								}
-							}
-							{
-								Count: 1b
-								id: "constructionwand:infinity_wand"
-								tag: {
-									wand_options: { }
+								{
+									Count: 1b
+									id: "constructionwand:infinity_wand"
+									tag: {
+										wand_options: { }
+									}
 								}
-							}
-						]
+							]
+						}
 					}
+					title: "{ftbquests.chapter.base_expansion.quests2.tasks0.title}"
+					type: "item"
 				}
-				title: "{ftbquests.chapter.base_expansion.quests2.tasks0.title}"
-				type: "item"
-			}]
+			]
 			x: 4.5d
 			y: -1.5d
 		}
@@ -337,11 +343,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.base_expansion.quests4.subtitle}"
-			tasks: [{
-				id: "6611BA9EE1545BAC"
-				item: "chipped:mason_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6611BA9EE1545BAC"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.base_expansion.quests4.title}"
 			x: 2.0d
 			y: -4.0d
@@ -371,11 +379,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.base_expansion.quests5.subtitle}"
-			tasks: [{
-				id: "1FD994EFE3A97636"
-				item: "chipped:botanist_workbench"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1FD994EFE3A97636"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.base_expansion.quests5.title}"
 			x: 3.5d
 			y: -4.0d
@@ -472,15 +482,17 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.base_expansion.quests8.subtitle}"
-			tasks: [{
-				id: "4E7829E04B55A285"
-				item: {
-					Count: 1b
-					id: "simplemagnets:basicmagnet"
-					tag: { }
+			tasks: [
+				{
+					id: "4E7829E04B55A285"
+					item: {
+						Count: 1b
+						id: "simplemagnets:basicmagnet"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.5d
 			y: -1.5d
 		}
@@ -506,10 +518,12 @@
 						Count: 1b
 						id: "quark:ancient_tome"
 						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 8s
-							}]
+							StoredEnchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 8s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -521,25 +535,29 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.base_expansion.quests9.subtitle}"
-			tasks: [{
-				id: "22B06B7EC78C1A46"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [{
-							Count: 1b
-							id: "apotheosis:potion_charm"
-							tag: {
-								Damage: 0
-								Potion: "minecraft:invisibility"
-							}
-						}]
+			tasks: [
+				{
+					id: "22B06B7EC78C1A46"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "apotheosis:potion_charm"
+									tag: {
+										Damage: 0
+										Potion: "minecraft:invisibility"
+									}
+								}
+							]
+						}
 					}
+					title: "{ftbquests.chapter.base_expansion.quests9.tasks0.title}"
+					type: "item"
 				}
-				title: "{ftbquests.chapter.base_expansion.quests9.tasks0.title}"
-				type: "item"
-			}]
+			]
 			x: 1.5d
 			y: -1.5d
 		}

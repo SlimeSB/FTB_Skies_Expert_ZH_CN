@@ -5,18 +5,20 @@
 	group: "5A42857CD4E60814"
 	icon: "ae2:drive"
 	id: "1E998E079B8C9AF3"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "ftbskies:textures/quests/digital.png"
-		rotation: 0.0d
-		width: 4.228915662650603d
-		x: -1.0d
-		y: -4.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbskies:textures/quests/digital.png"
+			rotation: 0.0d
+			width: 4.228915662650603d
+			x: -1.0d
+			y: -4.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -28,11 +30,13 @@
 			]
 			id: "79B77431CF200C83"
 			subtitle: "{ftbquests.chapter.digital.quests0.subtitle}"
-			tasks: [{
-				id: "3BCCCFF311625CBC"
-				item: "ae2:certus_quartz_dust"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3BCCCFF311625CBC"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -2.0d
 		}
@@ -40,18 +44,22 @@
 			dependencies: ["25A926992D79332D"]
 			description: ["{ftbquests.chapter.digital.quests1.description}"]
 			id: "43A9F69D52716D3D"
-			rewards: [{
-				count: 8
-				id: "1430CD4D6ACC7A7B"
-				item: "ae2:certus_quartz_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "1430CD4D6ACC7A7B"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.digital.quests1.subtitle}"
-			tasks: [{
-				id: "07AEC9DCEB959084"
-				item: "ae2:certus_quartz_crystal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "07AEC9DCEB959084"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 1.0d
 		}
@@ -63,18 +71,22 @@
 				"{ftbquests.chapter.digital.quests2.description2}"
 			]
 			id: "038D191C70E19DBA"
-			rewards: [{
-				count: 8
-				id: "299300EA98FD6F91"
-				item: "ae2:certus_quartz_crystal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "299300EA98FD6F91"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.digital.quests2.subtitle}"
-			tasks: [{
-				id: "1C139936A9FAA066"
-				item: "ae2:charged_certus_quartz_crystal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C139936A9FAA066"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 2.5d
 		}
@@ -82,18 +94,22 @@
 			dependencies: ["038D191C70E19DBA"]
 			description: ["{ftbquests.chapter.digital.quests3.description}"]
 			id: "42F27B2EF0A07EF9"
-			rewards: [{
-				count: 8
-				id: "469BA8AFFEB06683"
-				item: "ae2:charged_certus_quartz_crystal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "469BA8AFFEB06683"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.digital.quests3.subtitle}"
-			tasks: [{
-				id: "019E3112EC8B4DDA"
-				item: "ae2:fluix_crystal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "019E3112EC8B4DDA"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 2.5d
 		}
@@ -116,11 +132,13 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.digital.quests4.subtitle}"
-			tasks: [{
-				id: "589C76C47EC04CDD"
-				item: "ae2:fluix_glass_cable"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "589C76C47EC04CDD"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 4.0d
 		}
@@ -136,18 +154,22 @@
 			]
 			icon: "ae2:controller"
 			id: "55580A14344E9DF7"
-			rewards: [{
-				count: 8
-				id: "6A8BA1F85CAED81A"
-				item: "ae2:fluix_crystal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "6A8BA1F85CAED81A"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.digital.quests5.subtitle}"
-			tasks: [{
-				id: "62672B98892337AC"
-				item: "ae2:controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "62672B98892337AC"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.digital.quests5.title}"
 			x: -2.5d
 			y: 5.0d
@@ -181,11 +203,13 @@
 			shape: "hexagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.digital.quests6.subtitle}"
-			tasks: [{
-				id: "65FF7AFA69EAA2CF"
-				item: "rftoolsstorage:modular_storage"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "65FF7AFA69EAA2CF"
+					item: "rftoolsstorage:modular_storage"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -2.0d
 		}
@@ -197,11 +221,13 @@
 				"{ftbquests.chapter.digital.quests7.description2}"
 			]
 			id: "0E5999E687D45570"
-			tasks: [{
-				id: "10F2786AA41BF206"
-				item: "rftoolsstorage:storage_module0"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "10F2786AA41BF206"
+					item: "rftoolsstorage:storage_module0"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
@@ -209,11 +235,13 @@
 			dependencies: ["0E5999E687D45570"]
 			description: ["{ftbquests.chapter.digital.quests8.description}"]
 			id: "5DE305A0D1A09D00"
-			tasks: [{
-				id: "7820E38B74A54CC0"
-				item: "rftoolsstorage:storage_module1"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7820E38B74A54CC0"
+					item: "rftoolsstorage:storage_module1"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 1.0d
 		}
@@ -221,11 +249,13 @@
 			dependencies: ["5DE305A0D1A09D00"]
 			description: ["{ftbquests.chapter.digital.quests9.description}"]
 			id: "49360D20436AA37F"
-			tasks: [{
-				id: "19D496AA2E5963DE"
-				item: "rftoolsstorage:storage_module2"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "19D496AA2E5963DE"
+					item: "rftoolsstorage:storage_module2"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 1.0d
 		}
@@ -233,11 +263,13 @@
 			dependencies: ["49360D20436AA37F"]
 			description: ["{ftbquests.chapter.digital.quests10.description}"]
 			id: "0ED77C14565D4418"
-			tasks: [{
-				id: "07699708339E5CB3"
-				item: "rftoolsstorage:storage_module3"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "07699708339E5CB3"
+					item: "rftoolsstorage:storage_module3"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 2.0d
 		}
@@ -281,44 +313,52 @@
 		{
 			dependencies: ["1646C2C72B176E42"]
 			id: "781C03751A007B8B"
-			tasks: [{
-				id: "738E103A03CB6D3C"
-				item: "mekanism:qio_drive_hyper_dense"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "738E103A03CB6D3C"
+					item: "mekanism:qio_drive_hyper_dense"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["781C03751A007B8B"]
 			id: "7AE8F91BFA9D68AF"
-			tasks: [{
-				id: "32A7B5513AADA15E"
-				item: "mekanism:qio_drive_time_dilating"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "32A7B5513AADA15E"
+					item: "mekanism:qio_drive_time_dilating"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AE8F91BFA9D68AF"]
 			id: "01E001C4BBA62982"
-			tasks: [{
-				id: "7EB5CC3219E0BC05"
-				item: "mekanism:qio_drive_supermassive"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7EB5CC3219E0BC05"
+					item: "mekanism:qio_drive_supermassive"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1646C2C72B176E42"]
 			id: "2631311D38E1A2EB"
-			tasks: [{
-				id: "15B1AF4BD10C355B"
-				item: "mekanism:portable_qio_dashboard"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "15B1AF4BD10C355B"
+					item: "mekanism:portable_qio_dashboard"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -1.0d
 		}
@@ -330,22 +370,26 @@
 				"6A75C648D9883BE1"
 			]
 			id: "6E4FDA560ABC22DF"
-			tasks: [{
-				id: "00DC916A03B1416B"
-				item: "ae2:logic_processor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "00DC916A03B1416B"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0747A594EEB95F00"]
 			id: "73DC554D97480067"
-			tasks: [{
-				id: "6043DE033D7D2674"
-				item: "ae2:printed_logic_processor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6043DE033D7D2674"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 2.5d
 		}
@@ -353,11 +397,13 @@
 			dependencies: ["43A9F69D52716D3D"]
 			id: "0747A594EEB95F00"
 			subtitle: "{ftbquests.chapter.digital.quests18.subtitle}"
-			tasks: [{
-				id: "06EE329CBCD2254F"
-				item: "ae2:inscriber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "06EE329CBCD2254F"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 1.0d
 		}
@@ -369,11 +415,13 @@
 				"{ftbquests.chapter.digital.quests19.description2}"
 			]
 			id: "25A926992D79332D"
-			tasks: [{
-				id: "34D85A4CC3B93D60"
-				item: "thermal:machine_crystallizer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "34D85A4CC3B93D60"
+					item: "thermal:machine_crystallizer"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -0.5d
 		}

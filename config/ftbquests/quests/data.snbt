@@ -8,10 +8,22 @@
 	disable_gui: false
 	drop_loot_crates: false
 	emergency_items: [
-		{ Count: 1b, id: "minecraft:oak_sapling" }
-		{ Count: 1b, id: "minecraft:bone_meal" }
-		{ Count: 1b, id: "compactmachines:personal_shrinking_device" }
-		{ Count: 2b, id: "minecraft:ice" }
+		{
+			Count: 1b
+			id: "minecraft:oak_sapling"
+		}
+		{
+			Count: 1b
+			id: "minecraft:bone_meal"
+		}
+		{
+			Count: 1b
+			id: "compactmachines:personal_shrinking_device"
+		}
+		{
+			Count: 1b
+			id: "minecraft:ice"
+		}
 	]
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
@@ -30,6 +42,6 @@
 	}
 	pause_game: false
 	progression_mode: "flexible"
-	title: "FTB Skies"
+	title: "{ftbquests.chapter.data.title}"
 	version: 13
 }

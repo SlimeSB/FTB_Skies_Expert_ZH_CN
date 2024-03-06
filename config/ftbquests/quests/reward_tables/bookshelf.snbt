@@ -3,14 +3,30 @@
 	loot_size: 1
 	order_index: 9
 	rewards: [
-		{ item: "minecraft:bookshelf" }
-		{ item: "apotheosis:hellshelf" }
-		{ item: "apotheosis:seashelf" }
-		{ item: "apotheosis:endshelf" }
-		{ item: "apotheosis:beeshelf" }
-		{ item: "apotheosis:melonshelf" }
-		{ item: "apotheosis:rectifier" }
-		{ item: "apotheosis:sightshelf" }
+		{
+			item: "minecraft:bookshelf"
+		}
+		{
+			item: "apotheosis:hellshelf"
+		}
+		{
+			item: "apotheosis:seashelf"
+		}
+		{
+			item: "apotheosis:endshelf"
+		}
+		{
+			item: "apotheosis:beeshelf"
+		}
+		{
+			item: "apotheosis:melonshelf"
+		}
+		{
+			item: "apotheosis:rectifier"
+		}
+		{
+			item: "apotheosis:sightshelf"
+		}
 	]
-	title: "书架"
+	title: "{ftbquests.reward_tables.bookshelf.title}"
 }
