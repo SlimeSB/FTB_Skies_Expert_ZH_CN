@@ -11,7 +11,9 @@ const ftbEvents = [
     teaEvent,
     villagerEvent,
     wanderingtraderEvent,
-    goatEvent
+    goatEvent,
+    playerJoin,
+    creeperJumpscare,
 ];
 
 const defaultSettings = {

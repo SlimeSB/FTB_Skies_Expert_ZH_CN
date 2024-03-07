@@ -6,7 +6,7 @@ const goatEvent = {
   name: "ftbskies:goat",
   displayName: "山羊",
   description: "开关山羊事件。在你附近随机生成一只量子山羊",
-  chance: 0.5,
+  chance: 0.25,
   size: -1,
   checkBlocks: ["minecraft:air"],
   requireBlockBelow: true,
@@ -43,12 +43,12 @@ const goatEvent = {
         goat.aiStep();
       }
       Utils.server.scheduleInTicks(120, () => {
-          var itemEntity = level.createEntity("item");
-          itemEntity.item = Ku.Lists.getEntryBasedOnWeight(this.lootTable.goatloot);
-          itemEntity.setPosition(goat.x, goat.y, goat.z);
-          itemEntity.age = 6000 - this.itemDespawnTime;
-          itemEntity.glowing = true;
-          itemEntity.spawn();        
+        var itemEntity = level.createEntity("item");
+        itemEntity.item = Ku.Lists.getEntryBasedOnWeight(this.lootTable.goatloot);
+        itemEntity.setPosition(goat.x, goat.y, goat.z);
+        itemEntity.age = 6000 - this.itemDespawnTime;
+        itemEntity.glowing = true;
+        itemEntity.spawn();
         goat.discard();
       });
     });
