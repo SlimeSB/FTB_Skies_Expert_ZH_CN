@@ -681,7 +681,7 @@
 
 	"#experienceobelisk": "Cognition (formerly Experience Obelisk) - https://www.mcmod.cn/class/9990.html",
 	"item.experienceobelisk.attunement_staff": "共鸣法杖",
-	"item.experienceobelisk.cognitium_bucket": "知素桶",
+	"item.experienceobelisk.cognitium_bucket": "知识桶",
 	"item.experienceobelisk.cognitive_alloy": "认知合金",
 	"item.experienceobelisk.cognitive_amalgam": "认知碎片",
 	"item.experienceobelisk.cognitive_crystal": "认知水晶",
@@ -699,10 +699,10 @@
 	"block.experienceobelisk.precision_dispeller": "精密砂轮",
 	"block.experienceobelisk.cognitive_alloy_block": "认知合金块",
 	"block.experienceobelisk.cognitive_crystal_block": "认知水晶块",
-	"block.experienceobelisk.cognitium": "知素",
+	"block.experienceobelisk.cognitium": "知识",
 
-	"fluid.experienceobelisk.cognitium": "知素",
-	"fluid_type.experienceobelisk.cognitium": "知素",
+	"fluid.experienceobelisk.cognitium": "知识",
+	"fluid_type.experienceobelisk.cognitium": "知识",
 
 	"itemGroup.experienceobelisk": "Cognition",
 
