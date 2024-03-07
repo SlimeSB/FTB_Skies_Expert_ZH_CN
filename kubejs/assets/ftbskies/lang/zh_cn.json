@@ -97,10 +97,10 @@
 	"item.ftbskies.polyethylene_bucket": "聚乙烯桶",
 	"fluid.ftbskies.pineapple_juice": "菠萝汁",
 	"item.ftbskies.pineapple_juice_bucket": "菠萝汁桶",
-	"fluid.ftbskies.virgin_pina_colada": "原生冰镇菠萝椰汁",
-	"item.ftbskies.virgin_pina_colada_bucket": "原生冰镇菠萝椰汁桶",
-	"fluid.ftbskies.pina_colada": "冰镇菠萝椰汁",
-	"item.ftbskies.pina_colada_bucket": "冰镇菠萝椰汁桶",
+	"fluid.ftbskies.virgin_pina_colada": "原生冰镇可乐达",
+	"item.ftbskies.virgin_pina_colada_bucket": "原生冰镇可乐达桶",
+	"fluid.ftbskies.pina_colada": "冰镇可乐达",
+	"item.ftbskies.pina_colada_bucket": "冰镇可乐达桶",
 
 	"fluid.ftbskies.liquid_elemental_fire": "液态火源质",
 	"item.ftbskies.liquid_elemental_fire_bucket": "液态火源质桶",
@@ -246,7 +246,7 @@
 
 	"gas.kubejs.volatile_redstone_gas": "不稳定红石气体",
 	"gas.kubejs.cryo_gas": "凛冰灌注气体",
-	"gas.kubejs.virgin_pina_colada": "原生冰镇菠萝椰汁",
+	"gas.kubejs.virgin_pina_colada": "原生冰镇可乐达",
 
 	"gas.kubejs.fluorine_gas": "氟气",
 	"gas.kubejs.resonant_gas": "谐振以太气体",
