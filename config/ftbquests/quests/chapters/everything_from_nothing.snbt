@@ -251,7 +251,7 @@
 			description: [
 				"{ftbquests.chapter.everything_from_nothing.quests2.description0}"
 				""
-				"{ftbquests.chapter.everything_from_nothing.quests2.description2}"
+				"[\"\",{\"text\":\"点此\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4FA6ADCA7857A92F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"植物魔法章节\"]}},\" 查看植物魔法章节以获得魔力钢的制作方法。\"]"
 			]
 			id: "1C5F24FBAE411D2A"
 			rewards: [
