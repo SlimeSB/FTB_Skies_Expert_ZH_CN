@@ -50,7 +50,7 @@ LevelEvents.tick((event) => {
     mobs.forEach((mob) => {
       if (mob.y < 0) {
         mob.kill();
-        console.log("'在' + mob.x + ' ' + mob.y + ' ' + mob.z + '击杀蜜蜂');
+        console.log("在" + mob.x + " " + mob.y + " " + mob.z + "击杀蜜蜂");
       }
     });
   });
