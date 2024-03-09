@@ -32,5 +32,15 @@
     "ftbquests.chapter.overpowered.quests9.description2": "[\\\"\\\",\\\"查看章节 \\\",{\\\"text\\\":\\\"天高任鸟飞\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"1AA9D32D3A6F9ECE\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"天高任鸟飞章节\\\"]}},\\\" 获取更多信息。\\\"]",
     "ftbquests.chapter.progression.quests0.description2": "[\\\"\\\",\\\"查看章节 \\\",{\\\"text\\\":\\\"天高任鸟飞\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"1AA9D32D3A6F9ECE\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"天高任鸟飞章节\\\"]}},\\\" 获取更多信息。\\\"]",
     "ftbquests.chapter.progression.quests2.description4": "[\\\"\\\",\\\"欲了解更多筛网信息，请查看 \\\",{\\\"text\\\":\\\"无中生有\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"765CE56E943A0E79\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"无中生有章节\\\"]}},\\\" 章节。\\\"]",
-    "ftbquests.chapter.progression.quests5.description4": "[\\\"\\\",\\\"如果你想要更极限的挑战，就看看 \\\",{\\\"text\\\":\\\"过载挑战！\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"2166DD3F75BEF301\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"过载挑战！章节\\\"]}},\\\" 任务线。不弄也行，那就尽情探索你的天空大殿里的模组吧！\\\"]"
+    "ftbquests.chapter.progression.quests5.description4": "[\\\"\\\",\\\"如果你想要更极限的挑战，就看看 \\\",{\\\"text\\\":\\\"过载挑战！\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"2166DD3F75BEF301\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"过载挑战！章节\\\"]}},\\\" 任务线。不弄也行，那就尽情探索你的天空大殿里的模组吧！\\\"]",
+    "ftbquests.reward_tables.alloy_smelter.title": "冶炼厂合金",
+    "ftbquests.reward_tables.bookshelf.title": "书架",
+    "ftbquests.reward_tables.botania_runes.title": "植物魔法符文",
+    "ftbquests.reward_tables.dml_predictions.title": "深度怪物学习预测产物",
+    "ftbquests.reward_tables.dynamo_loot.title": "能源炉战利品",
+    "ftbquests.reward_tables.food.title": "可放置食物",
+    "ftbquests.reward_tables.food_2.title": "食物",
+    "ftbquests.reward_tables.laser_lenses.title": "镭射透镜",
+    "ftbquests.reward_tables.soul_generator.title": "灵魂发电机",
+    "ftbquests.reward_tables.storage_part.title": "存储元件"
 }

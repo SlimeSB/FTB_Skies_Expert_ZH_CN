@@ -25,5 +25,5 @@
 			item: "farmersdelight:apple_pie"
 		}
 	]
-	title: "{ftbquests.reward_tables.food.title}"
+	title: "可放置食物"
 }
