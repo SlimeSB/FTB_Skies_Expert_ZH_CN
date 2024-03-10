@@ -23,6 +23,11 @@
       "mode": "input"
     },
     {
+      "type": "custommachinery:item",
+      "id": "inputslot1",
+      "mode": "input"
+    },
+    {
       "type": "custommachinery:fluid",
       "id": "outputtank",
       "capacity": 10000,
@@ -96,10 +101,16 @@
     },
     {
       "type": "custommachinery:slot",
-      "x": 51,
-      "y": 37,
+      "x": 53,
+      "y": 27,
       "id": "inputslot"
     },
+    {
+      "type": "custommachinery:slot",
+      "x": 53,
+      "y": 49,
+      "id": "inputslot1"
+    }, 
     {
       "type": "custommachinery:progress",
       "x": 77,

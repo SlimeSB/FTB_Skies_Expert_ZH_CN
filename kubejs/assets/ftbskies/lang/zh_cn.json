@@ -240,6 +240,8 @@
 	"item.ftbskies.mobfarm_deployer": "刷怪场部署器",
 	"item.ftbskies.spirit_deployer": "灵魂部署器",
 
+	"item.ftbskies.inert_gemstone": "惰性宝石",
+
 	"#Kubejs_custom_mekanism": "",
 	"infuse_type.kubejs.volatile_redstone": "不稳定红石",
 	"infuse_type.kubejs.source": "魔源",
