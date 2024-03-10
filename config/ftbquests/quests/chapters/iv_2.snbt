@@ -77,6 +77,95 @@
 			x: 12.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["5DFEFB99F34D3C01"]
+			description: ["{ftbquests.chapter.iv_2.quests4.description}"]
+			id: "7ECE8A6E655CA180"
+			rewards: [
+				{
+					count: 4
+					id: "0E57229240789D1E"
+					item: "thermal:lumium_plate"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "710FC62023709637"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "ftbskies:advanced_mixer"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7ECE8A6E655CA180"]
+			description: [
+				"{ftbquests.chapter.iv_2.quests5.description0}"
+				""
+				"{ftbquests.chapter.iv_2.quests5.description2}"
+			]
+			id: "47C95C9BDBDA61D5"
+			rewards: [
+				{
+					count: 16
+					id: "7BD1AE4BAB1180E7"
+					item: "mekanism:ingot_uranium"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "43EF17AC8ED53238"
+					item: "mekanism:crystal_uranium"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.iv_2.quests5.title}"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47C95C9BDBDA61D5"]
+			description: [
+				"{ftbquests.chapter.iv_2.quests6.description0}"
+				""
+				"{ftbquests.chapter.iv_2.quests6.description2}"
+			]
+			id: "78F5215BDB57FA6B"
+			rewards: [
+				{
+					id: "6DA60262553C1D1F"
+					item: "mekanism:quantum_entangloporter"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4D5B486D57147E57"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "ftbskies:rtg_generator"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 1.5d
+		}
 	]
 	title: "{ftbquests.chapter.iv_2.title}"
 }

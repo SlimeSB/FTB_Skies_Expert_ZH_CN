@@ -130,18 +130,8 @@
 				"{ftbquests.chapter.create.quests3.description0}"
 				""
 				"{ftbquests.chapter.create.quests3.description2}"
-				""
-				"{ftbquests.chapter.create.quests3.description4}"
 			]
 			id: "3CBC0294148DF019"
-			rewards: [
-				{
-					count: 4
-					id: "2005A02606410826"
-					item: "create:item_vault"
-					type: "item"
-				}
-			]
 			subtitle: "{ftbquests.chapter.create.quests3.subtitle}"
 			tasks: [
 				{
@@ -513,21 +503,6 @@
 				"{ftbquests.chapter.create.quests16.description2}"
 			]
 			id: "2AE8F4700835904E"
-			rewards: [
-				{
-					id: "2DFB99CE8B959ACD"
-					item: "immersiveengineering:connector_mv"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 4
-					id: "092DE40CFD3A4029"
-					item: "immersiveengineering:wirecoil_electrum_ins"
-					team_reward: true
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "06577CA4294B5759"
@@ -546,23 +521,16 @@
 				"{@pagebreak}"
 				"{ftbquests.chapter.create.quests17.description4}"
 				""
-				"[\"\",\"\",{\"text\":\"[ 松散水车 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 703631B507075DC1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"{ftbquests.chapter.create.quests17.description6}"
 				""
 				"{@pagebreak}"
 				"{ftbquests.chapter.create.quests17.description9}"
 				""
-				"[\"\",\"\",{\"text\":\"[ 柴油引擎 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 2BBB711EC45D27B3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"{ftbquests.chapter.create.quests17.description11}"
 				""
 				"{ftbquests.chapter.create.quests17.description13}"
 			]
 			id: "52AC1D40163ADAB2"
-			rewards: [
-				{
-					id: "67A1F398559BAF6D"
-					type: "xp"
-					xp: 10
-				}
-			]
 			tasks: [
 				{
 					id: "182961D4CF07074B"

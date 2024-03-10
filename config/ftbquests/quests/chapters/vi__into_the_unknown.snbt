@@ -98,6 +98,40 @@
 			x: -3.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["6E7B6008D25D9CC7"]
+			description: ["{ftbquests.chapter.vi__into_the_unknown.quests5.description}"]
+			id: "3C28C7A3DAD9DB67"
+			rewards: [
+				{
+					count: 64
+					id: "0BDE2F3C3734B6BB"
+					item: "mekanism:crystal_lead"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "14211DE73F642567"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "131DFFA2F0B7B499"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "ftbskies:microfusion_extrapolator"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
 	]
 	title: "{ftbquests.chapter.vi__into_the_unknown.title}"
 }

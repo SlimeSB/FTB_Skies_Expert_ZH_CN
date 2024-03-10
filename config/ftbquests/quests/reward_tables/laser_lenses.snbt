@@ -52,6 +52,6 @@
 			item: "industrialforegoing:laser_lens15"
 		}
 	]
-	title: "镭射透镜"
+	title: "{ftbquests.reward_tables.laser_lenses.title}"
 	use_title: true
 }

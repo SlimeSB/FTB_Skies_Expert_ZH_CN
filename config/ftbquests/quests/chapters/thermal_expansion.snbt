@@ -245,7 +245,7 @@
 				}
 			]
 			x: 4.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1864754B0137D3A6"]
@@ -263,7 +263,7 @@
 				}
 			]
 			x: 4.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7F451EE8AAB02BE9"]
@@ -281,7 +281,7 @@
 				}
 			]
 			x: 4.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1828D9CBF5BDE917"]
@@ -294,6 +294,15 @@
 			hide_dependency_lines: true
 			icon: "thermal:machine_output_augment"
 			id: "5E019C2260EB7F54"
+			rewards: [
+				{
+					count: 3
+					id: "4A85E768C2B938EB"
+					item: "thermalendergy:efficiency_nullifier_augment"
+					team_reward: true
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.thermal_expansion.quests11.subtitle}"
 			tasks: [
 				{
@@ -334,7 +343,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 5.5d
 			y: -3.0d
 		}
 		{
@@ -349,6 +358,52 @@
 			]
 			x: 0.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["23A304B5D985FD61"]
+			description: ["{ftbquests.chapter.thermal_expansion.quests13.description}"]
+			id: "435EB56022500811"
+			rewards: [
+				{
+					id: "311FCFFF2D3E1EE8"
+					item: "thermalendergy:endergy_upgrade_3"
+					type: "item"
+				}
+				{
+					id: "684718C2C32143B5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "487A7F654FB38841"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermalendergy:endergy_upgrade_1"
+								}
+								{
+									Count: 1b
+									id: "thermalendergy:endergy_upgrade_2"
+								}
+								{
+									Count: 1b
+									id: "thermalendergy:endergy_upgrade_3"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.thermal_expansion.quests13.title}"
+			x: 4.0d
+			y: 1.5d
 		}
 	]
 	title: "{ftbquests.chapter.thermal_expansion.title}"

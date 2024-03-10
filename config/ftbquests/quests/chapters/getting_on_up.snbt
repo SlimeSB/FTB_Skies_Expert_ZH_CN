@@ -99,14 +99,6 @@
 				"{ftbquests.chapter.getting_on_up.quests3.description4}"
 			]
 			id: "37F767C6CF2223C6"
-			rewards: [
-				{
-					count: 4
-					id: "1C3C86A4E39A2A63"
-					item: "pneumaticcraft:reinforced_stone"
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "7878C156660F683F"
@@ -180,7 +172,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["37F767C6CF2223C6"]
+			dependencies: [
+				"37F767C6CF2223C6"
+				"7D3EFC22802A8265"
+			]
 			description: [
 				"{ftbquests.chapter.getting_on_up.quests7.description0}"
 				""
@@ -189,14 +184,24 @@
 				"{ftbquests.chapter.getting_on_up.quests7.description4}"
 				""
 				"{ftbquests.chapter.getting_on_up.quests7.description6}"
-				"{@pagebreak}"
-				"{ftbquests.chapter.getting_on_up.quests7.description8}"
 				""
+				"{ftbquests.chapter.getting_on_up.quests7.description8}"
+				"{@pagebreak}"
 				"{ftbquests.chapter.getting_on_up.quests7.description10}"
 				""
 				"{ftbquests.chapter.getting_on_up.quests7.description12}"
+				""
+				"{ftbquests.chapter.getting_on_up.quests7.description14}"
 			]
 			id: "19E85C8A02ACF973"
+			rewards: [
+				{
+					id: "056F40EBA3833D37"
+					item: "pneumaticcraft:omnidirectional_hopper"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 91L
@@ -374,7 +379,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["19E85C8A02ACF973"]
+			dependencies: [
+				"19E85C8A02ACF973"
+				"431FE9AD828F9901"
+			]
 			description: [
 				"{ftbquests.chapter.getting_on_up.quests14.description0}"
 				"{ftbquests.chapter.getting_on_up.quests14.description1}"
@@ -426,13 +434,6 @@
 				"{ftbquests.chapter.getting_on_up.quests16.description2}"
 			]
 			id: "54C6834B4F80A8BC"
-			rewards: [
-				{
-					id: "5550199E74E516C5"
-					item: "thermal:upgrade_augment_2"
-					type: "item"
-				}
-			]
 			subtitle: "{ftbquests.chapter.getting_on_up.quests16.subtitle}"
 			tasks: [
 				{
@@ -565,22 +566,8 @@
 				"{ftbquests.chapter.getting_on_up.quests21.description0}"
 				""
 				"{ftbquests.chapter.getting_on_up.quests21.description2}"
-				""
-				"{ftbquests.chapter.getting_on_up.quests21.description4}"
 			]
 			id: "1C321982361F2B7C"
-			rewards: [
-				{
-					id: "37AE61D8BE00A6EA"
-					item: "botania:elven_spreader"
-					type: "item"
-				}
-				{
-					id: "63D3F106C61A701C"
-					type: "xp"
-					xp: 5
-				}
-			]
 			tasks: [
 				{
 					id: "4D3DBD84707E8567"
@@ -595,18 +582,6 @@
 			dependencies: ["1C321982361F2B7C"]
 			description: ["{ftbquests.chapter.getting_on_up.quests22.description}"]
 			id: "3A20EE0298F3F10C"
-			rewards: [
-				{
-					id: "3132445144655D46"
-					item: "createaddition:chocolate_cake"
-					type: "item"
-				}
-				{
-					id: "35E1EC61F6F2CE5F"
-					item: "createaddition:honey_cake"
-					type: "item"
-				}
-			]
 			subtitle: "{ftbquests.chapter.getting_on_up.quests22.subtitle}"
 			tasks: [
 				{
@@ -626,21 +601,6 @@
 				"{ftbquests.chapter.getting_on_up.quests23.description2}"
 			]
 			id: "4A6EE8999E8918EF"
-			rewards: [
-				{
-					id: "423578B2BBF23934"
-					item: {
-						Count: 1b
-						id: "elementalcraft:rune"
-						tag: {
-							elementalcraft: {
-								rune: "elementalcraft:mewtwo"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "1E1BB56A1166F682"
@@ -653,20 +613,8 @@
 		}
 		{
 			dependencies: ["3A0F10FC8919F05F"]
-			description: [
-				"{ftbquests.chapter.getting_on_up.quests24.description0}"
-				""
-				"{ftbquests.chapter.getting_on_up.quests24.description2}"
-			]
+			description: ["{ftbquests.chapter.getting_on_up.quests24.description}"]
 			id: "3DEBC88BD5116314"
-			rewards: [
-				{
-					count: 4
-					id: "6FECE62B61BF0CFB"
-					item: "immersiveengineering:logic_circuit"
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "19CEFC786F4B7D84"
@@ -830,18 +778,6 @@
 			dependencies: ["5C08259CFF4E6E3E"]
 			description: ["{ftbquests.chapter.getting_on_up.quests32.description}"]
 			id: "7E61BEFDBD52D267"
-			rewards: [
-				{
-					id: "5A9BEBD8C42DDE96"
-					item: "tetra:pristine_diamond"
-					type: "item"
-				}
-				{
-					id: "371C3997116A52CC"
-					type: "xp"
-					xp: 5
-				}
-			]
 			tasks: [
 				{
 					id: "2C028C867687A21C"
@@ -900,22 +836,6 @@
 				"{ftbquests.chapter.getting_on_up.quests34.description2}"
 			]
 			id: "0E20574CA05CC507"
-			rewards: [
-				{
-					id: "5F93ED34617B2EF2"
-					item: {
-						Count: 1b
-						id: "ftbskies:mana_steel_mesh"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "1C53B8EA9BE75AA6"
-					type: "xp"
-					xp: 5
-				}
-			]
 			tasks: [
 				{
 					id: "534F88AD6E6D1F1F"
@@ -955,6 +875,26 @@
 			]
 			description: ["{ftbquests.chapter.getting_on_up.quests36.description}"]
 			id: "30469D3DC4FE7999"
+			rewards: [
+				{
+					count: 64
+					id: "44B6187574C5F869"
+					item: "ftbskies:deco_space_plating"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2DE854C84C05D93D"
+					item: "ftbskies:deco_space_plating_pipe"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6FFC4E4BD1234B02"
+					item: "ftbskies:deco_space_plating_broken_fan"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4C5F012EB4FC801B"
@@ -994,24 +934,6 @@
 			dependencies: ["5C08259CFF4E6E3E"]
 			description: ["{ftbquests.chapter.getting_on_up.quests38.description}"]
 			id: "438EC4B936AD076A"
-			rewards: [
-				{
-					id: "1A9D2EFD94A7E2C6"
-					item: {
-						Count: 1b
-						id: "minecraft:lingering_potion"
-						tag: {
-							Potion: "ars_nouveau:spell_damage_potion_strong"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2C6A678A5E730982"
-					type: "xp"
-					xp: 5
-				}
-			]
 			tasks: [
 				{
 					id: "704963BC0A2BE486"
@@ -1271,27 +1193,7 @@
 				"7C2AC8ED9461A831"
 				"4E676DFBDBD49BDD"
 			]
-			description: ["{ftbquests.chapter.getting_on_up.quests51.description}"]
 			id: "3CE6ABC8DECDC047"
-			rewards: [
-				{
-					id: "4A62F87D1C00F5A9"
-					item: {
-						Count: 1b
-						id: "apotheosis:gem"
-						tag: {
-							gem: "apotheosis:core/lunar"
-							rarity: "epic"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2A1BAC6C478BBD4E"
-					type: "xp"
-					xp: 5
-				}
-			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [
@@ -1470,13 +1372,6 @@
 				"{ftbquests.chapter.getting_on_up.quests57.description2}"
 			]
 			id: "04594286DA10AC35"
-			rewards: [
-				{
-					id: "4E37054986A5E98D"
-					item: "ars_nouveau:relay"
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "22F1E5DB87767A76"
@@ -1726,7 +1621,6 @@
 		}
 		{
 			dependencies: ["1E13CF94F45CE752"]
-			description: ["{ftbquests.chapter.getting_on_up.quests71.description}"]
 			id: "484F6381E7E67059"
 			rewards: [
 				{
@@ -1749,21 +1643,7 @@
 		}
 		{
 			dependencies: ["484F6381E7E67059"]
-			description: ["{ftbquests.chapter.getting_on_up.quests72.description}"]
 			id: "30D0FAEFC28B24F5"
-			rewards: [
-				{
-					count: 5
-					id: "3EFC461E568EC4F2"
-					item: "create_new_age:overcharged_gold"
-					type: "item"
-				}
-				{
-					id: "51A5EA16D0C24F64"
-					type: "xp"
-					xp: 5
-				}
-			]
 			tasks: [
 				{
 					id: "7B93F03017BCE0AE"

@@ -326,7 +326,6 @@
 			y: -2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.powering_up.quests3.description}"]
 			id: "2C8C7357D930FC5B"
 			tasks: [
 				{
@@ -339,7 +338,6 @@
 			y: 0.0d
 		}
 		{
-			description: ["{ftbquests.chapter.powering_up.quests4.description}"]
 			id: "6AB8BAE319F773CF"
 			tasks: [
 				{
@@ -352,7 +350,6 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.powering_up.quests5.description}"]
 			id: "397F54EC2BB55F66"
 			tasks: [
 				{
@@ -365,7 +362,6 @@
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.powering_up.quests6.description}"]
 			id: "13E62001D1046293"
 			tasks: [
 				{

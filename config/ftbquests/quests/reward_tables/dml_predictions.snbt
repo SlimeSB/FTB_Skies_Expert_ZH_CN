@@ -191,5 +191,5 @@
 			}
 		}
 	]
-	title: "深度怪物学习预测产物"
+	title: "{ftbquests.reward_tables.dml_predictions.title}"
 }
