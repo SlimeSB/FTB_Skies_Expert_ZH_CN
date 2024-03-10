@@ -27,7 +27,7 @@
 			description: [
 				"{ftbquests.chapter.mekanism.quests0.description0}"
 				""
-				"[\"\",{\"text\":\"我们为建造裂变反应堆添加了思索教程. 在裂变反应堆端口上查看思索,或者 \"},{\"text\":\"点这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanismgenerators:fission_reactor_port\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanismgenerators:fission_reactor_port\"]}},{\"text\":\" 也行。\"}]"
+				"{ftbquests.chapter.mekanism.quests0.description2}"
 			]
 			icon: "mekanismgenerators:fission_fuel_assembly"
 			id: "7A12F045C037533B"
@@ -249,7 +249,7 @@
 			description: [
 				"{ftbquests.chapter.mekanism.quests7.description0}"
 				""
-				"[\"\",{\"text\":\"我们为建造聚变反应堆添加了思索教程. 在聚变堆控制器上查看思索,或者 \"},{\"text\":\"点这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanismgenerators:fusion_reactor_controller\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanismgenerators:fusion_reactor_controller\"]}},{\"text\":\" 也行。\"}]"
+				"{ftbquests.chapter.mekanism.quests7.description2}"
 				""
 				"{ftbquests.chapter.mekanism.quests7.description4}"
 			]
@@ -714,56 +714,10 @@
 		}
 		{
 			dependencies: [
-				"1F8C2AF0A3A3A486"
-				"4B7957DA13CD57F0"
-			]
-			description: [
-				"{ftbquests.chapter.mekanism.quests27.description0}"
-				""
-				"{ftbquests.chapter.mekanism.quests27.description2}"
-				""
-				"{ftbquests.chapter.mekanism.quests27.description4}"
-				""
-				"{ftbquests.chapter.mekanism.quests27.description6}"
-				""
-				"{ftbquests.chapter.mekanism.quests27.description8}"
-			]
-			id: "4E249AEBE3EBC985"
-			rewards: [
-				{
-					id: "0B74D4D398B32EAF"
-					item: "mekanism:thermal_evaporation_valve"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "3ECEAB113F0E3220"
-					item: "mekanism:thermal_evaporation_block"
-					type: "item"
-				}
-				{
-					id: "45991E2CD14CE0C9"
-					item: "cookingforblockheads:sink"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.mekanism.quests27.subtitle}"
-			tasks: [
-				{
-					id: "767C7F9FD5704F26"
-					item: "mekanism:thermal_evaporation_controller"
-					type: "item"
-				}
-			]
-			x: -4.5d
-			y: -3.5d
-		}
-		{
-			dependencies: [
 				"7A12F045C037533B"
 				"35AB0E82434B81DF"
 			]
-			description: ["{ftbquests.chapter.mekanism.quests28.description}"]
+			description: ["{ftbquests.chapter.mekanism.quests27.description}"]
 			id: "2C33D1D9DFB63524"
 			rewards: [
 				{
@@ -772,7 +726,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.mekanism.quests28.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quests27.subtitle}"
 			tasks: [
 				{
 					id: "7DB238006762ABD9"
@@ -786,9 +740,9 @@
 		{
 			dependencies: ["2C33D1D9DFB63524"]
 			description: [
-				"{ftbquests.chapter.mekanism.quests29.description0}"
+				"{ftbquests.chapter.mekanism.quests28.description0}"
 				""
-				"{ftbquests.chapter.mekanism.quests29.description2}"
+				"{ftbquests.chapter.mekanism.quests28.description2}"
 			]
 			icon: "mekanism:mekasuit_bodyarmor"
 			id: "65ABCBDF33FB459C"
@@ -799,7 +753,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.mekanism.quests29.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quests28.subtitle}"
 			tasks: [
 				{
 					id: "56EEF7C2850D3AB6"
@@ -822,16 +776,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism.quests29.title}"
+			title: "{ftbquests.chapter.mekanism.quests28.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2C33D1D9DFB63524"]
 			description: [
-				"{ftbquests.chapter.mekanism.quests30.description0}"
+				"{ftbquests.chapter.mekanism.quests29.description0}"
 				""
-				"[\"\",{\"text\":\"在超临界移相器端口上查看思索,或者 \"},{\"text\":\"点这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanism:sps_port\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanism:sps_port\"]}},{\"text\":\" 查看如何建造。\"}]"
+				"{ftbquests.chapter.mekanism.quests29.description2}"
 			]
 			icon: "mekanism:sps_port"
 			id: "1ED836C619117362"
@@ -842,7 +796,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.mekanism.quests30.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quests29.subtitle}"
 			tasks: [
 				{
 					id: "4A52CD4E636F385E"
@@ -860,22 +814,22 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism.quests30.title}"
+			title: "{ftbquests.chapter.mekanism.quests29.title}"
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3EFD67B7F3E35F92"]
 			description: [
-				"{ftbquests.chapter.mekanism.quests31.description0}"
+				"{ftbquests.chapter.mekanism.quests30.description0}"
 				""
-				"{ftbquests.chapter.mekanism.quests31.description2}"
+				"{ftbquests.chapter.mekanism.quests30.description2}"
 				""
-				"[\"\",{\"text\":\"我们为建造蒸汽涡轮添加了思索教程. 在涡轮阀门上查看思索,或者 \"},{\"text\":\"点这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanismgenerators:turbine_valve\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanismgenerators:turbine_valve\"]}},{\"text\":\" 也行。\"}]"
+				"{ftbquests.chapter.mekanism.quests30.description4}"
 			]
 			icon: "mekanismgenerators:turbine_blade"
 			id: "11D6A515D73C196B"
-			subtitle: "{ftbquests.chapter.mekanism.quests31.subtitle}"
+			subtitle: "{ftbquests.chapter.mekanism.quests30.subtitle}"
 			tasks: [
 				{
 					id: "3CD2925DF734A9CF"
@@ -898,7 +852,7 @@
 		}
 		{
 			dependencies: ["4B7957DA13CD57F0"]
-			description: ["{ftbquests.chapter.mekanism.quests32.description}"]
+			description: ["{ftbquests.chapter.mekanism.quests31.description}"]
 			id: "7DE50AED14AA463E"
 			rewards: [
 				{
@@ -922,41 +876,50 @@
 				}
 			]
 			x: -3.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"4E249AEBE3EBC985"
-				"7DE50AED14AA463E"
-			]
+			dependencies: ["4B7957DA13CD57F0"]
 			description: [
-				"{ftbquests.chapter.mekanism.quests33.description0}"
+				"{ftbquests.chapter.mekanism.quests32.description0}"
 				""
-				"{ftbquests.chapter.mekanism.quests33.description2}"
-				"{ftbquests.chapter.mekanism.quests33.description3}"
-				"{ftbquests.chapter.mekanism.quests33.description4}"
+				"{ftbquests.chapter.mekanism.quests32.description2}"
 				""
-				"{ftbquests.chapter.mekanism.quests33.description6}"
+				"{ftbquests.chapter.mekanism.quests32.description4}"
+				""
+				"{ftbquests.chapter.mekanism.quests32.description6}"
+				""
+				"{ftbquests.chapter.mekanism.quests32.description8}"
 			]
-			icon: "minecraft:water_bucket"
-			id: "3294690FD3D82540"
-			min_width: 300
+			id: "4E249AEBE3EBC985"
 			rewards: [
 				{
-					id: "76A61ACF0440674A"
-					type: "xp"
-					xp: 10
+					id: "0B74D4D398B32EAF"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3ECEAB113F0E3220"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					id: "2E74D29ECDF3B95F"
+					item: "sfm:water_tank"
+					type: "item"
 				}
 			]
+			subtitle: "{ftbquests.chapter.mekanism.quests32.subtitle}"
 			tasks: [
 				{
-					id: "79705F122465A9C6"
-					type: "checkmark"
+					id: "767C7F9FD5704F26"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism.quests33.title}"
-			x: -3.9693877551020478d
-			y: -4.346938775510196d
+			x: -5.0d
+			y: -3.0d
 		}
 	]
 	title: "{ftbquests.chapter.mekanism.title}"
