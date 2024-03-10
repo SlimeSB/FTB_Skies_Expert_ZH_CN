@@ -630,6 +630,38 @@
 			x: -0.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["3CE6ABC8DECDC047"]
+			description: [
+				"{ftbquests.chapter.iii_2.quests27.description0}"
+				""
+				"{ftbquests.chapter.iii_2.quests27.description2}"
+				"{ftbquests.chapter.iii_2.quests27.description3}"
+				"{ftbquests.chapter.iii_2.quests27.description4}"
+				""
+				"{ftbquests.chapter.iii_2.quests27.description6}"
+			]
+			icon: "minecraft:water_bucket"
+			id: "3294690FD3D82540"
+			min_width: 300
+			rewards: [
+				{
+					id: "76A61ACF0440674A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "79705F122465A9C6"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.iii_2.quests27.title}"
+			x: -18.0d
+			y: 4.5d
+		}
 	]
 	title: "{ftbquests.chapter.iii_2.title}"
 }

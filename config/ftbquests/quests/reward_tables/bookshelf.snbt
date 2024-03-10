@@ -28,5 +28,5 @@
 			item: "apotheosis:sightshelf"
 		}
 	]
-	title: "书架"
+	title: "{ftbquests.reward_tables.bookshelf.title}"
 }

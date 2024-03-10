@@ -67,7 +67,7 @@
 			description: [
 				"{ftbquests.chapter.progression.quests0.description0}"
 				""
-				"[\"\",\"查看章节 \",{\"text\":\"天高任鸟飞\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1AA9D32D3A6F9ECE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"天高任鸟飞章节\"]}},\" 获取更多信息。\"]"
+				"{ftbquests.chapter.progression.quests0.description2}"
 			]
 			icon: "ftbskies:eye_of_legend"
 			id: "6C87D545B4CF34FB"
@@ -177,7 +177,7 @@
 				""
 				"{ftbquests.chapter.progression.quests2.description2}"
 				""
-				"[\"\",\"欲了解更多筛网信息，请查看 \",{\"text\":\"无中生有\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"765CE56E943A0E79\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"无中生有章节\"]}},\" 章节。\"]"
+				"{ftbquests.chapter.progression.quests2.description4}"
 			]
 			icon: {
 				Count: 1b
@@ -307,7 +307,7 @@
 				""
 				"{ftbquests.chapter.progression.quests5.description2}"
 				""
-				"[\"\",\"如果你想要更极限的挑战，就看看 \",{\"text\":\"过载挑战！\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2166DD3F75BEF301\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"过载挑战！章节\"]}},\" 任务线。不弄也行，那就尽情探索你的天空大殿里的模组吧！\"]"
+				"{ftbquests.chapter.progression.quests5.description4}"
 			]
 			icon: "minecraft:dragon_head"
 			id: "0EDA2BDDA51B15EF"

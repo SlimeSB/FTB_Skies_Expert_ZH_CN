@@ -30,12 +30,28 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["33E8639DD7A3D265"]
+			dependencies: ["643A046044E73A54"]
 			id: "18B123F0778AA56B"
+			rewards: [
+				{
+					id: "16287E4CC240B159"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:data_model"
+						tag: {
+							data_model: {
+								data: 2048
+								id: "hostilenetworks:blaze"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "465E5AB5CDD94D72"
@@ -47,7 +63,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["33E8639DD7A3D265"]
+			dependencies: [
+				"33E8639DD7A3D265"
+				"18B123F0778AA56B"
+			]
 			id: "50CF081231777B4B"
 			tasks: [
 				{
@@ -56,7 +75,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -69,7 +88,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -89,6 +108,69 @@
 			]
 			x: 7.3214285714285765d
 			y: 0.44642857142857295d
+		}
+		{
+			dependencies: [
+				"4E249AEBE3EBC985"
+				"33E8639DD7A3D265"
+			]
+			description: ["{ftbquests.chapter.v_2.quests5.description}"]
+			id: "05E374752604B7DA"
+			rewards: [
+				{
+					count: 12
+					id: "41738A939BB93D34"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "15EF2D6511774220"
+					item: "mekanism:basic_thermodynamic_conductor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75FECC30724300C2"
+					item: "ftbskies:ultramafic_lava_bucket"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05E374752604B7DA"]
+			id: "643A046044E73A54"
+			rewards: [
+				{
+					id: "310C88517F861499"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							gem: "apotheosis:the_nether/blood_lord"
+							rarity: "ancient"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C7F130953A7B7AE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "53B948C0C0052DA1"
+					item: "ftbskies:venus_blaze_rod"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.5d
 		}
 	]
 	title: "{ftbquests.chapter.v_2.title}"

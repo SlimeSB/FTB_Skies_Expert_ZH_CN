@@ -462,6 +462,96 @@
 			x: 2.5d
 			y: -5.0d
 		}
+		{
+			description: ["{ftbquests.chapter.travel.quests12.description}"]
+			id: "431EE462CE8E9DF1"
+			rewards: [
+				{
+					id: "74024B110DD194F7"
+					item: {
+						Count: 1b
+						id: "mekanism:creative_fluid_tank"
+						tag: {
+							BlockEntityTag: {
+								FluidTanks: [
+									{
+										Tank: 0b
+										stored: {
+											Amount: 2147483647
+											FluidName: "minecraft:lava"
+										}
+									}
+								]
+								ForgeCaps: { }
+								Items: [ ]
+								activeState: 0b
+								componentFrequency: {
+									Security: {
+										name: "Security"
+										owner: [I;
+											1322214020
+											-1310177861
+											-1296886500
+											-1782337265
+										]
+										publicFreq: 1b
+									}
+								}
+								componentSecurity: {
+									owner: [I;
+										1322214020
+										-1310177861
+										-1296886500
+										-1782337265
+									]
+									securityMode: 0
+								}
+								currentRedstone: 15
+								editMode: 0
+								id: "mekanism:creative_fluid_tank"
+								redstone: 0b
+								updateDelay: 0
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+							mekData: {
+								FluidTanks: [
+									{
+										Tank: 0b
+										stored: {
+											Amount: 2147483647
+											FluidName: "minecraft:lava"
+										}
+									}
+								]
+								editMode: 0
+								owner: [I;
+									1322214020
+									-1310177861
+									-1296886500
+									-1782337265
+								]
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.travel.quests12.subtitle}"
+			tasks: [
+				{
+					amount: 10000000L
+					fluid: "minecraft:lava"
+					id: "532D674CD0178F8F"
+					type: "fluid"
+				}
+			]
+			title: "{ftbquests.chapter.travel.quests12.title}"
+			x: -1.5d
+			y: -4.5d
+		}
 	]
 	title: "{ftbquests.chapter.travel.title}"
 }

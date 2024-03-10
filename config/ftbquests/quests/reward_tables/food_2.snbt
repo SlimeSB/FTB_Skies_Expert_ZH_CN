@@ -143,5 +143,5 @@
 			weight: 2.0f
 		}
 	]
-	title: "食物"
+	title: "{ftbquests.reward_tables.food_2.title}"
 }
