@@ -866,7 +866,7 @@
     "ftbquests.chapter.getting_started.quests8.title": "材料生成器",
     "ftbquests.chapter.getting_started.quests8.subtitle": "材料与你",
     "ftbquests.chapter.getting_started.quests8.description0": "有了熔岩，你现在可以合成&b材料生成器&r，并将其安装在&b基座&r上。",
-    "ftbquests.chapter.getting_started.quests8.description2": "[\\\"\\\",\\\"想要更多关于基座的文档， \\\",{\\\"text\\\":\\\"[ 点这里 ]\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"23D7D83EBA8C36CE\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"基座章节\\\"]}},\\\"查看任务\\\"]",
+    "ftbquests.chapter.getting_started.quests8.description2": "[\\\"\\\",\\\"想要更多关于基座的文档， \\\",{\\\"text\\\":\\\"点这里\\\",\\\"color\\\":\\\"light_purple\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"23D7D83EBA8C36CE\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"基座章节\\\"]}},\\\"查看任务\\\"]",
     "ftbquests.chapter.getting_started.quests8.description4": "最直接的用途是在材料生成器下放置一个石头，为你的筛子提供无限的圆石。",
     "ftbquests.chapter.getting_started.quests8.description6": "提示：在右击将其插入基座之前，确保升级放在副手。否则，你只是把升级组件放在了展示台上。",
     "ftbquests.chapter.getting_started.quests9.title": "龙的玻璃",
