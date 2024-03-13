@@ -230,7 +230,7 @@ ItemEvents.rightClicked("ftbskies:easter_egg", (event) => {
   }
 });
 
-BlockEvents.rightClicked("occultism:storage_controller", (event) => {
+BlockEvents.rightClicked(["occultism:storage_controller", 'occultism:stable_wormhole'], (event) => {
   const { player, block, item } = event;
   if (item.id == "ars_nouveau:dominion_wand") {
     error(event, "不能在存储促动器上使用该魔杖");
@@ -249,7 +249,7 @@ BlockEvents.rightClicked("ars_nouveau:storage_lectern", (event) => {
   // check for storage controller
   connectedInventories.forEach((inventory) => {
     let block = level.getBlock(inventory);
-    if (block.id == "occultism:storage_controller") {
+    if (block.id == "occultism:storage_controller" || block.id == 'occultism:stable_wormhole') {
       error(event, "检测到存储促动器，从网络中移除...");
       storageControllers.push(inventory);
     }
@@ -379,16 +379,16 @@ EntityEvents.hurt("minecraft:player", (event) => {
   }
 });
 
-const castleBreakable = ["minecraft:snow_block"];
-BlockEvents.broken((event) => {
-  const { player, block, level } = event;
-  let kuLevel = new Ku.Level(level);
-  let blockPos = new BlockPos(block.pos.x, block.pos.y, block.pos.z);
-  if (!kuLevel.isStructureAtLocation(blockPos, "castle_in_the_sky:castle_in_the_sky")) return;
-  if (castleBreakable.includes(block.id)) return;
-  message(event, "天空城的力量太强大，无法破坏");
-  event.cancel();
-});
+// const castleBreakable = ["minecraft:snow_block"];
+// BlockEvents.broken((event) => {
+//   const { player, block, level } = event;
+//   let kuLevel = new Ku.Level(level);
+//   let blockPos = new BlockPos(block.pos.x, block.pos.y, block.pos.z);
+//   if (!kuLevel.isStructureAtLocation(blockPos, "castle_in_the_sky:castle_in_the_sky")) return;
+//   if (castleBreakable.includes(block.id)) return;
+//   message(event, "天空城的力量太强大，无法破坏");
+//   event.cancel();
+// });
 
 BlockEvents.rightClicked("create:blaze_burner", (event) => {
   const { block, item, player, server } = event;

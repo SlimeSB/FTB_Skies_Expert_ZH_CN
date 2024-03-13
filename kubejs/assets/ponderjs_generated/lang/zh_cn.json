@@ -57,6 +57,16 @@
 	"kubejs.ponder.dt_construction.text_8": "就这样！非常简单对吧？您的储罐现在已经准备就绪！",
 	"kubejs.ponder.dt_construction.text_9": "该思索最初是为FTB大学1.19版制作的！",
 
+	"kubejs.ponder.field_projector.header": "How to use the Field Projector.",
+	"kubejs.ponder.field_projector.text_1": "First, place down your Field Projectors like this",
+	"kubejs.ponder.field_projector.text_2": "You can use the Schematicanon to place down the Multiblocks",
+	"kubejs.ponder.field_projector.text_3": "Or place them down manually",
+	"kubejs.ponder.field_projector.text_4": "If you used the Schematicanon...",
+	"kubejs.ponder.field_projector.text_5": "Be sure to remove and replace 1 Block",
+	"kubejs.ponder.field_projector.text_6": "Also, be sure to remove all residual lights from the Feral Lanterns",
+	"kubejs.ponder.field_projector.text_7": "Toss the required Item",
+	"kubejs.ponder.field_projector.text_8": "Enjoy your newly compacted Nose Cone!",
+
 	"kubejs.ponder.fission_construction.header": "建造裂变反应堆",
 	"kubejs.ponder.fission_construction.text_1": "裂变反应堆是一个能产生大量热量的多方块结构",
 	"kubejs.ponder.fission_construction.text_2": "它是把冷却液（如水）",
