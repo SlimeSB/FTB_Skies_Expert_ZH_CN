@@ -8,7 +8,6 @@
 	"kubejs.ponder.ae2_multiblock.text_6": "强烈推荐使用P2P通道！",
 	"kubejs.ponder.ae2_multiblock.text_7": "中间空位可分别连接4个P2P通道！",
 	"kubejs.ponder.ae2_multiblock.text_8": "包括中间两侧在内，共有72个面，可以提供2304个频道！",
-	"kubejs.ponder.ae2_multiblock.text_9": "该思索最初是为FTB大学1.19版制作的！",
 
 	"kubejs.ponder.ae2_single.header": "ME控制器",
 	"kubejs.ponder.ae2_single.text_1": "ME控制器是AE网络的核心",
@@ -21,7 +20,6 @@
 	"kubejs.ponder.ae2_single.text_8": "不过，将控制器放在一起会形成一个多方块结构！",
 	"kubejs.ponder.ae2_single.text_9": "可以访问的面越多，频道就会越多！",
 	"kubejs.ponder.ae2_single.text_10": "给线缆涂色，以便将它们分开",
-	"kubejs.ponder.ae2_single.text_11": "该思索最初是为FTB大学1.19版制作的！",
 
 	"kubejs.ponder.boiler_construction.header": "建造热力锅炉",
 	"kubejs.ponder.boiler_construction.text_1": "热力锅炉通过使用热量（Mekanism）产生蒸汽",
@@ -44,7 +42,6 @@
 	"kubejs.ponder.boiler_construction.text_18": "在蒸汽收集层或蒸汽腔层放置另一个锅炉阀门",
 	"kubejs.ponder.boiler_construction.text_19": "这将作为蒸汽的输出口",
 	"kubejs.ponder.boiler_construction.text_20": "就这样！非常简单对吧？现在你的锅炉可以运行了！",
-	"kubejs.ponder.boiler_construction.text_21": "该思索最初是为FTB大学1.19版制作的！",
 
 	"kubejs.ponder.dt_construction.header": "建造动态储罐",
 	"kubejs.ponder.dt_construction.text_1": "动态储罐是用于存储流体的多方块结构",
@@ -55,7 +52,6 @@
 	"kubejs.ponder.dt_construction.text_6": "最小的储罐（3x3x3）可容纳432桶，最大的储罐（18x18x18）可容纳93312桶",
 	"kubejs.ponder.dt_construction.text_7": "将任意面的两方块替换为阀门（不能替换边缘）",
 	"kubejs.ponder.dt_construction.text_8": "就这样！非常简单对吧？您的储罐现在已经准备就绪！",
-	"kubejs.ponder.dt_construction.text_9": "该思索最初是为FTB大学1.19版制作的！",
 
 	"kubejs.ponder.field_projector.header": "如何使用微缩力场投影仪",
 	"kubejs.ponder.field_projector.text_1": "首先，像这样放置微缩力场投影仪",
@@ -90,14 +86,12 @@
 	"kubejs.ponder.fission_construction.text_20": "一个用于放射性废物输出",
 	"kubejs.ponder.fission_construction.text_21": "就这样，你的裂变反应堆已经完成！",
 	"kubejs.ponder.fission_construction.text_22": "但运行它非常危险，所以一定要阅读任务说明！（爆炸就是艺术！）",
-	"kubejs.ponder.fission_construction.text_23": "该思索最初是为FTB大学1.19版制作的！",
 
 	"kubejs.ponder.fusion_construction.header": "建造聚变反应堆",
 	"kubejs.ponder.fusion_construction.text_1": "MEK的聚变反应堆可以产出极大量的FE",
 	"kubejs.ponder.fusion_construction.text_2": "这它的建造过程",
 	"kubejs.ponder.fusion_construction.text_3": "可以按Q来暂停播放，以便查看每个方块的名称",
 	"kubejs.ponder.fusion_construction.text_4": "任何不在拐角处的框架都可以用强化玻璃替代",
-	"kubejs.ponder.fusion_construction.text_5": "该思索最初是为FTB大学1.19版制作的！",
 
 	"kubejs.ponder.induction_construction.header": "构建输导矩阵",
 	"kubejs.ponder.induction_construction.text_1": "输导矩阵是提个大型能量储存多方块结构",
@@ -113,7 +107,6 @@
 	"kubejs.ponder.induction_construction.text_11": "重新封顶（内部即使有空位也是没问题的）",
 	"kubejs.ponder.induction_construction.text_12": "通过管道将FE输入到输入导端口……",
 	"kubejs.ponder.induction_construction.text_13": "……并从输出端口输出",
-	"kubejs.ponder.induction_construction.text_14": "该思索最初是为FTB大学1.19版制作的！",
 
 	"kubejs.ponder.soul_engulfing.header": "如何构建灵魂吞噬多方块结构",
 	"kubejs.ponder.soul_engulfing.text_1": "1级：只有一个灵魂沙",
@@ -149,7 +142,6 @@
 	"kubejs.ponder.sps_construction.text_13": "增压线圈必须放置于输入能量的端口上",
 	"kubejs.ponder.sps_construction.text_14": "您也可以将它放置于侧面",
 	"kubejs.ponder.sps_construction.text_15": "线圈的功率越大，反物质的生成速度就越快！",
-	"kubejs.ponder.sps_construction.text_16": "该思索最初是为FTB大学1.19版制作的！",
 
 	"kubejs.ponder.turbine_construction.header": "建造工业蒸汽涡轮",
 	"kubejs.ponder.turbine_construction.text_1": "工业蒸汽涡轮是一个利用蒸汽生产大量FE的多方块结构",
@@ -173,7 +165,6 @@
 	"kubejs.ponder.turbine_construction.text_19": "流量越大，意味着使用的蒸汽越多，产生的FE也越多。",
 	"kubejs.ponder.turbine_construction.text_20": "放置一个阀门用于输入蒸汽……",
 	"kubejs.ponder.turbine_construction.text_21": "……另一个用于FE输出！",
-	"kubejs.ponder.turbine_construction.text_22": "该思索最初是为FTB大学1.19版制作的！",
 
 	"ftbskies.ponder.tag.ponders": "整合包思索",
 	"ftbskies.ponder.tag.ponders.description": "我们添加的思索"
