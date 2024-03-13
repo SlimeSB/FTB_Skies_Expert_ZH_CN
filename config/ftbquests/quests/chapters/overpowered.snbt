@@ -525,7 +525,7 @@
 			description: [
 				"{ftbquests.chapter.overpowered.quests9.description0}"
 				""
-				"{ftbquests.chapter.overpowered.quests9.description2}"
+				"[\"\",\"查看章节 \",{\"text\":\"天高任鸟飞\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1AA9D32D3A6F9ECE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"天高任鸟飞章节\"]}},\" 获取更多信息。\"]"
 			]
 			icon: "ftbskies:eye_of_legend"
 			id: "51D750DD48D0E4E5"

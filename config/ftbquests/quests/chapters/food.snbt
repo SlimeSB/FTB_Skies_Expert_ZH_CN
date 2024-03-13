@@ -130,7 +130,7 @@
 				""
 				"{ftbquests.chapter.food.quests2.description2}"
 				""
-				"{ftbquests.chapter.food.quests2.description4}"
+				"[\"\",\"还有一个 \",{\"text\":\"事件\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4E44C546CAEDD703\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"事件任务\"]}},\"可以随机使生物在附近光线充足的草方块上生成。\"]"
 				""
 				"{ftbquests.chapter.food.quests2.description6}"
 			]

@@ -27,7 +27,7 @@
 			description: [
 				"{ftbquests.chapter.mekanism.quests0.description0}"
 				""
-				"{ftbquests.chapter.mekanism.quests0.description2}"
+				"[\"\",{\"text\":\"我们为建造裂变反应堆添加了思索教程. 在裂变反应堆端口上查看思索,或者 \"},{\"text\":\"点这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanismgenerators:fission_reactor_port\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanismgenerators:fission_reactor_port\"]}},{\"text\":\" 也行。\"}]"
 			]
 			icon: "mekanismgenerators:fission_fuel_assembly"
 			id: "7A12F045C037533B"
@@ -249,7 +249,7 @@
 			description: [
 				"{ftbquests.chapter.mekanism.quests7.description0}"
 				""
-				"{ftbquests.chapter.mekanism.quests7.description2}"
+				"[\"\",{\"text\":\"我们为建造聚变反应堆添加了思索教程. 在聚变堆控制器上查看思索,或者 \"},{\"text\":\"点这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanismgenerators:fusion_reactor_controller\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanismgenerators:fusion_reactor_controller\"]}},{\"text\":\" 也行。\"}]"
 				""
 				"{ftbquests.chapter.mekanism.quests7.description4}"
 			]
@@ -785,7 +785,7 @@
 			description: [
 				"{ftbquests.chapter.mekanism.quests29.description0}"
 				""
-				"{ftbquests.chapter.mekanism.quests29.description2}"
+				"[\"\",{\"text\":\"在超临界移相器端口上查看思索,或者 \"},{\"text\":\"点这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanism:sps_port\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanism:sps_port\"]}},{\"text\":\" 查看如何建造.\"}]"
 			]
 			icon: "mekanism:sps_port"
 			id: "1ED836C619117362"
@@ -825,7 +825,7 @@
 				""
 				"{ftbquests.chapter.mekanism.quests30.description2}"
 				""
-				"{ftbquests.chapter.mekanism.quests30.description4}"
+				"[\"\",{\"text\":\"我们为建造蒸汽涡轮添加了思索教程. 在涡轮阀门上查看思索,或者 \"},{\"text\":\"点这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder mekanismgenerators:turbine_valve\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"/create ponder mekanismgenerators:turbine_valve\"]}},{\"text\":\" 也行。\"}]"
 			]
 			icon: "mekanismgenerators:turbine_blade"
 			id: "11D6A515D73C196B"
