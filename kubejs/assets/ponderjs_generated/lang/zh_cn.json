@@ -63,9 +63,9 @@
 	"kubejs.ponder.field_projector.text_3": "或手动放置",
 	"kubejs.ponder.field_projector.text_4": "如果您使用的是蓝图大炮...",
 	"kubejs.ponder.field_projector.text_5": "请务必破坏并重新放置一个方块",
-	"kubejs.ponder.field_projector.text_6": "Also, be sure to remove all residual lights from the Feral Lanterns",
-	"kubejs.ponder.field_projector.text_7": "投掷所需的物品",
-	"kubejs.ponder.field_projector.text_8": "Enjoy your newly compacted Nose Cone!",
+	"kubejs.ponder.field_projector.text_6": "此外，一定要清除狂野闪耀之灯的所有残余光",
+	"kubejs.ponder.field_projector.text_7": "投入所需的物品",
+	"kubejs.ponder.field_projector.text_8": "好好享受你新压缩的火箭鼻锥吧！",
 
 	"kubejs.ponder.fission_construction.header": "建造裂变反应堆",
 	"kubejs.ponder.fission_construction.text_1": "裂变反应堆是一个能产生大量热量的多方块结构",
@@ -175,6 +175,6 @@
 	"kubejs.ponder.turbine_construction.text_21": "……另一个用于FE输出！",
 	"kubejs.ponder.turbine_construction.text_22": "该思索最初是为FTB大学1.19版制作的！",
 
-	"ftbuniversity.ponder.tag.ponders": "整合包思索",
-	"ftbuniversity.ponder.tag.ponders.description": "我们添加的思索"
+	"ftbskies.ponder.tag.ponders": "整合包思索",
+	"ftbskies.ponder.tag.ponders.description": "我们添加的思索"
 }
