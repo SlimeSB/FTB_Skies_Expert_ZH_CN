@@ -917,6 +917,8 @@
 				"{ftbquests.chapter.getting_on_up.quests37.description0}"
 				""
 				"{ftbquests.chapter.getting_on_up.quests37.description2}"
+				""
+				"[\"\",\"我强烈建议您查看 \",{\"text\":\"[ 微缩力场投影仪思索 ] \",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder compactcrafting:field_projector\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"查看思索\"]}},\" 以了解如何建造它！\"]"
 			]
 			id: "1A2D18FB7DBCD64A"
 			tasks: [

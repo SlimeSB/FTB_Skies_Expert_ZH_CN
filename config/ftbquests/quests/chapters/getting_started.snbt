@@ -3229,6 +3229,10 @@
 				"[\"\",\"史莱姆　　　　　　　　　　　　　　　\",{\"text\":\"[ 开关 ]\",\"bold\":true,\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/events toggle ftbskies:slime\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"开关史莱姆事件。 在你的岛上生成一只随机大小的史莱姆。\"]}}]"
 				""
 				"[\"\",\"山羊　　　　　　　　　　　　　　　　\",{\"text\":\"[ 开关 ]\",\"bold\":true,\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/events toggle ftbskies:goat\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"开关山羊事件。在你身边随机生成一只量子山羊！\"]}}]"
+				""
+				"[\"\",\"苦力怕                        \",{\"text\":\"[ 开关 ]\",\"bold\":true,\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/events toggle ftbskies:creeper\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"开关苦力怕跳脸事件\", \"\\n\", \" 禁用此功能将禁用您的所有 Steam 成就（这是个玩笑）\"]}}]"
+				""
+				"[\"\",\"乌拉拉                           \",{\"text\":\"[ 开关 ]\",\"bold\":true,\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/events toggle ftbskies:wololo\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"开关乌拉拉事件。参考帝国时代 2\"]}}]"
 			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "63FECA430988654D"
