@@ -102,7 +102,7 @@
 				""
 				""
 				"{ftbquests.chapter.occultism.quests2.description3}"
-				"{ftbquests.chapter.occultism.quests2.description4}"
+				"[\"\",{\"text\":\"[ 点击这里 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder minecraft:soul_sand\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"开始思索\"]}},\" 以查看灵魂吞噬思索\"]"
 			]
 			id: "44A4C4070357D2BA"
 			rewards: [
@@ -817,7 +817,7 @@
 				""
 				"{ftbquests.chapter.occultism.quests25.description7}"
 				"{ftbquests.chapter.occultism.quests25.description8}"
-				"{ftbquests.chapter.occultism.quests25.description9}"
+				"[\"\",{\"text\":\"[ 点击这里 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder minecraft:soul_sand\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"开始思索\"]}},\"查看灵魂吞噬思索\"]"
 				""
 				"{@pagebreak}"
 				"{ftbquests.chapter.occultism.quests25.description12}"
@@ -952,7 +952,7 @@
 				"{ftbquests.chapter.occultism.quests27.description5}"
 				""
 				""
-				"{ftbquests.chapter.occultism.quests27.description8}"
+				"[\"\",\"如果你不清楚如何操作\",\"\\n\",{\"text\":\"[ 点击这里 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder spirit:soul_pedestal\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"开始思索\"]}},\"查看灵魂召唤思索\"]"
 			]
 			id: "5655C9CF34FD6F0F"
 			rewards: [
