@@ -36,17 +36,6 @@ BlockEvents.placed((event) => {
   }
 });
 
-BlockEvents.placed("minecraft:end_portal_frame", (event) => {
-  const { level, player, block } = event;
-
-  if (level.dimension !== "ad_astra:glacio") {
-    if (!player.isCreative()) {
-      error(event, "只能放置在霜原上");
-      block.set("minecraft:air");
-      returnBlock(event, "minecraft:end_portal_frame");
-    }
-  }
-});
 
 BlockEvents.rightClicked("minecraft:end_portal_frame", (event) => {
   const { item, hand, player } = event;

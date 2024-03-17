@@ -48,7 +48,6 @@ const lootbeeEvent = {
       { entry: "minecraft:turtle_egg", weight: 30 },
     ],
     table3: [
-      { entry: "refinedstorage:4k_storage_part", weight: 10 },
       { entry: "ae2:cell_component_4k", weight: 10 },
       { entry: "cyclic:soulstone", weight: 15 },
       { entry: "hexerei:budding_selenite", weight: 15 },
@@ -83,41 +82,38 @@ const lootbeeEvent = {
       `\n快点，在它消失之前拿到战利品！`,
     ]);
 
+
+    function getTimedLootTable(count) {
+      if (count >= 60) return lootbeeEvent.lootTable.table4;
+      if (count >= 40) return lootbeeEvent.lootTable.table3;
+      if (count >= 20) return lootbeeEvent.lootTable.table2;
+      return lootbeeEvent.lootTable.table1;
+    }
+    function getStageLootTable(stage) {
+      switch (stage) {
+        case lootbeeEvent.lootStages.table4:
+          return lootbeeEvent.lootTable.table4;
+        case lootbeeEvent.lootStages.table3:
+          return lootbeeEvent.lootTable.table3;
+        case lootbeeEvent.lootStages.table2:
+          return lootbeeEvent.lootTable.table2;
+        default:
+          return lootbeeEvent.lootTable.table1;
+      }
+    }
     let selectedLootTable;
     switch (this.mode) {
       case "time": {
-        if (pData.lootBeeCount >= 60) {
-          selectedLootTable = this.lootTable.table4;
-        } else if (pData.lootBeeCount >= 40) {
-          selectedLootTable = this.lootTable.table3;
-        } else if (pData.lootBeeCount >= 20) {
-          selectedLootTable = this.lootTable.table2;
-        } else if (pData.lootBeeCount >= 0) {
-          selectedLootTable = this.lootTable.table1;
-        }
+        selectedLootTable = getTimedLootTable(pData.lootBeeCount);
         pData.lootBeeCount++;
+        break;
       }
       case "stage": {
-        if (player.stages.has(this.lootStages.table4)) {
-          selectedLootTable = this.lootTable.table4;
-        } else if (player.stages.has(this.lootStages.table3)) {
-          selectedLootTable = this.lootTable.table3;
-        } else if (player.stages.has(this.lootStages.table2)) {
-          selectedLootTable = this.lootTable.table2;
-        } else if
-          (
-          !player.stages.has(this.lootStages.table4) &&
-          !player.stages.has(this.lootStages.table3) &&
-          !player.stages.has(this.lootStages.table2)
-        ) {
-          selectedLootTable = this.lootTable.table1;
-        }
+        selectedLootTable = getStageLootTable(this.stage);
         pData.lootBeeCount++;
+        break
       }
     }
-
-
-
 
 
     const entity = level.createEntity("minecraft:bee");

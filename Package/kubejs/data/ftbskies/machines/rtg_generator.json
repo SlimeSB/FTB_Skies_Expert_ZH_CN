@@ -8,6 +8,10 @@
       "mode": "input"
     },
     {
+      "type": "custommachinery:redstone",
+      "powertopause": 20
+    },
+    {
       "type": "custommachinery:heat",
       "capacity": "3000",
       "base_temp": 60

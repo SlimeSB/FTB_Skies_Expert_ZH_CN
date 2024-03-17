@@ -3,7 +3,7 @@ const chestEvent = {
   name: "ftbskies:chest",
   displayName: "宝箱怪",
   description: "开关宝箱怪事件。它们会从你的一个箱子中生成。宝箱怪死亡时会掉落奇异饰品",
-  chance: 0.5,
+  chance: 0.25,
   minDistance: 1,
   maxDistance: 15,
   size: 0,
