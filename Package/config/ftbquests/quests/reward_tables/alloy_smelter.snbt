@@ -29,5 +29,5 @@
 			weight: 0.05f
 		}
 	]
-	title: "冶炼厂合金"
+	title: "{ftbquests.reward_tables.alloy_smelter.title}"
 }

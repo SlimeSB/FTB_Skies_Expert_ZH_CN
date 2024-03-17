@@ -150,5 +150,5 @@
 			item: "hexcasting:sub_sandwich"
 		}
 	]
-	title: "能源炉战利品"
+	title: "{ftbquests.reward_tables.dynamo_loot.title}"
 }

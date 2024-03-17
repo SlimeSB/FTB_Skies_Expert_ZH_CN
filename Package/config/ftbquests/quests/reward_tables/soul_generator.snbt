@@ -23,5 +23,5 @@
 			item: "reaper:rune_spiritus"
 		}
 	]
-	title: "灵魂发电机"
+	title: "{ftbquests.reward_tables.soul_generator.title}"
 }

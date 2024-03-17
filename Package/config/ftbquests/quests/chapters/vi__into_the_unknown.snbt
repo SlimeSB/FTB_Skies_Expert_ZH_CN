@@ -60,6 +60,7 @@
 		}
 		{
 			dependencies: ["6E7B6008D25D9CC7"]
+			description: ["{ftbquests.chapter.vi__into_the_unknown.quests2.description}"]
 			id: "5A05F4A7439FFAB9"
 			tasks: [
 				{

@@ -72,5 +72,5 @@
 			weight: 0.5f
 		}
 	]
-	title: "植物魔法符文"
+	title: "{ftbquests.reward_tables.botania_runes.title}"
 }

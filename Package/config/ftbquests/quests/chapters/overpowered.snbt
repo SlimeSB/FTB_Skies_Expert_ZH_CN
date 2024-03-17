@@ -288,7 +288,7 @@
 				}
 				{
 					consume_items: true
-					count: 16L
+					count: 32L
 					id: "4B15B9CD73149159"
 					item: "create:precision_mechanism"
 					type: "item"
@@ -317,21 +317,6 @@
 					team_reward: true
 					type: "item"
 				}
-				{
-					id: "5F7808D6CE2015E3"
-					item: {
-						Count: 1b
-						id: "industrialforegoing:infinity_backpack"
-						tag: {
-							CanCharge: 1b
-							Energy: 80000000L
-							Selected: "RARE"
-							Special: 0b
-						}
-					}
-					team_reward: true
-					type: "item"
-				}
 			]
 			tasks: [
 				{
@@ -357,6 +342,7 @@
 				}
 				{
 					consume_items: true
+					count: 16L
 					id: "4BDE5B1A3C0BDE98"
 					item: "industrialforegoing:machine_frame_simple"
 					type: "item"
@@ -451,21 +437,22 @@
 				}
 				{
 					consume_items: true
-					id: "78A30D5146A0F517"
-					item: "fluxnetworks:gargantuan_flux_storage"
-					type: "item"
-				}
-				{
-					consume_items: true
 					id: "3E856CE6B7CAC038"
 					item: "farmersdelight:ratatouille"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 32L
+					count: 64L
 					id: "06654B7ABC5A0957"
 					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4D285394B8222D65"
+					item: "mekanism:ultimate_energy_cube"
+					match_nbt: false
 					type: "item"
 				}
 			]
@@ -525,7 +512,7 @@
 			description: [
 				"{ftbquests.chapter.overpowered.quests9.description0}"
 				""
-				"[\"\",\"查看章节 \",{\"text\":\"天高任鸟飞\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1AA9D32D3A6F9ECE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"天高任鸟飞章节\"]}},\" 获取更多信息。\"]"
+				"{ftbquests.chapter.overpowered.quests9.description2}"
 			]
 			icon: "ftbskies:eye_of_legend"
 			id: "51D750DD48D0E4E5"
@@ -552,16 +539,18 @@
 					type: "item"
 				}
 				{
-					id: "459F9084F6DE8F59"
+					id: "387BFBAE88E08859"
 					item: {
 						Count: 1b
-						id: "industrialforegoing:infinity_backpack"
-						tag: {
-							CanCharge: 1b
-							Energy: 9223372036854775807L
-							Selected: "ARTIFACT"
-							Special: 1b
+						ForgeCaps: {
+							Parent: {
+								air: 0
+								earth: 0
+								fire: 0
+								water: 0
+							}
 						}
+						id: "elementalcraft:pure_element_holder"
 					}
 					type: "item"
 				}
@@ -743,7 +732,7 @@
 				}
 				{
 					consume_items: true
-					count: 128L
+					count: 256L
 					id: "645D8F1CBCADF09F"
 					item: "create:precision_mechanism"
 					type: "item"
@@ -767,6 +756,13 @@
 					count: 16
 					id: "03EAF5460BA5D8CA"
 					item: "ftbskies:wolf_sushi"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1D5738ED23FA27AA"
+					item: "mekanism:quantum_entangloporter"
 					team_reward: true
 					type: "item"
 				}
@@ -798,8 +794,17 @@
 					type: "item"
 				}
 				{
-					id: "24364FB400D50410"
-					item: "unusualend:nether_orb"
+					consume_items: true
+					count: 512L
+					id: "256F47DB49F6B254"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "38215E8BD904ACD6"
+					item: "mekanism:yellow_cake_uranium"
 					type: "item"
 				}
 			]
@@ -1028,6 +1033,7 @@
 				}
 				{
 					consume_items: true
+					count: 16L
 					id: "01553FB4CC2A756B"
 					item: "industrialforegoing:machine_frame_supreme"
 					type: "item"
@@ -1037,6 +1043,16 @@
 					count: 5L
 					id: "7E4E73813A26A5B8"
 					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "599EE01520A335B7"
+					item: {
+						Count: 1b
+						id: "ae2things:disk_drive_256k"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -1072,7 +1088,7 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 64L
+					count: 256L
 					id: "1C173E5E3F72439D"
 					item: "elementalcraft:fireite_ingot"
 					type: "item"
@@ -1086,7 +1102,7 @@
 				}
 				{
 					consume_items: true
-					count: 32L
+					count: 256L
 					id: "3EF3153628429FED"
 					item: "redstone_arsenal:flux_ingot"
 					type: "item"
@@ -1147,6 +1163,12 @@
 					item: "powah:ender_core"
 					type: "item"
 				}
+				{
+					consume_items: true
+					id: "664E441E68FFEBCD"
+					item: "botania:third_eye"
+					type: "item"
+				}
 			]
 			title: "{ftbquests.chapter.overpowered.quests18.title}"
 			x: -3.5d
@@ -1187,6 +1209,13 @@
 					count: 64L
 					id: "1CEBBA3E04D1E055"
 					item: "apotheosis:infused_breath"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "712DE3F536E067E7"
+					item: "ftbskies:perfected_gem_catalyst"
 					type: "item"
 				}
 			]
@@ -1348,9 +1377,22 @@
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 64L
 					id: "174E86A3C45731F2"
 					item: "occultism:afrit_essence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2287D7394051F0E3"
+					item: "botania:super_travel_belt"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4BF5170FF906B396"
+					item: "thermalendergy:melodium_ingot"
 					type: "item"
 				}
 			]
@@ -1440,9 +1482,16 @@
 				}
 				{
 					consume_items: true
-					count: 128L
-					id: "4A61F0E7BDD7A178"
-					item: "create:precision_mechanism"
+					count: 512L
+					id: "51E05E5C632A0615"
+					item: "createteleporters:quantum_mechanism"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "36E9A83FBF20BC22"
+					item: "thermalendergy:stellarium_ingot"
 					type: "item"
 				}
 			]
@@ -1507,6 +1556,12 @@
 					count: 1024L
 					id: "6B04C03DD985FBF9"
 					item: "ad_astra:glacio_ice_shard_ore"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "5E5E32956166C4B8"
+					item: "ars_nouveau:manipulation_essence"
 					type: "item"
 				}
 			]
