@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import re
 from configparser import ConfigParser
 
 # 创建一个配置解析器
@@ -24,8 +25,8 @@ df = pd.DataFrame(columns=['Key', 'A.json Value', 'B.json Value'])
 
 # 遍历 A.json 和 B.json 的键
 for key in set(data_a.keys()) | set(data_b.keys()):
-    value_a = data_a.get(key, '')
-    value_b = data_b.get(key, '')
+    value_a = re.sub(r'^"|"$', '', json.dumps(data_a.get(key, ''), ensure_ascii=False))  # 使用正则表达式移除字符串两端的引号
+    value_b = re.sub(r'^"|"$', '', json.dumps(data_b.get(key, ''), ensure_ascii=False))  # 使用正则表达式移除字符串两端的引号
     df = pd.concat([df, pd.DataFrame({'Key': [key], 'A.json Value': [value_a], 'B.json Value': [value_b]})], ignore_index=True)
 
 # 提取非第一行和第一列
