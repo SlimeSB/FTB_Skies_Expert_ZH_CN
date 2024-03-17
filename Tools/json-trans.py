@@ -19,7 +19,7 @@ csv_file = 'output.csv'
 
 # 读取csv文件
 df = pd.read_csv(csv_file)
-
+df = df.fillna("")
 # 将 DataFrame 的第一列和第二列转换为字典，用于查找和替换
 replace_dict = df.set_index(df.columns[0])[df.columns[1]].to_dict()
 
