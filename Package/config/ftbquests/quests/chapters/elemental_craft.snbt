@@ -108,7 +108,7 @@
 				"{ftbquests.chapter.elemental_craft.quests2.description4}"
 				""
 				""
-				"{ftbquests.chapter.elemental_craft.quests2.description7}"
+				"[\"\",\"确保已经查看 \\n\",{\"text\":\"[ 元素工艺 ]\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 23EED105DF68860B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"查看章节\"]}},\" 章节\"]"
 			]
 			icon: "elementalcraft:evaporator"
 			id: "0C21F4686511B5A8"
