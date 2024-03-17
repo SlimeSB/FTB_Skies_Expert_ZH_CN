@@ -1,15 +1,22 @@
 import json
 import pandas as pd
+from configparser import ConfigParser
 
-# 定义 JSON 文件路径
-file_a_path = 'en_us1.3.3.json'
-file_b_path = 'zh_cn1.3.3.json'
+# 创建一个配置解析器
+config = ConfigParser()
+
+# 读取.ini文件
+config.read('file_paths.ini')
+
+# 获取Old_en_us和Old_zh_cn对应的路径
+old_en_us_path = config.get('FILES', 'Old_en_us')
+old_zh_cn_path = config.get('FILES', 'Old_zh_cn')
 
 # 读取 A.json 和 B.json 文件
-with open(file_a_path,'r',encoding='utf-8') as file_a:
+with open(old_en_us_path,'r',encoding='utf-8') as file_a:
     data_a = json.load(file_a)
 
-with open(file_b_path,'r',encoding='utf-8') as file_b:
+with open(old_zh_cn_path,'r',encoding='utf-8') as file_b:
     data_b = json.load(file_b)
 
 # 创建一个空的 DataFrame

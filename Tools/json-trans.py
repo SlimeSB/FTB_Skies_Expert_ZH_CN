@@ -1,11 +1,21 @@
 import pandas as pd
 import json
 import numpy as np
+import re
+from configparser import ConfigParser
 
-# 定义文件名
-csv_file = 'C:/Users/Administrator/Desktop/TEMP/output.csv'
-json_file = 'C:/Users/Administrator/Desktop/TEMP/en_us1.4.json'
-new_json_file = 'C:/Users/Administrator/Desktop/TEMP/zh_cn1.4.json'
+# 创建一个配置解析器
+config = ConfigParser()
+# 读取.ini文件
+config.read('file_paths.ini')
+# 获取New_en_us对应的路径
+json_file = config.get('FILES', 'New_en_us')
+# 从json_file中提取版本号
+version = re.search(r'(\d+\.\d+\.\d+)', json_file).group(1)
+# 创建新的文件名
+new_json_file = f'zh_cn{version}.json'
+# 设置csv_file和new_json_file的路径
+csv_file = 'output.csv'
 
 # 读取csv文件
 df = pd.read_csv(csv_file)
