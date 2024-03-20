@@ -20,6 +20,7 @@ csv_file = 'output.csv'
 # 读取csv文件
 df = pd.read_csv(csv_file)
 df = df.fillna("")
+
 # 将 DataFrame 的第一列和第二列转换为字典，用于查找和替换
 replace_dict = df.set_index(df.columns[0])[df.columns[1]].to_dict()
 
@@ -32,18 +33,6 @@ for key, value in data.items():
     # 如果值在 replace_dict 中，那么替换它
     if value in replace_dict:
         data[key] = replace_dict[value]
-
-# 遍历csv文件的每一行
-for index, row in df.iterrows():
-    # 查找字符串
-    find_str = str(row[0])
-    # 替换字符串
-    replace_str = str(row[1]) if pd.notnull(row[1]) else find_str
-    # 在json数据中查找并替换字符串
-    data_str = json.dumps(data)
-    # 使用字符串的replace方法进行替换
-    data_str = data_str.replace(find_str, replace_str)
-    data = json.loads(data_str)
 
 # 将修改后的json数据写入新的文件，添加缩进，保留非ASCII字符
 with open(new_json_file, 'w', encoding='utf-8') as f:
