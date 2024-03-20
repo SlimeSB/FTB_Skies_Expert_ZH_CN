@@ -33,18 +33,6 @@ for key, value in data.items():
     if value in replace_dict:
         data[key] = replace_dict[value]
 
-# 遍历csv文件的每一行
-for index, row in df.iterrows():
-    # 查找字符串
-    find_str = str(row[0])
-    # 替换字符串
-    replace_str = str(row[1]) if pd.notnull(row[1]) else find_str
-    # 在json数据中查找并替换字符串
-    data_str = json.dumps(data)
-    # 使用字符串的replace方法进行替换
-    data_str = data_str.replace(find_str, replace_str)
-    data = json.loads(data_str)
-
 # 将修改后的json数据写入新的文件，添加缩进，保留非ASCII字符
 with open(new_json_file, 'w', encoding='utf-8') as f:
     json.dump(data, f, indent=4, ensure_ascii=False)
