@@ -204,7 +204,7 @@
 			]
 			tasks: [
 				{
-					count: 91L
+					count: 19L
 					id: "219B8B8846A4FDCF"
 					item: "pneumaticcraft:pressure_chamber_wall"
 					type: "item"
