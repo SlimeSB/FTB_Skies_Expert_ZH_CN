@@ -343,7 +343,11 @@
 		}
 		{
 			dependencies: ["2AE67A32EAF07AB1"]
-			description: ["{ftbquests.chapter.not_the_bees.quests9.description}"]
+			description: [
+				"{ftbquests.chapter.not_the_bees.quests9.description0}"
+				""
+				"{ftbquests.chapter.not_the_bees.quests9.description1}"
+			]			
 			id: "5E84ED98D0271F14"
 			rewards: [
 				{
@@ -364,13 +368,17 @@
 			]
 			secret: true
 			subtitle: "{ftbquests.chapter.not_the_bees.quests9.subtitle}"
-			tasks: [
-				{
-					id: "5B630D4C93AF1B4C"
-					item: "productivebees:powered_centrifuge"
-					type: "item"
+			tasks: [{
+				id: "5B630D4C93AF1B4C"
+				item: {
+					Count: 1b
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "ftbskies:fabrication_matrix"
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.not_the_bees.quests9.title}"
 			x: -3.0d
 			y: 0.0d
