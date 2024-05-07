@@ -213,6 +213,29 @@
 			x: -8.0d
 			y: 0.5d
 		}
+		{
+			id: "01F877DF0E6CA670"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/advancement grant @p only integrateddynamics:network_foundations/variables"
+					id: "1A43928DA1688B79"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "098F1D16E7552616"
+					item: "integrateddynamics:variable"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
 	]
 	title: "{ftbquests.chapter.invisible_quests.title}"
 }

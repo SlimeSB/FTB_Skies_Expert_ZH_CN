@@ -513,9 +513,7 @@
 		{
 			description: [
 				"{ftbquests.chapter.armor__weapons.quests9.description0}"
-				""
-				"{ftbquests.chapter.armor__weapons.quests9.description2}"
-				"{ftbquests.chapter.armor__weapons.quests9.description3}"
+				"{ftbquests.chapter.armor__weapons.quests9.description1}"
 			]
 			id: "3D7B8BF00DCA05A8"
 			rewards: [

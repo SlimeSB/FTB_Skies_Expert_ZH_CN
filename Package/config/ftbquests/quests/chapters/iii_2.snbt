@@ -22,7 +22,6 @@
 	]
 	quests: [
 		{
-			dependencies: ["1A2D18FB7DBCD64A"]
 			description: ["{ftbquests.chapter.iii_2.quests0.description}"]
 			id: "1132B14C2B760DF3"
 			tasks: [

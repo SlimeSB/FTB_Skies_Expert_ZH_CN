@@ -46,6 +46,17 @@
 					item: "pneumaticcraft:reinforced_stone"
 					type: "item"
 				}
+				{
+					id: "4E89C85646242301"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "pneumaticcraft:book"
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{

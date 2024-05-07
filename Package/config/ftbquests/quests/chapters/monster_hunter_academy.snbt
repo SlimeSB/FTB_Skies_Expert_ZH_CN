@@ -2020,6 +2020,13 @@
 			id: "25C422785F916872"
 			invisible_until_tasks: 1
 			min_required_tasks: 1
+			rewards: [
+				{
+					id: "3A2186496C52EEC1"
+					item: "alexsmobs:animal_dictionary"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
