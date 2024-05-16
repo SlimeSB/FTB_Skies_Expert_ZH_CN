@@ -13,7 +13,7 @@ const chestEvent = {
   stage: null,
   disableStage: null,
 
-  execute(event, player, location) {
+  execute(event, player, location, name) {
     const level = player.getLevel();
     const mimic = "artifacts:mimic";
     let failed = false;
@@ -28,6 +28,10 @@ const chestEvent = {
     } else {
       let blockLoc = chest_block.pos;
       let mimicEntity = level.createEntity(mimic);
+      if(name) {
+        mimicEntity.setCustomName(name)
+        mimicEntity.setCustomNameVisible(true)
+      }
       mimicEntity.setPosition(blockLoc.x, blockLoc.y + 1.25, blockLoc.z);
       mimicEntity.spawn();
       player.tell([

@@ -194,6 +194,17 @@
 					item: "minecraft:dirt"
 					type: "item"
 				}
+				{
+					id: "1BBAE13DAC7AB792"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "petrock:petrock_care_guide"
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "{ftbquests.chapter.getting_started.quests2.subtitle}"
 			tasks: [
@@ -463,7 +474,7 @@
 			description: [
 				"{ftbquests.chapter.getting_started.quests8.description0}"
 				""
-				"[\"\",\"想要更多关于基座的文档， \",{\"text\":\"点这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"23D7D83EBA8C36CE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"基座章节\"]}},\"查看任务\"]"
+				"[\"\",\"想要更多关于基座的文档， \",{\"text\":\"[ 点击这里 ]\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"23D7D83EBA8C36CE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"基座章节\"]}},\"查看任务\"]"
 				""
 				"{ftbquests.chapter.getting_started.quests8.description4}"
 				""
@@ -793,7 +804,7 @@
 			description: [
 				"{ftbquests.chapter.getting_started.quests15.description0}"
 				""
-				"[\"\",{\"text\":\"点这里\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"476DF733E6E2DA51\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"神秘学章节\"]}},\" 查看神秘学的任务，获得更多细节。\"]"
+				"[\"\",{\"text\":\"[ 点击这里 ]\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"476DF733E6E2DA51\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"神秘学章节\"]}},\" 查看神秘学的任务，获得更多细节。\"]"
 			]
 			id: "387EA2A8ABCFCBC4"
 			rewards: [
@@ -1334,7 +1345,24 @@
 			id: "429B753269E31706"
 			rewards: [
 				{
-					id: "78FFB348EA0709CA"
+					id: "01C5F1F56C730D9B"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4D88913DEE7F6510"
+					item: "supplementaries:flax_seeds"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1B13D67F4C09C950"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "456204444D07EC89"
 					item: {
 						Count: 1b
 						id: "akashictome:tome"
@@ -1350,13 +1378,6 @@
 								ae2: {
 									Count: 1b
 									id: "ae2:guide"
-								}
-								apotheosis: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "apotheosis:apoth_chronicle"
-									}
 								}
 								ars_nouveau: {
 									Count: 1b
@@ -1377,27 +1398,27 @@
 										"patchouli:book": "cyclic:cyclic_guide_book"
 									}
 								}
-								ftbquests: {
-									Count: 1b
-									id: "ftbquests:book"
-								}
-								hexcasting: {
+								forcecraft: {
 									Count: 1b
 									id: "patchouli:guide_book"
 									tag: {
-										"patchouli:book": "hexcasting:thehexbook"
+										"patchouli:book": "forcecraft:force_and_you"
 									}
 								}
-								industrialforegoing: {
+								immersiveengineering: {
 									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "industrialforegoing:industrial_foregoing"
-									}
+									id: "immersiveengineering:manual"
 								}
 								integratedtunnels: {
 									Count: 1b
 									id: "integrateddynamics:on_the_dynamics_of_integration"
+								}
+								modularrouters: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
 								}
 								productivebees: {
 									Count: 1b
@@ -1417,30 +1438,9 @@
 										"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
 									}
 								}
-								solcarrot: {
-									Count: 1b
-									id: "solcarrot:food_book"
-								}
 							}
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "01C5F1F56C730D9B"
-					item: "compactmachines:personal_shrinking_device"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "4D88913DEE7F6510"
-					item: "supplementaries:flax_seeds"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "1B13D67F4C09C950"
-					item: "minecraft:ice"
 					type: "item"
 				}
 			]
@@ -3230,7 +3230,7 @@
 				""
 				"[\"\",\"山羊　　　　　　　　　　　　　　　　\",{\"text\":\"[ 开关 ]\",\"bold\":true,\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/events toggle ftbskies:goat\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"开关山羊事件。在你身边随机生成一只量子山羊！\"]}}]"
 				""
-				"[\"\",\"苦力怕　　　　　　　　　　　　　　　\",{\"text\":\"[ 开关 ]\",\"bold\":true,\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/events toggle ftbskies:creeper\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"开关苦力怕跳脸事件。\", \"\\n\", \"禁用此功能将禁用您的所有 Steam成就（开玩笑的）\"]}}]"
+				"[\"\",\"苦力怕　　　　　　　　　　　　　　　\",{\"text\":\"[ 开关 ]\",\"bold\":true,\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/events toggle ftbskies:creeper\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"开关苦力怕跳脸事件。\", \"\\n\", \"禁用此功能将禁用你的所有 Steam成就（开玩笑的）\"]}}]"
 				""
 				"[\"\",\"乌拉拉　　　　　　　　　　　　　　　\",{\"text\":\"[ 开关 ]\",\"bold\":true,\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/events toggle ftbskies:wololo\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"开关乌拉拉事件。参考帝国时代2\"]}}]"
 			]

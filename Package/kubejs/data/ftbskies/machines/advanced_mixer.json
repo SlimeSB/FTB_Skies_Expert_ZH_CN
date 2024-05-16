@@ -1,5 +1,5 @@
 {
-  "name": "é«˜çº§æ…æ‹Œå™¨",
+  "name": "¸ß¼¶½Á°èÆ÷",
   "appearance": {
     "block": "ftbskies:machine/advanced_mixer",
     "running": {
@@ -82,7 +82,7 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 8,
-      "text": "é«˜çº§æ…æ‹Œå™¨"
+      "text": "Advanced Mixer"
     },
     {
       "type": "custommachinery:energy",
@@ -155,12 +155,17 @@
       "type": "custommachinery:text",
       "x": 7,
       "y": 78,
-      "text": "ç‰©å“æ "
+      "text": "Inventory"
     },
     {
       "type": "custommachinery:player_inventory",
       "x": 7,
       "y": 90
-    }
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 121,
+      "y": 18
+  }
   ]
 }

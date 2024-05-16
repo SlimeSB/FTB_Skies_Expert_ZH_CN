@@ -182,6 +182,7 @@
 			y: -0.5d
 		}
 		{
+			description: ["{ftbquests.chapter.pipe_dreams.quests11.description}"]
 			id: "65ECA39B94D33D9D"
 			tasks: [
 				{
@@ -195,6 +196,7 @@
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
+			description: ["{ftbquests.chapter.pipe_dreams.quests12.description}"]
 			id: "6BF3F0D29EA10489"
 			tasks: [
 				{
@@ -203,11 +205,13 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.pipe_dreams.quests12.title}"
 			x: -5.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
+			description: ["{ftbquests.chapter.pipe_dreams.quests13.description}"]
 			id: "3141F8DDEA01CFC4"
 			tasks: [
 				{
@@ -216,11 +220,13 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.pipe_dreams.quests13.title}"
 			x: -7.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
+			description: ["{ftbquests.chapter.pipe_dreams.quests14.description}"]
 			id: "7C7BDD48F794511A"
 			tasks: [
 				{
@@ -229,11 +235,13 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.pipe_dreams.quests14.title}"
 			x: -4.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
+			description: ["{ftbquests.chapter.pipe_dreams.quests15.description}"]
 			id: "3E29AE803C3ED5BF"
 			tasks: [
 				{
@@ -242,11 +250,13 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.pipe_dreams.quests15.title}"
 			x: -7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
+			description: ["{ftbquests.chapter.pipe_dreams.quests16.description}"]
 			id: "7C904E6F87CEBA1C"
 			tasks: [
 				{
@@ -255,11 +265,13 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.pipe_dreams.quests16.title}"
 			x: -6.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
+			description: ["{ftbquests.chapter.pipe_dreams.quests17.description}"]
 			id: "6A1FE1B90D56171F"
 			tasks: [
 				{
@@ -268,11 +280,13 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.pipe_dreams.quests17.title}"
 			x: -5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["65ECA39B94D33D9D"]
+			description: ["{ftbquests.chapter.pipe_dreams.quests18.description}"]
 			id: "608065E71D686CD7"
 			tasks: [
 				{
@@ -281,6 +295,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.pipe_dreams.quests18.title}"
 			x: -7.0d
 			y: -0.5d
 		}
@@ -303,6 +318,17 @@
 				{
 					id: "3A830FE1A23AD022"
 					item: "laserio:laser_wrench"
+					type: "item"
+				}
+				{
+					id: "5B943ABD7C01C4E8"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "laserio:laseriobook"
+						}
+					}
 					type: "item"
 				}
 			]

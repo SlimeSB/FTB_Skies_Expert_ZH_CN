@@ -561,6 +561,44 @@
 			x: 1.5d
 			y: -1.5d
 		}
+		{
+			description: ["{ftbquests.chapter.base_expansion.quests10.description}"]
+			id: "0C95A98F9457BF67"
+			rewards: [
+				{
+					count: 16
+					id: "6923C79742177B1A"
+					item: "blockcarpentry:frameblock"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4800399415197D9B"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "blockcarpentry:carpentering_manual"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "332D60CD43D225A9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "42A08B68F6E949B4"
+					item: "blockcarpentry:frameblock"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -1.5d
+		}
 	]
 	title: "{ftbquests.chapter.base_expansion.title}"
 }

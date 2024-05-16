@@ -415,6 +415,15 @@
 				"{ftbquests.chapter.digital.quests19.description2}"
 			]
 			id: "25A926992D79332D"
+			rewards: [
+				{
+					count: 2
+					id: "568D65E706A16051"
+					item: "immersiveengineering:light_engineering"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "34D85A4CC3B93D60"

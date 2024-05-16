@@ -15,7 +15,7 @@ const creeperJumpscare = {
     checkBlocks: ["minecraft:air"],
     requireBlockBelow: false,
 
-    execute(event, player, location) {
+    execute(event, player, location, name) {
         let level = player.getLevel();
         let server = Utils.server;
         let creepers = []
@@ -23,6 +23,10 @@ const creeperJumpscare = {
         Utils.server.scheduleInTicks(60, (_) => { 
             for (let { x, z } of creeperPositions) {
                 let creeper = level.createEntity("minecraft:creeper");
+                if(name) {
+                    creeper.setCustomName(name)
+                    creeper.setCustomNameVisible(true)
+                }
                 creeper.setPos(player.x + x, player.y, player.z + z);
                 creeper.spawn()
                 let nbt = creeper.nbt

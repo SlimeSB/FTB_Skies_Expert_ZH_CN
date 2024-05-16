@@ -1,6 +1,15 @@
 {
   "name": "量子装配机",
-  "appearance": {"light": 12},
+  "appearance": {
+    "block": "ftbskies:machine/quantum_assembler",
+    "running": {
+      "block": "ftbskies:machine/quantum_assembler_active",
+      "ambient_sound": "pneumaticcraft:sci_fi"
+    },
+    "resistance": 9,
+    "hardness": 3,
+    "requires_tool": false
+  },
   "components": [
     {
       "type": "custommachinery:energy",

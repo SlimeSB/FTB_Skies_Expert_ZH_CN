@@ -69,7 +69,9 @@ const lootbeeEvent = {
       { entry: "apotheosis:boss_summoner", weight: 30 },
     ],
   },
-  execute(event, player, location) {
+  execute(event, player, location, name) {
+    name = name ?? null;
+    
     let level = player.getLevel();
     console.log(level)
     let pData = player.persistentData;
@@ -117,6 +119,10 @@ const lootbeeEvent = {
 
 
     const entity = level.createEntity("minecraft:bee");
+    if(name) {
+      entity.setCustomName(name)
+      entity.setCustomNameVisible(true)
+    }
     entity.setPosition(location.pos.x + 0.5, location.pos.y + 0.5, location.pos.z + 0.5);
     entity.glowing = true;
     entity.persistentData.maxRounds = Math.floor(Math.random() * (10 - 3 + 1) + 3);

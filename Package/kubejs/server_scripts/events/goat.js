@@ -20,7 +20,7 @@ const goatEvent = {
     ],
   },
 
-  execute(event, player, location) {
+  execute(event, player, location, name) {
     const level = player.getLevel();
     let entity = level.createEntity("minecraft:goat");
     console.log('警告玩家' + player.id + '山羊近在咫尺');
@@ -29,7 +29,11 @@ const goatEvent = {
     Utils.server.scheduleInTicks(140, () => {
       let goat = Goat(entity);
       goat.setPos(player.pos);
-      goat.setCustomName("Quantum Goat");
+      if(name) {
+        goat.setCustomName(name)
+      }else{
+        goat.setCustomName("Quantum Goat");
+      }
       goat.setCustomNameVisible(true);
       goat.setScreamingGoat(true);
       goat.potionEffects.add("minecraft:invisibility", 10, 1, true, false);

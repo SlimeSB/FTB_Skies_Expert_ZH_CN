@@ -16,7 +16,7 @@ const Wololo = {
     requireBlockBelow: false,
 
 
-    execute(event, player, location) {
+    execute(event, player, location, name) {
         let level = player.getLevel();
         let server = Utils.server;
 

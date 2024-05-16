@@ -1,6 +1,15 @@
 {
   "name": "放射性同位素热电机",
-  "appearance": {"light": 7},
+  "appearance": {
+    "block": "ftbskies:machine/rtg",
+    "running": {
+      "block": "ftbskies:machine/rtg_active",
+      "ambient_sound": "thermal:block.machine_crucible"
+    },
+    "resistance": 9,
+    "hardness": 3,
+    "requires_tool": false
+  },
   "components": [
     {
       "type": "custommachinery:item",
