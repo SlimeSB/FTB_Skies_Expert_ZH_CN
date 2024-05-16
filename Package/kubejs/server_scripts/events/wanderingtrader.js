@@ -13,7 +13,7 @@ const wanderingtraderEvent = {
   stage: null,
   disableStage: null,
 
-  execute(event, player, location) {
+  execute(event, player, location, name) {
     const level = player.getLevel();
     const checkForNoSolicitors = new Ku.Level(level).findBlockWithinRadius(this.no_solicitors, location.pos, 32, false);
     const checkAmountOfTraders = new Ku.Level(level).findEntitiesWithinRadius(
@@ -26,6 +26,10 @@ const wanderingtraderEvent = {
       player.tell([`流浪商人在以下地点生成 X: ${location.pos.x}, Y: ${location.pos.y}, Z: ${location.pos.z}`]);
 
       let entityWandering = level.createEntity("minecraft:wandering_trader");
+      if(name) {
+        entityWandering.setCustomName(name)
+        entityWandering.setCustomNameVisible(true)
+      }
       entityWandering.setPosition(location.pos.x + 0.5, location.pos.y + 0.5, location.pos.z + 0.5);
 
       entityWandering.spawn();

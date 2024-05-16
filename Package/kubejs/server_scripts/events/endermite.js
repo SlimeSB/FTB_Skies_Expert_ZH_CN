@@ -13,7 +13,7 @@ const endermiteEvent = {
   stage: "seen_endermite",
   disableStage: null,
 
-  execute(event, player, location) {
+  execute(event, player, location, name) {
     const level = player.getLevel();
 
     //console.log('Endermite Event Triggered.')
@@ -31,6 +31,10 @@ const endermiteEvent = {
       player.tell([`紫水晶里有东西在蠕动...`]);
 
       let endermite = level.createEntity("occultism:possessed_endermite");
+      if(name) {
+        entity.setCustomName(name)
+        entity.setCustomNameVisible(true)
+      }
       endermite.glowing = true;
       endermite.setPosition(blockLoc.x + 0.25, blockLoc.y + 1.5, blockLoc.z + 0.25);
       endermite.spawn();

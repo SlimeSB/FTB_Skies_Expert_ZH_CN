@@ -13,10 +13,14 @@ const slimeEvent = {
     stage: null,
     disableStage: null,
 
-    execute(event, player, location) {
+    execute(event, player, location, name) {
         player.tell("Squish!")
         const level = player.getLevel();
         let entity = level.createEntity('minecraft:slime')
+        if(name) {
+            entity.setCustomName(name)
+            entity.setCustomNameVisible(true)
+        }
         entity.x = location.pos.x
         entity.y = location.pos.y
         entity.z = location.pos.z

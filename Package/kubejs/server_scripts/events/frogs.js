@@ -14,13 +14,13 @@ const frogEvent = {
   disableStage: null,
 
 
-  execute(event, player, location) {
+  execute(event, player, location, name) {
     const level = player.getLevel();
     let creature = "minecraft:frog";
 
     if (getRandomInt(0, 100) < 50) {
       //default frog
-      player.tell([`Ribbit`]);
+      player.tell([`Ribbit.`]);
     } else {
       player.tell([`*水花四溅*`]);
       if (getRandomInt(0, 100) < 90) creature = "minecraft:squid";
@@ -28,6 +28,10 @@ const frogEvent = {
     }
 
     const entity = level.createEntity(creature);
+    if(name) {
+      entity.setCustomName(name)
+      entity.setCustomNameVisible(true)
+    }
     entity.setPosition(location.pos.x + 0.5, location.pos.y + 0.5, location.pos.z + 0.5);
 
     entity.spawn();

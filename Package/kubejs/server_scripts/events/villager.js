@@ -24,6 +24,10 @@ const villagerEvent = {
       player.tell([`村民: 嘿，这地方真不错，我想我会留下来的！`]);
 
       let entityVillager = level.createEntity("minecraft:villager");
+      if(name) {
+        entityVillager.setCustomName(name)
+        entityVillager.setCustomNameVisible(true)
+      }
       entityVillager.setPosition(location.pos.x + 0.5, location.pos.y + 0.5, location.pos.z + 0.5);
 
       entityVillager.spawn();

@@ -13,7 +13,8 @@ const crowEvent = {
   stage: null,
   disableStage: null,
 
-  execute(event, player, location) {
+  execute(event, player, location, name) {
+    name = name ?? null;
     const level = player.getLevel();
     const crow = "hexerei:crow";
     let failed = false;
@@ -28,6 +29,10 @@ const crowEvent = {
       let blockLoc = grass_block.pos;
 
       let animal = level.createEntity(crow);
+      if(name) {
+        entity.setCustomName(name)
+        entity.setCustomNameVisible(true)
+      }
       animal.setPosition(blockLoc.x + 0.25, blockLoc.y + 1.5, blockLoc.z + 0.25);
       animal.spawn();
     }
